@@ -1,0 +1,17 @@
+{
+  "name": "spark-tokens",
+  "version": "1.0.0",
+  "description": "A tool to synchronize Adevinta design tokens between Figma and our three platforms (web, android, iOS).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adevinta/spark-tokens.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adevinta/spark-tokens/issues"
+  },
+  "homepage": "https://github.com/adevinta/spark-tokens#readme"
+}
