@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Mar 2023 12:49:30 GMT
+ * Generated on Thu, 09 Mar 2023 15:47:15 GMT
  */
 
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
       "value": "#7583ff",
       "type": "color",
       "description": "TheBlue V",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ff",
@@ -30,7 +30,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -51,7 +51,7 @@ module.exports = {
       "value": "#0d0a50",
       "type": "color",
       "description": "TheBlue 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#0d0a50",
@@ -72,7 +72,7 @@ module.exports = {
       "value": "#b1aeec",
       "type": "color",
       "description": "TheBlue 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#b1aeec",
@@ -93,7 +93,7 @@ module.exports = {
       "value": "#b1aeec",
       "type": "color",
       "description": "TheBlue 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#b1aeec",
@@ -114,7 +114,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -135,7 +135,7 @@ module.exports = {
       "value": "#fe6ba7",
       "type": "color",
       "description": "Sugarcotton 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fe6ba7",
@@ -156,7 +156,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -177,7 +177,7 @@ module.exports = {
       "value": "#651737",
       "type": "color",
       "description": "Sugarcotton 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#651737",
@@ -198,7 +198,7 @@ module.exports = {
       "value": "#febad6",
       "type": "color",
       "description": "Sugarcotton 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#febad6",
@@ -219,7 +219,7 @@ module.exports = {
       "value": "#fe92bf",
       "type": "color",
       "description": "Sugarcotton 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fe92bf",
@@ -240,7 +240,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -261,7 +261,7 @@ module.exports = {
       "value": "#64bc90",
       "type": "color",
       "description": "Apple 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#64bc90",
@@ -282,7 +282,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -303,7 +303,7 @@ module.exports = {
       "value": "#14422b",
       "type": "color",
       "description": "Apple 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#14422b",
@@ -324,7 +324,7 @@ module.exports = {
       "value": "#b7dfcb",
       "type": "color",
       "description": "Apple 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#b7dfcb",
@@ -345,7 +345,7 @@ module.exports = {
       "value": "#f7cf76",
       "type": "color",
       "description": "Wiggins 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f7cf76",
@@ -366,7 +366,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -387,7 +387,7 @@ module.exports = {
       "value": "#624c1d",
       "type": "color",
       "description": "Wiggins 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#624c1d",
@@ -408,7 +408,7 @@ module.exports = {
       "value": "#fbe9bf",
       "type": "color",
       "description": "Wiggins 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fbe9bf",
@@ -429,7 +429,7 @@ module.exports = {
       "value": "#f8807d",
       "type": "color",
       "description": "Chilli 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f8807d",
@@ -450,7 +450,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -471,7 +471,7 @@ module.exports = {
       "value": "#622220",
       "type": "color",
       "description": "Chilli 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#622220",
@@ -492,7 +492,7 @@ module.exports = {
       "value": "#fcc4c2",
       "type": "color",
       "description": "Chilli 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fcc4c2",
@@ -513,7 +513,7 @@ module.exports = {
       "value": "#45b8ca",
       "type": "color",
       "description": "Sky 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#45b8ca",
@@ -534,7 +534,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -555,7 +555,7 @@ module.exports = {
       "value": "#03404a",
       "type": "color",
       "description": "Sky 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#03404a",
@@ -576,7 +576,7 @@ module.exports = {
       "value": "#a8dee6",
       "type": "color",
       "description": "Sky 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#a8dee6",
@@ -597,7 +597,7 @@ module.exports = {
       "value": "#7b7986",
       "type": "color",
       "description": "Surfer 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7b7986",
@@ -618,7 +618,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -639,7 +639,7 @@ module.exports = {
       "value": "#313036",
       "type": "color",
       "description": "Surfer 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#313036",
@@ -660,7 +660,7 @@ module.exports = {
       "value": "#d1d0d5",
       "type": "color",
       "description": "Surfer 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#d1d0d5",
@@ -681,7 +681,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -702,7 +702,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -723,7 +723,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -744,7 +744,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -765,7 +765,7 @@ module.exports = {
       "value": "#f8f8f9",
       "type": "color",
       "description": "Surfer 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f8f8f9",
@@ -786,7 +786,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -807,7 +807,7 @@ module.exports = {
       "value": "#4a4950",
       "type": "color",
       "description": "Surfer 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#4a4950",
@@ -828,7 +828,7 @@ module.exports = {
       "value": "#313036bf",
       "type": "color",
       "description": "Surfer 800 75%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#313036bf",
@@ -849,7 +849,7 @@ module.exports = {
       "value": "#ffffffb8",
       "type": "color",
       "description": "White 72%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffffb8",
@@ -870,7 +870,7 @@ module.exports = {
       "value": "#ffffffad",
       "type": "color",
       "description": "White 68%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffffad",
@@ -891,7 +891,7 @@ module.exports = {
       "value": "#ffffff61",
       "type": "color",
       "description": "White 38%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff61",
@@ -912,7 +912,7 @@ module.exports = {
       "value": "#ffffff29",
       "type": "color",
       "description": "White 16%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff29",
@@ -933,7 +933,7 @@ module.exports = {
       "value": "#ffffff14",
       "type": "color",
       "description": "White 8%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff14",
@@ -954,7 +954,7 @@ module.exports = {
       "value": "#7583ffb8",
       "type": "color",
       "description": "TheBlue V 72%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ffb8",
@@ -975,7 +975,7 @@ module.exports = {
       "value": "#7583ffad",
       "type": "color",
       "description": "TheBlue V 68%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ffad",
@@ -996,7 +996,7 @@ module.exports = {
       "value": "#7583ff61",
       "type": "color",
       "description": "TheBlue V 38%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ff61",
@@ -1017,7 +1017,7 @@ module.exports = {
       "value": "#7583ff29",
       "type": "color",
       "description": "TheBlue V 16%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ff29",
@@ -1038,7 +1038,7 @@ module.exports = {
       "value": "#7583ff14",
       "type": "color",
       "description": "TheBlue V 8%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ff14",
@@ -1061,7 +1061,7 @@ module.exports = {
       "value": "#2118c9",
       "type": "color",
       "description": "TheBlue 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c9",
@@ -1082,7 +1082,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1103,7 +1103,7 @@ module.exports = {
       "value": "#e2e1f8",
       "type": "color",
       "description": "TheBlue 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#e2e1f8",
@@ -1124,7 +1124,7 @@ module.exports = {
       "value": "#140e79",
       "type": "color",
       "description": "TheBlue 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#140e79",
@@ -1145,7 +1145,7 @@ module.exports = {
       "value": "#140e79",
       "type": "color",
       "description": "TheBlue 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#140e79",
@@ -1166,7 +1166,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1187,7 +1187,7 @@ module.exports = {
       "value": "#fd398a",
       "type": "color",
       "description": "Sugarcotton 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fd398a",
@@ -1208,7 +1208,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1229,7 +1229,7 @@ module.exports = {
       "value": "#ffe1ed",
       "type": "color",
       "description": "Sugarcotton 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffe1ed",
@@ -1250,7 +1250,7 @@ module.exports = {
       "value": "#982253",
       "type": "color",
       "description": "Sugarcotton 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#982253",
@@ -1271,7 +1271,7 @@ module.exports = {
       "value": "#982253",
       "type": "color",
       "description": "Sugarcotton 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#982253",
@@ -1292,7 +1292,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1313,7 +1313,7 @@ module.exports = {
       "value": "#31a56b",
       "type": "color",
       "description": "Apple 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#31a56b",
@@ -1334,7 +1334,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1355,7 +1355,7 @@ module.exports = {
       "value": "#e0f2e9",
       "type": "color",
       "description": "Apple 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#e0f2e9",
@@ -1376,7 +1376,7 @@ module.exports = {
       "value": "#1d6340",
       "type": "color",
       "description": "Apple 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#1d6340",
@@ -1397,7 +1397,7 @@ module.exports = {
       "value": "#f4bf48",
       "type": "color",
       "description": "Wiggins 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f4bf48",
@@ -1418,7 +1418,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -1439,7 +1439,7 @@ module.exports = {
       "value": "#fdf5e4",
       "type": "color",
       "description": "Wiggins 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fdf5e4",
@@ -1460,7 +1460,7 @@ module.exports = {
       "value": "#92732b",
       "type": "color",
       "description": "Wiggins 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#92732b",
@@ -1481,7 +1481,7 @@ module.exports = {
       "value": "#f65651",
       "type": "color",
       "description": "Chilli 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f65651",
@@ -1502,7 +1502,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1523,7 +1523,7 @@ module.exports = {
       "value": "#fee6e5",
       "type": "color",
       "description": "Chilli 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fee6e5",
@@ -1544,7 +1544,7 @@ module.exports = {
       "value": "#943431",
       "type": "color",
       "description": "Chilli 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#943431",
@@ -1565,7 +1565,7 @@ module.exports = {
       "value": "#07a0b8",
       "type": "color",
       "description": "Sky 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#07a0b8",
@@ -1586,7 +1586,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1607,7 +1607,7 @@ module.exports = {
       "value": "#daf1f4",
       "type": "color",
       "description": "Sky 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#daf1f4",
@@ -1628,7 +1628,7 @@ module.exports = {
       "value": "#04606e",
       "type": "color",
       "description": "Sky 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#04606e",
@@ -1649,7 +1649,7 @@ module.exports = {
       "value": "#7b7986",
       "type": "color",
       "description": "Surfer 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7b7986",
@@ -1670,7 +1670,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1691,7 +1691,7 @@ module.exports = {
       "value": "#ebebed",
       "type": "color",
       "description": "Surfer 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ebebed",
@@ -1712,7 +1712,7 @@ module.exports = {
       "value": "#4a4950",
       "type": "color",
       "description": "Surfer 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#4a4950",
@@ -1733,7 +1733,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1754,7 +1754,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -1775,7 +1775,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1796,7 +1796,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -1817,7 +1817,7 @@ module.exports = {
       "value": "#252428",
       "type": "color",
       "description": "Surfer 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#252428",
@@ -1838,7 +1838,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -1859,7 +1859,7 @@ module.exports = {
       "value": "#d1d0d5",
       "type": "color",
       "description": "Surfer 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#d1d0d5",
@@ -1880,7 +1880,7 @@ module.exports = {
       "value": "#313036bf",
       "type": "color",
       "description": "Surfer 800 75%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#313036bf",
@@ -1901,7 +1901,7 @@ module.exports = {
       "value": "#000000b8",
       "type": "color",
       "description": "Black 72%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000b8",
@@ -1922,7 +1922,7 @@ module.exports = {
       "value": "#000000ad",
       "type": "color",
       "description": "Black 68%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000ad",
@@ -1943,7 +1943,7 @@ module.exports = {
       "value": "#00000066",
       "type": "color",
       "description": "Black 40%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#00000066",
@@ -1964,7 +1964,7 @@ module.exports = {
       "value": "#00000029",
       "type": "color",
       "description": "Black 16%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#00000029",
@@ -1985,7 +1985,7 @@ module.exports = {
       "value": "#00000014",
       "type": "color",
       "description": "Black 8%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#00000014",
@@ -2006,7 +2006,7 @@ module.exports = {
       "value": "#2118c9b8",
       "type": "color",
       "description": "TheBlue 500 72%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c9b8",
@@ -2027,7 +2027,7 @@ module.exports = {
       "value": "#2118c9ad",
       "type": "color",
       "description": "TheBlue 500 68%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c9ad",
@@ -2048,7 +2048,7 @@ module.exports = {
       "value": "#2118c966",
       "type": "color",
       "description": "TheBlue 500 40%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c966",
@@ -2069,7 +2069,7 @@ module.exports = {
       "value": "#2118c929",
       "type": "color",
       "description": "TheBlue 500 16%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c929",
@@ -2090,7 +2090,7 @@ module.exports = {
       "value": "#2118c90a",
       "type": "color",
       "description": "TheBlue 500 4%",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c90a",
@@ -2113,7 +2113,7 @@ module.exports = {
       "value": "#f4f4fc",
       "type": "color",
       "description": "TheBlue 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f4f4fc",
@@ -2134,7 +2134,7 @@ module.exports = {
       "value": "#e2e1f8",
       "type": "color",
       "description": "TheBlue 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#e2e1f8",
@@ -2155,7 +2155,7 @@ module.exports = {
       "value": "#b1aeec",
       "type": "color",
       "description": "TheBlue 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#b1aeec",
@@ -2176,7 +2176,7 @@ module.exports = {
       "value": "#8580e1",
       "type": "color",
       "description": "TheBlue 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#8580e1",
@@ -2197,7 +2197,7 @@ module.exports = {
       "value": "#5952d6",
       "type": "color",
       "description": "TheBlue 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#5952d6",
@@ -2218,7 +2218,7 @@ module.exports = {
       "value": "#2118c9",
       "type": "color",
       "description": "TheBlue 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#2118c9",
@@ -2239,7 +2239,7 @@ module.exports = {
       "value": "#191297",
       "type": "color",
       "description": "TheBlue 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#191297",
@@ -2260,7 +2260,7 @@ module.exports = {
       "value": "#140e79",
       "type": "color",
       "description": "TheBlue 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#140e79",
@@ -2281,7 +2281,7 @@ module.exports = {
       "value": "#0d0a50",
       "type": "color",
       "description": "TheBlue 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#0d0a50",
@@ -2302,7 +2302,7 @@ module.exports = {
       "value": "#080632",
       "type": "color",
       "description": "TheBlue 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#080632",
@@ -2322,7 +2322,7 @@ module.exports = {
     "TheBlue V": {
       "value": "#7583ff",
       "type": "color",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7583ff",
@@ -2342,7 +2342,7 @@ module.exports = {
       "value": "#fff5f9",
       "type": "color",
       "description": "Sugarcotton 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fff5f9",
@@ -2363,7 +2363,7 @@ module.exports = {
       "value": "#ffe1ed",
       "type": "color",
       "description": "Sugarcotton 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffe1ed",
@@ -2384,7 +2384,7 @@ module.exports = {
       "value": "#febad6",
       "type": "color",
       "description": "Sugarcotton 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#febad6",
@@ -2405,7 +2405,7 @@ module.exports = {
       "value": "#fe92bf",
       "type": "color",
       "description": "Sugarcotton 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fe92bf",
@@ -2426,7 +2426,7 @@ module.exports = {
       "value": "#fe6ba7",
       "type": "color",
       "description": "Sugarcotton 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fe6ba7",
@@ -2447,7 +2447,7 @@ module.exports = {
       "value": "#fd398a",
       "type": "color",
       "description": "Sugarcotton 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fd398a",
@@ -2468,7 +2468,7 @@ module.exports = {
       "value": "#ca2e6e",
       "type": "color",
       "description": "Sugarcotton 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ca2e6e",
@@ -2489,7 +2489,7 @@ module.exports = {
       "value": "#982253",
       "type": "color",
       "description": "Sugarcotton 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#982253",
@@ -2510,7 +2510,7 @@ module.exports = {
       "value": "#651737",
       "type": "color",
       "description": "Sugarcotton 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#651737",
@@ -2531,7 +2531,7 @@ module.exports = {
       "value": "#3f0e22",
       "type": "color",
       "description": "Sugarcotton 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#3f0e22",
@@ -2552,7 +2552,7 @@ module.exports = {
       "value": "#f5fbf8",
       "type": "color",
       "description": "Apple 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f5fbf8",
@@ -2573,7 +2573,7 @@ module.exports = {
       "value": "#e0f2e9",
       "type": "color",
       "description": "Apple 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#e0f2e9",
@@ -2594,7 +2594,7 @@ module.exports = {
       "value": "#b7dfcb",
       "type": "color",
       "description": "Apple 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#b7dfcb",
@@ -2615,7 +2615,7 @@ module.exports = {
       "value": "#8ecdae",
       "type": "color",
       "description": "Apple 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#8ecdae",
@@ -2636,7 +2636,7 @@ module.exports = {
       "value": "#64bc90",
       "type": "color",
       "description": "Apple 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#64bc90",
@@ -2657,7 +2657,7 @@ module.exports = {
       "value": "#31a56b",
       "type": "color",
       "description": "Apple 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#31a56b",
@@ -2678,7 +2678,7 @@ module.exports = {
       "value": "#278456",
       "type": "color",
       "description": "Apple 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#278456",
@@ -2699,7 +2699,7 @@ module.exports = {
       "value": "#1d6340",
       "type": "color",
       "description": "Apple 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#1d6340",
@@ -2720,7 +2720,7 @@ module.exports = {
       "value": "#14422b",
       "type": "color",
       "description": "Apple 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#14422b",
@@ -2741,7 +2741,7 @@ module.exports = {
       "value": "#0c291b",
       "type": "color",
       "description": "Apple 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#0c291b",
@@ -2762,7 +2762,7 @@ module.exports = {
       "value": "#fffcf6",
       "type": "color",
       "description": "Wiggins 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fffcf6",
@@ -2783,7 +2783,7 @@ module.exports = {
       "value": "#fdf5e4",
       "type": "color",
       "description": "Wiggins 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fdf5e4",
@@ -2804,7 +2804,7 @@ module.exports = {
       "value": "#fbe9bf",
       "type": "color",
       "description": "Wiggins 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fbe9bf",
@@ -2825,7 +2825,7 @@ module.exports = {
       "value": "#f9dc9a",
       "type": "color",
       "description": "Wiggins 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f9dc9a",
@@ -2846,7 +2846,7 @@ module.exports = {
       "value": "#f7cf76",
       "type": "color",
       "description": "Wiggins 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f7cf76",
@@ -2866,7 +2866,7 @@ module.exports = {
     "Wiggins 500": {
       "value": "#f4bf48",
       "type": "color",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f4bf48",
@@ -2886,7 +2886,7 @@ module.exports = {
       "value": "#c3993a",
       "type": "color",
       "description": "Wiggins 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#c3993a",
@@ -2907,7 +2907,7 @@ module.exports = {
       "value": "#92732b",
       "type": "color",
       "description": "Wiggins 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#92732b",
@@ -2928,7 +2928,7 @@ module.exports = {
       "value": "#624c1d",
       "type": "color",
       "description": "Wiggins 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#624c1d",
@@ -2949,7 +2949,7 @@ module.exports = {
       "value": "#3d3012",
       "type": "color",
       "description": "Wiggins 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#3d3012",
@@ -2970,7 +2970,7 @@ module.exports = {
       "value": "#fff7f6",
       "type": "color",
       "description": "Chili 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fff7f6",
@@ -2991,7 +2991,7 @@ module.exports = {
       "value": "#fee6e5",
       "type": "color",
       "description": "Chili 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fee6e5",
@@ -3012,7 +3012,7 @@ module.exports = {
       "value": "#fcc4c2",
       "type": "color",
       "description": "Chili 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fcc4c2",
@@ -3033,7 +3033,7 @@ module.exports = {
       "value": "#faa29f",
       "type": "color",
       "description": "Chili 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#faa29f",
@@ -3054,7 +3054,7 @@ module.exports = {
       "value": "#f8807d",
       "type": "color",
       "description": "Chili 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f8807d",
@@ -3075,7 +3075,7 @@ module.exports = {
       "value": "#f65651",
       "type": "color",
       "description": "Chili 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f65651",
@@ -3096,7 +3096,7 @@ module.exports = {
       "value": "#c54541",
       "type": "color",
       "description": "Chili 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#c54541",
@@ -3117,7 +3117,7 @@ module.exports = {
       "value": "#943431",
       "type": "color",
       "description": "Chili 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#943431",
@@ -3138,7 +3138,7 @@ module.exports = {
       "value": "#622220",
       "type": "color",
       "description": "Chili 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#622220",
@@ -3159,7 +3159,7 @@ module.exports = {
       "value": "#3e1514",
       "type": "color",
       "description": "Chili 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#3e1514",
@@ -3180,7 +3180,7 @@ module.exports = {
       "value": "#f3fafc",
       "type": "color",
       "description": "Sky 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f3fafc",
@@ -3201,7 +3201,7 @@ module.exports = {
       "value": "#daf1f4",
       "type": "color",
       "description": "Sky 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#daf1f4",
@@ -3222,7 +3222,7 @@ module.exports = {
       "value": "#a8dee6",
       "type": "color",
       "description": "Sky 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#a8dee6",
@@ -3243,7 +3243,7 @@ module.exports = {
       "value": "#77cbd8",
       "type": "color",
       "description": "Sky 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#77cbd8",
@@ -3264,7 +3264,7 @@ module.exports = {
       "value": "#45b8ca",
       "type": "color",
       "description": "Sky 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#45b8ca",
@@ -3285,7 +3285,7 @@ module.exports = {
       "value": "#07a0b8",
       "type": "color",
       "description": "Sky 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#07a0b8",
@@ -3306,7 +3306,7 @@ module.exports = {
       "value": "#068093",
       "type": "color",
       "description": "Sky 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#068093",
@@ -3327,7 +3327,7 @@ module.exports = {
       "value": "#04606e",
       "type": "color",
       "description": "Sky 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#04606e",
@@ -3348,7 +3348,7 @@ module.exports = {
       "value": "#03404a",
       "type": "color",
       "description": "Sky 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#03404a",
@@ -3369,7 +3369,7 @@ module.exports = {
       "value": "#02282e",
       "type": "color",
       "description": "Sky 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#02282e",
@@ -3390,7 +3390,7 @@ module.exports = {
       "value": "#f8f8f9",
       "type": "color",
       "description": "Surfer 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f8f8f9",
@@ -3411,7 +3411,7 @@ module.exports = {
       "value": "#ebebed",
       "type": "color",
       "description": "Surfer 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ebebed",
@@ -3432,7 +3432,7 @@ module.exports = {
       "value": "#d1d0d5",
       "type": "color",
       "description": "Surfer 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#d1d0d5",
@@ -3453,7 +3453,7 @@ module.exports = {
       "value": "#b6b5bc",
       "type": "color",
       "description": "Surfer 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#b6b5bc",
@@ -3474,7 +3474,7 @@ module.exports = {
       "value": "#9c9ba4",
       "type": "color",
       "description": "Surfer 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#9c9ba4",
@@ -3495,7 +3495,7 @@ module.exports = {
       "value": "#7b7986",
       "type": "color",
       "description": "Surfer 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7b7986",
@@ -3516,7 +3516,7 @@ module.exports = {
       "value": "#5c5b64",
       "type": "color",
       "description": "Surfer 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#5c5b64",
@@ -3537,7 +3537,7 @@ module.exports = {
       "value": "#4a4950",
       "type": "color",
       "description": "Surfer 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#4a4950",
@@ -3558,7 +3558,7 @@ module.exports = {
       "value": "#313036",
       "type": "color",
       "description": "Surfer 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#313036",
@@ -3579,7 +3579,7 @@ module.exports = {
       "value": "#252428",
       "type": "color",
       "description": "Surfer 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#252428",
@@ -3600,7 +3600,7 @@ module.exports = {
       "value": "#fdfdf6",
       "type": "color",
       "description": "Kiwi 50",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#fdfdf6",
@@ -3621,7 +3621,7 @@ module.exports = {
       "value": "#f8fae2",
       "type": "color",
       "description": "Kiwi 100",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f8fae2",
@@ -3642,7 +3642,7 @@ module.exports = {
       "value": "#f0f3bc",
       "type": "color",
       "description": "Kiwi 200",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#f0f3bc",
@@ -3663,7 +3663,7 @@ module.exports = {
       "value": "#e7ec96",
       "type": "color",
       "description": "Kiwi 300",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#e7ec96",
@@ -3684,7 +3684,7 @@ module.exports = {
       "value": "#dee570",
       "type": "color",
       "description": "Kiwi 400",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#dee570",
@@ -3705,7 +3705,7 @@ module.exports = {
       "value": "#d3dd40",
       "type": "color",
       "description": "Kiwi 500",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#d3dd40",
@@ -3726,7 +3726,7 @@ module.exports = {
       "value": "#a9b133",
       "type": "color",
       "description": "Kiwi 600",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#a9b133",
@@ -3747,7 +3747,7 @@ module.exports = {
       "value": "#7f8526",
       "type": "color",
       "description": "Kiwi 700",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#7f8526",
@@ -3768,7 +3768,7 @@ module.exports = {
       "value": "#54581a",
       "type": "color",
       "description": "Kiwi 800",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#54581a",
@@ -3789,7 +3789,7 @@ module.exports = {
       "value": "#353710",
       "type": "color",
       "description": "Kiwi 900",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#353710",
@@ -3810,7 +3810,7 @@ module.exports = {
       "value": "#000000",
       "type": "color",
       "description": "Black",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#000000",
@@ -3831,7 +3831,7 @@ module.exports = {
       "value": "#ffffff",
       "type": "color",
       "description": "White",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#ffffff",
@@ -3851,7 +3851,7 @@ module.exports = {
     "Facebook": {
       "value": "#4267b2",
       "type": "color",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#4267b2",
@@ -3870,7 +3870,7 @@ module.exports = {
     "Twitter": {
       "value": "#1da1f2",
       "type": "color",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "#1da1f2",
@@ -3891,7 +3891,7 @@ module.exports = {
     "0": {
       "value": "spark-core",
       "type": "other",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "spark-core",
@@ -3910,7 +3910,7 @@ module.exports = {
     "1": {
       "value": "spark-light",
       "type": "other",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "spark-light",
@@ -3929,7 +3929,7 @@ module.exports = {
     "2": {
       "value": "spark-dark",
       "type": "other",
-      "filePath": "input/preformattedTokens.json",
+      "filePath": "tokens/preformattedTokens.json",
       "isSource": true,
       "original": {
         "value": "spark-dark",
