@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A tool to synchronize Adevinta design tokens between Figma and our three platforms (web, android, iOS).",
   "scripts": {
+    "prebuild": "token-transformer input/tokens.json input/preformattedTokens.json",
+    "build": "style-dictionary build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/adevinta/spark-tokens/issues"
   },
-  "homepage": "https://github.com/adevinta/spark-tokens#readme"
+  "homepage": "https://github.com/adevinta/spark-tokens#readme",
+  "dependencies": {
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.30"
+  }
 }
