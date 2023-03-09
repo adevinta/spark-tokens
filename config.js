@@ -1,5 +1,8 @@
 module.exports = {
   source: ["tokens/**/preformattedTokens.json"],
+  action: {
+    colorsets: require("./actions/colorset-action"),
+  },
   platforms: {
     js: {
       transformGroup: "js",
@@ -98,6 +101,11 @@ module.exports = {
           },
         },
       ],
+    },
+    "ios-colorsets": {
+      buildPath: "build/ios-colorsets/",
+      transforms: ["attribute/cti", "name/cti/pascal", "attribute/color"],
+      actions: [`colorsets`],
     },
   },
 };
