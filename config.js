@@ -1,5 +1,10 @@
+const modes = [`light`, `dark`, `hc`, `hcDark`];
+
 module.exports = {
-  source: ["tokens/**/preformattedTokens.json"],
+  source: [`tokens/**/!(*.${modes.join(`|*.`)}).json5`],
+  action: {
+    generateColorsets: require("./actions/ios/colorsets"),
+  },
   platforms: {
     js: {
       transformGroup: "js",
@@ -98,6 +103,11 @@ module.exports = {
           },
         },
       ],
+    },
+    "ios-colorsets": {
+      buildPath: "build/ios-colorsets/",
+      transforms: ["attribute/cti", "name/cti/pascal", "attribute/color"],
+      actions: [`generateColorsets`],
     },
   },
 };
