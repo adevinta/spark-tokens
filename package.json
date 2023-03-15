@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A tool to synchronize Adevinta design tokens between Figma and our three platforms (web, android, iOS).",
   "scripts": {
-    "build": "style-dictionary build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js",
+    "start": "npm run build && chokidar \"tokens/**/*\" -c \"npm run build\""
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,12 @@
   },
   "homepage": "https://github.com/adevinta/spark-tokens#readme",
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
     "fs-extra": "^11.1.0",
-    "style-dictionary": "^3.7.2"
+    "lodash": "^4.17.21",
+    "sharp": "^0.31.3",
+    "style-dictionary": "^3.7.2",
+    "svg2vectordrawable": "^2.9.1",
+    "tinycolor2": "^1.6.0"
   }
 }

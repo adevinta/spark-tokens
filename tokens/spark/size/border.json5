@@ -1,0 +1,19 @@
+{
+  size: {
+    border: {
+      width: {
+        none: { value: 0 },
+        sm: { value: 0.0625 },
+        md: { value: 0.125 },
+      },
+
+      radius: {
+        none: { value: 0 },
+        sm: { value: 0.25 },
+        md: { value: 0.5 },
+        lg: { value: 1 },
+        xl: { value: 2 },
+      },
+    },
+  },
+}

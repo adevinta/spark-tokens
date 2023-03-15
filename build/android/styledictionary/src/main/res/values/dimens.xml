@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 15 Mar 2023 11:43:20 GMT
+-->
+<resources>
+  <dimen name="size_border_width_none">0.00dp</dimen>
+  <dimen name="size_border_width_sm">1.00dp</dimen>
+  <dimen name="size_border_width_md">2.00dp</dimen>
+  <dimen name="size_border_radius_none">0.00dp</dimen>
+  <dimen name="size_border_radius_sm">4.00dp</dimen>
+  <dimen name="size_border_radius_md">8.00dp</dimen>
+  <dimen name="size_border_radius_lg">16.00dp</dimen>
+  <dimen name="size_border_radius_xl">32.00dp</dimen>
+  <dimen name="size_padding_none">0.00dp</dimen>
+  <dimen name="size_padding_sm">4.00dp</dimen>
+  <dimen name="size_padding_md">8.00dp</dimen>
+  <dimen name="size_padding_lg">16.00dp</dimen>
+  <dimen name="size_padding_xl">24.00dp</dimen>
+  <dimen name="size_padding_2xl">32.00dp</dimen>
+  <dimen name="size_padding_3xl">40.00dp</dimen>
+  
+</resources>

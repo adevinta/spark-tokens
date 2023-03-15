@@ -1,0 +1,39 @@
+{
+  "size": {
+    "font": {
+      "title": {
+        "display1": { "value": 2.5 },
+        "display2": { "value": 2 },
+        "display3": { "value": 1.5 },
+        "headline1": { "value": 1.25 },
+        "headline2": { "value": 1.125 },
+        "subhead": { "value": 1 },
+        "display1Expanded": { "value": 3 },
+        "display2Expanded": { "value": 2.5 },
+        "display3Expanded": { "value": 2 },
+        "headline1Expanded": { "value": 1.5 },
+        "headline2Expanded": { "value": 1.25 },
+        "subheadExpanded": { "value": 1 }
+      },
+      "content": {
+        "body1": { "value": 1 },
+        "body1Highlight": { "value": 1 },
+        "body2": { "value": 0.875 },
+        "body2Highlight": { "value": 0.875 },
+        "caption": { "value": 0.75 },
+        "captionHighlight": { "value": 0.75 },
+        "small": { "value": 0.625 },
+        "smallHighlight": { "value": 0.625 }
+      },
+      "action": {
+        "body1Link": { "value": 1 },
+        "body1LinkHighlight": { "value": 1 },
+        "body2Link": { "value": 0.875 },
+        "body2LinkHighlight": { "value": 0.875 },
+        "captionLink": { "value": 0.75 },
+        "captionLinkHighlight": { "value": 0.75 },
+        "callout": { "value": 1 }
+      }
+    }
+  }
+}
