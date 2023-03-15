@@ -2,9 +2,11 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 15 Mar 2023 11:43:20 GMT
+  Generated on Wed, 15 Mar 2023 15:18:14 GMT
 -->
 <resources>
+  <dimen name="component_badge_font_size">16.00sp</dimen>
+  <dimen name="component_button_font_size">16.00sp</dimen>
   <dimen name="size_font_title_display1">40.00sp</dimen>
   <dimen name="size_font_title_display2">32.00sp</dimen>
   <dimen name="size_font_title_display3">24.00sp</dimen>

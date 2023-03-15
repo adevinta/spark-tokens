@@ -4,12 +4,16 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 15 Mar 2023 11:43:20 GMT
+// Generated on Wed, 15 Mar 2023 15:18:14 GMT
 
 
 import UIKit
 
 public class Size {
+    public static let badgeBorderRadius = CGFloat(8.00)
+    public static let badgeFontSize = CGFloat(16.00)
+    public static let badgePaddingHorizontal = CGFloat(8.00)
+    public static let badgePaddingVertical = CGFloat(4.00)
     public static let borderRadiusLg = CGFloat(16.00)
     public static let borderRadiusMd = CGFloat(8.00)
     public static let borderRadiusNone = CGFloat(0.00)
@@ -18,6 +22,10 @@ public class Size {
     public static let borderWidthMd = CGFloat(2.00)
     public static let borderWidthNone = CGFloat(0.00)
     public static let borderWidthSm = CGFloat(1.00)
+    public static let buttonBorderRadius = CGFloat(16.00)
+    public static let buttonFontSize = CGFloat(16.00)
+    public static let buttonPadding = CGFloat(8.00)
+    public static let buttonSecondaryBorderWidth = CGFloat(2.00)
     public static let fontActionBody1Link = CGFloat(16.00)
     public static let fontActionBody1LinkHighlight = CGFloat(16.00)
     public static let fontActionBody2Link = CGFloat(14.00)
