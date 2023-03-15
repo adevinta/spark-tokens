@@ -1,0 +1,27 @@
+{
+  component: {
+    badge: {
+      "font-size": { value: "{size.font.action.callout.value}" },
+      "border-radius": { value: "{size.border.radius.md.value}" },
+      color: { value: "{color.brand.onInfo.value}" },
+      "background-color": { value: "{color.brand.info.value}" },
+      "padding-vertical": { value: "{size.padding.sm.value}" },
+      "padding-horizontal": { value: "{size.padding.md.value}" },
+
+      variant: {
+        error: {
+          color: { value: "{color.brand.onError.value}" },
+          "background-color": { value: "{color.brand.error.value}" },
+        },
+        alert: {
+          color: { value: "{color.brand.onAlert.value}" },
+          "background-color": { value: "{color.brand.alert.value}" },
+        },
+        success: {
+          color: { value: "{color.brand.onSuccess.value}" },
+          "background-color": { value: "{color.brand.success.value}" },
+        },
+      },
+    },
+  },
+}
