@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 15 Mar 2023 11:43:20 GMT
+-->
+<resources>
+  <color name="color_brand_primary">#ff7583ff</color>
+  <color name="color_brand_on_primary">#ff000000</color>
+  <color name="color_brand_primary_container">#ff0d0a50</color>
+  <color name="color_brand_on_primary_container">#ffb1aeec</color>
+  <color name="color_brand_primary_variant">#ffb1aeec</color>
+  <color name="color_brand_on_primary_variant">#ff000000</color>
+  <color name="color_brand_secondary">#fffe6ba7</color>
+  <color name="color_brand_on_secondary">#ff000000</color>
+  <color name="color_brand_secondary_container">#ff651737</color>
+  <color name="color_brand_on_secondary_container">#fffebad6</color>
+  <color name="color_brand_secondary_variant">#fffe92bf</color>
+  <color name="color_brand_on_secondary_variant">#ff000000</color>
+  <color name="color_brand_success">#ff64bc90</color>
+  <color name="color_brand_on_success">#ff000000</color>
+  <color name="color_brand_success_container">#ff14422b</color>
+  <color name="color_brand_on_success_container">#ffb7dfcb</color>
+  <color name="color_brand_alert">#fff7cf76</color>
+  <color name="color_brand_on_alert">#ff000000</color>
+  <color name="color_brand_alert_container">#ff624c1d</color>
+  <color name="color_brand_on_alert_container">#fffbe9bf</color>
+  <color name="color_brand_error">#fff8807d</color>
+  <color name="color_brand_on_error">#ff000000</color>
+  <color name="color_brand_error_container">#ff622220</color>
+  <color name="color_brand_on_error_container">#fffcc4c2</color>
+  <color name="color_brand_info">#ff45b8ca</color>
+  <color name="color_brand_on_info">#ff000000</color>
+  <color name="color_brand_info_container">#ff03404a</color>
+  <color name="color_brand_on_info_container">#ffa8dee6</color>
+  <color name="color_brand_neutral">#ff7b7986</color>
+  <color name="color_brand_on_neutral">#ff000000</color>
+  <color name="color_brand_neutral_container">#ff313036</color>
+  <color name="color_brand_on_neutral_container">#ffd1d0d5</color>
+  <color name="color_brand_background">#ff000000</color>
+  <color name="color_brand_on_background">#ffffffff</color>
+  <color name="color_brand_surface">#ff000000</color>
+  <color name="color_brand_on_surface">#ffffffff</color>
+  <color name="color_brand_surface_inverse">#fff8f8f9</color>
+  <color name="color_brand_on_surface_inverse">#ff000000</color>
+  <color name="color_brand_outline">#ff4a4950</color>
+  <color name="color_brand_overlay">rgba(#ff313036, 0.75)</color>
+  <color name="color_brand_on_surface_dim1">rgba(#ffffffff, 0.72)</color>
+  <color name="color_brand_on_surface_dim2">rgba(#ffffffff, 0.68)</color>
+  <color name="color_brand_on_surface_dim3">rgba(#ffffffff, 0.38)</color>
+  <color name="color_brand_on_surface_dim4">rgba(#ffffffff, 0.16)</color>
+  <color name="color_brand_on_surface_dim5">rgba(#ffffffff, 0.08)</color>
+  <color name="color_brand_primary_dim1">rgba(#ff7583ff, 0.72)</color>
+  <color name="color_brand_primary_dim2">rgba(#ff7583ff, 0.68)</color>
+  <color name="color_brand_primary_dim3">rgba(#ff7583ff, 0.38)</color>
+  <color name="color_brand_primary_dim4">rgba(#ff7583ff, 0.16)</color>
+  <color name="color_brand_primary_dim5">rgba(#ff7583ff, 0.08)</color>
+  
+</resources>

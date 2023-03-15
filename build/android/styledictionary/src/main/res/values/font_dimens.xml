@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 15 Mar 2023 11:43:20 GMT
+-->
+<resources>
+  <dimen name="size_font_title_display1">40.00sp</dimen>
+  <dimen name="size_font_title_display2">32.00sp</dimen>
+  <dimen name="size_font_title_display3">24.00sp</dimen>
+  <dimen name="size_font_title_headline1">20.00sp</dimen>
+  <dimen name="size_font_title_headline2">18.00sp</dimen>
+  <dimen name="size_font_title_subhead">16.00sp</dimen>
+  <dimen name="size_font_title_display1_expanded">48.00sp</dimen>
+  <dimen name="size_font_title_display2_expanded">40.00sp</dimen>
+  <dimen name="size_font_title_display3_expanded">32.00sp</dimen>
+  <dimen name="size_font_title_headline1_expanded">24.00sp</dimen>
+  <dimen name="size_font_title_headline2_expanded">20.00sp</dimen>
+  <dimen name="size_font_title_subhead_expanded">16.00sp</dimen>
+  <dimen name="size_font_content_body1">16.00sp</dimen>
+  <dimen name="size_font_content_body1_highlight">16.00sp</dimen>
+  <dimen name="size_font_content_body2">14.00sp</dimen>
+  <dimen name="size_font_content_body2_highlight">14.00sp</dimen>
+  <dimen name="size_font_content_caption">12.00sp</dimen>
+  <dimen name="size_font_content_caption_highlight">12.00sp</dimen>
+  <dimen name="size_font_content_small">10.00sp</dimen>
+  <dimen name="size_font_content_small_highlight">10.00sp</dimen>
+  <dimen name="size_font_action_body1_link">16.00sp</dimen>
+  <dimen name="size_font_action_body1_link_highlight">16.00sp</dimen>
+  <dimen name="size_font_action_body2_link">14.00sp</dimen>
+  <dimen name="size_font_action_body2_link_highlight">14.00sp</dimen>
+  <dimen name="size_font_action_caption_link">12.00sp</dimen>
+  <dimen name="size_font_action_caption_link_highlight">12.00sp</dimen>
+  <dimen name="size_font_action_callout">16.00sp</dimen>
+  
+</resources>
