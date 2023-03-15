@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 15 Mar 2023 11:43:20 GMT
+  Generated on Wed, 15 Mar 2023 15:18:15 GMT
 -->
 <resources>
   <color name="color_brand_primary">#ff7583ff</color>
@@ -55,5 +55,6 @@
   <color name="color_brand_primary_dim3">rgba(#ff7583ff, 0.38)</color>
   <color name="color_brand_primary_dim4">rgba(#ff7583ff, 0.16)</color>
   <color name="color_brand_primary_dim5">rgba(#ff7583ff, 0.08)</color>
+  <color name="component_button_primary_background_color">#fffe6ba7</color>
   
 </resources>

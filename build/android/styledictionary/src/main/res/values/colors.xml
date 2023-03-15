@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 15 Mar 2023 11:43:20 GMT
+  Generated on Wed, 15 Mar 2023 15:18:14 GMT
 -->
 <resources>
   <color name="color_brand_primary">@color/color_core_theblue_500</color>
@@ -140,5 +140,28 @@
   <color name="color_core_white">#ffffffff</color>
   <color name="color_core_facebook">#ff4267b2</color>
   <color name="color_core_twitter">#ff1da1f2</color>
+  <color name="component_badge_color">@color/color_brand_on_info</color>
+  <color name="component_badge_background_color">@color/color_brand_info</color>
+  <color name="component_badge_variant_error_color">@color/color_brand_on_error</color>
+  <color name="component_badge_variant_error_background_color">@color/color_brand_error</color>
+  <color name="component_badge_variant_alert_color">@color/color_brand_on_alert</color>
+  <color name="component_badge_variant_alert_background_color">@color/color_brand_alert</color>
+  <color name="component_badge_variant_success_color">@color/color_brand_on_success</color>
+  <color name="component_badge_variant_success_background_color">@color/color_brand_success</color>
+  <color name="component_button_color">@color/color_core_white</color>
+  <color name="component_button_primary_background_color">@color/color_brand_primary</color>
+  <color name="component_button_primary_color">@color/color_brand_on_primary</color>
+  <color name="component_button_primary_hover_background_color">@color/color_brand_primary</color>
+  <color name="component_button_primary_hover_color">@color/color_brand_on_primary</color>
+  <color name="component_button_primary_active_background_color">@color/color_brand_primary</color>
+  <color name="component_button_primary_active_color">@color/color_brand_on_primary</color>
+  <color name="component_button_secondary_color">@color/color_brand_secondary</color>
+  <color name="component_button_secondary_background_color">@color/color_brand_on_surface_inverse</color>
+  <color name="component_button_secondary_border_color">@color/color_brand_secondary</color>
+  <color name="component_button_secondary_hover_color">@color/color_brand_secondary</color>
+  <color name="component_button_secondary_hover_border_color">@color/color_brand_secondary</color>
+  <color name="component_button_secondary_active_color">@color/color_brand_secondary</color>
+  <color name="component_button_secondary_active_border_color">@color/color_brand_secondary</color>
+  <color name="component_button_secondary_active_background_color">@color/color_brand_on_surface_inverse</color>
   
 </resources>

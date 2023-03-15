@@ -1,0 +1,45 @@
+{
+  component: {
+    button: {
+      "font-size": { value: "{size.font.action.callout.value}" },
+      padding: { value: "{size.padding.md.value}" },
+      color: { value: "{color.core.white}" },
+      "border-radius": { value: "{size.border.radius.lg.value}" },
+
+      primary: {
+        "background-color": { value: "{color.brand.primary.value}" },
+        color: { value: "{color.brand.onPrimary.value}" },
+
+        // hover state
+        hover: {
+          "background-color": { value: "{color.brand.primary.value}" },
+          color: { value: "{color.brand.onPrimary.value}" },
+        },
+
+        // active state
+        active: {
+          "background-color": { value: "{color.brand.primary.value}" },
+          color: { value: "{color.brand.onPrimary.value}" },
+        },
+      },
+
+      secondary: {
+        color: { value: "{color.brand.secondary.value}" },
+        "background-color": { value: "{color.brand.onSurfaceInverse.value}" },
+        "border-width": { value: "{size.border.width.md.value}" },
+        "border-color": { value: "{color.brand.secondary.value}" },
+
+        hover: {
+          color: { value: "{color.brand.secondary.value}" },
+          "border-color": { value: "{color.brand.secondary.value}" },
+        },
+
+        active: {
+          color: { value: "{color.brand.secondary.value}" },
+          "border-color": { value: "{color.brand.secondary.value}" },
+          "background-color": { value: "{color.brand.onSurfaceInverse.value}" },
+        },
+      },
+    },
+  },
+}

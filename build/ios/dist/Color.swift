@@ -407,4 +407,73 @@ extension Color {
   public static var coreTwitter: Color {
     return Color.init("coreTwitter", bundle: bundle)
   }
+  public static var badgeColor: Color {
+    return Color.init("badgeColor", bundle: bundle)
+  }
+  public static var badgeBackgroundColor: Color {
+    return Color.init("badgeBackgroundColor", bundle: bundle)
+  }
+  public static var badgeVariantErrorColor: Color {
+    return Color.init("badgeVariantErrorColor", bundle: bundle)
+  }
+  public static var badgeVariantErrorBackgroundColor: Color {
+    return Color.init("badgeVariantErrorBackgroundColor", bundle: bundle)
+  }
+  public static var badgeVariantAlertColor: Color {
+    return Color.init("badgeVariantAlertColor", bundle: bundle)
+  }
+  public static var badgeVariantAlertBackgroundColor: Color {
+    return Color.init("badgeVariantAlertBackgroundColor", bundle: bundle)
+  }
+  public static var badgeVariantSuccessColor: Color {
+    return Color.init("badgeVariantSuccessColor", bundle: bundle)
+  }
+  public static var badgeVariantSuccessBackgroundColor: Color {
+    return Color.init("badgeVariantSuccessBackgroundColor", bundle: bundle)
+  }
+  public static var buttonColor: Color {
+    return Color.init("buttonColor", bundle: bundle)
+  }
+  public static var buttonPrimaryBackgroundColor: Color {
+    return Color.init("buttonPrimaryBackgroundColor", bundle: bundle)
+  }
+  public static var buttonPrimaryColor: Color {
+    return Color.init("buttonPrimaryColor", bundle: bundle)
+  }
+  public static var buttonPrimaryHoverBackgroundColor: Color {
+    return Color.init("buttonPrimaryHoverBackgroundColor", bundle: bundle)
+  }
+  public static var buttonPrimaryHoverColor: Color {
+    return Color.init("buttonPrimaryHoverColor", bundle: bundle)
+  }
+  public static var buttonPrimaryActiveBackgroundColor: Color {
+    return Color.init("buttonPrimaryActiveBackgroundColor", bundle: bundle)
+  }
+  public static var buttonPrimaryActiveColor: Color {
+    return Color.init("buttonPrimaryActiveColor", bundle: bundle)
+  }
+  public static var buttonSecondaryColor: Color {
+    return Color.init("buttonSecondaryColor", bundle: bundle)
+  }
+  public static var buttonSecondaryBackgroundColor: Color {
+    return Color.init("buttonSecondaryBackgroundColor", bundle: bundle)
+  }
+  public static var buttonSecondaryBorderColor: Color {
+    return Color.init("buttonSecondaryBorderColor", bundle: bundle)
+  }
+  public static var buttonSecondaryHoverColor: Color {
+    return Color.init("buttonSecondaryHoverColor", bundle: bundle)
+  }
+  public static var buttonSecondaryHoverBorderColor: Color {
+    return Color.init("buttonSecondaryHoverBorderColor", bundle: bundle)
+  }
+  public static var buttonSecondaryActiveColor: Color {
+    return Color.init("buttonSecondaryActiveColor", bundle: bundle)
+  }
+  public static var buttonSecondaryActiveBorderColor: Color {
+    return Color.init("buttonSecondaryActiveBorderColor", bundle: bundle)
+  }
+  public static var buttonSecondaryActiveBackgroundColor: Color {
+    return Color.init("buttonSecondaryActiveBackgroundColor", bundle: bundle)
+  }
 }

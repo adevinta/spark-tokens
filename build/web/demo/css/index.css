@@ -1,0 +1,179 @@
+/* Global stylesheet */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, system-ui, sans-serif;
+  color: var(--color-brand-on-primary);
+  background-color: var(--color-brand-primary);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a[href] {
+  color: var(--color-brand-primary);
+}
+
+a[href]:hover {
+  color: var(--color-brand-secondary);
+}
+
+a[href]:active,
+a[href].active {
+  color: var(--color-brand-secondary);
+}
+
+main {
+  padding: var(--size-padding-xl);
+  margin-left: 15rem;
+}
+
+main :first-child {
+  margin-top: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15rem;
+  border-right: var(--size-border-width-md) solid var(--color-brand-primary);
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  margin: 1em 0;
+}
+
+table td,
+table th {
+  padding-right: 1em;
+}
+
+/* Nav */
+.nav {
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+}
+
+.nav-item {
+  display: block;
+  padding: var(--size-padding-md);
+  text-decoration: none;
+}
+
+.nav-item > svg {
+  vertical-align: middle;
+  margin-right: var(--size-padding-sm);
+}
+
+a[href].nav-item-active {
+  font-weight: 700;
+  color: var(--color-brand-secondary);
+}
+
+html,
+body {
+  background-color: var(--color-brand-on-primary);
+  color: var(--color-brand-primary);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--component-badge-padding-vertical)
+    var(--component-badge-padding-horizontal);
+  border-radius: var(--component-badge-border-radius);
+  background-color: var(--component-badge-background-color);
+  color: var(--component-badge-color);
+}
+
+.badge.alert {
+  background-color: var(--component-badge-variant-alert-background-color);
+  color: var(--component-badge-variant-alert-color);
+}
+
+.badge.error {
+  background-color: var(--component-badge-variant-error-background-color);
+  color: var(--component-badge-variant-error-color);
+}
+
+.badge.success {
+  background-color: var(--component-badge-variant-success-background-color);
+  color: var(--component-badge-variant-success-color);
+}
+
+button {
+  padding: var(--component-button-padding);
+  font-size: var(--component-button-font-size);
+  border-radius: var(--component-button-border-radius);
+  border-style: solid;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: var(--component-button-primary-background-color);
+  color: var(--component-button-primary-color);
+  border: none;
+}
+
+button.primary:hover {
+  background-color: var(--component-button-primary-hover-background-color);
+  color: var(--component-button-primary-hover-color);
+}
+
+button.primary:active {
+  background-color: var(--component-button-primary-active-background-color);
+  color: var(--component-button-primary-active-color);
+}
+
+button.secondary {
+  background-color: var(--component-button-secondary-background-color);
+  color: var(--component-button-secondary-color);
+  border-width: var(--component-button-secondary-border-width);
+  border-color: var(--component-button-secondary-border-color);
+}
+
+button.secondary:hover {
+  border-color: var(--component-button-secondary-hover-border-color);
+  color: var(--component-button-secondary-hover-color);
+}
+
+button.secondary:active {
+  border-color: var(--component-button-secondary-active-border-color);
+  color: var(--component-button-secondary-active-color);
+}
+
+.color-token {
+  display: flex;
+  flex-direction: row;
+  padding: var(--size-padding-md);
+  margin-bottom: var(--size-padding-md);
+  border-width: var(--size-border-width-md);
+  border-style: solid;
+  border-color: transparent;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+  padding: var(--size-padding-md);
+}

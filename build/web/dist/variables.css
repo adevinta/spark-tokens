@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 15 Mar 2023 11:43:20 GMT
+ * Generated on Wed, 15 Mar 2023 15:18:14 GMT
  */
 
 :root {
@@ -131,9 +131,18 @@
   --color-core-theblue-200: #b1aeec;
   --color-core-theblue-100: #e2e1f8;
   --color-core-theblue-50: #f4f4fc;
-  --image-files: assets/svg/files.svg;
-  --image-empty: assets/svg/empty.svg;
-  --image-logo: assets/svg/logo.svg;
+  --image-files: assets/svg/spark/files.svg;
+  --image-empty: assets/svg/spark/empty.svg;
+  --image-logo: assets/svg/spark/logo.svg;
+  --component-button-secondary-border-width: var(--size-border-width-md);
+  --component-button-border-radius: var(--size-border-radius-lg);
+  --component-button-color: var(--color-core-white);
+  --component-button-padding: var(--size-padding-md);
+  --component-button-font-size: var(--size-font-action-callout);
+  --component-badge-padding-horizontal: var(--size-padding-md);
+  --component-badge-padding-vertical: var(--size-padding-sm);
+  --component-badge-border-radius: var(--size-border-radius-md);
+  --component-badge-font-size: var(--size-font-action-callout);
   --color-brand-primary-dim5: rgba(var(--color-core-theblue-500), 0.04);
   --color-brand-primary-dim4: rgba(var(--color-core-theblue-500), 0.16);
   --color-brand-primary-dim3: rgba(var(--color-core-theblue-500), 0.40);
@@ -184,4 +193,26 @@
   --color-brand-primary-container: var(--color-core-theblue-100);
   --color-brand-on-primary: var(--color-core-white);
   --color-brand-primary: var(--color-core-theblue-500);
+  --component-button-secondary-active-background-color: var(--color-brand-on-surface-inverse);
+  --component-button-secondary-active-border-color: var(--color-brand-secondary);
+  --component-button-secondary-active-color: var(--color-brand-secondary);
+  --component-button-secondary-hover-border-color: var(--color-brand-secondary);
+  --component-button-secondary-hover-color: var(--color-brand-secondary);
+  --component-button-secondary-border-color: var(--color-brand-secondary);
+  --component-button-secondary-background-color: var(--color-brand-on-surface-inverse);
+  --component-button-secondary-color: var(--color-brand-secondary);
+  --component-button-primary-active-color: var(--color-brand-on-primary);
+  --component-button-primary-active-background-color: var(--color-brand-primary);
+  --component-button-primary-hover-color: var(--color-brand-on-primary);
+  --component-button-primary-hover-background-color: var(--color-brand-primary);
+  --component-button-primary-color: var(--color-brand-on-primary);
+  --component-button-primary-background-color: var(--color-brand-primary);
+  --component-badge-variant-success-background-color: var(--color-brand-success);
+  --component-badge-variant-success-color: var(--color-brand-on-success);
+  --component-badge-variant-alert-background-color: var(--color-brand-alert);
+  --component-badge-variant-alert-color: var(--color-brand-on-alert);
+  --component-badge-variant-error-background-color: var(--color-brand-error);
+  --component-badge-variant-error-color: var(--color-brand-on-error);
+  --component-badge-background-color: var(--color-brand-info);
+  --component-badge-color: var(--color-brand-on-info);
 }
