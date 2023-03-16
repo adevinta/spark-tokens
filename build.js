@@ -2,7 +2,7 @@ const StyleDictionary = require("style-dictionary");
 const fs = require("fs-extra");
 
 const iosPath = `build/ios/dist/`;
-const androidPath = `build/android/styledictionary/src/main/res/`;
+const androidPath = `build/android/sparktokens/src/main/res/`;
 const webPath = `build/web/dist/`;
 
 // before this runs we should clean the directories we are generating files in
