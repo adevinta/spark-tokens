@@ -11,4 +11,4 @@ This demo uses SwiftUI.
 5. Open the Xcode workspace: `open SparkTokensDemo.xcworkspace`
 6. Click the ▶️ button to build and run the demo
 
-Note: if you add new files in the Style Dictionary configuration, you will need to run `pod install` in the `ios/demo` directory again so CocoaPods can link the newly generated files into Xcode
+Note: if you add new files in the Style Dictionary configuration, you will need to run `pod install` in the `build/ios/demo` directory again so CocoaPods can link the newly generated files into Xcode
