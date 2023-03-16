@@ -1,0 +1,16 @@
+PODS:
+  - SparkTokens (0.0.1)
+
+DEPENDENCIES:
+  - SparkTokens (from `../../../`)
+
+EXTERNAL SOURCES:
+  SparkTokens:
+    :path: "../../../"
+
+SPEC CHECKSUMS:
+  SparkTokens: 5b9908d8999ad20ee181b1ddda5a0250a6c960e3
+
+PODFILE CHECKSUM: b1caeb13fe1ebe91cf29934d950bb5c4b3f64a4c
+
+COCOAPODS: 1.12.0
