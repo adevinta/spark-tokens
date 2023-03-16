@@ -23,7 +23,7 @@ A tool to synchronize Adevinta design tokens between Figma and our three platfor
 3. Run npm start to start [11ty](https://www.11ty.dev/)
 4. Open `http://localhost:8080` in your browser
 
-# iOS DEMO
+## iOS DEMO
 
 1. Make sure you have Xcode 12 or greater installed
 2. You will need [CocoaPods](https://cocoapods.org/) installed
