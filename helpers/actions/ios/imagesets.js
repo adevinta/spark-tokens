@@ -11,7 +11,7 @@ const { contents, darkAppearance, idiom, hcAppearance } = require("./consts");
  * @param {String} options.mode - The current mode (light or dark) Style Dictionary is building in.
  */
 function generateImageset({ svg, name, iosPath, mode }) {
-  const outputPath = `${iosPath}StyleDictionary.xcassets/${name}.imageset`;
+  const outputPath = `${iosPath}SparkTokens.xcassets/${name}.imageset`;
   fs.ensureDirSync(outputPath);
 
   // The imageset might already exist because Style Dictionary is run multiple

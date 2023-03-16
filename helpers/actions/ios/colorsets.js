@@ -9,7 +9,7 @@ const { contents, darkAppearance, idiom, hcAppearance } = require("./consts");
 module.exports = {
   // This is going to run once per theme.
   do: (dictionary, platform) => {
-    const assetPath = `${platform.buildPath}/StyleDictionary.xcassets`;
+    const assetPath = `${platform.buildPath}/SparkTokens.xcassets`;
     fs.ensureDirSync(assetPath);
     fs.writeFileSync(
       `${assetPath}/Contents.json`,
