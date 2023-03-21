@@ -1,4 +1,4 @@
-package com.dbanksdesign.styledictionarydarkmode;
+package com.adevinta.sparktokensdemo;
 
 import android.os.Bundle;
 

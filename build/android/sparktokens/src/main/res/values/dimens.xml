@@ -2,29 +2,26 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 16 Mar 2023 13:08:24 GMT
+  Generated on Tue, 21 Mar 2023 16:35:52 GMT
 -->
 <resources>
-  <dimen name="component_badge_border_radius">8.00dp</dimen>
-  <dimen name="component_badge_padding_vertical">4.00dp</dimen>
-  <dimen name="component_badge_padding_horizontal">8.00dp</dimen>
-  <dimen name="component_button_padding">8.00dp</dimen>
-  <dimen name="component_button_border_radius">16.00dp</dimen>
-  <dimen name="component_button_secondary_border_width">2.00dp</dimen>
-  <dimen name="size_border_width_none">0.00dp</dimen>
-  <dimen name="size_border_width_sm">1.00dp</dimen>
-  <dimen name="size_border_width_md">2.00dp</dimen>
-  <dimen name="size_border_radius_none">0.00dp</dimen>
-  <dimen name="size_border_radius_sm">4.00dp</dimen>
-  <dimen name="size_border_radius_md">8.00dp</dimen>
-  <dimen name="size_border_radius_lg">16.00dp</dimen>
-  <dimen name="size_border_radius_xl">32.00dp</dimen>
-  <dimen name="size_padding_none">0.00dp</dimen>
-  <dimen name="size_padding_sm">4.00dp</dimen>
-  <dimen name="size_padding_md">8.00dp</dimen>
-  <dimen name="size_padding_lg">16.00dp</dimen>
-  <dimen name="size_padding_xl">24.00dp</dimen>
-  <dimen name="size_padding_2xl">32.00dp</dimen>
-  <dimen name="size_padding_3xl">40.00dp</dimen>
+  <dimen name="component_badge_border_radius">48.00dp</dimen>
+  <dimen name="component_badge_padding_vertical">8.00dp</dimen>
+  <dimen name="component_badge_padding_horizontal">16.00dp</dimen>
+  <dimen name="component_button_padding">16.00dp</dimen>
+  <dimen name="component_button_border_radius">4.00dp</dimen>
+  <dimen name="component_button_outline_border_width">2.00dp</dimen>
+  <dimen name="size_border_width_small">1.00dp</dimen>
+  <dimen name="size_border_width_medium">2.00dp</dimen>
+  <dimen name="size_border_width_large">4.00dp</dimen>
+  <dimen name="size_border_radius_small">4.00dp</dimen>
+  <dimen name="size_border_radius_medium">16.00dp</dimen>
+  <dimen name="size_border_radius_large">48.00dp</dimen>
+  <dimen name="size_padding_xs">4.00dp</dimen>
+  <dimen name="size_padding_small">8.00dp</dimen>
+  <dimen name="size_padding_medium">16.00dp</dimen>
+  <dimen name="size_padding_large">24.00dp</dimen>
+  <dimen name="size_padding_xl">32.00dp</dimen>
+  <dimen name="size_padding_xxl">64.00dp</dimen>
   
 </resources>
