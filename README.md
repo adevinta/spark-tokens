@@ -23,6 +23,8 @@ A tool to synchronize Adevinta design tokens between Figma and our three platfor
 3. Run npm start to start [11ty](https://www.11ty.dev/)
 4. Open `http://localhost:8080` in your browser
 
+Note: if you make any changes you will need to restart the 11ty server because it passes through the generated files from Style Dictionary
+
 ## iOS DEMO
 
 1. Make sure you have Xcode 12 or greater installed
@@ -32,7 +34,7 @@ A tool to synchronize Adevinta design tokens between Figma and our three platfor
 5. Open the Xcode workspace: `open SparkTokensDemo.xcworkspace`
 6. Click the ▶️ button to build and run the demo
 
-Note: if you add new files in the Style Dictionary configuration, you will need to run `pod install` in the `build/ios/demo` directory again so CocoaPods can link the newly generated files into Xcode
+Note: if you add new files in the Style Dictionary configuration, you will need to run `pod install` in the `build/ios/demo` directory again so CocoaPods can link the newly generated files into Xcode.
 
 ## LICENSE
 
