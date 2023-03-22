@@ -137,7 +137,6 @@ styleDictionary
             destination: `values/colors.xml`,
             format: `android/resources`,
             filter: (token) => token.attributes.category === `color`,
-            transforms: [`colorRGB`],
             options: {
               // this is important!
               // this will keep token references intact so that we don't need
