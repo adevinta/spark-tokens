@@ -272,9 +272,9 @@
         description: "TheBlue 500 16%",
       },
       primaryDim5: {
-        value: "rgba({color.core.theblue.500}, 0.04)",
+        value: "rgba({color.core.theblue.500}, 0.08)",
         type: "color",
-        description: "TheBlue 500 4%",
+        description: "TheBlue 500 8%",
       },
     },
   },
