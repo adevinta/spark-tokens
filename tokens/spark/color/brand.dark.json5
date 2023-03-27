@@ -1,281 +1,201 @@
 {
-  color: {
-    brand: {
-      primary: {
-        value: "{color.core.theblue.V}",
-        type: "color",
-        description: "TheBlue V",
+  "color": {
+    "brand": {
+      "primary": {
+        "value": "{color.core.theblue.V}",
+        "type": "color",
+        "description": "TheBlue V"
       },
-      onPrimary: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onPrimary": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      primaryContainer: {
-        value: "{color.core.theblue.800}",
-        type: "color",
-        description: "TheBlue 800",
+      "primaryContainer": {
+        "value": "{color.core.theblue.800}",
+        "type": "color",
+        "description": "TheBlue 800"
       },
-      onPrimaryContainer: {
-        value: "{color.core.theblue.200}",
-        type: "color",
-        description: "TheBlue 200",
+      "onPrimaryContainer": {
+        "value": "{color.core.theblue.200}",
+        "type": "color",
+        "description": "TheBlue 200"
       },
-      primaryVariant: {
-        value: "{color.core.theblue.200}",
-        type: "color",
-        description: "TheBlue 200",
+      "primaryVariant": {
+        "value": "{color.core.theblue.200}",
+        "type": "color",
+        "description": "TheBlue 200"
       },
-      onPrimaryVariant: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onPrimaryVariant": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      secondary: {
-        value: "{color.core.sugarcotton.400}",
-        type: "color",
-        description: "Sugarcotton 400",
+      "secondary": {
+        "value": "{color.core.sugarcotton.400}",
+        "type": "color",
+        "description": "Sugarcotton 400"
       },
-      onSecondary: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onSecondary": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      secondaryContainer: {
-        value: "{color.core.sugarcotton.800}",
-        type: "color",
-        description: "Sugarcotton 800",
+      "secondaryContainer": {
+        "value": "{color.core.sugarcotton.800}",
+        "type": "color",
+        "description": "Sugarcotton 800"
       },
-      onSecondaryContainer: {
-        value: "{color.core.sugarcotton.200}",
-        type: "color",
-        description: "Sugarcotton 200",
+      "onSecondaryContainer": {
+        "value": "{color.core.sugarcotton.200}",
+        "type": "color",
+        "description": "Sugarcotton 200"
       },
-      secondaryVariant: {
-        value: "{color.core.sugarcotton.300}",
-        type: "color",
-        description: "Sugarcotton 300",
+      "secondaryVariant": {
+        "value": "{color.core.sugarcotton.300}",
+        "type": "color",
+        "description": "Sugarcotton 300"
       },
-      onSecondaryVariant: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onSecondaryVariant": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      success: {
-        value: "{color.core.apple.400}",
-        type: "color",
-        description: "Apple 400",
+      "success": {
+        "value": "{color.core.apple.400}",
+        "type": "color",
+        "description": "Apple 400"
       },
-      onSuccess: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onSuccess": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      successContainer: {
-        value: "{color.core.apple.800}",
-        type: "color",
-        description: "Apple 800",
+      "successContainer": {
+        "value": "{color.core.apple.800}",
+        "type": "color",
+        "description": "Apple 800"
       },
-      onSuccessContainer: {
-        value: "{color.core.apple.200}",
-        type: "color",
-        description: "Apple 200",
+      "onSuccessContainer": {
+        "value": "{color.core.apple.200}",
+        "type": "color",
+        "description": "Apple 200"
       },
-      alert: {
-        value: "{color.core.wiggins.400}",
-        type: "color",
-        description: "Wiggins 400",
+      "alert": {
+        "value": "{color.core.wiggins.400}",
+        "type": "color",
+        "description": "Wiggins 400"
       },
-      onAlert: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onAlert": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      alertContainer: {
-        value: "{color.core.wiggins.800}",
-        type: "color",
-        description: "Wiggins 800",
+      "alertContainer": {
+        "value": "{color.core.wiggins.800}",
+        "type": "color",
+        "description": "Wiggins 800"
       },
-      onAlertContainer: {
-        value: "{color.core.wiggins.200}",
-        type: "color",
-        description: "Wiggins 200",
+      "onAlertContainer": {
+        "value": "{color.core.wiggins.200}",
+        "type": "color",
+        "description": "Wiggins 200"
       },
-      error: {
-        value: "{color.core.chili.400}",
-        type: "color",
-        description: "Chilli 400",
+      "error": {
+        "value": "{color.core.chili.400}",
+        "type": "color",
+        "description": "Chilli 400"
       },
-      onError: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onError": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      errorContainer: {
-        value: "{color.core.chili.800}",
-        type: "color",
-        description: "Chilli 800",
+      "errorContainer": {
+        "value": "{color.core.chili.800}",
+        "type": "color",
+        "description": "Chilli 800"
       },
-      onErrorContainer: {
-        value: "{color.core.chili.200}",
-        type: "color",
-        description: "Chilli 200",
+      "onErrorContainer": {
+        "value": "{color.core.chili.200}",
+        "type": "color",
+        "description": "Chilli 200"
       },
-      info: {
-        value: "{color.core.sky.400}",
-        type: "color",
-        description: "Sky 400",
+      "info": {
+        "value": "{color.core.sky.400}",
+        "type": "color",
+        "description": "Sky 400"
       },
-      onInfo: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onInfo": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      infoContainer: {
-        value: "{color.core.sky.800}",
-        type: "color",
-        description: "Sky 800",
+      "infoContainer": {
+        "value": "{color.core.sky.800}",
+        "type": "color",
+        "description": "Sky 800"
       },
-      onInfoContainer: {
-        value: "{color.core.sky.200}",
-        type: "color",
-        description: "Sky 200",
+      "onInfoContainer": {
+        "value": "{color.core.sky.200}",
+        "type": "color",
+        "description": "Sky 200"
       },
-      neutral: {
-        value: "{color.core.surfer.500}",
-        type: "color",
-        description: "Surfer 500",
+      "neutral": {
+        "value": "{color.core.surfer.500}",
+        "type": "color",
+        "description": "Surfer 500"
       },
-      onNeutral: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onNeutral": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      neutralContainer: {
-        value: "{color.core.surfer.800}",
-        type: "color",
-        description: "Surfer 800",
+      "neutralContainer": {
+        "value": "{color.core.surfer.800}",
+        "type": "color",
+        "description": "Surfer 800"
       },
-      onNeutralContainer: {
-        value: "{color.core.surfer.200}",
-        type: "color",
-        description: "Surfer 200",
+      "onNeutralContainer": {
+        "value": "{color.core.surfer.200}",
+        "type": "color",
+        "description": "Surfer 200"
       },
-      background: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "background": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      onBackground: {
-        value: "{color.core.white}",
-        type: "color",
-        description: "White",
+      "onBackground": {
+        "value": "{color.core.white}",
+        "type": "color",
+        "description": "White"
       },
-      surface: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "surface": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      onSurface: {
-        value: "{color.core.white}",
-        type: "color",
-        description: "White",
+      "onSurface": {
+        "value": "{color.core.white}",
+        "type": "color",
+        "description": "White"
       },
-      surfaceInverse: {
-        value: "{color.core.surfer.50}",
-        type: "color",
-        description: "Surfer 50",
+      "surfaceInverse": {
+        "value": "{color.core.surfer.50}",
+        "type": "color",
+        "description": "Surfer 50"
       },
-      onSurfaceInverse: {
-        value: "{color.core.black}",
-        type: "color",
-        description: "Black",
+      "onSurfaceInverse": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
       },
-      outline: {
-        value: "{color.core.surfer.700}",
-        type: "color",
-        description: "Surfer 700",
-      },
-      overlay: {
-        value: "rgba({color.core.surfer.800}, {opacity.overlay})",
-        type: "color",
-        description: "Surfer 800 75%",
-      },
-      onBackgroundDim1: {
-        value: "rgba({color.core.white}, {opacity.dim.1})",
-        type: "color",
-        description: "White 72%",
-      },
-      onBackgroundDim2: {
-        value: "rgba({color.core.white}, {opacity.dim.2})",
-        type: "color",
-        description: "White 56%",
-      },
-      onBackgroundDim3: {
-        value: "rgba({color.core.white}, {opacity.dim.3})",
-        type: "color",
-        description: "White 38%",
-      },
-      onBackgroundDim4: {
-        value: "rgba({color.core.white}, {opacity.dim.4})",
-        type: "color",
-        description: "White 16%",
-      },
-      onBackgroundDim5: {
-        value: "rgba({color.core.white}, {opacity.dim.5})",
-        type: "color",
-        description: "White 8%",
-      },
-      onSurfaceDim1: {
-        value: "rgba({color.core.white}, {opacity.dim.1})",
-        type: "color",
-        description: "White 72%",
-      },
-      onSurfaceDim2: {
-        value: "rgba({color.core.white}, {opacity.dim.2})",
-        type: "color",
-        description: "White 56%",
-      },
-      onSurfaceDim3: {
-        value: "rgba({color.core.white}, {opacity.dim.3})",
-        type: "color",
-        description: "White 38%",
-      },
-      onSurfaceDim4: {
-        value: "rgba({color.core.white}, {opacity.dim.4})",
-        type: "color",
-        description: "White 16%",
-      },
-      onSurfaceDim5: {
-        value: "rgba({color.core.white}, {opacity.dim.5})",
-        type: "color",
-        description: "White 8%",
-      },
-      primaryDim1: {
-        value: "rgba({color.core.theblue.V}, {opacity.dim.1})",
-        type: "color",
-        description: "TheBlue V 72%",
-      },
-      primaryDim2: {
-        value: "rgba({color.core.theblue.V}, {opacity.dim.2})",
-        type: "color",
-        description: "TheBlue V 56%",
-      },
-      primaryDim3: {
-        value: "rgba({color.core.theblue.V}, {opacity.dim.3})",
-        type: "color",
-        description: "TheBlue V 38%",
-      },
-      primaryDim4: {
-        value: "rgba({color.core.theblue.V}, {opacity.dim.4})",
-        type: "color",
-        description: "TheBlue V 16%",
-      },
-      primaryDim5: {
-        value: "rgba({color.core.theblue.V}, {opacity.dim.5})",
-        type: "color",
-        description: "TheBlue V 8%",
-      },
-    },
-  },
+      "outline": {
+        "value": "{color.core.surfer.700}",
+        "type": "color",
+        "description": "Surfer 700"
+      }
+    }
+  }
 }

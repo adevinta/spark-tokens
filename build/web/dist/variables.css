@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 09:45:41 GMT
+ * Generated on Mon, 27 Mar 2023 15:30:10 GMT
  */
 
 :root {
@@ -48,7 +48,7 @@
   --size-border-width-none: 0rem;
   --opacity-dim-5: 0.08;
   --opacity-dim-4: 0.16;
-  --opacity-dim-3: 0.40;
+  --opacity-dim-3: 0.4;
   --opacity-dim-2: 0.56;
   --opacity-dim-1: 0.72;
   --opacity-overlay: 0.75;
@@ -154,22 +154,6 @@
   --component-badge-padding-vertical: var(--size-padding-sm);
   --component-badge-border-radius: var(--size-border-radius-md);
   --component-badge-font-size: var(--size-font-action-callout);
-  --color-brand-primary-dim5: rgba(var(--color-core-theblue-500), var(--opacity-dim-5));
-  --color-brand-primary-dim4: rgba(var(--color-core-theblue-500), var(--opacity-dim-4));
-  --color-brand-primary-dim3: rgba(var(--color-core-theblue-500), var(--opacity-dim-3));
-  --color-brand-primary-dim2: rgba(var(--color-core-theblue-500), var(--opacity-dim-2));
-  --color-brand-primary-dim1: rgba(var(--color-core-theblue-500), var(--opacity-dim-1));
-  --color-brand-on-surface-dim5: rgba(var(--color-core-black), var(--opacity-dim-5));
-  --color-brand-on-surface-dim4: rgba(var(--color-core-black), var(--opacity-dim-4));
-  --color-brand-on-surface-dim3: rgba(var(--color-core-black), var(--opacity-dim-3));
-  --color-brand-on-surface-dim2: rgba(var(--color-core-black), var(--opacity-dim-2));
-  --color-brand-on-surface-dim1: rgba(var(--color-core-black), var(--opacity-dim-1));
-  --color-brand-on-background-dim5: rgba(var(--color-core-black), var(--opacity-dim-5));
-  --color-brand-on-background-dim4: rgba(var(--color-core-black), var(--opacity-dim-4));
-  --color-brand-on-background-dim3: rgba(var(--color-core-black), var(--opacity-dim-3));
-  --color-brand-on-background-dim2: rgba(var(--color-core-black), var(--opacity-dim-2));
-  --color-brand-on-background-dim1: rgba(var(--color-core-black), var(--opacity-dim-1));
-  --color-brand-overlay: rgba(var(--color-core-surfer-800), var(--opacity-overlay));
   --color-brand-outline: var(--color-core-surfer-200);
   --color-brand-on-surface-inverse: var(--color-core-white);
   --color-brand-surface-inverse: var(--color-core-surfer-900);

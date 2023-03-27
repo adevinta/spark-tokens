@@ -1,25 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 09:45:41 GMT
+ * Generated on Mon, 27 Mar 2023 15:30:11 GMT
  */
 
 :root {
-  --color-brand-primary-dim5: rgba(var(--color-core-theblue-v), var(--opacity-dim-5));
-  --color-brand-primary-dim4: rgba(var(--color-core-theblue-v), var(--opacity-dim-4));
-  --color-brand-primary-dim3: rgba(var(--color-core-theblue-v), var(--opacity-dim-3));
-  --color-brand-primary-dim2: rgba(var(--color-core-theblue-v), var(--opacity-dim-2));
-  --color-brand-primary-dim1: rgba(var(--color-core-theblue-v), var(--opacity-dim-1));
-  --color-brand-on-surface-dim5: rgba(var(--color-core-white), var(--opacity-dim-5));
-  --color-brand-on-surface-dim4: rgba(var(--color-core-white), var(--opacity-dim-4));
-  --color-brand-on-surface-dim3: rgba(var(--color-core-white), var(--opacity-dim-3));
-  --color-brand-on-surface-dim2: rgba(var(--color-core-white), var(--opacity-dim-2));
-  --color-brand-on-surface-dim1: rgba(var(--color-core-white), var(--opacity-dim-1));
-  --color-brand-on-background-dim5: rgba(var(--color-core-white), var(--opacity-dim-5));
-  --color-brand-on-background-dim4: rgba(var(--color-core-white), var(--opacity-dim-4));
-  --color-brand-on-background-dim3: rgba(var(--color-core-white), var(--opacity-dim-3));
-  --color-brand-on-background-dim2: rgba(var(--color-core-white), var(--opacity-dim-2));
-  --color-brand-on-background-dim1: rgba(var(--color-core-white), var(--opacity-dim-1));
-  --color-brand-overlay: rgba(var(--color-core-surfer-800), var(--opacity-overlay));
   --color-brand-outline: var(--color-core-surfer-700);
   --color-brand-on-surface-inverse: var(--color-core-black);
   --color-brand-surface-inverse: var(--color-core-surfer-50);
