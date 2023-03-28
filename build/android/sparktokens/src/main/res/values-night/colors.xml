@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 27 Mar 2023 15:30:11 GMT
+  Generated on Tue, 28 Mar 2023 07:36:57 GMT
 -->
 <resources>
   <color name="color_brand_primary">#ff7583ff</color>
@@ -39,11 +39,14 @@
   <color name="color_brand_on_neutral_container">#ffd1d0d5</color>
   <color name="color_brand_background">#ff000000</color>
   <color name="color_brand_on_background">#ffffffff</color>
+  <color name="color_brand_background_variant">#ff252428</color>
+  <color name="color_brand_on_background_variant">#ffffffff</color>
   <color name="color_brand_surface">#ff000000</color>
   <color name="color_brand_on_surface">#ffffffff</color>
   <color name="color_brand_surface_inverse">#fff8f8f9</color>
   <color name="color_brand_on_surface_inverse">#ff000000</color>
   <color name="color_brand_outline">#ff4a4950</color>
+  <color name="color_brand_outline_high">#ffffffff</color>
   <color name="component_button_primary_background_color">#fffe6ba7</color>
   
 </resources>

@@ -9,9 +9,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/size_padding_medium"
-        android:paddingTop="@dimen/size_padding_medium"
-        android:paddingBottom="@dimen/size_padding_xxl"
+        android:paddingHorizontal="@dimen/size_padding_md"
+        android:paddingTop="@dimen/size_padding_md"
+        android:paddingBottom="@dimen/size_padding_2xl"
         android:orientation="vertical">
 
         <ImageView

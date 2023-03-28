@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="@dimen/size_padding_medium"
+            android:layout_marginBottom="@dimen/size_padding_md"
             android:text="Primary"
             style="@style/DTPrimaryButton" />
 
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Outline"
-            style="@style/DTOutlineButton" />
+            android:text="Secondary"
+            style="@style/DTSecondaryButton" />
     </LinearLayout>
 </LinearLayout>

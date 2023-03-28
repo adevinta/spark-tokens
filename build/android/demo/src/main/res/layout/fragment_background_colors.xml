@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/size_padding_xxl">
+        android:paddingBottom="@dimen/size_padding_2xl">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,16 +19,16 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
+                android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_primary" />
+                android:background="@color/color_brand_primary_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_primary_container"
+                android:padding="@dimen/size_padding_md"
                 android:text="Primary"/>
         </LinearLayout>
 
@@ -40,16 +40,16 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
+                android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_secondary" />
+                android:background="@color/color_brand_secondary_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_secondary_container"
+                android:padding="@dimen/size_padding_md"
                 android:text="Secondary"/>
         </LinearLayout>
 
@@ -61,100 +61,16 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
+                android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_tertiary" />
+                android:background="@color/color_brand_success_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Tertiary"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <View
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
-                android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_disabled" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Disabled"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <View
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
-                android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_danger" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Danger"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <View
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
-                android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_warning" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Warning"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <View
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
-                android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_success" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_success_container"
+                android:padding="@dimen/size_padding_md"
                 android:text="Success"/>
         </LinearLayout>
 
@@ -166,17 +82,80 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:layout_margin="@dimen/size_padding_medium"
+                android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_background_info" />
+                android:background="@color/color_brand_alert_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_alert_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Alert"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_error_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_error_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Error"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_info_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_info_container"
+                android:padding="@dimen/size_padding_md"
                 android:text="Info"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_neutral_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_neutral_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Neutral"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

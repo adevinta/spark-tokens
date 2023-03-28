@@ -11,16 +11,16 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/size_padding_small"
-        android:layout_marginLeft="@dimen/size_padding_small"
-        android:layout_marginRight="@dimen/size_padding_small"
+        android:layout_marginTop="@dimen/size_padding_sm"
+        android:layout_marginLeft="@dimen/size_padding_sm"
+        android:layout_marginRight="@dimen/size_padding_sm"
         card_view:cardCornerRadius="0dp"
         card_view:cardElevation="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/size_padding_medium"
+            android:layout_margin="@dimen/size_padding_md"
             android:textAppearance="?attr/textAppearanceListItem"
             android:text="Buttons"/>
     </com.google.android.material.card.MaterialCardView>
@@ -31,16 +31,16 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/size_padding_small"
-        android:layout_marginLeft="@dimen/size_padding_small"
-        android:layout_marginRight="@dimen/size_padding_small"
+        android:layout_marginTop="@dimen/size_padding_sm"
+        android:layout_marginLeft="@dimen/size_padding_sm"
+        android:layout_marginRight="@dimen/size_padding_sm"
         card_view:cardCornerRadius="0dp"
         card_view:cardElevation="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/size_padding_medium"
+            android:layout_margin="@dimen/size_padding_md"
             android:textAppearance="?attr/textAppearanceListItem"
             android:text="Badges"/>
     </com.google.android.material.card.MaterialCardView>

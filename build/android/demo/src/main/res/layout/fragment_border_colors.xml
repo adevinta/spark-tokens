@@ -10,173 +10,113 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingHorizontal="@dimen/size_padding_medium"
-        android:paddingTop="@dimen/size_padding_medium"
-        android:paddingBottom="@dimen/size_padding_xxl">
+        android:paddingHorizontal="@dimen/size_padding_md"
+        android:paddingTop="@dimen/size_padding_md"
+        android:paddingBottom="@dimen/size_padding_2xl">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_primary">
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_primary">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
                 android:text="Primary"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_secondary">
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_secondary">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
                 android:text="Secondary"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_tertiary">
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_success">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Tertiary"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_interactive">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Interactive"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_hover">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Hover"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_active">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Active"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_disabled">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Disabled"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_danger">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Danger"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_warning">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
-                android:text="Warning"/>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_success">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
                 android:text="Success"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/size_padding_medium"
-            app:strokeWidth="@dimen/size_border_width_large"
-            app:strokeColor="@color/color_border_info">
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_alert">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
-                android:padding="@dimen/size_padding_medium"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
+                android:text="Alert"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_error">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
+                android:text="Error"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_info">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
                 android:text="Info"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size_padding_md"
+            app:strokeWidth="@dimen/size_border_width_md"
+            app:strokeColor="@color/color_brand_neutral">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_on_background"
+                android:padding="@dimen/size_padding_md"
+                android:text="Neutral"/>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

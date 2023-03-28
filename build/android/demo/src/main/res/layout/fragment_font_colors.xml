@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/size_padding_xxl">
+        android:paddingBottom="@dimen/size_padding_2xl">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,18 +18,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
+                android:textSize="@dimen/size_font_content_body1"
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_primary" />
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_primary" />
             <TextView
                 android:id="@+id/font_color_primary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_primary"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_primary"
                 android:text="Primary"/>
         </LinearLayout>
 
@@ -40,18 +40,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
+                android:textSize="@dimen/size_font_content_body1"
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_secondary" />
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_secondary" />
             <TextView
                 android:id="@+id/font_color_secondary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_secondary"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_secondary"
                 android:text="Secondary"/>
         </LinearLayout>
 
@@ -62,164 +62,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
+                android:textSize="@dimen/size_font_content_body1"
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_tertiary" />
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_success" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_tertiary"
-                android:text="Tertiary"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_interactive" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_interactive"
-                android:text="Interactive"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_hover" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_hover"
-                android:text="Hover"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_active" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_active"
-                android:text="Active"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_disabled" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_disabled"
-                android:text="Disabled"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_danger" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_danger"
-                android:text="Danger"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_warning" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_warning"
-                android:text="Warning"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
-                android:text="@string/font_color_example"
-                android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_success" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_success"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_success"
                 android:text="Success"/>
         </LinearLayout>
 
@@ -230,18 +83,81 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/size_font_xl"
+                android:textSize="@dimen/size_font_content_body1"
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
-                android:padding="@dimen/size_padding_medium"
-                android:textColor="@color/color_font_info" />
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_alert" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textSize="@dimen/size_font_medium"
-                android:textColor="@color/color_font_info"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_alert"
+                android:text="Alert"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_error" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_error"
+                android:text="Error"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_info" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_info"
                 android:text="Info"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_neutral" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_neutral"
+                android:text="Neutral"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

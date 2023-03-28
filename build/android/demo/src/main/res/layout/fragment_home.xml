@@ -26,10 +26,10 @@
             android:id="@+id/text_home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/size_padding_large"
+            android:layout_margin="@dimen/size_padding_lg"
             android:textAlignment="center"
-            android:textSize="@dimen/size_font_large"
-            android:textColor="@color/color_font_primary"
+            android:textSize="@dimen/size_font_title_display1"
+            android:textColor="@color/color_brand_primary"
             android:text="@string/home_fragment_welcome" />
     </LinearLayout>
 

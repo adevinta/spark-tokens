@@ -13,31 +13,31 @@
         android:orientation="vertical">
 
         <com.google.android.material.chip.Chip
-            style="@style/DTBadge"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="default" />
-
-        <com.google.android.material.chip.Chip
-            style="@style/DTBadge.Danger"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Danger" />
-
-        <com.google.android.material.chip.Chip
-            style="@style/DTBadge.Warning"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="warning" />
-
-        <com.google.android.material.chip.Chip
             style="@style/DTBadge.Success"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="success" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/DTBadge.Alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="alert" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/DTBadge.Error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="error" />
+
+        <com.google.android.material.chip.Chip
+            style="@style/DTBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="default" />
     </LinearLayout>
 </LinearLayout>

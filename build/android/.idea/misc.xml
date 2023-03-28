@@ -3,7 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="demo/src/main/res/drawable/app_icon_background.xml" value="0.2085" />
+        <entry key="demo/src/main/res/drawable/app_icon_foreground.xml" value="0.2085" />
         <entry key="demo/src/main/res/drawable/components.xml" value="0.1645" />
+        <entry key="demo/src/main/res/drawable/home.xml" value="0.2085" />
+        <entry key="demo/src/main/res/drawable/tokens.xml" value="0.2085" />
+        <entry key="demo/src/main/res/drawable/wand.xml" value="0.2085" />
+        <entry key="demo/src/main/res/layout/fragment_background_colors.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_badge.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_border_colors.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_button.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_components.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_font_colors.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_graphics.xml" value="0.2963147410358566" />
+        <entry key="demo/src/main/res/layout/fragment_home.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/layout/fragment_tokens.xml" value="0.40129749768303985" />
+        <entry key="demo/src/main/res/mipmap-anydpi/app_icon.xml" value="0.2085" />
       </map>
     </option>
   </component>
