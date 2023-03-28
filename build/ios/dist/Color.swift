@@ -104,6 +104,12 @@ extension Color {
   public static var brandOnBackground: Color {
     return Color.init("brandOnBackground", bundle: bundle)
   }
+  public static var brandBackgroundVariant: Color {
+    return Color.init("brandBackgroundVariant", bundle: bundle)
+  }
+  public static var brandOnBackgroundVariant: Color {
+    return Color.init("brandOnBackgroundVariant", bundle: bundle)
+  }
   public static var brandSurface: Color {
     return Color.init("brandSurface", bundle: bundle)
   }
@@ -118,6 +124,9 @@ extension Color {
   }
   public static var brandOutline: Color {
     return Color.init("brandOutline", bundle: bundle)
+  }
+  public static var brandOutlineHigh: Color {
+    return Color.init("brandOutlineHigh", bundle: bundle)
   }
   public static var coreTheblue50: Color {
     return Color.init("coreTheblue50", bundle: bundle)

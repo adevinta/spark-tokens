@@ -1,14 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Mar 2023 15:30:11 GMT
+ * Generated on Tue, 28 Mar 2023 07:36:57 GMT
  */
 
 :root {
+  --color-brand-outline-high: var(--color-core-white);
   --color-brand-outline: var(--color-core-surfer-700);
   --color-brand-on-surface-inverse: var(--color-core-black);
   --color-brand-surface-inverse: var(--color-core-surfer-50);
   --color-brand-on-surface: var(--color-core-white);
   --color-brand-surface: var(--color-core-black);
+  --color-brand-on-background-variant: var(--color-core-white);
+  --color-brand-background-variant: var(--color-core-surfer-900);
   --color-brand-on-background: var(--color-core-white);
   --color-brand-background: var(--color-core-black);
   --color-brand-on-neutral-container: var(--color-core-surfer-200);
