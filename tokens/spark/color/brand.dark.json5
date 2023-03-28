@@ -171,6 +171,16 @@
         "type": "color",
         "description": "White"
       },
+      "backgroundVariant": {
+        "value": "{color.core.surfer.900}",
+        "type": "color",
+        "description": "Surfer 900"
+      },
+      "onBackgroundVariant": {
+        "value": "{color.core.white}",
+        "type": "color",
+        "description": "White"
+      },
       "surface": {
         "value": "{color.core.black}",
         "type": "color",
@@ -195,6 +205,11 @@
         "value": "{color.core.surfer.700}",
         "type": "color",
         "description": "Surfer 700"
+      },
+      "outlineHigh": {
+        "value": "{color.core.white}",
+        "type": "color",
+        "description": "White"
       }
     }
   }
