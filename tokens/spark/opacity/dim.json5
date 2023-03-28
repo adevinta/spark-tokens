@@ -1,0 +1,36 @@
+{
+  "opacity": {
+    "overlay": {
+      "value": 0.75,
+      "type": "opacity",
+      "description": "Overlay 75%"
+    },
+    "dim": {
+      "1": {
+        "value": 0.72,
+        "type": "opacity",
+        "description": "Dim1 72%"
+      },
+      "2": {
+        "value": 0.56,
+        "type": "opacity",
+        "description": "Dim2 56%"
+      },
+      "3": {
+        "value": 0.4,
+        "type": "opacity",
+        "description": "Dim3 40%"
+      },
+      "4": {
+        "value": 0.16,
+        "type": "opacity",
+        "description": "Dim4 16%"
+      },
+      "5": {
+        "value": 0.08,
+        "type": "opacity",
+        "description": "Dim5 8%"
+      }
+    }
+  }
+}

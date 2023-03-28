@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Mar 2023 13:08:24 GMT
+ * Generated on Tue, 28 Mar 2023 07:36:56 GMT
  */
 
 :root {
@@ -46,8 +46,19 @@
   --size-border-width-md: 0.125rem;
   --size-border-width-sm: 0.0625rem;
   --size-border-width-none: 0rem;
-  --color-core-twitter: #1da1f2;
-  --color-core-facebook: #4267b2;
+  --opacity-dim-5: 0.08;
+  --opacity-dim-4: 0.16;
+  --opacity-dim-3: 0.4;
+  --opacity-dim-2: 0.56;
+  --opacity-dim-1: 0.72;
+  --opacity-overlay: 0.75;
+  --color-core-social-telegram: #0088cc;
+  --color-core-social-tiktok: #000000;
+  --color-core-social-instagram: #e1306c;
+  --color-core-social-youtube: #ff0000;
+  --color-core-social-whatsapp: #25d366;
+  --color-core-social-twitter: #1da1f2;
+  --color-core-social-facebook: #4267b2;
   --color-core-white: #ffffff;
   --color-core-black: #000000;
   --color-core-kiwi-900: #353710;
@@ -143,22 +154,14 @@
   --component-badge-padding-vertical: var(--size-padding-sm);
   --component-badge-border-radius: var(--size-border-radius-md);
   --component-badge-font-size: var(--size-font-action-callout);
-  --color-brand-primary-dim5: rgba(var(--color-core-theblue-500), 0.04);
-  --color-brand-primary-dim4: rgba(var(--color-core-theblue-500), 0.16);
-  --color-brand-primary-dim3: rgba(var(--color-core-theblue-500), 0.40);
-  --color-brand-primary-dim2: rgba(var(--color-core-theblue-500), 0.68);
-  --color-brand-primary-dim1: rgba(var(--color-core-theblue-500), 0.72);
-  --color-brand-on-surface-dim5: rgba(var(--color-core-black), 0.08);
-  --color-brand-on-surface-dim4: rgba(var(--color-core-black), 0.16);
-  --color-brand-on-surface-dim3: rgba(var(--color-core-black), 0.40);
-  --color-brand-on-surface-dim2: rgba(var(--color-core-black), 0.68);
-  --color-brand-on-surface-dim1: rgba(var(--color-core-black), 0.72);
-  --color-brand-overlay: rgba(var(--color-core-surfer-800), 0.75);
+  --color-brand-outline-high: var(--color-core-black);
   --color-brand-outline: var(--color-core-surfer-200);
   --color-brand-on-surface-inverse: var(--color-core-white);
   --color-brand-surface-inverse: var(--color-core-surfer-900);
   --color-brand-on-surface: var(--color-core-black);
   --color-brand-surface: var(--color-core-white);
+  --color-brand-on-background-variant: var(--color-core-black);
+  --color-brand-background-variant: var(--color-core-surfer-50);
   --color-brand-on-background: var(--color-core-black);
   --color-brand-background: var(--color-core-white);
   --color-brand-on-neutral-container: var(--color-core-surfer-700);

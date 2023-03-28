@@ -171,6 +171,16 @@
         "type": "color",
         "description": "Black"
       },
+      "backgroundVariant": {
+        "value": "{color.core.surfer.50}",
+        "type": "color",
+        "description": "Surfer 50"
+      },
+      "onBackgroundVariant": {
+        "value": "{color.core.black}",
+        "type": "color",
+        "description": "Black"
+      },
       "surface": {
         "value": "{color.core.white}",
         "type": "color",
@@ -196,60 +206,10 @@
         "type": "color",
         "description": "Surfer 200"
       },
-      "overlay": {
-        "value": "rgba({color.core.surfer.800}, 0.75)",
+      "outlineHigh": {
+        "value": "{color.core.black}",
         "type": "color",
-        "description": "Surfer 800 75%"
-      },
-      "onSurfaceDim1": {
-        "value": "rgba({color.core.black}, 0.72)",
-        "type": "color",
-        "description": "Black 72%"
-      },
-      "onSurfaceDim2": {
-        "value": "rgba({color.core.black}, 0.68)",
-        "type": "color",
-        "description": "Black 68%"
-      },
-      "onSurfaceDim3": {
-        "value": "rgba({color.core.black}, 0.40)",
-        "type": "color",
-        "description": "Black 40%"
-      },
-      "onSurfaceDim4": {
-        "value": "rgba({color.core.black}, 0.16)",
-        "type": "color",
-        "description": "Black 16%"
-      },
-      "onSurfaceDim5": {
-        "value": "rgba({color.core.black}, 0.08)",
-        "type": "color",
-        "description": "Black 8%"
-      },
-      "primaryDim1": {
-        "value": "rgba({color.core.theblue.500}, 0.72)",
-        "type": "color",
-        "description": "TheBlue 500 72%"
-      },
-      "primaryDim2": {
-        "value": "rgba({color.core.theblue.500}, 0.68)",
-        "type": "color",
-        "description": "TheBlue 500 68%"
-      },
-      "primaryDim3": {
-        "value": "rgba({color.core.theblue.500}, 0.40)",
-        "type": "color",
-        "description": "TheBlue 500 40%"
-      },
-      "primaryDim4": {
-        "value": "rgba({color.core.theblue.500}, 0.16)",
-        "type": "color",
-        "description": "TheBlue 500 16%"
-      },
-      "primaryDim5": {
-        "value": "rgba({color.core.theblue.500}, 0.04)",
-        "type": "color",
-        "description": "TheBlue 500 4%"
+        "description": "Black"
       }
     }
   }

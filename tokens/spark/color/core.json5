@@ -1,449 +1,472 @@
 {
-  "color": {
-    "core": {
-      "theblue": {
+  color: {
+    core: {
+      theblue: {
         "50": {
-          "value": "#f4f4fc",
-          "type": "color",
-          "description": "TheBlue 50"
+          value: "#f4f4fc",
+          type: "color",
+          description: "TheBlue 50",
         },
         "100": {
-          "value": "#e2e1f8",
-          "type": "color",
-          "description": "TheBlue 100"
+          value: "#e2e1f8",
+          type: "color",
+          description: "TheBlue 100",
         },
         "200": {
-          "value": "#b1aeec",
-          "type": "color",
-          "description": "TheBlue 200"
+          value: "#b1aeec",
+          type: "color",
+          description: "TheBlue 200",
         },
         "300": {
-          "value": "#8580e1",
-          "type": "color",
-          "description": "TheBlue 300"
+          value: "#8580e1",
+          type: "color",
+          description: "TheBlue 300",
         },
         "400": {
-          "value": "#5952d6",
-          "type": "color",
-          "description": "TheBlue 400"
+          value: "#5952d6",
+          type: "color",
+          description: "TheBlue 400",
         },
         "500": {
-          "value": "#2118c9",
-          "type": "color",
-          "description": "TheBlue 500"
+          value: "#2118c9",
+          type: "color",
+          description: "TheBlue 500",
         },
         "600": {
-          "value": "#191297",
-          "type": "color",
-          "description": "TheBlue 600"
+          value: "#191297",
+          type: "color",
+          description: "TheBlue 600",
         },
         "700": {
-          "value": "#140e79",
-          "type": "color",
-          "description": "TheBlue 700"
+          value: "#140e79",
+          type: "color",
+          description: "TheBlue 700",
         },
         "800": {
-          "value": "#0d0a50",
-          "type": "color",
-          "description": "TheBlue 800"
+          value: "#0d0a50",
+          type: "color",
+          description: "TheBlue 800",
         },
         "900": {
-          "value": "#080632",
-          "type": "color",
-          "description": "TheBlue 900"
+          value: "#080632",
+          type: "color",
+          description: "TheBlue 900",
         },
-        "V": {
-          "value": "#7583ff",
-          "type": "color"
-        }
+        V: {
+          value: "#7583ff",
+          type: "color",
+        },
       },
-      "sugarcotton": {
+      sugarcotton: {
         "50": {
-          "value": "#fff5f9",
-          "type": "color",
-          "description": "Sugarcotton 50"
+          value: "#fff5f9",
+          type: "color",
+          description: "Sugarcotton 50",
         },
         "100": {
-          "value": "#ffe1ed",
-          "type": "color",
-          "description": "Sugarcotton 100"
+          value: "#ffe1ed",
+          type: "color",
+          description: "Sugarcotton 100",
         },
         "200": {
-          "value": "#febad6",
-          "type": "color",
-          "description": "Sugarcotton 200"
+          value: "#febad6",
+          type: "color",
+          description: "Sugarcotton 200",
         },
         "300": {
-          "value": "#fe92bf",
-          "type": "color",
-          "description": "Sugarcotton 300"
+          value: "#fe92bf",
+          type: "color",
+          description: "Sugarcotton 300",
         },
         "400": {
-          "value": "#fe6ba7",
-          "type": "color",
-          "description": "Sugarcotton 400"
+          value: "#fe6ba7",
+          type: "color",
+          description: "Sugarcotton 400",
         },
         "500": {
-          "value": "#fd398a",
-          "type": "color",
-          "description": "Sugarcotton 500"
+          value: "#fd398a",
+          type: "color",
+          description: "Sugarcotton 500",
         },
         "600": {
-          "value": "#ca2e6e",
-          "type": "color",
-          "description": "Sugarcotton 600"
+          value: "#ca2e6e",
+          type: "color",
+          description: "Sugarcotton 600",
         },
         "700": {
-          "value": "#982253",
-          "type": "color",
-          "description": "Sugarcotton 700"
+          value: "#982253",
+          type: "color",
+          description: "Sugarcotton 700",
         },
         "800": {
-          "value": "#651737",
-          "type": "color",
-          "description": "Sugarcotton 800"
+          value: "#651737",
+          type: "color",
+          description: "Sugarcotton 800",
         },
         "900": {
-          "value": "#3f0e22",
-          "type": "color",
-          "description": "Sugarcotton 900"
-        }
+          value: "#3f0e22",
+          type: "color",
+          description: "Sugarcotton 900",
+        },
       },
 
-      "apple": {
+      apple: {
         "50": {
-          "value": "#f5fbf8",
-          "type": "color",
-          "description": "Apple 50"
+          value: "#f5fbf8",
+          type: "color",
+          description: "Apple 50",
         },
         "100": {
-          "value": "#e0f2e9",
-          "type": "color",
-          "description": "Apple 100"
+          value: "#e0f2e9",
+          type: "color",
+          description: "Apple 100",
         },
         "200": {
-          "value": "#b7dfcb",
-          "type": "color",
-          "description": "Apple 200"
+          value: "#b7dfcb",
+          type: "color",
+          description: "Apple 200",
         },
         "300": {
-          "value": "#8ecdae",
-          "type": "color",
-          "description": "Apple 300"
+          value: "#8ecdae",
+          type: "color",
+          description: "Apple 300",
         },
         "400": {
-          "value": "#64bc90",
-          "type": "color",
-          "description": "Apple 400"
+          value: "#64bc90",
+          type: "color",
+          description: "Apple 400",
         },
         "500": {
-          "value": "#31a56b",
-          "type": "color",
-          "description": "Apple 500"
+          value: "#31a56b",
+          type: "color",
+          description: "Apple 500",
         },
         "600": {
-          "value": "#278456",
-          "type": "color",
-          "description": "Apple 600"
+          value: "#278456",
+          type: "color",
+          description: "Apple 600",
         },
         "700": {
-          "value": "#1d6340",
-          "type": "color",
-          "description": "Apple 700"
+          value: "#1d6340",
+          type: "color",
+          description: "Apple 700",
         },
         "800": {
-          "value": "#14422b",
-          "type": "color",
-          "description": "Apple 800"
+          value: "#14422b",
+          type: "color",
+          description: "Apple 800",
         },
         "900": {
-          "value": "#0c291b",
-          "type": "color",
-          "description": "Apple 900"
-        }
+          value: "#0c291b",
+          type: "color",
+          description: "Apple 900",
+        },
       },
 
-      "wiggins": {
+      wiggins: {
         "50": {
-          "value": "#fffcf6",
-          "type": "color",
-          "description": "Wiggins 50"
+          value: "#fffcf6",
+          type: "color",
+          description: "Wiggins 50",
         },
         "100": {
-          "value": "#fdf5e4",
-          "type": "color",
-          "description": "Wiggins 100"
+          value: "#fdf5e4",
+          type: "color",
+          description: "Wiggins 100",
         },
         "200": {
-          "value": "#fbe9bf",
-          "type": "color",
-          "description": "Wiggins 200"
+          value: "#fbe9bf",
+          type: "color",
+          description: "Wiggins 200",
         },
         "300": {
-          "value": "#f9dc9a",
-          "type": "color",
-          "description": "Wiggins 300"
+          value: "#f9dc9a",
+          type: "color",
+          description: "Wiggins 300",
         },
         "400": {
-          "value": "#f7cf76",
-          "type": "color",
-          "description": "Wiggins 400"
+          value: "#f7cf76",
+          type: "color",
+          description: "Wiggins 400",
         },
         "500": {
-          "value": "#f4bf48",
-          "type": "color"
+          value: "#f4bf48",
+          type: "color",
         },
         "600": {
-          "value": "#c3993a",
-          "type": "color",
-          "description": "Wiggins 600"
+          value: "#c3993a",
+          type: "color",
+          description: "Wiggins 600",
         },
         "700": {
-          "value": "#92732b",
-          "type": "color",
-          "description": "Wiggins 700"
+          value: "#92732b",
+          type: "color",
+          description: "Wiggins 700",
         },
         "800": {
-          "value": "#624c1d",
-          "type": "color",
-          "description": "Wiggins 800"
+          value: "#624c1d",
+          type: "color",
+          description: "Wiggins 800",
         },
         "900": {
-          "value": "#3d3012",
-          "type": "color",
-          "description": "Wiggins 900"
-        }
+          value: "#3d3012",
+          type: "color",
+          description: "Wiggins 900",
+        },
       },
 
-      "chili": {
+      chili: {
         "50": {
-          "value": "#fff7f6",
-          "type": "color",
-          "description": "Chili 50"
+          value: "#fff7f6",
+          type: "color",
+          description: "Chili 50",
         },
         "100": {
-          "value": "#fee6e5",
-          "type": "color",
-          "description": "Chili 100"
+          value: "#fee6e5",
+          type: "color",
+          description: "Chili 100",
         },
         "200": {
-          "value": "#fcc4c2",
-          "type": "color",
-          "description": "Chili 200"
+          value: "#fcc4c2",
+          type: "color",
+          description: "Chili 200",
         },
         "300": {
-          "value": "#faa29f",
-          "type": "color",
-          "description": "Chili 300"
+          value: "#faa29f",
+          type: "color",
+          description: "Chili 300",
         },
         "400": {
-          "value": "#f8807d",
-          "type": "color",
-          "description": "Chili 400"
+          value: "#f8807d",
+          type: "color",
+          description: "Chili 400",
         },
         "500": {
-          "value": "#f65651",
-          "type": "color",
-          "description": "Chili 500"
+          value: "#f65651",
+          type: "color",
+          description: "Chili 500",
         },
         "600": {
-          "value": "#c54541",
-          "type": "color",
-          "description": "Chili 600"
+          value: "#c54541",
+          type: "color",
+          description: "Chili 600",
         },
         "700": {
-          "value": "#943431",
-          "type": "color",
-          "description": "Chili 700"
+          value: "#943431",
+          type: "color",
+          description: "Chili 700",
         },
         "800": {
-          "value": "#622220",
-          "type": "color",
-          "description": "Chili 800"
+          value: "#622220",
+          type: "color",
+          description: "Chili 800",
         },
         "900": {
-          "value": "#3e1514",
-          "type": "color",
-          "description": "Chili 900"
-        }
+          value: "#3e1514",
+          type: "color",
+          description: "Chili 900",
+        },
       },
 
-      "sky": {
+      sky: {
         "50": {
-          "value": "#f3fafc",
-          "type": "color",
-          "description": "Sky 50"
+          value: "#f3fafc",
+          type: "color",
+          description: "Sky 50",
         },
         "100": {
-          "value": "#daf1f4",
-          "type": "color",
-          "description": "Sky 100"
+          value: "#daf1f4",
+          type: "color",
+          description: "Sky 100",
         },
         "200": {
-          "value": "#a8dee6",
-          "type": "color",
-          "description": "Sky 200"
+          value: "#a8dee6",
+          type: "color",
+          description: "Sky 200",
         },
         "300": {
-          "value": "#77cbd8",
-          "type": "color",
-          "description": "Sky 300"
+          value: "#77cbd8",
+          type: "color",
+          description: "Sky 300",
         },
         "400": {
-          "value": "#45b8ca",
-          "type": "color",
-          "description": "Sky 400"
+          value: "#45b8ca",
+          type: "color",
+          description: "Sky 400",
         },
         "500": {
-          "value": "#07a0b8",
-          "type": "color",
-          "description": "Sky 500"
+          value: "#07a0b8",
+          type: "color",
+          description: "Sky 500",
         },
         "600": {
-          "value": "#068093",
-          "type": "color",
-          "description": "Sky 600"
+          value: "#068093",
+          type: "color",
+          description: "Sky 600",
         },
         "700": {
-          "value": "#04606e",
-          "type": "color",
-          "description": "Sky 700"
+          value: "#04606e",
+          type: "color",
+          description: "Sky 700",
         },
         "800": {
-          "value": "#03404a",
-          "type": "color",
-          "description": "Sky 800"
+          value: "#03404a",
+          type: "color",
+          description: "Sky 800",
         },
         "900": {
-          "value": "#02282e",
-          "type": "color",
-          "description": "Sky 900"
-        }
+          value: "#02282e",
+          type: "color",
+          description: "Sky 900",
+        },
       },
 
-      "surfer": {
+      surfer: {
         "50": {
-          "value": "#f8f8f9",
-          "type": "color",
-          "description": "Surfer 50"
+          value: "#f8f8f9",
+          type: "color",
+          description: "Surfer 50",
         },
         "100": {
-          "value": "#ebebed",
-          "type": "color",
-          "description": "Surfer 100"
+          value: "#ebebed",
+          type: "color",
+          description: "Surfer 100",
         },
         "200": {
-          "value": "#d1d0d5",
-          "type": "color",
-          "description": "Surfer 200"
+          value: "#d1d0d5",
+          type: "color",
+          description: "Surfer 200",
         },
         "300": {
-          "value": "#b6b5bc",
-          "type": "color",
-          "description": "Surfer 300"
+          value: "#b6b5bc",
+          type: "color",
+          description: "Surfer 300",
         },
         "400": {
-          "value": "#9c9ba4",
-          "type": "color",
-          "description": "Surfer 400"
+          value: "#9c9ba4",
+          type: "color",
+          description: "Surfer 400",
         },
         "500": {
-          "value": "#7b7986",
-          "type": "color",
-          "description": "Surfer 500"
+          value: "#7b7986",
+          type: "color",
+          description: "Surfer 500",
         },
         "600": {
-          "value": "#5c5b64",
-          "type": "color",
-          "description": "Surfer 600"
+          value: "#5c5b64",
+          type: "color",
+          description: "Surfer 600",
         },
         "700": {
-          "value": "#4a4950",
-          "type": "color",
-          "description": "Surfer 700"
+          value: "#4a4950",
+          type: "color",
+          description: "Surfer 700",
         },
         "800": {
-          "value": "#313036",
-          "type": "color",
-          "description": "Surfer 800"
+          value: "#313036",
+          type: "color",
+          description: "Surfer 800",
         },
         "900": {
-          "value": "#252428",
-          "type": "color",
-          "description": "Surfer 900"
-        }
+          value: "#252428",
+          type: "color",
+          description: "Surfer 900",
+        },
       },
 
-      "kiwi": {
+      kiwi: {
         "50": {
-          "value": "#fdfdf6",
-          "type": "color",
-          "description": "Kiwi 50"
+          value: "#fdfdf6",
+          type: "color",
+          description: "Kiwi 50",
         },
         "100": {
-          "value": "#f8fae2",
-          "type": "color",
-          "description": "Kiwi 100"
+          value: "#f8fae2",
+          type: "color",
+          description: "Kiwi 100",
         },
         "200": {
-          "value": "#f0f3bc",
-          "type": "color",
-          "description": "Kiwi 200"
+          value: "#f0f3bc",
+          type: "color",
+          description: "Kiwi 200",
         },
         "300": {
-          "value": "#e7ec96",
-          "type": "color",
-          "description": "Kiwi 300"
+          value: "#e7ec96",
+          type: "color",
+          description: "Kiwi 300",
         },
         "400": {
-          "value": "#dee570",
-          "type": "color",
-          "description": "Kiwi 400"
+          value: "#dee570",
+          type: "color",
+          description: "Kiwi 400",
         },
         "500": {
-          "value": "#d3dd40",
-          "type": "color",
-          "description": "Kiwi 500"
+          value: "#d3dd40",
+          type: "color",
+          description: "Kiwi 500",
         },
         "600": {
-          "value": "#a9b133",
-          "type": "color",
-          "description": "Kiwi 600"
+          value: "#a9b133",
+          type: "color",
+          description: "Kiwi 600",
         },
         "700": {
-          "value": "#7f8526",
-          "type": "color",
-          "description": "Kiwi 700"
+          value: "#7f8526",
+          type: "color",
+          description: "Kiwi 700",
         },
         "800": {
-          "value": "#54581a",
-          "type": "color",
-          "description": "Kiwi 800"
+          value: "#54581a",
+          type: "color",
+          description: "Kiwi 800",
         },
         "900": {
-          "value": "#353710",
-          "type": "color",
-          "description": "Kiwi 900"
-        }
+          value: "#353710",
+          type: "color",
+          description: "Kiwi 900",
+        },
       },
-      "black": {
-        "value": "#000000",
-        "type": "color",
-        "description": "Black"
+      black: {
+        value: "#000000",
+        type: "color",
+        description: "Black",
       },
-      "white": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "White"
+      white: {
+        value: "#ffffff",
+        type: "color",
+        description: "White",
       },
-      "facebook": {
-        "value": "#4267b2",
-        "type": "color"
+
+      social: {
+        facebook: {
+          value: "#4267b2",
+          type: "color",
+        },
+        twitter: {
+          value: "#1da1f2",
+          type: "color",
+        },
+        whatsapp: {
+          value: "#25d366",
+          type: "color",
+        },
+        youtube: {
+          value: "#ff0000",
+          type: "color",
+        },
+        instagram: {
+          value: "#e1306c",
+          type: "color",
+        },
+        tiktok: {
+          value: "#000000",
+          type: "color",
+        },
+        telegram: {
+          value: "#0088cc",
+          type: "color",
+        },
       },
-      "twitter": {
-        "value": "#1da1f2",
-        "type": "color"
-      }
-    }
-  }
+    },
+  },
 }

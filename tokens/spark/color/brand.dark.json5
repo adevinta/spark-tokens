@@ -171,6 +171,16 @@
         "type": "color",
         "description": "White"
       },
+      "backgroundVariant": {
+        "value": "{color.core.surfer.900}",
+        "type": "color",
+        "description": "Surfer 900"
+      },
+      "onBackgroundVariant": {
+        "value": "{color.core.white}",
+        "type": "color",
+        "description": "White"
+      },
       "surface": {
         "value": "{color.core.black}",
         "type": "color",
@@ -196,60 +206,10 @@
         "type": "color",
         "description": "Surfer 700"
       },
-      "overlay": {
-        "value": "rgba({color.core.surfer.800}, 0.75)",
+      "outlineHigh": {
+        "value": "{color.core.white}",
         "type": "color",
-        "description": "Surfer 800 75%"
-      },
-      "onSurfaceDim1": {
-        "value": "rgba({color.core.white}, 0.72)",
-        "type": "color",
-        "description": "White 72%"
-      },
-      "onSurfaceDim2": {
-        "value": "rgba({color.core.white}, 0.68)",
-        "type": "color",
-        "description": "White 68%"
-      },
-      "onSurfaceDim3": {
-        "value": "rgba({color.core.white}, 0.38)",
-        "type": "color",
-        "description": "White 38%"
-      },
-      "onSurfaceDim4": {
-        "value": "rgba({color.core.white}, 0.16)",
-        "type": "color",
-        "description": "White 16%"
-      },
-      "onSurfaceDim5": {
-        "value": "rgba({color.core.white}, 0.08)",
-        "type": "color",
-        "description": "White 8%"
-      },
-      "primaryDim1": {
-        "value": "rgba({color.core.theblue.V}, 0.72)",
-        "type": "color",
-        "description": "TheBlue V 72%"
-      },
-      "primaryDim2": {
-        "value": "rgba({color.core.theblue.V}, 0.68)",
-        "type": "color",
-        "description": "TheBlue V 68%"
-      },
-      "primaryDim3": {
-        "value": "rgba({color.core.theblue.V}, 0.38)",
-        "type": "color",
-        "description": "TheBlue V 38%"
-      },
-      "primaryDim4": {
-        "value": "rgba({color.core.theblue.V}, 0.16)",
-        "type": "color",
-        "description": "TheBlue V 16%"
-      },
-      "primaryDim5": {
-        "value": "rgba({color.core.theblue.V}, 0.08)",
-        "type": "color",
-        "description": "TheBlue V 8%"
+        "description": "White"
       }
     }
   }

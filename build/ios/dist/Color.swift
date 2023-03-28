@@ -104,6 +104,12 @@ extension Color {
   public static var brandOnBackground: Color {
     return Color.init("brandOnBackground", bundle: bundle)
   }
+  public static var brandBackgroundVariant: Color {
+    return Color.init("brandBackgroundVariant", bundle: bundle)
+  }
+  public static var brandOnBackgroundVariant: Color {
+    return Color.init("brandOnBackgroundVariant", bundle: bundle)
+  }
   public static var brandSurface: Color {
     return Color.init("brandSurface", bundle: bundle)
   }
@@ -119,38 +125,8 @@ extension Color {
   public static var brandOutline: Color {
     return Color.init("brandOutline", bundle: bundle)
   }
-  public static var brandOverlay: Color {
-    return Color.init("brandOverlay", bundle: bundle)
-  }
-  public static var brandOnSurfaceDim1: Color {
-    return Color.init("brandOnSurfaceDim1", bundle: bundle)
-  }
-  public static var brandOnSurfaceDim2: Color {
-    return Color.init("brandOnSurfaceDim2", bundle: bundle)
-  }
-  public static var brandOnSurfaceDim3: Color {
-    return Color.init("brandOnSurfaceDim3", bundle: bundle)
-  }
-  public static var brandOnSurfaceDim4: Color {
-    return Color.init("brandOnSurfaceDim4", bundle: bundle)
-  }
-  public static var brandOnSurfaceDim5: Color {
-    return Color.init("brandOnSurfaceDim5", bundle: bundle)
-  }
-  public static var brandPrimaryDim1: Color {
-    return Color.init("brandPrimaryDim1", bundle: bundle)
-  }
-  public static var brandPrimaryDim2: Color {
-    return Color.init("brandPrimaryDim2", bundle: bundle)
-  }
-  public static var brandPrimaryDim3: Color {
-    return Color.init("brandPrimaryDim3", bundle: bundle)
-  }
-  public static var brandPrimaryDim4: Color {
-    return Color.init("brandPrimaryDim4", bundle: bundle)
-  }
-  public static var brandPrimaryDim5: Color {
-    return Color.init("brandPrimaryDim5", bundle: bundle)
+  public static var brandOutlineHigh: Color {
+    return Color.init("brandOutlineHigh", bundle: bundle)
   }
   public static var coreTheblue50: Color {
     return Color.init("coreTheblue50", bundle: bundle)
@@ -401,11 +377,26 @@ extension Color {
   public static var coreWhite: Color {
     return Color.init("coreWhite", bundle: bundle)
   }
-  public static var coreFacebook: Color {
-    return Color.init("coreFacebook", bundle: bundle)
+  public static var coreSocialFacebook: Color {
+    return Color.init("coreSocialFacebook", bundle: bundle)
   }
-  public static var coreTwitter: Color {
-    return Color.init("coreTwitter", bundle: bundle)
+  public static var coreSocialTwitter: Color {
+    return Color.init("coreSocialTwitter", bundle: bundle)
+  }
+  public static var coreSocialWhatsapp: Color {
+    return Color.init("coreSocialWhatsapp", bundle: bundle)
+  }
+  public static var coreSocialYoutube: Color {
+    return Color.init("coreSocialYoutube", bundle: bundle)
+  }
+  public static var coreSocialInstagram: Color {
+    return Color.init("coreSocialInstagram", bundle: bundle)
+  }
+  public static var coreSocialTiktok: Color {
+    return Color.init("coreSocialTiktok", bundle: bundle)
+  }
+  public static var coreSocialTelegram: Color {
+    return Color.init("coreSocialTelegram", bundle: bundle)
   }
   public static var badgeColor: Color {
     return Color.init("badgeColor", bundle: bundle)

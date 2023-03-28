@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FontColorsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/size_padding_2xl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_primary" />
+            <TextView
+                android:id="@+id/font_color_primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_primary"
+                android:text="Primary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_secondary" />
+            <TextView
+                android:id="@+id/font_color_secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_secondary"
+                android:text="Secondary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_success" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_success"
+                android:text="Success"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_alert" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_alert"
+                android:text="Alert"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_error" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_error"
+                android:text="Error"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_info" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_info"
+                android:text="Info"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_font_content_body1"
+                android:text="@string/font_color_example"
+                android:layout_gravity="center"
+                android:padding="@dimen/size_padding_md"
+                android:textColor="@color/color_brand_neutral" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_content_body1"
+                android:textColor="@color/color_brand_neutral"
+                android:text="Neutral"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

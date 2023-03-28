@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackgroundColorsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/size_padding_2xl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_primary_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_primary_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Primary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_secondary_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_secondary_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Secondary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_success_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_success_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Success"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_alert_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_alert_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Alert"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_error_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_error_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Error"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_info_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_info_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Info"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/size_padding_md"
+                android:elevation="@dimen/cardview_default_elevation"
+                android:background="@color/color_brand_neutral_container" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/size_font_action_callout"
+                android:textColor="@color/color_brand_on_neutral_container"
+                android:padding="@dimen/size_padding_md"
+                android:text="Neutral"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
