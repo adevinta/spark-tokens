@@ -12,6 +12,8 @@ console.log(`cleaning ${iosPath}...`);
 fs.removeSync(iosPath);
 console.log(`cleaning ${androidPath}...`);
 fs.removeSync(androidPath);
+console.log(`cleaning ${androidComposePath}...`);
+fs.removeSync(androidComposePath);
 console.log(`cleaning ${webPath}...`);
 fs.removeSync(webPath);
 
@@ -47,6 +49,7 @@ const assets = {
   buildPath: `${webPath}/images/`,
   iosPath,
   androidPath,
+  androidComposePath,
   actions: [`generateGraphics`],
 };
 
@@ -123,6 +126,12 @@ styleDictionary
             format: `ios-swift/class.swift`,
           },
           {
+            destination: `Opacity.swift`,
+            filter: (token) => token.attributes.category === `opacity`,
+            className: `Opacity`,
+            format: `ios-swift/class.swift`,
+          },
+          {
             destination: `Image.swift`,
             filter: (token) => token.attributes.category === `image`,
             format: `swiftImage`,
@@ -158,6 +167,11 @@ styleDictionary
             filter: (token) =>
               token.attributes.category === `size` &&
               token.attributes.type !== `font`,
+            format: `android/resources`,
+          },
+          {
+            destination: `values/opacity.xml`,
+            filter: (token) => token.attributes.category === `opacity`,
             format: `android/resources`,
           },
         ],

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 29 Mar 2023 14:34:28 GMT
+-->
+<resources>
+  <string name="opacity_overlay">0.75</string>
+  <string name="opacity_dim_1">0.72</string>
+  <string name="opacity_dim_2">0.56</string>
+  <string name="opacity_dim_3">0.4</string>
+  <string name="opacity_dim_4">0.16</string>
+  <string name="opacity_dim_5">0.08</string>
+  
+</resources>
