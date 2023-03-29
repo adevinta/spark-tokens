@@ -3,6 +3,7 @@ const fs = require("fs-extra");
 
 const iosPath = `build/ios/dist/`;
 const androidPath = `build/android/sparktokens/src/main/res/`;
+const androidComposePath = `build/android-compose/sparktokens/src/main/res/`;
 const webPath = `build/web/dist/`;
 
 // before this runs we should clean the directories we are generating files in
@@ -158,6 +159,55 @@ styleDictionary
               token.attributes.category === `size` &&
               token.attributes.type !== `font`,
             format: `android/resources`,
+          },
+        ],
+      },
+
+      compose: {
+        transformGroup: "compose",
+        buildPath: androidComposePath,
+        files: [
+          {
+            destination: "SparkTokensColor.kt",
+            format: "compose/object",
+            className: "SparkTokensColor",
+            packageName: "SparkTokensColor",
+            filter: (token) => token.attributes.category === `color`,
+            options: {
+              // this is important!
+              // this will keep token references intact so that we don't need
+              // to generate *all* color resources for dark mode, only
+              // the specific ones that change
+              outputReferences: true,
+            },
+          },
+          {
+            destination: "SparkTokensFontDimens.kt",
+            format: "compose/object",
+            className: "SparkTokensFontDimens",
+            packageName: "SparkTokensFontDimens",
+            type: "float",
+            filter: (token) =>
+              token.attributes.category === `size` &&
+              token.attributes.type === `font`,
+          },
+          {
+            destination: "SparkTokensSize.kt",
+            format: "compose/object",
+            className: "SparkTokensSize",
+            packageName: "SparkTokensSize",
+            type: "float",
+            filter: (token) =>
+              token.attributes.category === `size` &&
+              token.attributes.type !== `font`,
+          },
+          {
+            destination: "SparkTokensOpacity.kt",
+            format: "compose/object",
+            className: "SparkTokensOpacity",
+            packageName: "SparkTokensOpacity",
+            type: "float",
+            filter: (token) => token.attributes.category === `opacity`,
           },
         ],
       },
