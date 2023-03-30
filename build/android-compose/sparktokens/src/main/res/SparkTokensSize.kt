@@ -1,36 +1,36 @@
 
 
 // Do not edit directly
-// Generated on Wed, 29 Mar 2023 14:34:28 GMT
+// Generated on Thu, 30 Mar 2023 10:54:49 GMT
 
 
 
-package SparkTokensSize;
+package com.adevinta.sparktokenssize;
 
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object SparkTokensSize {
-  val componentBadgeBorderRadius = 8.00.dp
-  val componentBadgePaddingHorizontal = 8.00.dp
-  val componentBadgePaddingVertical = 4.00.dp
-  val componentButtonBorderRadius = 16.00.dp
-  val componentButtonPadding = 8.00.dp
-  val componentButtonSecondaryBorderWidth = 2.00.dp
-  val sizeBorderRadiusLg = 16.00.dp
-  val sizeBorderRadiusMd = 8.00.dp
-  val sizeBorderRadiusNone = 0.00.dp
-  val sizeBorderRadiusSm = 4.00.dp
-  val sizeBorderRadiusXl = 32.00.dp
-  val sizeBorderWidthMd = 2.00.dp
-  val sizeBorderWidthNone = 0.00.dp
-  val sizeBorderWidthSm = 1.00.dp
-  val sizePadding2xl = 32.00.dp
-  val sizePadding3xl = 40.00.dp
-  val sizePaddingLg = 16.00.dp
-  val sizePaddingMd = 8.00.dp
-  val sizePaddingNone = 0.00.dp
-  val sizePaddingSm = 4.00.dp
-  val sizePaddingXl = 24.00.dp
+  val badgeBorderRadius = 0.5
+  val badgePaddingHorizontal = 0.5
+  val badgePaddingVertical = 0.25
+  val borderRadiusLg = 1
+  val borderRadiusMd = 0.5
+  val borderRadiusNone = 0
+  val borderRadiusSm = 0.25
+  val borderRadiusXl = 2
+  val borderWidthMd = 0.125
+  val borderWidthNone = 0
+  val borderWidthSm = 0.0625
+  val buttonBorderRadius = 1
+  val buttonPadding = 0.5
+  val buttonSecondaryBorderWidth = 0.125
+  val padding2xl = 2
+  val padding3xl = 2.5
+  val paddingLg = 1
+  val paddingMd = 0.5
+  val paddingNone = 0
+  val paddingSm = 0.25
+  val paddingXl = 1.5
 }

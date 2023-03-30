@@ -1,44 +1,44 @@
 
 
 // Do not edit directly
-// Generated on Wed, 29 Mar 2023 14:34:28 GMT
+// Generated on Thu, 30 Mar 2023 10:54:49 GMT
 
 
 
-package SparkTokensFontDimens;
+package com.adevinta.sparktokensfontdimens;
 
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object SparkTokensFontDimens {
-  val componentBadgeFontSize = 16.00.sp
-  val componentButtonFontSize = 16.00.sp
-  val sizeFontActionBody1Link = 16.00.sp
-  val sizeFontActionBody1LinkHighlight = 16.00.sp
-  val sizeFontActionBody2Link = 14.00.sp
-  val sizeFontActionBody2LinkHighlight = 14.00.sp
-  val sizeFontActionCallout = 16.00.sp
-  val sizeFontActionCaptionLink = 12.00.sp
-  val sizeFontActionCaptionLinkHighlight = 12.00.sp
-  val sizeFontContentBody1 = 16.00.sp
-  val sizeFontContentBody1Highlight = 16.00.sp
-  val sizeFontContentBody2 = 14.00.sp
-  val sizeFontContentBody2Highlight = 14.00.sp
-  val sizeFontContentCaption = 12.00.sp
-  val sizeFontContentCaptionHighlight = 12.00.sp
-  val sizeFontContentSmall = 10.00.sp
-  val sizeFontContentSmallHighlight = 10.00.sp
-  val sizeFontTitleDisplay1 = 40.00.sp
-  val sizeFontTitleDisplay1Expanded = 48.00.sp
-  val sizeFontTitleDisplay2 = 32.00.sp
-  val sizeFontTitleDisplay2Expanded = 40.00.sp
-  val sizeFontTitleDisplay3 = 24.00.sp
-  val sizeFontTitleDisplay3Expanded = 32.00.sp
-  val sizeFontTitleHeadline1 = 20.00.sp
-  val sizeFontTitleHeadline1Expanded = 24.00.sp
-  val sizeFontTitleHeadline2 = 18.00.sp
-  val sizeFontTitleHeadline2Expanded = 20.00.sp
-  val sizeFontTitleSubhead = 16.00.sp
-  val sizeFontTitleSubheadExpanded = 16.00.sp
+  val badgeFontSize = 1
+  val buttonFontSize = 1
+  val fontActionBody1Link = 1
+  val fontActionBody1LinkHighlight = 1
+  val fontActionBody2Link = 0.875
+  val fontActionBody2LinkHighlight = 0.875
+  val fontActionCallout = 1
+  val fontActionCaptionLink = 0.75
+  val fontActionCaptionLinkHighlight = 0.75
+  val fontContentBody1 = 1
+  val fontContentBody1Highlight = 1
+  val fontContentBody2 = 0.875
+  val fontContentBody2Highlight = 0.875
+  val fontContentCaption = 0.75
+  val fontContentCaptionHighlight = 0.75
+  val fontContentSmall = 0.625
+  val fontContentSmallHighlight = 0.625
+  val fontTitleDisplay1 = 2.5
+  val fontTitleDisplay1Expanded = 3
+  val fontTitleDisplay2 = 2
+  val fontTitleDisplay2Expanded = 2.5
+  val fontTitleDisplay3 = 1.5
+  val fontTitleDisplay3Expanded = 2
+  val fontTitleHeadline1 = 1.25
+  val fontTitleHeadline1Expanded = 1.5
+  val fontTitleHeadline2 = 1.125
+  val fontTitleHeadline2Expanded = 1.25
+  val fontTitleSubhead = 1
+  val fontTitleSubheadExpanded = 1
 }

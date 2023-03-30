@@ -1,21 +1,21 @@
 
 
 // Do not edit directly
-// Generated on Wed, 29 Mar 2023 14:34:28 GMT
+// Generated on Thu, 30 Mar 2023 10:54:49 GMT
 
 
 
-package SparkTokensOpacity;
+package com.adevinta.sparktokensopacity;
 
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.*
 
 object SparkTokensOpacity {
-  val opacityDim1 = 0.72
-  val opacityDim2 = 0.56
-  val opacityDim3 = 0.4
-  val opacityDim4 = 0.16
-  val opacityDim5 = 0.08
-  val opacityOverlay = 0.75
+  val dim1 = 0.72
+  val dim2 = 0.56
+  val dim3 = 0.4
+  val dim4 = 0.16
+  val dim5 = 0.08
+  val overlay = 0.75
 }

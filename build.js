@@ -28,10 +28,12 @@ const styleDictionary = StyleDictionary.extend({
   transform: {
     "attribute/cti": require("./helpers/transforms/attributeCTI"),
     colorRGB: require("./helpers/transforms/colorRGB"),
+    "color/ComposeColor": require("./helpers/transforms/colorHex8"),
     "size/remToFloat": require("./helpers/transforms/remToFloat"),
   },
   // custom formats
   format: {
+    composeColors: require("./helpers/formats/composeColor"),
     swiftColor: require("./helpers/formats/swiftColor"),
     swiftImage: require("./helpers/formats/swiftImage"),
   },
@@ -178,14 +180,14 @@ styleDictionary
       },
 
       compose: {
-        transformGroup: "compose",
         buildPath: androidComposePath,
+        transforms: ["attribute/cti", "name/ti/camel", "color/ComposeColor"],
         files: [
           {
             destination: "SparkTokensColor.kt",
-            format: "compose/object",
+            format: `composeColors`,
             className: "SparkTokensColor",
-            packageName: "SparkTokensColor",
+            packageName: "com.adevinta.sparktokenscolor",
             filter: (token) => token.attributes.category === `color`,
             options: {
               // this is important!
@@ -199,7 +201,7 @@ styleDictionary
             destination: "SparkTokensFontDimens.kt",
             format: "compose/object",
             className: "SparkTokensFontDimens",
-            packageName: "SparkTokensFontDimens",
+            packageName: "com.adevinta.sparktokensfontdimens",
             type: "float",
             filter: (token) =>
               token.attributes.category === `size` &&
@@ -209,7 +211,7 @@ styleDictionary
             destination: "SparkTokensSize.kt",
             format: "compose/object",
             className: "SparkTokensSize",
-            packageName: "SparkTokensSize",
+            packageName: "com.adevinta.sparktokenssize",
             type: "float",
             filter: (token) =>
               token.attributes.category === `size` &&
@@ -219,7 +221,7 @@ styleDictionary
             destination: "SparkTokensOpacity.kt",
             format: "compose/object",
             className: "SparkTokensOpacity",
-            packageName: "SparkTokensOpacity",
+            packageName: "com.adevinta.sparktokensopacity",
             type: "float",
             filter: (token) => token.attributes.category === `opacity`,
           },
