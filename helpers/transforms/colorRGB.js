@@ -1,10 +1,10 @@
-const chroma = require("chroma-js");
+const Color = require("tinycolor2");
 
 module.exports = {
   type: `value`,
   matcher: (token) => token.attributes.category === `color`,
   transformer: (token) => {
-    const [r, g, b, a] = chroma(token.value).rgba();
+    const { r, g, b, a } = Color(token.value).toRgb();
     return {
       alpha: a.toFixed(4),
       blue: (b / 255).toFixed(4),
