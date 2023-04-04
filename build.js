@@ -4,6 +4,7 @@ const fs = require("fs-extra");
 const iosPath = `build/ios/dist/`;
 const androidPath = `build/android/sparktokens/src/main/res/`;
 const webPath = `build/web/dist/`;
+const figmaPath = `build/figma/dist/`;
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -13,6 +14,8 @@ console.log(`cleaning ${androidPath}...`);
 fs.removeSync(androidPath);
 console.log(`cleaning ${webPath}...`);
 fs.removeSync(webPath);
+console.log(`cleaning ${figmaPath}...`);
+fs.removeSync(figmaPath);
 
 // Adding custom actions, transforms, and formats
 const styleDictionary = StyleDictionary.extend({
@@ -29,6 +32,7 @@ const styleDictionary = StyleDictionary.extend({
   },
   // custom formats
   format: {
+    figmaTokens: require("./helpers/formats/figmaTokens"),
     swiftColor: require("./helpers/formats/swiftColor"),
     swiftImage: require("./helpers/formats/swiftImage"),
   },
@@ -86,6 +90,20 @@ styleDictionary
           {
             destination: `tokens.json`,
             format: `json/flat`,
+          },
+        ],
+      },
+
+      json: {
+        transformGroup: "js",
+        buildPath: figmaPath,
+        files: [
+          {
+            destination: "tokens.json",
+            filter: (token) =>
+              token.attributes.category === `color` &&
+              token.path[0] !== `component`,
+            format: "figmaTokens",
           },
         ],
       },
