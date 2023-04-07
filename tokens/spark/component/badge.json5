@@ -1,27 +1,29 @@
 {
-  component: {
-    badge: {
-      "font-size": { value: "{size.font.action.callout.value}" },
-      "border-radius": { value: "{size.border.radius.md.value}" },
-      color: { value: "{color.brand.onInfo.value}" },
-      "background-color": { value: "{color.brand.info.value}" },
-      "padding-vertical": { value: "{size.padding.sm.value}" },
-      "padding-horizontal": { value: "{size.padding.md.value}" },
+  "component": {
+    "badge": {
+      "font-size": { "value": "{size.font.action.callout.value}" },
+      "border-radius": { "value": "{size.border.radius.md.value}" },
+      "color": { "value": "{color.brand.feedback.onInfo.value}" },
+      "background-color": { "value": "{color.brand.feedback.info.value}" },
+      "padding-vertical": { "value": "{size.padding.sm.value}" },
+      "padding-horizontal": { "value": "{size.padding.md.value}" },
 
-      variant: {
-        error: {
-          color: { value: "{color.brand.onError.value}" },
-          "background-color": { value: "{color.brand.error.value}" },
+      "variant": {
+        "error": {
+          "color": { "value": "{color.brand.feedback.onError.value}" },
+          "background-color": { "value": "{color.brand.feedback.error.value}" }
         },
-        alert: {
-          color: { value: "{color.brand.onAlert.value}" },
-          "background-color": { value: "{color.brand.alert.value}" },
+        "alert": {
+          "color": { "value": "{color.brand.feedback.onAlert.value}" },
+          "background-color": { "value": "{color.brand.feedback.alert.value}" }
         },
-        success: {
-          color: { value: "{color.brand.onSuccess.value}" },
-          "background-color": { value: "{color.brand.success.value}" },
-        },
-      },
-    },
-  },
+        "success": {
+          "color": { "value": "{color.brand.feedback.onSuccess.value}" },
+          "background-color": {
+            "value": "{color.brand.feedback.success.value}"
+          }
+        }
+      }
+    }
+  }
 }
