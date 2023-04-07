@@ -16,6 +16,10 @@ A tool to synchronize Adevinta design tokens between Figma and our three platfor
 - [tokens](tokens): source token files, with one folder by brand.
 - [build.js](build.js): code that runs Style Dictionary.
 
+## USAGE
+
+You can define the brand folder you want to generate tokens from. In [package.json](package.json), change spark by your own brand folder on this line: `"build": "node build.js spark"`.
+
 ## WEB DEMO
 
 1. Go into the [build/web/demo](build/web/demo) directory with `cd build/web/demo`

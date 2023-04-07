@@ -1,9 +1,13 @@
 const StyleDictionary = require("style-dictionary");
 const fs = require("fs-extra");
 
-const iosPath = `build/ios/dist/`;
-const androidPath = `build/android/sparktokens/src/main/res/`;
-const webPath = `build/web/dist/`;
+// read brand folder
+const brand = process.argv[2] || "spark";
+
+const iosPath = `build/ios/dist/${brand}/`;
+const androidPath = `build/android/${brand}tokens/src/main/res/`;
+const webPath = `build/web/dist/${brand}/`;
+// const figmaPath = `build/figma/dist/`;
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -13,6 +17,8 @@ console.log(`cleaning ${androidPath}...`);
 fs.removeSync(androidPath);
 console.log(`cleaning ${webPath}...`);
 fs.removeSync(webPath);
+// console.log(`cleaning ${figmaPath}...`);
+// fs.removeSync(figmaPath);
 
 // Adding custom actions, transforms, and formats
 const styleDictionary = StyleDictionary.extend({
@@ -29,6 +35,7 @@ const styleDictionary = StyleDictionary.extend({
   },
   // custom formats
   format: {
+    // figmaTokens: require("./helpers/formats/figmaTokens"),
     swiftColor: require("./helpers/formats/swiftColor"),
     swiftImage: require("./helpers/formats/swiftImage"),
   },
@@ -61,7 +68,7 @@ styleDictionary
     source: [
       // this is saying find any files in the tokens folder
       // that does not have .dark or .light, but ends in .json5
-      `tokens/**/!(*.${modes.join(`|*.`)}).json5`,
+      `tokens/${brand}/**/!(*.${modes.join(`|*.`)}).json5`,
     ],
 
     platforms: {
@@ -89,6 +96,20 @@ styleDictionary
           },
         ],
       },
+
+      // json: {
+      //   transformGroup: "js",
+      //   buildPath: figmaPath,
+      //   files: [
+      //     {
+      //       destination: "tokens.json",
+      //       filter: (token) =>
+      //         token.attributes.category === `color` &&
+      //         token.path[0] !== `component`,
+      //       format: "figmaTokens",
+      //     },
+      //   ],
+      // },
 
       assets: Object.assign(assets, {
         // mode lets the custom actions know which color mode they are being run on
@@ -172,8 +193,8 @@ styleDictionary
   .extend({
     // Using the include array so that theme token overrides don't show
     // warnings in the console.
-    include: [`tokens/**/!(*.${modes.join(`|*.`)}).json5`],
-    source: [`tokens/**/*.dark.json5`],
+    include: [`tokens/${brand}/**/!(*.${modes.join(`|*.`)}).json5`],
+    source: [`tokens/${brand}/**/*.dark.json5`],
     platforms: {
       css: {
         transformGroup: `css`,
@@ -215,13 +236,13 @@ styleDictionary
   })
   .buildAllPlatforms();
 
-// High-Contrast Dark Mode
-// we will only build the files we need to, we don't need to rebuild all the files
+// // High-Contrast Dark Mode
+// // we will only build the files we need to, we don't need to rebuild all the files
 console.log(`\n\n🌈🌙 Building high-contrast dark mode...`);
 styleDictionary
   .extend({
-    include: [`tokens/**/!(*.${modes.join(`|*.`)}).json5`],
-    source: [`tokens/**/*.hcDark.json5`],
+    include: [`tokens/${brand}/**/!(*.${modes.join(`|*.`)}).json5`],
+    source: [`tokens/${brand}/**/*.hcDark.json5`],
 
     platforms: {
       css: {
@@ -252,13 +273,13 @@ styleDictionary
   })
   .buildAllPlatforms();
 
-// High-Contrast Light Mode
-// we will only build the files we need to, we don't need to rebuild all the files
+// // High-Contrast Light Mode
+// // we will only build the files we need to, we don't need to rebuild all the files
 console.log(`\n\n🌈☀️ Building high-contrast light mode...`);
 styleDictionary
   .extend({
-    include: [`tokens/**/!(*.${modes.join(`|*.`)}).json5`],
-    source: [`tokens/**/*.hc.json5`],
+    include: [`tokens/${brand}/**/!(*.${modes.join(`|*.`)}).json5`],
+    source: [`tokens/${brand}/**/*.hc.json5`],
 
     platforms: {
       css: {

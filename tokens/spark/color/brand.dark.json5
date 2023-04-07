@@ -2,214 +2,326 @@
   "color": {
     "brand": {
       "primary": {
-        "value": "{color.core.theblue.V}",
-        "type": "color",
-        "description": "TheBlue V"
-      },
-      "onPrimary": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "primaryContainer": {
-        "value": "{color.core.theblue.800}",
-        "type": "color",
-        "description": "TheBlue 800"
-      },
-      "onPrimaryContainer": {
-        "value": "{color.core.theblue.200}",
-        "type": "color",
-        "description": "TheBlue 200"
-      },
-      "primaryVariant": {
-        "value": "{color.core.theblue.200}",
-        "type": "color",
-        "description": "TheBlue 200"
-      },
-      "onPrimaryVariant": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
+        "primary": {
+          "value": "{color.core.theblue.V}",
+          "type": "color",
+          "description": "TheBlue V"
+        },
+        "onPrimary": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "primaryContainer": {
+          "value": "{color.core.theblue.800}",
+          "type": "color",
+          "description": "TheBlue 800"
+        },
+        "onPrimaryContainer": {
+          "value": "{color.core.theblue.200}",
+          "type": "color",
+          "description": "TheBlue 200"
+        },
+        "primaryVariant": {
+          "value": "{color.core.theblue.200}",
+          "type": "color",
+          "description": "TheBlue 200"
+        },
+        "onPrimaryVariant": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        }
       },
       "secondary": {
-        "value": "{color.core.sugarcotton.400}",
-        "type": "color",
-        "description": "Sugarcotton 400"
+        "secondary": {
+          "value": "{color.core.sugarcotton.400}",
+          "type": "color",
+          "description": "Sugarcotton 400"
+        },
+        "onSecondary": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "secondaryContainer": {
+          "value": "{color.core.sugarcotton.800}",
+          "type": "color",
+          "description": "Sugarcotton 800"
+        },
+        "onSecondaryContainer": {
+          "value": "{color.core.sugarcotton.200}",
+          "type": "color",
+          "description": "Sugarcotton 200"
+        },
+        "secondaryVariant": {
+          "value": "{color.core.sugarcotton.300}",
+          "type": "color",
+          "description": "Sugarcotton 300"
+        },
+        "onSecondaryVariant": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        }
       },
-      "onSecondary": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
+      "base": {
+        "background": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "onBackground": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "backgroundVariant": {
+          "value": "{color.core.surfer.900}",
+          "type": "color",
+          "description": "Surfer 900"
+        },
+        "onBackgroundVariant": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "surface": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "onSurface": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "surfaceInverse": {
+          "value": "{color.core.surfer.50}",
+          "type": "color",
+          "description": "Surfer 50"
+        },
+        "onSurfaceInverse": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "outline": {
+          "value": "{color.core.surfer.700}",
+          "type": "color",
+          "description": "Surfer 700"
+        },
+        "outlineHigh": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        }
       },
-      "secondaryContainer": {
-        "value": "{color.core.sugarcotton.800}",
-        "type": "color",
-        "description": "Sugarcotton 800"
+      "feedback": {
+        "success": {
+          "value": "{color.core.apple.400}",
+          "type": "color",
+          "description": "Apple 400"
+        },
+        "onSuccess": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "alert": {
+          "value": "{color.core.wiggins.400}",
+          "type": "color",
+          "description": "Wiggins 400"
+        },
+        "onAlert": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "error": {
+          "value": "{color.core.chili.400}",
+          "type": "color",
+          "description": "Chilli 400"
+        },
+        "onError": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "info": {
+          "value": "{color.core.sky.400}",
+          "type": "color",
+          "description": "Sky 400"
+        },
+        "onInfo": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "neutral": {
+          "value": "{color.core.surfer.500}",
+          "type": "color",
+          "description": "Surfer 500"
+        },
+        "onNeutral": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "successContainer": {
+          "value": "{color.core.apple.800}",
+          "type": "color",
+          "description": "Apple 800"
+        },
+        "onSuccessContainer": {
+          "value": "{color.core.apple.200}",
+          "type": "color",
+          "description": "Apple 200"
+        },
+        "alertContainer": {
+          "value": "{color.core.wiggins.800}",
+          "type": "color",
+          "description": "Wiggins 800"
+        },
+        "onAlertContainer": {
+          "value": "{color.core.wiggins.200}",
+          "type": "color",
+          "description": "Wiggins 200"
+        },
+        "errorContainer": {
+          "value": "{color.core.chili.800}",
+          "type": "color",
+          "description": "Chilli 800"
+        },
+        "onErrorContainer": {
+          "value": "{color.core.chili.200}",
+          "type": "color",
+          "description": "Chilli 200"
+        },
+        "infoContainer": {
+          "value": "{color.core.sky.800}",
+          "type": "color",
+          "description": "Sky 800"
+        },
+        "onInfoContainer": {
+          "value": "{color.core.sky.200}",
+          "type": "color",
+          "description": "Sky 200"
+        },
+        "neutralContainer": {
+          "value": "{color.core.surfer.800}",
+          "type": "color",
+          "description": "Surfer 800"
+        },
+        "onNeutralContainer": {
+          "value": "{color.core.surfer.200}",
+          "type": "color",
+          "description": "Surfer 200"
+        }
       },
-      "onSecondaryContainer": {
-        "value": "{color.core.sugarcotton.200}",
-        "type": "color",
-        "description": "Sugarcotton 200"
-      },
-      "secondaryVariant": {
-        "value": "{color.core.sugarcotton.300}",
-        "type": "color",
-        "description": "Sugarcotton 300"
-      },
-      "onSecondaryVariant": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "success": {
-        "value": "{color.core.apple.400}",
-        "type": "color",
-        "description": "Apple 400"
-      },
-      "onSuccess": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "successContainer": {
-        "value": "{color.core.apple.800}",
-        "type": "color",
-        "description": "Apple 800"
-      },
-      "onSuccessContainer": {
-        "value": "{color.core.apple.200}",
-        "type": "color",
-        "description": "Apple 200"
-      },
-      "alert": {
-        "value": "{color.core.wiggins.400}",
-        "type": "color",
-        "description": "Wiggins 400"
-      },
-      "onAlert": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "alertContainer": {
-        "value": "{color.core.wiggins.800}",
-        "type": "color",
-        "description": "Wiggins 800"
-      },
-      "onAlertContainer": {
-        "value": "{color.core.wiggins.200}",
-        "type": "color",
-        "description": "Wiggins 200"
-      },
-      "error": {
-        "value": "{color.core.chili.400}",
-        "type": "color",
-        "description": "Chilli 400"
-      },
-      "onError": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "errorContainer": {
-        "value": "{color.core.chili.800}",
-        "type": "color",
-        "description": "Chilli 800"
-      },
-      "onErrorContainer": {
-        "value": "{color.core.chili.200}",
-        "type": "color",
-        "description": "Chilli 200"
-      },
-      "info": {
-        "value": "{color.core.sky.400}",
-        "type": "color",
-        "description": "Sky 400"
-      },
-      "onInfo": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "infoContainer": {
-        "value": "{color.core.sky.800}",
-        "type": "color",
-        "description": "Sky 800"
-      },
-      "onInfoContainer": {
-        "value": "{color.core.sky.200}",
-        "type": "color",
-        "description": "Sky 200"
-      },
-      "neutral": {
-        "value": "{color.core.surfer.500}",
-        "type": "color",
-        "description": "Surfer 500"
-      },
-      "onNeutral": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "neutralContainer": {
-        "value": "{color.core.surfer.800}",
-        "type": "color",
-        "description": "Surfer 800"
-      },
-      "onNeutralContainer": {
-        "value": "{color.core.surfer.200}",
-        "type": "color",
-        "description": "Surfer 200"
-      },
-      "background": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "onBackground": {
-        "value": "{color.core.white}",
-        "type": "color",
-        "description": "White"
-      },
-      "backgroundVariant": {
-        "value": "{color.core.surfer.900}",
-        "type": "color",
-        "description": "Surfer 900"
-      },
-      "onBackgroundVariant": {
-        "value": "{color.core.white}",
-        "type": "color",
-        "description": "White"
-      },
-      "surface": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "onSurface": {
-        "value": "{color.core.white}",
-        "type": "color",
-        "description": "White"
-      },
-      "surfaceInverse": {
-        "value": "{color.core.surfer.50}",
-        "type": "color",
-        "description": "Surfer 50"
-      },
-      "onSurfaceInverse": {
-        "value": "{color.core.black}",
-        "type": "color",
-        "description": "Black"
-      },
-      "outline": {
-        "value": "{color.core.surfer.700}",
-        "type": "color",
-        "description": "Surfer 700"
-      },
-      "outlineHigh": {
-        "value": "{color.core.white}",
-        "type": "color",
-        "description": "White"
+      "states": {
+        "hovered": {
+          "primary": {
+            "value": "{color.core.theblue.400}",
+            "type": "color",
+            "description": "TheBlue 400"
+          },
+          "primaryVariant": {
+            "value": "{color.core.theblue.300}",
+            "type": "color",
+            "description": "TheBlue 300"
+          },
+          "secondary": {
+            "value": "{color.core.sugarcotton.500}",
+            "type": "color",
+            "description": "sugarcotton 500"
+          },
+          "secondaryVariant": {
+            "value": "{color.core.sugarcotton.400}",
+            "type": "color",
+            "description": "sugarcotton 400"
+          },
+          "background": {
+            "value": "{color.core.theblue.900}",
+            "type": "color",
+            "description": "TheBlue 900"
+          },
+          "surface": {
+            "value": "{color.core.theblue.900}",
+            "type": "color",
+            "description": "TheBlue 900"
+          },
+          "surfaceInverse": {
+            "value": "{color.core.surfer.100}",
+            "type": "color",
+            "description": "Surfer 100"
+          },
+          "success": {
+            "value": "{color.core.apple.500}",
+            "type": "color",
+            "description": "Apple 500"
+          },
+          "alert": {
+            "value": "{color.core.wiggins.500}",
+            "type": "color",
+            "description": "Wiggins 500"
+          },
+          "error": {
+            "value": "{color.core.chili.500}",
+            "type": "color",
+            "description": "Chili 500"
+          },
+          "info": {
+            "value": "{color.core.sky.500}",
+            "type": "color",
+            "description": "Sky 500"
+          },
+          "neutral": {
+            "value": "{color.core.surfer.600}",
+            "type": "color",
+            "description": "Surfer 600"
+          },
+          "primaryContainer": {
+            "value": "{color.core.theblue.900}",
+            "type": "color",
+            "description": "TheBlue 900"
+          },
+          "secondaryContainer": {
+            "value": "{color.core.sugarcotton.900}",
+            "type": "color",
+            "description": "Sugarcotton 900"
+          },
+          "successContainer": {
+            "value": "{color.core.apple.900}",
+            "type": "color",
+            "description": "Apple 900"
+          },
+          "alertContainer": {
+            "value": "{color.core.wiggins.900}",
+            "type": "color",
+            "description": "Wiggins 900"
+          },
+          "errorContainer": {
+            "value": "{color.core.chili.900}",
+            "type": "color",
+            "description": "Chili 900"
+          },
+          "infoContainer": {
+            "value": "{color.core.sky.900}",
+            "type": "color",
+            "description": "Sky 900"
+          },
+          "neutralContainer": {
+            "value": "{color.core.surfer.900}",
+            "type": "color",
+            "description": "Surfer 900"
+          },
+          "outline": {
+            "value": "{color.core.theblue.V}",
+            "type": "color",
+            "description": "TheBlue V"
+          }
+        }
       }
     }
   }
