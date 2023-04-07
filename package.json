@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A tool to synchronize Adevinta design tokens between Figma and our three platforms (web, android, iOS).",
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.js spark",
+    "build:figma": "node build.js --platform json",
     "start": "npm run build && chokidar \"tokens/**/*\" -c \"npm run build\""
   },
   "repository": {
