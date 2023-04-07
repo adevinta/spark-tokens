@@ -19,12 +19,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_primary">
+            app:strokeColor="@color/color_brand_primary_primary">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Primary"/>
         </com.google.android.material.card.MaterialCardView>
@@ -34,12 +34,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_secondary">
+            app:strokeColor="@color/color_brand_secondary_secondary">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Secondary"/>
         </com.google.android.material.card.MaterialCardView>
@@ -49,12 +49,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_success">
+            app:strokeColor="@color/color_brand_feedback_success">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Success"/>
         </com.google.android.material.card.MaterialCardView>
@@ -64,12 +64,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_alert">
+            app:strokeColor="@color/color_brand_feedback_alert">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Alert"/>
         </com.google.android.material.card.MaterialCardView>
@@ -79,12 +79,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_error">
+            app:strokeColor="@color/color_brand_feedback_error">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Error"/>
         </com.google.android.material.card.MaterialCardView>
@@ -94,12 +94,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_info">
+            app:strokeColor="@color/color_brand_feedback_info">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Info"/>
         </com.google.android.material.card.MaterialCardView>
@@ -109,12 +109,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_neutral">
+            app:strokeColor="@color/color_brand_feedback_neutral">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_on_background"
+                android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
                 android:text="Neutral"/>
         </com.google.android.material.card.MaterialCardView>

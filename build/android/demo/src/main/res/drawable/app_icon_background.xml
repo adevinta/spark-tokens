@@ -6,8 +6,8 @@
 
     <path
         android:pathData="M60 0H0V60H60V0Z"
-        android:fillColor="@color/color_brand_background" />
+        android:fillColor="@color/color_brand_base_background" />
     <path
         android:pathData="M60 0H0V60L60 0Z"
-        android:fillColor="@color/color_brand_background_variant" />
+        android:fillColor="@color/color_brand_base_background_variant" />
 </vector>

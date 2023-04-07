@@ -29,7 +29,7 @@
             android:layout_margin="@dimen/size_padding_lg"
             android:textAlignment="center"
             android:textSize="@dimen/size_font_title_display1"
-            android:textColor="@color/color_brand_primary"
+            android:textColor="@color/color_brand_primary_primary"
             android:text="@string/home_fragment_welcome" />
     </LinearLayout>
 
