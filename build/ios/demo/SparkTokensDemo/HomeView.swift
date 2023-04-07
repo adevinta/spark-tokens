@@ -17,11 +17,11 @@ struct HomeView: View {
                 .frame(minWidth: 0, maxWidth: 100)
                 .padding(.bottom, Size.paddingMd)
             Text("Spark Tokens - iOS Demo")
-                .foregroundColor(Color.brandPrimary)
+                .foregroundColor(Color.brandPrimaryPrimary)
                 .font(.system(size: Size.fontTitleDisplay1))
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandOnPrimary)
+        .background(Color.brandPrimaryOnPrimary)
         .edgesIgnoringSafeArea(.all)
     }
 }

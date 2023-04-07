@@ -29,6 +29,6 @@ struct GraphicsView: View {
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandOnPrimary)
+        .background(Color.brandPrimaryOnPrimary)
     }
 }

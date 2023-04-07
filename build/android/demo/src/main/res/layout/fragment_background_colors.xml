@@ -21,13 +21,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_primary_container" />
+                android:background="@color/color_brand_primary_primary_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_primary_container"
+                android:textColor="@color/color_brand_primary_on_primary_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Primary"/>
         </LinearLayout>
@@ -42,13 +42,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_secondary_container" />
+                android:background="@color/color_brand_secondary_secondary_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_secondary_container"
+                android:textColor="@color/color_brand_secondary_on_secondary_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Secondary"/>
         </LinearLayout>
@@ -63,13 +63,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_success_container" />
+                android:background="@color/color_brand_feedback_success_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_success_container"
+                android:textColor="@color/color_brand_feedback_on_success_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Success"/>
         </LinearLayout>
@@ -84,13 +84,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_alert_container" />
+                android:background="@color/color_brand_feedback_alert_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_alert_container"
+                android:textColor="@color/color_brand_feedback_on_alert_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Alert"/>
         </LinearLayout>
@@ -105,13 +105,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_error_container" />
+                android:background="@color/color_brand_feedback_error_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_error_container"
+                android:textColor="@color/color_brand_feedback_on_error_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Error"/>
         </LinearLayout>
@@ -126,13 +126,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_info_container" />
+                android:background="@color/color_brand_feedback_info_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_info_container"
+                android:textColor="@color/color_brand_feedback_on_info_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Info"/>
         </LinearLayout>
@@ -147,13 +147,13 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_neutral_container" />
+                android:background="@color/color_brand_feedback_neutral_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_on_neutral_container"
+                android:textColor="@color/color_brand_feedback_on_neutral_container"
                 android:padding="@dimen/size_padding_md"
                 android:text="Neutral"/>
         </LinearLayout>

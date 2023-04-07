@@ -16,10 +16,6 @@ A tool to synchronize Adevinta design tokens between Figma and our three platfor
 - [tokens](tokens): source token files, with one folder by brand.
 - [build.js](build.js): code that runs Style Dictionary.
 
-## USAGE
-
-You can define the brand folder you want to generate tokens from. In [package.json](package.json), change spark by your own brand folder on this line: `"build": "node build.js spark"`.
-
 ## WEB DEMO
 
 1. Go into the [build/web/demo](build/web/demo) directory with `cd build/web/demo`
@@ -49,6 +45,18 @@ Note: if you add new files in the Style Dictionary configuration, you will need 
 5. Click the ▶️ button at the top to build and run the app in an emulator (you will need to have an emulator downloaded already)
 
 Note: after you make any changes to the design tokens, you just need to rebuild Style Dictionary with `npm run build` in the root directory. Or you can use `npm start` which will watch for changes. After Style Dictionary builds, you can rebuild the Android application by clicking the ▶️ button in Android Studio.
+
+## BRAND USAGE
+
+You can define the brand folder you want to generate tokens from. In [package.json](package.json), change spark by your own brand folder on this line:
+
+`"build": "node build.js spark"`.
+
+Then, you need to edit manually these config files to make the demos work with your own tokens:
+
+- for the web demo: modify the paths in [build/web/demo/.eleventy.js](build/web/demo/.eleventy.js) and [build/web/demo/\_data/color.js](/build/web/demo/_data/color.js)
+- for the iOS demo: modify the paths for `spec.source_files`, `spec.public_header_files` and `spec.resources` in [SparkTokens.podspec](SparkTokens.podspec)
+- for the Android demo, unless you know Gradle, refactor the `sparktokens` module to rename it through Android Studio
 
 ## LICENSE
 

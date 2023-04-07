@@ -88,10 +88,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "build/ios/dist/**/*.{h,m,swift}"
+  spec.source_files  = "build/ios/dist/spark/**/*.{h,m,swift}"
   # spec.exclude_files = "build/ios/demo"
 
-  spec.public_header_files = "build/ios/dist/**/*.h"
+  spec.public_header_files = "build/ios/dist/spark/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "build/ios/dist/SparkTokens.xcassets"
+  spec.resources = "build/ios/dist/spark/SparkTokens.xcassets"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 

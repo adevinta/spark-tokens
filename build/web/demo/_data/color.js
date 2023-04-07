@@ -1,15 +1,15 @@
-const tokens = require("spark-tokens/build/web/dist/tokens.json");
+const tokens = require("spark-tokens/build/web/dist/spark/tokens.json");
 
 // Hard-coding which tokens to show in the doc site
 // just so that the line up (appear in the same order) and are grouped nicely
 const colors = [
-  "primary",
-  "secondary",
-  "success",
-  "alert",
-  "error",
-  "info",
-  "neutral",
+  "primary-primary",
+  "secondary-secondary",
+  "feedback-success",
+  "feedback-alert",
+  "feedback-error",
+  "feedback-info",
+  "feedback-neutral",
 ];
 
 module.exports = {

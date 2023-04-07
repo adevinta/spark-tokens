@@ -13,13 +13,13 @@ struct TokensView: View {
             List() {
                 NavigationLink(destination: BackgroundColorView()) {
                     Text("Background Colors")
-                }.listRowBackground(Color.brandPrimaryContainer)
+                }.listRowBackground(Color.brandPrimaryPrimaryContainer)
                 NavigationLink(destination: BorderView()) {
                     Text("Border Colors")
-                }.listRowBackground(Color.brandPrimaryContainer)
+                }.listRowBackground(Color.brandPrimaryPrimaryContainer)
                 NavigationLink(destination: FontColorView()) {
                     Text("Font Colors")
-                }.listRowBackground(Color.brandPrimaryContainer)
+                }.listRowBackground(Color.brandPrimaryPrimaryContainer)
             }.navigationBarTitle("Tokens")
         }
         .navigationViewStyle(StackNavigationViewStyle())

@@ -35,16 +35,16 @@ struct BorderView: View {
                 VStack {
                     // SwiftUI has a maximum of 10 children...
                     Group {
-                        BorderRow(label:"Primary", color:Color.brandPrimary)
-                        BorderRow(label:"Secondary", color:Color.brandSecondary)
+                        BorderRow(label:"Primary", color:Color.brandPrimaryPrimary)
+                        BorderRow(label:"Secondary", color:Color.brandSecondarySecondary)
                     }
                     
                     Group {
-                        BorderRow(label:"Success", color:Color.brandSuccess)
-                        BorderRow(label:"Alert", color:Color.brandAlert)
-                        BorderRow(label:"Error", color:Color.brandError)
-                        BorderRow(label:"Info", color:Color.brandInfo)
-                        BorderRow(label:"Neutral", color:Color.brandNeutral)
+                        BorderRow(label:"Success", color:Color.brandFeedbackSuccess)
+                        BorderRow(label:"Alert", color:Color.brandFeedbackAlert)
+                        BorderRow(label:"Error", color:Color.brandFeedbackError)
+                        BorderRow(label:"Info", color:Color.brandFeedbackInfo)
+                        BorderRow(label:"Neutral", color:Color.brandFeedbackNeutral)
                     }
                     
                 }
@@ -52,7 +52,7 @@ struct BorderView: View {
         }
         .navigationBarTitle("Border Colors")
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandOnPrimary)
+        .background(Color.brandPrimaryOnPrimary)
 //        .edgesIgnoringSafeArea(.all)
     }
 }

@@ -22,14 +22,14 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_primary" />
+                android:textColor="@color/color_brand_primary_primary" />
             <TextView
                 android:id="@+id/font_color_primary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_primary"
+                android:textColor="@color/color_brand_primary_primary"
                 android:text="Primary"/>
         </LinearLayout>
 
@@ -44,14 +44,14 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_secondary" />
+                android:textColor="@color/color_brand_secondary_secondary" />
             <TextView
                 android:id="@+id/font_color_secondary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_secondary"
+                android:textColor="@color/color_brand_secondary_secondary"
                 android:text="Secondary"/>
         </LinearLayout>
 
@@ -66,13 +66,13 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_success" />
+                android:textColor="@color/color_brand_feedback_success" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_success"
+                android:textColor="@color/color_brand_feedback_success"
                 android:text="Success"/>
         </LinearLayout>
 
@@ -87,13 +87,13 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_alert" />
+                android:textColor="@color/color_brand_feedback_alert" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_alert"
+                android:textColor="@color/color_brand_feedback_alert"
                 android:text="Alert"/>
         </LinearLayout>
 
@@ -108,13 +108,13 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_error" />
+                android:textColor="@color/color_brand_feedback_error" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_error"
+                android:textColor="@color/color_brand_feedback_error"
                 android:text="Error"/>
         </LinearLayout>
 
@@ -129,13 +129,13 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_info" />
+                android:textColor="@color/color_brand_feedback_info" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_info"
+                android:textColor="@color/color_brand_feedback_info"
                 android:text="Info"/>
         </LinearLayout>
 
@@ -150,13 +150,13 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_neutral" />
+                android:textColor="@color/color_brand_feedback_neutral" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_neutral"
+                android:textColor="@color/color_brand_feedback_neutral"
                 android:text="Neutral"/>
         </LinearLayout>
     </LinearLayout>

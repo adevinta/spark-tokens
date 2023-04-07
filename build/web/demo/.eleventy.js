@@ -7,14 +7,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy({
-    "node_modules/spark-tokens/build/web/dist/variables.css":
+    "node_modules/spark-tokens/build/web/dist/spark/variables.css":
       "css/variables.css",
-    "node_modules/spark-tokens/build/web/dist/variables-dark.css":
+    "node_modules/spark-tokens/build/web/dist/spark/variables-dark.css":
       "css/variables-dark.css",
-    "node_modules/spark-tokens/build/web/dist/variables-hc.css":
+    "node_modules/spark-tokens/build/web/dist/spark/variables-hc.css":
       "css/variables-hc.css",
-    "node_modules/spark-tokens/build/web/dist/variables-hc-dark.css":
+    "node_modules/spark-tokens/build/web/dist/spark/variables-hc-dark.css":
       "css/variables-hc-dark.css",
-    "node_modules/spark-tokens/build/web/dist/images": "images",
+    "node_modules/spark-tokens/build/web/dist/spark/images": "images",
   });
 };

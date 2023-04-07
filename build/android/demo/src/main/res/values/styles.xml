@@ -1,14 +1,14 @@
 <resources>
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/color_brand_primary</item>
-        <item name="colorPrimaryDark">@color/color_brand_primary</item>
-        <item name="colorAccent">@color/color_brand_secondary</item>
-        <item name="colorSecondary">@color/color_brand_secondary</item>
-        <item name="colorOnPrimary">@color/color_brand_on_primary</item>
-        <item name="colorOnSurface">@color/color_brand_on_surface</item>
-        <item name="colorSurface">@color/color_brand_surface</item>
-        <item name="colorPrimarySurface">@color/color_brand_primary</item>
-        <item name="android:colorBackground">@color/color_brand_background</item>
+        <item name="colorPrimary">@color/color_brand_primary_primary</item>
+        <item name="colorPrimaryDark">@color/color_brand_primary_primary</item>
+        <item name="colorAccent">@color/color_brand_secondary_secondary</item>
+        <item name="colorSecondary">@color/color_brand_secondary_secondary</item>
+        <item name="colorOnPrimary">@color/color_brand_primary_on_primary</item>
+        <item name="colorOnSurface">@color/color_brand_base_on_surface</item>
+        <item name="colorSurface">@color/color_brand_base_surface</item>
+        <item name="colorPrimarySurface">@color/color_brand_primary_primary</item>
+        <item name="android:colorBackground">@color/color_brand_base_background</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
     </style>
