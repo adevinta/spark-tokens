@@ -1,4 +1,4 @@
-const tokens = require("spark-tokens/build/web/dist/spark-demo/tokens.json");
+const tokens = require("spark-tokens/build/web/dist/spark/tokens.json");
 
 // Hard-coding which tokens to show in the doc site
 // just so that the line up (appear in the same order) and are grouped nicely
