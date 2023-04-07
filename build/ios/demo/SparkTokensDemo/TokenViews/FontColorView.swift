@@ -34,22 +34,22 @@ struct FontColorView: View {
             ScrollView {
                 VStack {
                     Group {
-                        FontColorRow(label:"Primary", color:Color.brandPrimary)
-                        FontColorRow(label:"Secondary", color:Color.brandSecondary)
+                        FontColorRow(label:"Primary", color:Color.brandPrimaryPrimary)
+                        FontColorRow(label:"Secondary", color:Color.brandSecondarySecondary)
                     }
                     Group {
-                        FontColorRow(label:"Success", color:Color.brandSuccess)
-                        FontColorRow(label:"Alert", color:Color.brandAlert)
-                        FontColorRow(label:"Error", color:Color.brandError)
-                        FontColorRow(label:"Info", color:Color.brandInfo)
-                        FontColorRow(label:"Neutral", color:Color.brandNeutral)
+                        FontColorRow(label:"Success", color:Color.brandFeedbackSuccess)
+                        FontColorRow(label:"Alert", color:Color.brandFeedbackAlert)
+                        FontColorRow(label:"Error", color:Color.brandFeedbackError)
+                        FontColorRow(label:"Info", color:Color.brandFeedbackInfo)
+                        FontColorRow(label:"Neutral", color:Color.brandFeedbackNeutral)
                     }
                 }
             }
         }
         .navigationBarTitle("Font Colors")
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandOnPrimary)
+        .background(Color.brandPrimaryOnPrimary)
     }
 }
 

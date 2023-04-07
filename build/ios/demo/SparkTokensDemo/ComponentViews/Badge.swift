@@ -20,30 +20,30 @@ struct Badge: View {
         func getBackgroundColor() -> Color {
             switch self {
             case .info:
-                return Color.brandInfo
+                return Color.brandFeedbackInfo
             case .success:
-                return Color.brandSuccess
+                return Color.brandFeedbackSuccess
             case .error:
-                return Color.brandError
+                return Color.brandFeedbackError
             case .alert:
-                return Color.brandAlert
+                return Color.brandFeedbackAlert
             case .none:
-                return Color.brandNeutral
+                return Color.brandFeedbackNeutral
             }
         }
         
         func getForegroundColor() -> Color {
             switch self {
             case .info:
-                return Color.brandOnInfo
+                return Color.brandFeedbackOnInfo
             case .success:
-                return Color.brandOnSuccess
+                return Color.brandFeedbackOnSuccess
             case .error:
-                return Color.brandOnError
+                return Color.brandFeedbackOnError
             case .alert:
-                return Color.brandOnAlert
+                return Color.brandFeedbackOnAlert
             case .none:
-                return Color.brandOnNeutral
+                return Color.brandFeedbackOnNeutral
             }
         }
     }
@@ -74,7 +74,7 @@ struct BadgesView: View {
         }
         .navigationBarTitle("Badges")
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandOnPrimary)
+        .background(Color.brandPrimaryOnPrimary)
         .edgesIgnoringSafeArea(.all)
     }
 }
