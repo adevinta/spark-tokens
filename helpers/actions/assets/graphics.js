@@ -2,6 +2,7 @@ const fs = require("fs-extra");
 const template = require("lodash/template");
 const iosImageset = require("../ios/imagesets");
 const androidVector = require("../android/vector");
+const optimize = require('./utils/optimize.js')
 
 /**
  * This is a custom [Style Dictionary action](https://amzn.github.io/style-dictionary/#/actions)
@@ -34,7 +35,10 @@ module.exports = {
         // to resolve the references. `svg` is the finished SVG string
         // that can now be written to a file or passed to other functions
         // to translate it to a PNG or Android Vector Drawable
-        const svg = src(dictionary.properties);
+        const svg = optimize(src(dictionary.properties), {
+          attributes: [{ fill: 'currentColor' }, { stroke: 'none' }],
+          title: name,
+        });
 
         // Make sure the directory exists and write the new SVG file
         const outputPath = `${buildPath || ""}${name}-${mode}.svg`;
