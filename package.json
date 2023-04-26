@@ -4,7 +4,6 @@
   "description": "A tool to synchronize Adevinta design tokens between Figma and our three platforms (web, android, iOS).",
   "scripts": {
     "build": "node build.js spark",
-    "build:figma": "node build.js --platform json",
     "start": "npm run build && chokidar \"tokens/**/*\" -c \"npm run build\""
   },
   "repository": {
@@ -17,7 +16,6 @@
   },
   "homepage": "https://github.com/adevinta/spark-tokens#readme",
   "devDependencies": {
-    "@divriots/style-dictionary-to-figma": "^0.4.0",
     "change-case": "^4.1.2",
     "chokidar-cli": "^3.0.0",
     "chroma-js": "^2.4.2",
