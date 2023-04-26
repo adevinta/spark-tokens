@@ -51,11 +51,11 @@ module.exports = {
 
         // This will take the SVG and convert it into Android Vector Drawable format
         // Not optimized for now
-        androidVector({ androidPath, name, svg, mode });
+        // androidVector({ androidPath, name, svg, mode });
 
         // This will take the SVG and convert it to a PNG and create the metadata
         // for an iOS imageset
-        iosImageset({ iosPath, name, svg, mode });
+        // iosImageset({ iosPath, name, svg, mode });
       });
   },
 
