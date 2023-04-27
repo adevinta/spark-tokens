@@ -29,6 +29,14 @@ module.exports = {
           title: name,
         });
 
+        // Check that the icon is 24x24
+        if (!optimizedSvg.startsWith(`<svg viewBox="0 0 24 24"`)) {
+          console.error(
+            `❌ Invalid viewBox for ${name}.svg. Expected "0 0 24 24". Skipped`
+          );
+          return;
+        }
+
         // Make sure the directory exists and write the new SVG file
         const outputPath = `${iconPath || ""}${name}.svg`;
         fs.ensureFileSync(outputPath);

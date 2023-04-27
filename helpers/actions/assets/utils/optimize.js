@@ -1,4 +1,4 @@
-const svgo = require('svgo')
+const svgo = require("svgo");
 
 const optimize = (svgString, { attributes = [], title } = {}) => {
   return svgo.optimize(svgString, {
@@ -9,21 +9,23 @@ const optimize = (svgString, { attributes = [], title } = {}) => {
     },
     plugins: [
       {
-        name: 'removeAttrs',
+        name: "removeAttrs",
         params: {
-          attrs: '(fill|stroke|stroke-width)',
+          attrs: "(fill|stroke|stroke-width)",
         },
       },
       {
-        name: 'addAttributesToSVGElement',
+        name: "addAttributesToSVGElement",
         params: {
-          attributes: [title && { 'data-title': title }, ...attributes].filter(Boolean),
+          attributes: [title && { "data-title": title }, ...attributes].filter(
+            Boolean
+          ),
         },
       },
-      'removeDimensions',
-      'mergePaths',
+      "removeDimensions",
+      "mergePaths",
     ],
-  }).data
-}
+  }).data;
+};
 
-module.exports = optimize
+module.exports = optimize;
