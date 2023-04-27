@@ -23,6 +23,7 @@ const styleDictionary = StyleDictionary.extend({
   action: {
     generateColorsets: require("./helpers/actions/ios/colorsets"),
     generateGraphics: require("./helpers/actions/assets/graphics"),
+    generateIcons: require("./helpers/actions/assets/icons"),
   },
   // custom transforms
   transform: {
@@ -40,13 +41,9 @@ const styleDictionary = StyleDictionary.extend({
 const modes = [`light`, `dark`, `hc`, `hcDark`];
 
 const assets = {
-  transforms: [
-    `attribute/cti`,
-    `color/hex`,
-    `size/remToFloat`,
-    `name/ti/camel`,
-  ],
-  buildPath: `${webPath}/images/`,
+  transforms: [`attribute/cti`, `color/hex`, `size/remToFloat`],
+  buildPath: `${webPath}images/`,
+  iconPath: `${webPath}icons/`,
   iosPath,
   androidPath,
   actions: [`generateGraphics`],
@@ -93,10 +90,13 @@ styleDictionary
         ],
       },
 
-      assets: Object.assign(assets, {
-        // mode lets the custom actions know which color mode they are being run on
-        mode: `light`,
-      }),
+      assets: Object.assign(
+        { ...assets, actions: [...assets.actions, `generateIcons`] },
+        {
+          // mode lets the custom actions know which color mode they are being run on
+          mode: `light`,
+        }
+      ),
 
       iosColors: Object.assign(iosColors, {
         mode: `light`,
