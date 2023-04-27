@@ -7,7 +7,6 @@ const brand = process.argv[2] || "spark";
 const iosPath = `build/ios/dist/${brand}/`;
 const androidPath = `build/android/${brand}tokens/src/main/res/`;
 const webPath = `build/web/dist/${brand}/`;
-// const figmaPath = `build/figma/dist/`;
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -17,8 +16,6 @@ console.log(`cleaning ${androidPath}...`);
 fs.removeSync(androidPath);
 console.log(`cleaning ${webPath}...`);
 fs.removeSync(webPath);
-// console.log(`cleaning ${figmaPath}...`);
-// fs.removeSync(figmaPath);
 
 // Adding custom actions, transforms, and formats
 const styleDictionary = StyleDictionary.extend({
@@ -26,6 +23,7 @@ const styleDictionary = StyleDictionary.extend({
   action: {
     generateColorsets: require("./helpers/actions/ios/colorsets"),
     generateGraphics: require("./helpers/actions/assets/graphics"),
+    generateIcons: require("./helpers/actions/assets/icons"),
   },
   // custom transforms
   transform: {
@@ -35,7 +33,6 @@ const styleDictionary = StyleDictionary.extend({
   },
   // custom formats
   format: {
-    // figmaTokens: require("./helpers/formats/figmaTokens"),
     swiftColor: require("./helpers/formats/swiftColor"),
     swiftImage: require("./helpers/formats/swiftImage"),
   },
@@ -44,13 +41,9 @@ const styleDictionary = StyleDictionary.extend({
 const modes = [`light`, `dark`, `hc`, `hcDark`];
 
 const assets = {
-  transforms: [
-    `attribute/cti`,
-    `color/hex`,
-    `size/remToFloat`,
-    `name/ti/camel`,
-  ],
-  buildPath: `${webPath}/images/`,
+  transforms: [`attribute/cti`, `color/hex`, `size/remToFloat`],
+  buildPath: `${webPath}images/`,
+  iconPath: `${webPath}icons/`,
   iosPath,
   androidPath,
   actions: [`generateGraphics`],
@@ -97,24 +90,13 @@ styleDictionary
         ],
       },
 
-      // json: {
-      //   transformGroup: "js",
-      //   buildPath: figmaPath,
-      //   files: [
-      //     {
-      //       destination: "tokens.json",
-      //       filter: (token) =>
-      //         token.attributes.category === `color` &&
-      //         token.path[0] !== `component`,
-      //       format: "figmaTokens",
-      //     },
-      //   ],
-      // },
-
-      assets: Object.assign(assets, {
-        // mode lets the custom actions know which color mode they are being run on
-        mode: `light`,
-      }),
+      assets: Object.assign(
+        { ...assets, actions: [...assets.actions, `generateIcons`] },
+        {
+          // mode lets the custom actions know which color mode they are being run on
+          mode: `light`,
+        }
+      ),
 
       iosColors: Object.assign(iosColors, {
         mode: `light`,

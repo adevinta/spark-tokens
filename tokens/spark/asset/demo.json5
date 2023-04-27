@@ -1,0 +1,7 @@
+{
+  "image": {
+    "logo": { "value": "assets/spark/demo/logo.svg" },
+    "empty": { "value": "assets/spark/demo/empty.svg" },
+    "files": { "value": "assets/spark/demo/files.svg" }
+  }
+}

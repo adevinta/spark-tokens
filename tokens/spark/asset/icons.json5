@@ -1,0 +1,880 @@
+{
+  "asset": {
+    "Accessories": {
+      "value": "assets/spark/icons/Accessories.svg"
+    },
+    "Activity": {
+      "value": "assets/spark/icons/Activity.svg"
+    },
+    "AddFill": {
+      "value": "assets/spark/icons/AddFill.svg"
+    },
+    "AddImageFill": {
+      "value": "assets/spark/icons/AddImageFill.svg"
+    },
+    "AddImageOutline": {
+      "value": "assets/spark/icons/AddImageOutline.svg"
+    },
+    "AddOutline": {
+      "value": "assets/spark/icons/AddOutline.svg"
+    },
+    "Age": {
+      "value": "assets/spark/icons/Age.svg"
+    },
+    "AirConditioning": {
+      "value": "assets/spark/icons/AirConditioning.svg"
+    },
+    "AlertFill": {
+      "value": "assets/spark/icons/AlertFill.svg"
+    },
+    "AlertOutline": {
+      "value": "assets/spark/icons/AlertOutline.svg"
+    },
+    "Animals": {
+      "value": "assets/spark/icons/Animals.svg"
+    },
+    "Apartment": {
+      "value": "assets/spark/icons/Apartment.svg"
+    },
+    "Arrival": {
+      "value": "assets/spark/icons/Arrival.svg"
+    },
+    "ArrowDoubleLeft": {
+      "value": "assets/spark/icons/ArrowDoubleLeft.svg"
+    },
+    "ArrowDoubleRight": {
+      "value": "assets/spark/icons/ArrowDoubleRight.svg"
+    },
+    "ArrowHorizontalDown": {
+      "value": "assets/spark/icons/ArrowHorizontalDown.svg"
+    },
+    "ArrowHorizontalUp": {
+      "value": "assets/spark/icons/ArrowHorizontalUp.svg"
+    },
+    "ArrowLeft": {
+      "value": "assets/spark/icons/ArrowLeft.svg"
+    },
+    "ArrowRight": {
+      "value": "assets/spark/icons/ArrowRight.svg"
+    },
+    "ArrowVerticalLeft": {
+      "value": "assets/spark/icons/ArrowVerticalLeft.svg"
+    },
+    "ArrowVerticalRight": {
+      "value": "assets/spark/icons/ArrowVerticalRight.svg"
+    },
+    "Attic": {
+      "value": "assets/spark/icons/Attic.svg"
+    },
+    "Available": {
+      "value": "assets/spark/icons/Available.svg"
+    },
+    "Baby": {
+      "value": "assets/spark/icons/Baby.svg"
+    },
+    "Balcony": {
+      "value": "assets/spark/icons/Balcony.svg"
+    },
+    "BankFill": {
+      "value": "assets/spark/icons/BankFill.svg"
+    },
+    "BankOutline": {
+      "value": "assets/spark/icons/BankOutline.svg"
+    },
+    "Basement": {
+      "value": "assets/spark/icons/Basement.svg"
+    },
+    "Bath": {
+      "value": "assets/spark/icons/Bath.svg"
+    },
+    "BeautifulBuilding": {
+      "value": "assets/spark/icons/BeautifulBuilding.svg"
+    },
+    "BicycleType": {
+      "value": "assets/spark/icons/BicycleType.svg"
+    },
+    "Block": {
+      "value": "assets/spark/icons/Block.svg"
+    },
+    "Boat": {
+      "value": "assets/spark/icons/Boat.svg"
+    },
+    "BoxFill": {
+      "value": "assets/spark/icons/BoxFill.svg"
+    },
+    "BoxOutline": {
+      "value": "assets/spark/icons/BoxOutline.svg"
+    },
+    "Brand": {
+      "value": "assets/spark/icons/Brand.svg"
+    },
+    "Breakfast": {
+      "value": "assets/spark/icons/Breakfast.svg"
+    },
+    "BurgerMenu": {
+      "value": "assets/spark/icons/BurgerMenu.svg"
+    },
+    "CalculateFill": {
+      "value": "assets/spark/icons/CalculateFill.svg"
+    },
+    "CalculateOutline": {
+      "value": "assets/spark/icons/CalculateOutline.svg"
+    },
+    "Calendar": {
+      "value": "assets/spark/icons/Calendar.svg"
+    },
+    "Calendar2Fill": {
+      "value": "assets/spark/icons/Calendar2Fill.svg"
+    },
+    "Calendar2Outline": {
+      "value": "assets/spark/icons/Calendar2Outline.svg"
+    },
+    "CalendarFill": {
+      "value": "assets/spark/icons/CalendarFill.svg"
+    },
+    "CalendarOutline": {
+      "value": "assets/spark/icons/CalendarOutline.svg"
+    },
+    "CalendarValidFill": {
+      "value": "assets/spark/icons/CalendarValidFill.svg"
+    },
+    "CalendarValidOutline": {
+      "value": "assets/spark/icons/CalendarValidOutline.svg"
+    },
+    "CallFill": {
+      "value": "assets/spark/icons/CallFill.svg"
+    },
+    "CallOutline": {
+      "value": "assets/spark/icons/CallOutline.svg"
+    },
+    "Calm": {
+      "value": "assets/spark/icons/Calm.svg"
+    },
+    "CameraFill": {
+      "value": "assets/spark/icons/CameraFill.svg"
+    },
+    "CameraOutline": {
+      "value": "assets/spark/icons/CameraOutline.svg"
+    },
+    "Capacity": {
+      "value": "assets/spark/icons/Capacity.svg"
+    },
+    "CardFill": {
+      "value": "assets/spark/icons/CardFill.svg"
+    },
+    "CardOutline": {
+      "value": "assets/spark/icons/CardOutline.svg"
+    },
+    "Cave2": {
+      "value": "assets/spark/icons/Cave2.svg"
+    },
+    "ChargesIncluded": {
+      "value": "assets/spark/icons/ChargesIncluded.svg"
+    },
+    "Check": {
+      "value": "assets/spark/icons/Check.svg"
+    },
+    "Class": {
+      "value": "assets/spark/icons/Class.svg"
+    },
+    "Clean": {
+      "value": "assets/spark/icons/Clean.svg"
+    },
+    "Close": {
+      "value": "assets/spark/icons/Close.svg"
+    },
+    "Clothes": {
+      "value": "assets/spark/icons/Clothes.svg"
+    },
+    "Color": {
+      "value": "assets/spark/icons/Color.svg"
+    },
+    "Colors": {
+      "value": "assets/spark/icons/Colors.svg"
+    },
+    "Common": {
+      "value": "assets/spark/icons/Common.svg"
+    },
+    "Computer": {
+      "value": "assets/spark/icons/Computer.svg"
+    },
+    "Condition": {
+      "value": "assets/spark/icons/Condition.svg"
+    },
+    "ConversationFill": {
+      "value": "assets/spark/icons/ConversationFill.svg"
+    },
+    "ConversationOutline": {
+      "value": "assets/spark/icons/ConversationOutline.svg"
+    },
+    "CopyFill": {
+      "value": "assets/spark/icons/CopyFill.svg"
+    },
+    "CopyOutline": {
+      "value": "assets/spark/icons/CopyOutline.svg"
+    },
+    "Couch": {
+      "value": "assets/spark/icons/Couch.svg"
+    },
+    "CountryFill": {
+      "value": "assets/spark/icons/CountryFill.svg"
+    },
+    "CountryOutline": {
+      "value": "assets/spark/icons/CountryOutline.svg"
+    },
+    "CvFill": {
+      "value": "assets/spark/icons/CvFill.svg"
+    },
+    "CvOutline": {
+      "value": "assets/spark/icons/CvOutline.svg"
+    },
+    "Cylindrical": {
+      "value": "assets/spark/icons/Cylindrical.svg"
+    },
+    "DeleteFill": {
+      "value": "assets/spark/icons/DeleteFill.svg"
+    },
+    "DeleteOutline": {
+      "value": "assets/spark/icons/DeleteOutline.svg"
+    },
+    "Delivery": {
+      "value": "assets/spark/icons/Delivery.svg"
+    },
+    "DeliveryFastFill": {
+      "value": "assets/spark/icons/DeliveryFastFill.svg"
+    },
+    "DeliveryFastOutline": {
+      "value": "assets/spark/icons/DeliveryFastOutline.svg"
+    },
+    "DeliveryFill": {
+      "value": "assets/spark/icons/DeliveryFill.svg"
+    },
+    "DeliveryHandsFill": {
+      "value": "assets/spark/icons/DeliveryHandsFill.svg"
+    },
+    "DeliveryHandsOutline": {
+      "value": "assets/spark/icons/DeliveryHandsOutline.svg"
+    },
+    "DeliveryOutline": {
+      "value": "assets/spark/icons/DeliveryOutline.svg"
+    },
+    "DeliveryTruckFill": {
+      "value": "assets/spark/icons/DeliveryTruckFill.svg"
+    },
+    "DeliveryTruckOutline": {
+      "value": "assets/spark/icons/DeliveryTruckOutline.svg"
+    },
+    "Digicode": {
+      "value": "assets/spark/icons/Digicode.svg"
+    },
+    "DiyProduct": {
+      "value": "assets/spark/icons/DiyProduct.svg"
+    },
+    "DiyType": {
+      "value": "assets/spark/icons/DiyType.svg"
+    },
+    "Donate": {
+      "value": "assets/spark/icons/Donate.svg"
+    },
+    "Doors": {
+      "value": "assets/spark/icons/Doors.svg"
+    },
+    "Dress": {
+      "value": "assets/spark/icons/Dress.svg"
+    },
+    "Duplex": {
+      "value": "assets/spark/icons/Duplex.svg"
+    },
+    "EducationalLevel": {
+      "value": "assets/spark/icons/EducationalLevel.svg"
+    },
+    "Energy": {
+      "value": "assets/spark/icons/Energy.svg"
+    },
+    "Equipment": {
+      "value": "assets/spark/icons/Equipment.svg"
+    },
+    "EquipmentBaby": {
+      "value": "assets/spark/icons/EquipmentBaby.svg"
+    },
+    "Experience": {
+      "value": "assets/spark/icons/Experience.svg"
+    },
+    "EyeFill": {
+      "value": "assets/spark/icons/EyeFill.svg"
+    },
+    "EyeOffFill": {
+      "value": "assets/spark/icons/EyeOffFill.svg"
+    },
+    "EyeOffOutline": {
+      "value": "assets/spark/icons/EyeOffOutline.svg"
+    },
+    "EyeOutline": {
+      "value": "assets/spark/icons/EyeOutline.svg"
+    },
+    "FavoriteFill": {
+      "value": "assets/spark/icons/FavoriteFill.svg"
+    },
+    "FavoriteOutline": {
+      "value": "assets/spark/icons/FavoriteOutline.svg"
+    },
+    "FileOffFill": {
+      "value": "assets/spark/icons/FileOffFill.svg"
+    },
+    "FileOffOutline": {
+      "value": "assets/spark/icons/FileOffOutline.svg"
+    },
+    "Filter": {
+      "value": "assets/spark/icons/Filter.svg"
+    },
+    "Fireplace": {
+      "value": "assets/spark/icons/Fireplace.svg"
+    },
+    "FlashlightFill": {
+      "value": "assets/spark/icons/FlashlightFill.svg"
+    },
+    "FlashlightOutline": {
+      "value": "assets/spark/icons/FlashlightOutline.svg"
+    },
+    "Floor": {
+      "value": "assets/spark/icons/Floor.svg"
+    },
+    "Fuel": {
+      "value": "assets/spark/icons/Fuel.svg"
+    },
+    "Function": {
+      "value": "assets/spark/icons/Function.svg"
+    },
+    "Furniture": {
+      "value": "assets/spark/icons/Furniture.svg"
+    },
+    "FurnitureType": {
+      "value": "assets/spark/icons/FurnitureType.svg"
+    },
+    "GalleryFill": {
+      "value": "assets/spark/icons/GalleryFill.svg"
+    },
+    "GalleryOutline": {
+      "value": "assets/spark/icons/GalleryOutline.svg"
+    },
+    "Garage": {
+      "value": "assets/spark/icons/Garage.svg"
+    },
+    "Garden": {
+      "value": "assets/spark/icons/Garden.svg"
+    },
+    "GardeningProduct": {
+      "value": "assets/spark/icons/GardeningProduct.svg"
+    },
+    "GardeningType": {
+      "value": "assets/spark/icons/GardeningType.svg"
+    },
+    "GlassWindows": {
+      "value": "assets/spark/icons/GlassWindows.svg"
+    },
+    "GraphArrowDown": {
+      "value": "assets/spark/icons/GraphArrowDown.svg"
+    },
+    "GraphArrowUp": {
+      "value": "assets/spark/icons/GraphArrowUp.svg"
+    },
+    "Ground": {
+      "value": "assets/spark/icons/Ground.svg"
+    },
+    "HandDelivered": {
+      "value": "assets/spark/icons/HandDelivered.svg"
+    },
+    "Hobby": {
+      "value": "assets/spark/icons/Hobby.svg"
+    },
+    "HolidayFill": {
+      "value": "assets/spark/icons/HolidayFill.svg"
+    },
+    "HolidayOutline": {
+      "value": "assets/spark/icons/HolidayOutline.svg"
+    },
+    "Holidays": {
+      "value": "assets/spark/icons/Holidays.svg"
+    },
+    "HomeFill": {
+      "value": "assets/spark/icons/HomeFill.svg"
+    },
+    "HomeOutline": {
+      "value": "assets/spark/icons/HomeOutline.svg"
+    },
+    "HomeappliancesProduct": {
+      "value": "assets/spark/icons/HomeappliancesProduct.svg"
+    },
+    "HomeappliancesType": {
+      "value": "assets/spark/icons/HomeappliancesType.svg"
+    },
+    "Honoraria": {
+      "value": "assets/spark/icons/Honoraria.svg"
+    },
+    "House": {
+      "value": "assets/spark/icons/House.svg"
+    },
+    "HousingType": {
+      "value": "assets/spark/icons/HousingType.svg"
+    },
+    "IdeaFill": {
+      "value": "assets/spark/icons/IdeaFill.svg"
+    },
+    "IdeaOutline": {
+      "value": "assets/spark/icons/IdeaOutline.svg"
+    },
+    "IdentityFill": {
+      "value": "assets/spark/icons/IdentityFill.svg"
+    },
+    "IdentityOutline": {
+      "value": "assets/spark/icons/IdentityOutline.svg"
+    },
+    "ImageFill": {
+      "value": "assets/spark/icons/ImageFill.svg"
+    },
+    "ImageOutline": {
+      "value": "assets/spark/icons/ImageOutline.svg"
+    },
+    "InfoFill": {
+      "value": "assets/spark/icons/InfoFill.svg"
+    },
+    "InfoOutline": {
+      "value": "assets/spark/icons/InfoOutline.svg"
+    },
+    "Interphone": {
+      "value": "assets/spark/icons/Interphone.svg"
+    },
+    "Janitor": {
+      "value": "assets/spark/icons/Janitor.svg"
+    },
+    "Jewels": {
+      "value": "assets/spark/icons/Jewels.svg"
+    },
+    "Job": {
+      "value": "assets/spark/icons/Job.svg"
+    },
+    "KeyFill": {
+      "value": "assets/spark/icons/KeyFill.svg"
+    },
+    "KeyOutline": {
+      "value": "assets/spark/icons/KeyOutline.svg"
+    },
+    "Land": {
+      "value": "assets/spark/icons/Land.svg"
+    },
+    "LastFloor": {
+      "value": "assets/spark/icons/LastFloor.svg"
+    },
+    "License": {
+      "value": "assets/spark/icons/License.svg"
+    },
+    "Lift": {
+      "value": "assets/spark/icons/Lift.svg"
+    },
+    "Light": {
+      "value": "assets/spark/icons/Light.svg"
+    },
+    "Like": {
+      "value": "assets/spark/icons/Like.svg"
+    },
+    "LikeFill": {
+      "value": "assets/spark/icons/LikeFill.svg"
+    },
+    "LikeOutline": {
+      "value": "assets/spark/icons/LikeOutline.svg"
+    },
+    "LinensProduct": {
+      "value": "assets/spark/icons/LinensProduct.svg"
+    },
+    "LinensType": {
+      "value": "assets/spark/icons/LinensType.svg"
+    },
+    "Listing": {
+      "value": "assets/spark/icons/Listing.svg"
+    },
+    "Litter": {
+      "value": "assets/spark/icons/Litter.svg"
+    },
+    "Localisation": {
+      "value": "assets/spark/icons/Localisation.svg"
+    },
+    "LockFill": {
+      "value": "assets/spark/icons/LockFill.svg"
+    },
+    "LockOutline": {
+      "value": "assets/spark/icons/LockOutline.svg"
+    },
+    "Loft": {
+      "value": "assets/spark/icons/Loft.svg"
+    },
+    "Loggia": {
+      "value": "assets/spark/icons/Loggia.svg"
+    },
+    "Loof": {
+      "value": "assets/spark/icons/Loof.svg"
+    },
+    "Luxe": {
+      "value": "assets/spark/icons/Luxe.svg"
+    },
+    "MailCloseFill": {
+      "value": "assets/spark/icons/MailCloseFill.svg"
+    },
+    "MailCloseOutline": {
+      "value": "assets/spark/icons/MailCloseOutline.svg"
+    },
+    "MailFill": {
+      "value": "assets/spark/icons/MailFill.svg"
+    },
+    "MailOpenFill": {
+      "value": "assets/spark/icons/MailOpenFill.svg"
+    },
+    "MailOpenOutline": {
+      "value": "assets/spark/icons/MailOpenOutline.svg"
+    },
+    "MailOutline": {
+      "value": "assets/spark/icons/MailOutline.svg"
+    },
+    "Material": {
+      "value": "assets/spark/icons/Material.svg"
+    },
+    "Memory": {
+      "value": "assets/spark/icons/Memory.svg"
+    },
+    "MessageFill": {
+      "value": "assets/spark/icons/MessageFill.svg"
+    },
+    "MessageOutline": {
+      "value": "assets/spark/icons/MessageOutline.svg"
+    },
+    "Metro": {
+      "value": "assets/spark/icons/Metro.svg"
+    },
+    "Mileage": {
+      "value": "assets/spark/icons/Mileage.svg"
+    },
+    "Minus": {
+      "value": "assets/spark/icons/Minus.svg"
+    },
+    "MobileCheck": {
+      "value": "assets/spark/icons/MobileCheck.svg"
+    },
+    "Model": {
+      "value": "assets/spark/icons/Model.svg"
+    },
+    "MoreMenuHorizontal": {
+      "value": "assets/spark/icons/MoreMenuHorizontal.svg"
+    },
+    "MoreMenuVertical": {
+      "value": "assets/spark/icons/MoreMenuVertical.svg"
+    },
+    "Moto": {
+      "value": "assets/spark/icons/Moto.svg"
+    },
+    "Moulding": {
+      "value": "assets/spark/icons/Moulding.svg"
+    },
+    "Multimedia": {
+      "value": "assets/spark/icons/Multimedia.svg"
+    },
+    "NoPhoto": {
+      "value": "assets/spark/icons/NoPhoto.svg"
+    },
+    "Offer": {
+      "value": "assets/spark/icons/Offer.svg"
+    },
+    "OfferFill": {
+      "value": "assets/spark/icons/OfferFill.svg"
+    },
+    "OfferOutline": {
+      "value": "assets/spark/icons/OfferOutline.svg"
+    },
+    "OfferType": {
+      "value": "assets/spark/icons/OfferType.svg"
+    },
+    "Parking": {
+      "value": "assets/spark/icons/Parking.svg"
+    },
+    "Parquet": {
+      "value": "assets/spark/icons/Parquet.svg"
+    },
+    "PauseFill": {
+      "value": "assets/spark/icons/PauseFill.svg"
+    },
+    "PauseOutline": {
+      "value": "assets/spark/icons/PauseOutline.svg"
+    },
+    "PenFill": {
+      "value": "assets/spark/icons/PenFill.svg"
+    },
+    "PenOutline": {
+      "value": "assets/spark/icons/PenOutline.svg"
+    },
+    "Pets": {
+      "value": "assets/spark/icons/Pets.svg"
+    },
+    "PhoneFill": {
+      "value": "assets/spark/icons/PhoneFill.svg"
+    },
+    "PhoneOutline": {
+      "value": "assets/spark/icons/PhoneOutline.svg"
+    },
+    "Pieces": {
+      "value": "assets/spark/icons/Pieces.svg"
+    },
+    "PlayFill": {
+      "value": "assets/spark/icons/PlayFill.svg"
+    },
+    "PlayOutline": {
+      "value": "assets/spark/icons/PlayOutline.svg"
+    },
+    "Plus": {
+      "value": "assets/spark/icons/Plus.svg"
+    },
+    "Pool": {
+      "value": "assets/spark/icons/Pool.svg"
+    },
+    "Power": {
+      "value": "assets/spark/icons/Power.svg"
+    },
+    "PrintFill": {
+      "value": "assets/spark/icons/PrintFill.svg"
+    },
+    "PrintOutline": {
+      "value": "assets/spark/icons/PrintOutline.svg"
+    },
+    "QuestionFill": {
+      "value": "assets/spark/icons/QuestionFill.svg"
+    },
+    "QuestionOutline": {
+      "value": "assets/spark/icons/QuestionOutline.svg"
+    },
+    "Rating": {
+      "value": "assets/spark/icons/Rating.svg"
+    },
+    "Reference": {
+      "value": "assets/spark/icons/Reference.svg"
+    },
+    "Refresh": {
+      "value": "assets/spark/icons/Refresh.svg"
+    },
+    "Renovation": {
+      "value": "assets/spark/icons/Renovation.svg"
+    },
+    "Rooms": {
+      "value": "assets/spark/icons/Rooms.svg"
+    },
+    "RotateImage": {
+      "value": "assets/spark/icons/RotateImage.svg"
+    },
+    "Salary": {
+      "value": "assets/spark/icons/Salary.svg"
+    },
+    "SaleType": {
+      "value": "assets/spark/icons/SaleType.svg"
+    },
+    "Scan": {
+      "value": "assets/spark/icons/Scan.svg"
+    },
+    "SeaView": {
+      "value": "assets/spark/icons/SeaView.svg"
+    },
+    "Search": {
+      "value": "assets/spark/icons/Search.svg"
+    },
+    "Seats": {
+      "value": "assets/spark/icons/Seats.svg"
+    },
+    "Sector": {
+      "value": "assets/spark/icons/Sector.svg"
+    },
+    "Seller": {
+      "value": "assets/spark/icons/Seller.svg"
+    },
+    "Send": {
+      "value": "assets/spark/icons/Send.svg"
+    },
+    "Send2": {
+      "value": "assets/spark/icons/Send2.svg"
+    },
+    "Service": {
+      "value": "assets/spark/icons/Service.svg"
+    },
+    "ShoeSize": {
+      "value": "assets/spark/icons/ShoeSize.svg"
+    },
+    "Shoes": {
+      "value": "assets/spark/icons/Shoes.svg"
+    },
+    "ShopingCartFill": {
+      "value": "assets/spark/icons/ShopingCartFill.svg"
+    },
+    "ShopingCartOutline": {
+      "value": "assets/spark/icons/ShopingCartOutline.svg"
+    },
+    "Shower": {
+      "value": "assets/spark/icons/Shower.svg"
+    },
+    "Size": {
+      "value": "assets/spark/icons/Size.svg"
+    },
+    "Smoking": {
+      "value": "assets/spark/icons/Smoking.svg"
+    },
+    "Sort": {
+      "value": "assets/spark/icons/Sort.svg"
+    },
+    "Spa": {
+      "value": "assets/spark/icons/Spa.svg"
+    },
+    "Speed": {
+      "value": "assets/spark/icons/Speed.svg"
+    },
+    "Sport": {
+      "value": "assets/spark/icons/Sport.svg"
+    },
+    "Start": {
+      "value": "assets/spark/icons/Start.svg"
+    },
+    "Store": {
+      "value": "assets/spark/icons/Store.svg"
+    },
+    "StoreFill": {
+      "value": "assets/spark/icons/StoreFill.svg"
+    },
+    "StoreOutline": {
+      "value": "assets/spark/icons/StoreOutline.svg"
+    },
+    "SunOrientation": {
+      "value": "assets/spark/icons/SunOrientation.svg"
+    },
+    "Support2Fill": {
+      "value": "assets/spark/icons/Support2Fill.svg"
+    },
+    "Support2Outline": {
+      "value": "assets/spark/icons/Support2Outline.svg"
+    },
+    "SupportFill": {
+      "value": "assets/spark/icons/SupportFill.svg"
+    },
+    "SupportOutline": {
+      "value": "assets/spark/icons/SupportOutline.svg"
+    },
+    "Surface": {
+      "value": "assets/spark/icons/Surface.svg"
+    },
+    "TableArtMaterial": {
+      "value": "assets/spark/icons/TableArtMaterial.svg"
+    },
+    "TableArtProduct": {
+      "value": "assets/spark/icons/TableArtProduct.svg"
+    },
+    "Tattoo": {
+      "value": "assets/spark/icons/Tattoo.svg"
+    },
+    "Terrace": {
+      "value": "assets/spark/icons/Terrace.svg"
+    },
+    "Time": {
+      "value": "assets/spark/icons/Time.svg"
+    },
+    "Tools": {
+      "value": "assets/spark/icons/Tools.svg"
+    },
+    "Toy": {
+      "value": "assets/spark/icons/Toy.svg"
+    },
+    "ToysProduct": {
+      "value": "assets/spark/icons/ToysProduct.svg"
+    },
+    "TrashCloseFill": {
+      "value": "assets/spark/icons/TrashCloseFill.svg"
+    },
+    "TrashCloseOutline": {
+      "value": "assets/spark/icons/TrashCloseOutline.svg"
+    },
+    "TrashFill": {
+      "value": "assets/spark/icons/TrashFill.svg"
+    },
+    "TrashOutline": {
+      "value": "assets/spark/icons/TrashOutline.svg"
+    },
+    "Trunk": {
+      "value": "assets/spark/icons/Trunk.svg"
+    },
+    "Tv": {
+      "value": "assets/spark/icons/Tv.svg"
+    },
+    "Type": {
+      "value": "assets/spark/icons/Type.svg"
+    },
+    "TypingFill": {
+      "value": "assets/spark/icons/TypingFill.svg"
+    },
+    "TypingOutline": {
+      "value": "assets/spark/icons/TypingOutline.svg"
+    },
+    "Univers": {
+      "value": "assets/spark/icons/Univers.svg"
+    },
+    "UnlockFill": {
+      "value": "assets/spark/icons/UnlockFill.svg"
+    },
+    "UnlockOutline": {
+      "value": "assets/spark/icons/UnlockOutline.svg"
+    },
+    "Vaccine": {
+      "value": "assets/spark/icons/Vaccine.svg"
+    },
+    "Vehicles": {
+      "value": "assets/spark/icons/Vehicles.svg"
+    },
+    "View": {
+      "value": "assets/spark/icons/View.svg"
+    },
+    "VoiceFill": {
+      "value": "assets/spark/icons/VoiceFill.svg"
+    },
+    "VoiceOffFill": {
+      "value": "assets/spark/icons/VoiceOffFill.svg"
+    },
+    "VoiceOffOutline": {
+      "value": "assets/spark/icons/VoiceOffOutline.svg"
+    },
+    "VoiceOutline": {
+      "value": "assets/spark/icons/VoiceOutline.svg"
+    },
+    "Wardrobe": {
+      "value": "assets/spark/icons/Wardrobe.svg"
+    },
+    "WarningFill": {
+      "value": "assets/spark/icons/WarningFill.svg"
+    },
+    "WarningOutline": {
+      "value": "assets/spark/icons/WarningOutline.svg"
+    },
+    "Wc": {
+      "value": "assets/spark/icons/Wc.svg"
+    },
+    "Welcome": {
+      "value": "assets/spark/icons/Welcome.svg"
+    },
+    "WheelFill": {
+      "value": "assets/spark/icons/WheelFill.svg"
+    },
+    "WheelOutline": {
+      "value": "assets/spark/icons/WheelOutline.svg"
+    },
+    "Wifi": {
+      "value": "assets/spark/icons/Wifi.svg"
+    },
+    "WorkFill": {
+      "value": "assets/spark/icons/WorkFill.svg"
+    },
+    "WorkOutline": {
+      "value": "assets/spark/icons/WorkOutline.svg"
+    },
+    "Years": {
+      "value": "assets/spark/icons/Years.svg"
+    }
+  }
+}

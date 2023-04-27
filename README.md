@@ -51,7 +51,7 @@ Note: after you make any changes to the design tokens, you just need to rebuild 
 You can define the brand folder you want to generate tokens from. In [package.json](package.json), change spark by your own brand folder on this line:
 
 ```
-"build": "node build.js spark"
+"brand": "spark",
 ```
 
 Then, you need to edit manually these config files to make the demos work with your own tokens:
