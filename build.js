@@ -33,6 +33,7 @@ const styleDictionary = StyleDictionary.extend({
   },
   // custom formats
   format: {
+    composeColorPalette: require("./helpers/formats/composeColorPalette"),
     swiftColor: require("./helpers/formats/swiftColor"),
     swiftImage: require("./helpers/formats/swiftImage"),
   },
@@ -168,11 +169,10 @@ styleDictionary
       compose: {
         transformGroup: "compose",
         buildPath: composePath,
-        // transforms: ["color/composeColor", "name/ti/camel"],
         files: [
           {
             destination: "PaletteTokens.kt",
-            format: "compose/object",
+            format: `composeColorPalette`,
             className: "PaletteTokens",
             packageName: `com.adevinta.${brand}.tokens`,
             filter: (token) =>
