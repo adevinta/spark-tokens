@@ -5,17 +5,17 @@ const fs = require("fs-extra");
 const brand = process.argv[2] || "spark";
 
 const iosPath = `build/ios/dist/${brand}/`;
-const androidPath = `build/android/${brand}tokens/src/main/res/`;
+const androidRoot = `build/android/${brand}tokens/src/main`;
+const androidPath = `${androidRoot}/res/`;
+const composePath = `${androidRoot}/kotlin/`;
 const webPath = `build/web/dist/${brand}/`;
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
-console.log(`cleaning ${iosPath}...`);
-fs.removeSync(iosPath);
-console.log(`cleaning ${androidPath}...`);
-fs.removeSync(androidPath);
-console.log(`cleaning ${webPath}...`);
-fs.removeSync(webPath);
+[iosPath, androidPath, composePath, webPath].forEach((dir) => {
+  console.log(`🧹 cleaning ${dir}...`);
+  fs.removeSync(dir);
+});
 
 // Adding custom actions, transforms, and formats
 const styleDictionary = StyleDictionary.extend({
@@ -33,6 +33,7 @@ const styleDictionary = StyleDictionary.extend({
   },
   // custom formats
   format: {
+    composeColorPalette: require("./helpers/formats/composeColorPalette"),
     swiftColor: require("./helpers/formats/swiftColor"),
     swiftImage: require("./helpers/formats/swiftImage"),
   },
@@ -161,6 +162,22 @@ styleDictionary
               token.attributes.category === `size` &&
               token.attributes.type !== `font`,
             format: `android/resources`,
+          },
+        ],
+      },
+
+      compose: {
+        transformGroup: "compose",
+        buildPath: composePath,
+        files: [
+          {
+            destination: "PaletteTokens.kt",
+            format: `composeColorPalette`,
+            className: "PaletteTokens",
+            packageName: `com.adevinta.${brand}.tokens`,
+            filter: (token) =>
+              token.attributes.category === `color` &&
+              token.attributes.type === `core`,
           },
         ],
       },
