@@ -3,6 +3,12 @@
     "Accessories": {
       "value": "assets/spark/icons/Accessories.svg"
     },
+    "AccountFill": {
+      "value": "assets/spark/icons/AccountFill.svg"
+    },
+    "AccountOutline": {
+      "value": "assets/spark/icons/AccountOutline.svg"
+    },
     "Activity": {
       "value": "assets/spark/icons/Activity.svg"
     },
@@ -24,11 +30,32 @@
     "AirConditioning": {
       "value": "assets/spark/icons/AirConditioning.svg"
     },
+    "AlarmFill": {
+      "value": "assets/spark/icons/AlarmFill.svg"
+    },
+    "AlarmOffFill": {
+      "value": "assets/spark/icons/AlarmOffFill.svg"
+    },
+    "AlarmOffOutline": {
+      "value": "assets/spark/icons/AlarmOffOutline.svg"
+    },
+    "AlarmOnFill": {
+      "value": "assets/spark/icons/AlarmOnFill.svg"
+    },
+    "AlarmOnOutline": {
+      "value": "assets/spark/icons/AlarmOnOutline.svg"
+    },
+    "AlarmOutline": {
+      "value": "assets/spark/icons/AlarmOutline.svg"
+    },
     "AlertFill": {
       "value": "assets/spark/icons/AlertFill.svg"
     },
     "AlertOutline": {
       "value": "assets/spark/icons/AlertOutline.svg"
+    },
+    "AllDirection": {
+      "value": "assets/spark/icons/AllDirection.svg"
     },
     "Animals": {
       "value": "assets/spark/icons/Animals.svg"
@@ -63,6 +90,9 @@
     "ArrowVerticalRight": {
       "value": "assets/spark/icons/ArrowVerticalRight.svg"
     },
+    "AttachFileOutline": {
+      "value": "assets/spark/icons/AttachFileOutline.svg"
+    },
     "Attic": {
       "value": "assets/spark/icons/Attic.svg"
     },
@@ -93,11 +123,20 @@
     "BicycleType": {
       "value": "assets/spark/icons/BicycleType.svg"
     },
+    "Bike": {
+      "value": "assets/spark/icons/Bike.svg"
+    },
     "Block": {
       "value": "assets/spark/icons/Block.svg"
     },
     "Boat": {
       "value": "assets/spark/icons/Boat.svg"
+    },
+    "BookmarkFill": {
+      "value": "assets/spark/icons/BookmarkFill.svg"
+    },
+    "BookmarkOutline": {
+      "value": "assets/spark/icons/BookmarkOutline.svg"
     },
     "BoxFill": {
       "value": "assets/spark/icons/BoxFill.svg"
@@ -120,14 +159,14 @@
     "CalculateOutline": {
       "value": "assets/spark/icons/CalculateOutline.svg"
     },
-    "Calendar": {
-      "value": "assets/spark/icons/Calendar.svg"
+    "CalendarCriterias": {
+      "value": "assets/spark/icons/CalendarCriterias.svg"
     },
-    "Calendar2Fill": {
-      "value": "assets/spark/icons/Calendar2Fill.svg"
+    "CalendarDotFill": {
+      "value": "assets/spark/icons/CalendarDotFill.svg"
     },
-    "Calendar2Outline": {
-      "value": "assets/spark/icons/Calendar2Outline.svg"
+    "CalendarDotOutline": {
+      "value": "assets/spark/icons/CalendarDotOutline.svg"
     },
     "CalendarFill": {
       "value": "assets/spark/icons/CalendarFill.svg"
@@ -159,14 +198,29 @@
     "Capacity": {
       "value": "assets/spark/icons/Capacity.svg"
     },
+    "CarFill": {
+      "value": "assets/spark/icons/CarFill.svg"
+    },
+    "CarOutline": {
+      "value": "assets/spark/icons/CarOutline.svg"
+    },
+    "CarWarrantyFill": {
+      "value": "assets/spark/icons/CarWarrantyFill.svg"
+    },
+    "CarWarrantyOutline": {
+      "value": "assets/spark/icons/CarWarrantyOutline.svg"
+    },
+    "Card": {
+      "value": "assets/spark/icons/Card.svg"
+    },
     "CardFill": {
       "value": "assets/spark/icons/CardFill.svg"
     },
     "CardOutline": {
       "value": "assets/spark/icons/CardOutline.svg"
     },
-    "Cave2": {
-      "value": "assets/spark/icons/Cave2.svg"
+    "Cave": {
+      "value": "assets/spark/icons/Cave.svg"
     },
     "ChargesIncluded": {
       "value": "assets/spark/icons/ChargesIncluded.svg"
@@ -174,11 +228,26 @@
     "Check": {
       "value": "assets/spark/icons/Check.svg"
     },
+    "CheckFill": {
+      "value": "assets/spark/icons/CheckFill.svg"
+    },
     "Class": {
       "value": "assets/spark/icons/Class.svg"
     },
     "Clean": {
       "value": "assets/spark/icons/Clean.svg"
+    },
+    "ClockArrowFill": {
+      "value": "assets/spark/icons/ClockArrowFill.svg"
+    },
+    "ClockArrowOutline": {
+      "value": "assets/spark/icons/ClockArrowOutline.svg"
+    },
+    "ClockFill": {
+      "value": "assets/spark/icons/ClockFill.svg"
+    },
+    "ClockOutline": {
+      "value": "assets/spark/icons/ClockOutline.svg"
     },
     "Close": {
       "value": "assets/spark/icons/Close.svg"
@@ -267,6 +336,12 @@
     "Digicode": {
       "value": "assets/spark/icons/Digicode.svg"
     },
+    "DissatisfiedFill": {
+      "value": "assets/spark/icons/DissatisfiedFill.svg"
+    },
+    "DissatisfiedOutline": {
+      "value": "assets/spark/icons/DissatisfiedOutline.svg"
+    },
     "DiyProduct": {
       "value": "assets/spark/icons/DiyProduct.svg"
     },
@@ -278,6 +353,15 @@
     },
     "Doors": {
       "value": "assets/spark/icons/Doors.svg"
+    },
+    "DoubleCheckFill": {
+      "value": "assets/spark/icons/DoubleCheckFill.svg"
+    },
+    "DownloadFill": {
+      "value": "assets/spark/icons/DownloadFill.svg"
+    },
+    "DownloadOutline": {
+      "value": "assets/spark/icons/DownloadOutline.svg"
     },
     "Dress": {
       "value": "assets/spark/icons/Dress.svg"
@@ -297,8 +381,14 @@
     "EquipmentBaby": {
       "value": "assets/spark/icons/EquipmentBaby.svg"
     },
+    "Euro": {
+      "value": "assets/spark/icons/Euro.svg"
+    },
     "Experience": {
       "value": "assets/spark/icons/Experience.svg"
+    },
+    "Export": {
+      "value": "assets/spark/icons/Export.svg"
     },
     "EyeFill": {
       "value": "assets/spark/icons/EyeFill.svg"
@@ -311,6 +401,15 @@
     },
     "EyeOutline": {
       "value": "assets/spark/icons/EyeOutline.svg"
+    },
+    "FacebookFill": {
+      "value": "assets/spark/icons/FacebookFill.svg"
+    },
+    "FacebookOutline": {
+      "value": "assets/spark/icons/FacebookOutline.svg"
+    },
+    "Family": {
+      "value": "assets/spark/icons/Family.svg"
     },
     "FavoriteFill": {
       "value": "assets/spark/icons/FavoriteFill.svg"
@@ -327,8 +426,26 @@
     "Filter": {
       "value": "assets/spark/icons/Filter.svg"
     },
+    "FireFill": {
+      "value": "assets/spark/icons/FireFill.svg"
+    },
+    "FireOutline": {
+      "value": "assets/spark/icons/FireOutline.svg"
+    },
     "Fireplace": {
       "value": "assets/spark/icons/Fireplace.svg"
+    },
+    "FlagFill": {
+      "value": "assets/spark/icons/FlagFill.svg"
+    },
+    "FlagOutline": {
+      "value": "assets/spark/icons/FlagOutline.svg"
+    },
+    "FlashFill": {
+      "value": "assets/spark/icons/FlashFill.svg"
+    },
+    "FlashOutline": {
+      "value": "assets/spark/icons/FlashOutline.svg"
     },
     "FlashlightFill": {
       "value": "assets/spark/icons/FlashlightFill.svg"
@@ -338,6 +455,12 @@
     },
     "Floor": {
       "value": "assets/spark/icons/Floor.svg"
+    },
+    "ForwardFill": {
+      "value": "assets/spark/icons/ForwardFill.svg"
+    },
+    "ForwardOutline": {
+      "value": "assets/spark/icons/ForwardOutline.svg"
     },
     "Fuel": {
       "value": "assets/spark/icons/Fuel.svg"
@@ -378,8 +501,20 @@
     "GraphArrowUp": {
       "value": "assets/spark/icons/GraphArrowUp.svg"
     },
+    "GraphFill": {
+      "value": "assets/spark/icons/GraphFill.svg"
+    },
+    "GraphOutline": {
+      "value": "assets/spark/icons/GraphOutline.svg"
+    },
     "Ground": {
       "value": "assets/spark/icons/Ground.svg"
+    },
+    "GroupFill": {
+      "value": "assets/spark/icons/GroupFill.svg"
+    },
+    "GroupOutline": {
+      "value": "assets/spark/icons/GroupOutline.svg"
     },
     "HandDelivered": {
       "value": "assets/spark/icons/HandDelivered.svg"
@@ -411,6 +546,12 @@
     "Honoraria": {
       "value": "assets/spark/icons/Honoraria.svg"
     },
+    "HotelFill": {
+      "value": "assets/spark/icons/HotelFill.svg"
+    },
+    "HotelOutline": {
+      "value": "assets/spark/icons/HotelOutline.svg"
+    },
     "House": {
       "value": "assets/spark/icons/House.svg"
     },
@@ -435,11 +576,20 @@
     "ImageOutline": {
       "value": "assets/spark/icons/ImageOutline.svg"
     },
+    "Import": {
+      "value": "assets/spark/icons/Import.svg"
+    },
     "InfoFill": {
       "value": "assets/spark/icons/InfoFill.svg"
     },
     "InfoOutline": {
       "value": "assets/spark/icons/InfoOutline.svg"
+    },
+    "InstagramFill": {
+      "value": "assets/spark/icons/InstagramFill.svg"
+    },
+    "InstagramOutline": {
+      "value": "assets/spark/icons/InstagramOutline.svg"
     },
     "Interphone": {
       "value": "assets/spark/icons/Interphone.svg"
@@ -489,6 +639,9 @@
     "LinensType": {
       "value": "assets/spark/icons/LinensType.svg"
     },
+    "Link": {
+      "value": "assets/spark/icons/Link.svg"
+    },
     "Listing": {
       "value": "assets/spark/icons/Listing.svg"
     },
@@ -534,8 +687,23 @@
     "MailOutline": {
       "value": "assets/spark/icons/MailOutline.svg"
     },
+    "MapCursorFill": {
+      "value": "assets/spark/icons/MapCursorFill.svg"
+    },
+    "MapCursorOutline": {
+      "value": "assets/spark/icons/MapCursorOutline.svg"
+    },
+    "MapExpand": {
+      "value": "assets/spark/icons/MapExpand.svg"
+    },
     "Material": {
       "value": "assets/spark/icons/Material.svg"
+    },
+    "MegaphoneFill": {
+      "value": "assets/spark/icons/MegaphoneFill.svg"
+    },
+    "MegaphoneOutline": {
+      "value": "assets/spark/icons/MegaphoneOutline.svg"
     },
     "Memory": {
       "value": "assets/spark/icons/Memory.svg"
@@ -545,6 +713,9 @@
     },
     "MessageOutline": {
       "value": "assets/spark/icons/MessageOutline.svg"
+    },
+    "Messenger": {
+      "value": "assets/spark/icons/Messenger.svg"
     },
     "Metro": {
       "value": "assets/spark/icons/Metro.svg"
@@ -561,6 +732,12 @@
     "Model": {
       "value": "assets/spark/icons/Model.svg"
     },
+    "MoneyFill": {
+      "value": "assets/spark/icons/MoneyFill.svg"
+    },
+    "MoneyOutline": {
+      "value": "assets/spark/icons/MoneyOutline.svg"
+    },
     "MoreMenuHorizontal": {
       "value": "assets/spark/icons/MoreMenuHorizontal.svg"
     },
@@ -573,11 +750,26 @@
     "Moulding": {
       "value": "assets/spark/icons/Moulding.svg"
     },
+    "MoveUp": {
+      "value": "assets/spark/icons/MoveUp.svg"
+    },
     "Multimedia": {
       "value": "assets/spark/icons/Multimedia.svg"
     },
+    "NeutralFill": {
+      "value": "assets/spark/icons/NeutralFill.svg"
+    },
+    "NeutralOutline": {
+      "value": "assets/spark/icons/NeutralOutline.svg"
+    },
     "NoPhoto": {
       "value": "assets/spark/icons/NoPhoto.svg"
+    },
+    "NotificationFill": {
+      "value": "assets/spark/icons/NotificationFill.svg"
+    },
+    "NotificationOutline": {
+      "value": "assets/spark/icons/NotificationOutline.svg"
     },
     "Offer": {
       "value": "assets/spark/icons/Offer.svg"
@@ -590,6 +782,12 @@
     },
     "OfferType": {
       "value": "assets/spark/icons/OfferType.svg"
+    },
+    "PaperMapFill": {
+      "value": "assets/spark/icons/PaperMapFill.svg"
+    },
+    "PaperMapOutline": {
+      "value": "assets/spark/icons/PaperMapOutline.svg"
     },
     "Parking": {
       "value": "assets/spark/icons/Parking.svg"
@@ -621,6 +819,21 @@
     "Pieces": {
       "value": "assets/spark/icons/Pieces.svg"
     },
+    "PiggyBankFill": {
+      "value": "assets/spark/icons/PiggyBankFill.svg"
+    },
+    "PiggyBankOutline": {
+      "value": "assets/spark/icons/PiggyBankOutline.svg"
+    },
+    "PinFill": {
+      "value": "assets/spark/icons/PinFill.svg"
+    },
+    "PinOutline": {
+      "value": "assets/spark/icons/PinOutline.svg"
+    },
+    "Pinterest": {
+      "value": "assets/spark/icons/Pinterest.svg"
+    },
     "PlayFill": {
       "value": "assets/spark/icons/PlayFill.svg"
     },
@@ -642,6 +855,24 @@
     "PrintOutline": {
       "value": "assets/spark/icons/PrintOutline.svg"
     },
+    "ProCursorFill": {
+      "value": "assets/spark/icons/ProCursorFill.svg"
+    },
+    "ProCursorOutline": {
+      "value": "assets/spark/icons/ProCursorOutline.svg"
+    },
+    "ProFill": {
+      "value": "assets/spark/icons/ProFill.svg"
+    },
+    "ProOutline": {
+      "value": "assets/spark/icons/ProOutline.svg"
+    },
+    "ProfileFill": {
+      "value": "assets/spark/icons/ProfileFill.svg"
+    },
+    "ProfileOutline": {
+      "value": "assets/spark/icons/ProfileOutline.svg"
+    },
     "QuestionFill": {
       "value": "assets/spark/icons/QuestionFill.svg"
     },
@@ -657,8 +888,23 @@
     "Refresh": {
       "value": "assets/spark/icons/Refresh.svg"
     },
+    "Refund": {
+      "value": "assets/spark/icons/Refund.svg"
+    },
+    "RemoveFill": {
+      "value": "assets/spark/icons/RemoveFill.svg"
+    },
+    "RemoveOutline": {
+      "value": "assets/spark/icons/RemoveOutline.svg"
+    },
     "Renovation": {
       "value": "assets/spark/icons/Renovation.svg"
+    },
+    "RocketFill": {
+      "value": "assets/spark/icons/RocketFill.svg"
+    },
+    "RocketOutline": {
+      "value": "assets/spark/icons/RocketOutline.svg"
     },
     "Rooms": {
       "value": "assets/spark/icons/Rooms.svg"
@@ -666,11 +912,23 @@
     "RotateImage": {
       "value": "assets/spark/icons/RotateImage.svg"
     },
+    "SadFill": {
+      "value": "assets/spark/icons/SadFill.svg"
+    },
+    "SadOutline": {
+      "value": "assets/spark/icons/SadOutline.svg"
+    },
     "Salary": {
       "value": "assets/spark/icons/Salary.svg"
     },
     "SaleType": {
       "value": "assets/spark/icons/SaleType.svg"
+    },
+    "SatisfiedFill": {
+      "value": "assets/spark/icons/SatisfiedFill.svg"
+    },
+    "SatisfiedOutline": {
+      "value": "assets/spark/icons/SatisfiedOutline.svg"
     },
     "Scan": {
       "value": "assets/spark/icons/Scan.svg"
@@ -687,17 +945,47 @@
     "Sector": {
       "value": "assets/spark/icons/Sector.svg"
     },
+    "SecurityFill": {
+      "value": "assets/spark/icons/SecurityFill.svg"
+    },
+    "SecurityOutline": {
+      "value": "assets/spark/icons/SecurityOutline.svg"
+    },
+    "SecurityProfileAccountFill": {
+      "value": "assets/spark/icons/SecurityProfileAccountFill.svg"
+    },
+    "SecurityProfileAccountOutline": {
+      "value": "assets/spark/icons/SecurityProfileAccountOutline.svg"
+    },
+    "SecurityProfileFill": {
+      "value": "assets/spark/icons/SecurityProfileFill.svg"
+    },
+    "SecurityProfileOutline": {
+      "value": "assets/spark/icons/SecurityProfileOutline.svg"
+    },
     "Seller": {
       "value": "assets/spark/icons/Seller.svg"
     },
     "Send": {
       "value": "assets/spark/icons/Send.svg"
     },
-    "Send2": {
-      "value": "assets/spark/icons/Send2.svg"
+    "SendHorizontal": {
+      "value": "assets/spark/icons/SendHorizontal.svg"
     },
     "Service": {
       "value": "assets/spark/icons/Service.svg"
+    },
+    "ShareExpand": {
+      "value": "assets/spark/icons/ShareExpand.svg"
+    },
+    "ShareFill": {
+      "value": "assets/spark/icons/ShareFill.svg"
+    },
+    "ShareOutline": {
+      "value": "assets/spark/icons/ShareOutline.svg"
+    },
+    "ShareiOS": {
+      "value": "assets/spark/icons/ShareiOS.svg"
     },
     "ShoeSize": {
       "value": "assets/spark/icons/ShoeSize.svg"
@@ -729,8 +1017,20 @@
     "Speed": {
       "value": "assets/spark/icons/Speed.svg"
     },
+    "SpeedmeterFill": {
+      "value": "assets/spark/icons/SpeedmeterFill.svg"
+    },
+    "SpeedmeterOutline": {
+      "value": "assets/spark/icons/SpeedmeterOutline.svg"
+    },
     "Sport": {
       "value": "assets/spark/icons/Sport.svg"
+    },
+    "StarFill": {
+      "value": "assets/spark/icons/StarFill.svg"
+    },
+    "StarOutline": {
+      "value": "assets/spark/icons/StarOutline.svg"
     },
     "Start": {
       "value": "assets/spark/icons/Start.svg"
@@ -744,20 +1044,23 @@
     "StoreOutline": {
       "value": "assets/spark/icons/StoreOutline.svg"
     },
+    "Sun": {
+      "value": "assets/spark/icons/Sun.svg"
+    },
     "SunOrientation": {
       "value": "assets/spark/icons/SunOrientation.svg"
-    },
-    "Support2Fill": {
-      "value": "assets/spark/icons/Support2Fill.svg"
-    },
-    "Support2Outline": {
-      "value": "assets/spark/icons/Support2Outline.svg"
     },
     "SupportFill": {
       "value": "assets/spark/icons/SupportFill.svg"
     },
     "SupportOutline": {
       "value": "assets/spark/icons/SupportOutline.svg"
+    },
+    "SupportSmileFill": {
+      "value": "assets/spark/icons/SupportSmileFill.svg"
+    },
+    "SupportSmileOutline": {
+      "value": "assets/spark/icons/SupportSmileOutline.svg"
     },
     "Surface": {
       "value": "assets/spark/icons/Surface.svg"
@@ -768,11 +1071,20 @@
     "TableArtProduct": {
       "value": "assets/spark/icons/TableArtProduct.svg"
     },
+    "TargetFill": {
+      "value": "assets/spark/icons/TargetFill.svg"
+    },
+    "TargetOutline": {
+      "value": "assets/spark/icons/TargetOutline.svg"
+    },
     "Tattoo": {
       "value": "assets/spark/icons/Tattoo.svg"
     },
     "Terrace": {
       "value": "assets/spark/icons/Terrace.svg"
+    },
+    "ThreeSixty": {
+      "value": "assets/spark/icons/ThreeSixty.svg"
     },
     "Time": {
       "value": "assets/spark/icons/Time.svg"
@@ -785,6 +1097,12 @@
     },
     "ToysProduct": {
       "value": "assets/spark/icons/ToysProduct.svg"
+    },
+    "TrainFill": {
+      "value": "assets/spark/icons/TrainFill.svg"
+    },
+    "TrainOutline": {
+      "value": "assets/spark/icons/TrainOutline.svg"
     },
     "TrashCloseFill": {
       "value": "assets/spark/icons/TrashCloseFill.svg"
@@ -804,6 +1122,12 @@
     "Tv": {
       "value": "assets/spark/icons/Tv.svg"
     },
+    "TwitterFill": {
+      "value": "assets/spark/icons/TwitterFill.svg"
+    },
+    "TwitterOutline": {
+      "value": "assets/spark/icons/TwitterOutline.svg"
+    },
     "Type": {
       "value": "assets/spark/icons/Type.svg"
     },
@@ -822,11 +1146,29 @@
     "UnlockOutline": {
       "value": "assets/spark/icons/UnlockOutline.svg"
     },
+    "UserCheckFill": {
+      "value": "assets/spark/icons/UserCheckFill.svg"
+    },
+    "UserCheckOutline": {
+      "value": "assets/spark/icons/UserCheckOutline.svg"
+    },
     "Vaccine": {
       "value": "assets/spark/icons/Vaccine.svg"
     },
+    "ValidFill": {
+      "value": "assets/spark/icons/ValidFill.svg"
+    },
+    "ValidOutline": {
+      "value": "assets/spark/icons/ValidOutline.svg"
+    },
     "Vehicles": {
       "value": "assets/spark/icons/Vehicles.svg"
+    },
+    "VerifiedFill": {
+      "value": "assets/spark/icons/VerifiedFill.svg"
+    },
+    "VerifiedOutline": {
+      "value": "assets/spark/icons/VerifiedOutline.svg"
     },
     "View": {
       "value": "assets/spark/icons/View.svg"
@@ -843,6 +1185,15 @@
     "VoiceOutline": {
       "value": "assets/spark/icons/VoiceOutline.svg"
     },
+    "WalkerFill": {
+      "value": "assets/spark/icons/WalkerFill.svg"
+    },
+    "WalkerOutline": {
+      "value": "assets/spark/icons/WalkerOutline.svg"
+    },
+    "Wallet": {
+      "value": "assets/spark/icons/Wallet.svg"
+    },
     "Wardrobe": {
       "value": "assets/spark/icons/Wardrobe.svg"
     },
@@ -852,11 +1203,20 @@
     "WarningOutline": {
       "value": "assets/spark/icons/WarningOutline.svg"
     },
+    "WarningSecurityFill": {
+      "value": "assets/spark/icons/WarningSecurityFill.svg"
+    },
+    "WarningSecurityOutline": {
+      "value": "assets/spark/icons/WarningSecurityOutline.svg"
+    },
     "Wc": {
       "value": "assets/spark/icons/Wc.svg"
     },
     "Welcome": {
       "value": "assets/spark/icons/Welcome.svg"
+    },
+    "Whatsapp": {
+      "value": "assets/spark/icons/Whatsapp.svg"
     },
     "WheelFill": {
       "value": "assets/spark/icons/WheelFill.svg"
