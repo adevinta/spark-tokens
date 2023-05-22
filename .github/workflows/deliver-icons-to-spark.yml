@@ -1,4 +1,4 @@
-name: Deliver Tokens To Consumer
+name: Deliver Icons to Spark Repo
 
 on:
   workflow_dispatch:
