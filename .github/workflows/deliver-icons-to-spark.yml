@@ -1,0 +1,25 @@
+name: Deliver Icons to Spark Repo
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "/build/web/dist/spark/icons/**"
+
+jobs:
+  deliver_to_react_application:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deliver Platform Deliverable To Application
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: build/web/dist/spark/icons
+          destination-github-username: "adevinta"
+          destination-repository-name: "spark"
+          user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
+          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
+          target-branch: chore-updated-icons
+          target-directory: "packages/components/icons/assets"
