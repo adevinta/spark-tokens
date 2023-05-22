@@ -23,5 +23,6 @@ jobs:
           destination-repository-name: "spark"
           user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
-          create-target-branch-if-needed: chore-updated-icons
+          target-branch: chore-updated-icons
+          create-target-branch-if-needed: true
           target-directory: "packages/components/icons/assets"
