@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - "/build/web/dist/spark/icons/**"
+      - "build/web/dist/spark/icons/**"
 
 jobs:
   deliver_icons_to_spark_repo:
