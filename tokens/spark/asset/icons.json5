@@ -225,6 +225,9 @@
     "CardOutline": {
       "value": "assets/spark/icons/CardOutline.svg"
     },
+    "CategoriesClothesOutline": {
+      "value": "assets/spark/icons/CategoriesClothesOutline.svg"
+    },
     "Cave": {
       "value": "assets/spark/icons/Cave.svg"
     },
