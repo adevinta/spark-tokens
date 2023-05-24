@@ -8,8 +8,22 @@ jobs:
 
   svg2avd:
     runs-on: ubuntu-latest
+    env:
+      DIST: 'build/android/dist/spark/icons'
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
-      - run: ./spark-android/scripts/svg2avd/svg2avd.main.kts --help
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: 'Install svgo'
+        run: npm -g install svgo
+      - name: 'Cleanup dist'
+        run: |
+          rm -rf "$DIST"
+          mkdir -p "$DIST"
+      - name: 'Convert svg2avd.main.kts'
+        run: ./spark-android/scripts/svg2avd/svg2avd.main.kts --input="assets/spark/icons" --output="$DIST" --prefix="spark_icons_" --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
+      - run: ls -alh "$DIST"
