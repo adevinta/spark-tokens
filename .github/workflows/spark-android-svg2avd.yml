@@ -16,7 +16,7 @@ jobs:
           submodules: true
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: lts/Hydrogen
           cache: 'npm'
       - name: 'Install svgo'
         run: npm -g install svgo
