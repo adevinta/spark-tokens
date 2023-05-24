@@ -24,6 +24,5 @@ jobs:
         run: |
           rm -rf "$DIST"
           mkdir -p "$DIST"
-      - name: 'Convert svg2avd.main.kts'
+      - name: 'Run svg2avd.main.kts'
         run: ./spark-android/scripts/svg2avd/svg2avd.main.kts --input="assets/spark/icons" --output="$DIST" --prefix="spark_icons_" --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
-      - run: ls -alh "$DIST"
