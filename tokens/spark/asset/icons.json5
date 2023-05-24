@@ -24,6 +24,12 @@
     "AddOutline": {
       "value": "assets/spark/icons/AddOutline.svg"
     },
+    "AddSquareFill": {
+      "value": "assets/spark/icons/AddSquareFill.svg"
+    },
+    "AddSquareOutline": {
+      "value": "assets/spark/icons/AddSquareOutline.svg"
+    },
     "Age": {
       "value": "assets/spark/icons/Age.svg"
     },
