@@ -1,4 +1,4 @@
-name: Deliver Icons to Spark Repo
+name: "📤 Deliver icons to Adevinta/spark"
 
 on:
   workflow_dispatch:
@@ -6,13 +6,21 @@ on:
     branches:
       - main
     paths:
-      - "build/web/dist/spark/icons/**"
+      - "assets/spark/icons/**"
 
 jobs:
   deliver_icons_to_spark_repo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/Hydrogen
+          cache: "npm"
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Tokens
+        run: npm run build
       - name: Deliver Icons To Spark Web
         uses: cpina/github-action-push-to-another-repository@main
         env:
