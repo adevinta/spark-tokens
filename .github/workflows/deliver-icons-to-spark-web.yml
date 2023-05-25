@@ -9,7 +9,7 @@ on:
       - "assets/spark/icons/**"
 
 jobs:
-  deliver_icons_to_spark_repo:
+  deliver_icons_to_spark_web:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

@@ -1,4 +1,4 @@
-name: '📦 Deliver icons to Adevinta/spark-android'
+name: "📦 Deliver icons to Adevinta/spark-android"
 
 on:
   workflow_dispatch:
@@ -8,10 +8,10 @@ on:
     paths:
       - "assets/spark/icons/**"
 env:
-  DIST: 'build/android/dist/spark/icons'
+  DIST: "build/android/dist/spark/icons"
 
 jobs:
-  deliver_icons_to_spark_repo:
+  deliver_icons_to_spark_android:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -20,22 +20,22 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: lts/Hydrogen
-          cache: 'npm'
-      - name: 'Install svgo'
+          cache: "npm"
+      - name: "Install svgo"
         run: npm -g install svgo
-      - name: 'Cleanup dist'
+      - name: "Cleanup dist"
         run: |
           rm -rf "$DIST"
           mkdir -p "$DIST"
-      - name: 'Run svg2avd.main.kts'
+      - name: "Run svg2avd.main.kts"
         run: ./spark-android/scripts/svg2avd/svg2avd.main.kts --input="assets/spark/icons" --output="$DIST" --prefix="spark_icons_" --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
       - uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_ANDROID }}
         with:
           source-directory: ${{ env.DIST }}
-          destination-github-username: 'adevinta'
-          destination-repository-name: 'spark-android'
+          destination-github-username: "adevinta"
+          destination-repository-name: "spark-android"
           user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
           commit-message: |
             chore(avd): update icons
@@ -43,4 +43,4 @@ jobs:
             See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: chore-updated-icons
           create-target-branch-if-needed: true
-          target-directory: 'spark-icons/src/main/res/drawable'
+          target-directory: "spark-icons/src/main/res/drawable"
