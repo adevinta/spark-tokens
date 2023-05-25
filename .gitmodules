@@ -1,0 +1,3 @@
+[submodule "spark-android"]
+	path = spark-android
+	url = https://github.com/Adevinta/spark-android
