@@ -36,7 +36,7 @@ jobs:
             --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
       - uses: cpina/github-action-push-to-another-repository@1.7.2
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_ANDROID }}
         with:
           source-directory: $DIST
           destination-github-username: 'adevinta'
