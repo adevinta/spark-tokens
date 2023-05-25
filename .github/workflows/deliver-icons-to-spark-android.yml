@@ -1,0 +1,51 @@
+name: '📦 Deliver icons to Adevinta/spark-android'
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/spark/icons/**"
+
+jobs:
+  deliver_icons_to_spark_repo:
+    runs-on: ubuntu-latest
+    env:
+      DIST: 'build/android/dist/spark/icons'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/Hydrogen
+          cache: 'npm'
+      - name: 'Install svgo'
+        run: npm -g install svgo
+      - name: 'Cleanup dist'
+        run: |
+          rm -rf "$DIST"
+          mkdir -p "$DIST"
+      - name: 'Run svg2avd.main.kts'
+        run: >
+          ./spark-android/scripts/svg2avd/svg2avd.main.kts
+            --input="assets/spark/icons"
+            --output="$DIST"
+            --prefix="spark_icons_"
+            --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
+      - uses: cpina/github-action-push-to-another-repository@1.7.2
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: $DIST
+          destination-github-username: 'adevinta'
+          destination-repository-name: 'spark-android'
+          user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
+          commit-message: |
+            chore(avd): update icons
+
+            See ORIGIN_COMMIT from $GITHUB_REF
+          target-branch: chore-updated-icons
+          create-target-branch-if-needed: true
+          target-directory: 'spark-icons/src/main/res/drawable'
