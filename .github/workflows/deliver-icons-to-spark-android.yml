@@ -28,12 +28,7 @@ jobs:
           rm -rf "$DIST"
           mkdir -p "$DIST"
       - name: 'Run svg2avd.main.kts'
-        run: >
-          ./spark-android/scripts/svg2avd/svg2avd.main.kts
-            --input="assets/spark/icons"
-            --output="$DIST"
-            --prefix="spark_icons_"
-            --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
+        run: ./spark-android/scripts/svg2avd/svg2avd.main.kts --input="assets/spark/icons" --output="$DIST" --prefix="spark_icons_" --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
       - uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_ANDROID }}
