@@ -44,7 +44,8 @@ const modes = [`light`, `dark`, `hc`, `hcDark`];
 const assets = {
   transforms: [`attribute/cti`, `color/hex`, `size/remToFloat`],
   buildPath: `${webPath}images/`,
-  iconPath: `${webPath}icons/`,
+  webIconPath: `${webPath}icons/`,
+  androidIconPath: `${androidRoot}/icons/`,
   iosPath,
   androidPath,
   actions: [`generateGraphics`],

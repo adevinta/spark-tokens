@@ -1,5 +1,6 @@
 const fs = require("fs-extra");
 const optimize = require("./utils/optimize.js");
+const convertToVectorDrawable = require("../android/icon.js");
 
 /**
  * This is a custom [Style Dictionary action](https://amzn.github.io/style-dictionary/#/actions)
@@ -11,7 +12,7 @@ module.exports = {
   // and resolved dictionary object containing all the tokens and the platform configuration
   // of the platform that called this action.
   do: (dictionary, config) => {
-    const { iconPath } = config;
+    const { webIconPath, androidIconPath } = config;
 
     dictionary.allProperties
       .filter((token) => {
@@ -23,6 +24,7 @@ module.exports = {
         // Read source
         const svg = fs.readFileSync(value);
 
+        // WEB
         // Optimize SVGs for web
         const optimizedSvg = optimize(svg, {
           attributes: [{ fill: "currentColor" }, { stroke: "none" }],
@@ -38,10 +40,14 @@ module.exports = {
         }
 
         // Make sure the directory exists and write the new SVG file
-        const outputPath = `${iconPath || ""}${name}.svg`;
+        const outputPath = `${webIconPath || ""}${name}.svg`;
         fs.ensureFileSync(outputPath);
         fs.writeFileSync(outputPath, optimizedSvg);
         console.log(`✔︎  ${outputPath}`);
+
+        // ANDROID
+        // Launch the process for Android Icons
+        convertToVectorDrawable(androidIconPath, svg, name);
       });
   },
 
