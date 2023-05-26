@@ -1,4 +1,4 @@
-name: "📤 Deliver icons to Adevinta/spark"
+name: 📤 Deliver icons to Adevinta/spark
 
 on:
   workflow_dispatch:
@@ -6,14 +6,16 @@ on:
     branches:
       - main
     paths:
-      - "assets/spark/icons/**"
+      - "assets/spark/icons/*"
 
 jobs:
   deliver_icons_to_spark_web:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: lts/Hydrogen
           cache: "npm"
@@ -22,7 +24,7 @@ jobs:
       - name: Build Tokens
         run: npm run build
       - name: Deliver Icons To Spark Web
-        uses: cpina/github-action-push-to-another-repository@main
+        uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_WEB }}
         with:
@@ -30,7 +32,10 @@ jobs:
           destination-github-username: "adevinta"
           destination-repository-name: "spark"
           user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
-          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
+          commit-message: |
+            chore(icons): update icons
+
+            See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: chore-updated-icons
           create-target-branch-if-needed: true
           target-directory: "packages/components/icons/assets"
