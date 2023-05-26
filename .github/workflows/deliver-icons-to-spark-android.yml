@@ -1,4 +1,4 @@
-name: "📦 Deliver icons to Adevinta/spark-android"
+name: 📦 Deliver icons to Adevinta/spark-android
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - "assets/spark/icons/**"
+      - "assets/spark/icons/*"
 env:
   DIST: "build/android/dist/spark/icons"
 
@@ -14,22 +14,25 @@ jobs:
   deliver_icons_to_spark_android:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         with:
           submodules: true
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: lts/Hydrogen
           cache: "npm"
-      - name: "Install svgo"
+      - name: Install svgo
         run: npm -g install svgo
-      - name: "Cleanup dist"
+      - name: Cleanup dist
         run: |
           rm -rf "$DIST"
           mkdir -p "$DIST"
-      - name: "Run svg2avd.main.kts"
+      - name: Run svg2avd.main.kts
         run: ./spark-android/scripts/svg2avd/svg2avd.main.kts --input="assets/spark/icons" --output="$DIST" --prefix="spark_icons_" --copyright="spark-android/scripts/svg2avd/COPYRIGHT.xml"
-      - uses: cpina/github-action-push-to-another-repository@v1.7.2
+      - name: Deliver Icons To Spark Android
+        uses: cpina/github-action-push-to-another-repository@v1.7.2
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_ANDROID }}
         with:
