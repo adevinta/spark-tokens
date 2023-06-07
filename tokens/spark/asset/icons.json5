@@ -126,6 +126,9 @@
     "Basement": {
       "value": "assets/spark/icons/Basement.svg"
     },
+    "BatchPurchaseOutline": {
+      "value": "assets/spark/icons/BatchPurchaseOutline.svg"
+    },
     "Bath": {
       "value": "assets/spark/icons/Bath.svg"
     },
@@ -893,6 +896,9 @@
     },
     "PenOutline": {
       "value": "assets/spark/icons/PenOutline.svg"
+    },
+    "PercentageOutline": {
+      "value": "assets/spark/icons/PercentageOutline.svg"
     },
     "Pets": {
       "value": "assets/spark/icons/Pets.svg"
