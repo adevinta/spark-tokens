@@ -69,6 +69,9 @@
     "Apartment": {
       "value": "assets/spark/icons/Apartment.svg"
     },
+    "AppearanceFill": {
+      "value": "assets/spark/icons/AppearanceFill.svg"
+    },
     "Arrival": {
       "value": "assets/spark/icons/Arrival.svg"
     },
@@ -104,6 +107,9 @@
     },
     "Available": {
       "value": "assets/spark/icons/Available.svg"
+    },
+    "AvatarFill": {
+      "value": "assets/spark/icons/AvatarFill.svg"
     },
     "Baby": {
       "value": "assets/spark/icons/Baby.svg"
@@ -143,6 +149,9 @@
     },
     "BookmarkOutline": {
       "value": "assets/spark/icons/BookmarkOutline.svg"
+    },
+    "BoosterFill": {
+      "value": "assets/spark/icons/BoosterFill.svg"
     },
     "BoxFill": {
       "value": "assets/spark/icons/BoxFill.svg"
@@ -444,11 +453,77 @@
     "Fireplace": {
       "value": "assets/spark/icons/Fireplace.svg"
     },
+    "FlagAT": {
+      "value": "assets/spark/icons/FlagAT.svg"
+    },
+    "FlagBE": {
+      "value": "assets/spark/icons/FlagBE.svg"
+    },
+    "FlagBR": {
+      "value": "assets/spark/icons/FlagBR.svg"
+    },
+    "FlagBY": {
+      "value": "assets/spark/icons/FlagBY.svg"
+    },
+    "FlagCH": {
+      "value": "assets/spark/icons/FlagCH.svg"
+    },
+    "FlagCL": {
+      "value": "assets/spark/icons/FlagCL.svg"
+    },
+    "FlagCO": {
+      "value": "assets/spark/icons/FlagCO.svg"
+    },
+    "FlagDO": {
+      "value": "assets/spark/icons/FlagDO.svg"
+    },
+    "FlagES": {
+      "value": "assets/spark/icons/FlagES.svg"
+    },
+    "FlagFI": {
+      "value": "assets/spark/icons/FlagFI.svg"
+    },
+    "FlagFR": {
+      "value": "assets/spark/icons/FlagFR.svg"
+    },
     "FlagFill": {
       "value": "assets/spark/icons/FlagFill.svg"
     },
+    "FlagHU": {
+      "value": "assets/spark/icons/FlagHU.svg"
+    },
+    "FlagID": {
+      "value": "assets/spark/icons/FlagID.svg"
+    },
+    "FlagIE": {
+      "value": "assets/spark/icons/FlagIE.svg"
+    },
+    "FlagIT": {
+      "value": "assets/spark/icons/FlagIT.svg"
+    },
+    "FlagMA": {
+      "value": "assets/spark/icons/FlagMA.svg"
+    },
+    "FlagMX": {
+      "value": "assets/spark/icons/FlagMX.svg"
+    },
+    "FlagMY": {
+      "value": "assets/spark/icons/FlagMY.svg"
+    },
     "FlagOutline": {
       "value": "assets/spark/icons/FlagOutline.svg"
+    },
+    "FlagPT": {
+      "value": "assets/spark/icons/FlagPT.svg"
+    },
+    "FlagSE": {
+      "value": "assets/spark/icons/FlagSE.svg"
+    },
+    "FlagTN": {
+      "value": "assets/spark/icons/FlagTN.svg"
+    },
+    "FlagVN": {
+      "value": "assets/spark/icons/FlagVN.svg"
     },
     "FlashFill": {
       "value": "assets/spark/icons/FlashFill.svg"
@@ -539,6 +614,9 @@
     },
     "Holidays": {
       "value": "assets/spark/icons/Holidays.svg"
+    },
+    "HolidaysGardenOutline": {
+      "value": "assets/spark/icons/HolidaysGardenOutline.svg"
     },
     "HomeFill": {
       "value": "assets/spark/icons/HomeFill.svg"
