@@ -444,6 +444,12 @@
     "FileOffOutline": {
       "value": "assets/spark/icons/FileOffOutline.svg"
     },
+    "FilePdfFill": {
+      "value": "assets/spark/icons/FilePdfFill.svg"
+    },
+    "FilePdfOutline": {
+      "value": "assets/spark/icons/FilePdfOutline.svg"
+    },
     "Filter": {
       "value": "assets/spark/icons/Filter.svg"
     },
@@ -1059,11 +1065,14 @@
     "Seller": {
       "value": "assets/spark/icons/Seller.svg"
     },
-    "Send": {
-      "value": "assets/spark/icons/Send.svg"
+    "SendFill": {
+      "value": "assets/spark/icons/SendFill.svg"
     },
     "SendHorizontal": {
       "value": "assets/spark/icons/SendHorizontal.svg"
+    },
+    "SendOutline": {
+      "value": "assets/spark/icons/SendOutline.svg"
     },
     "Service": {
       "value": "assets/spark/icons/Service.svg"
