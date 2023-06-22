@@ -258,11 +258,8 @@
     "Clean": {
       "value": "assets/spark/icons/Clean.svg"
     },
-    "ClockArrowFill": {
-      "value": "assets/spark/icons/ClockArrowFill.svg"
-    },
-    "ClockArrowOutline": {
-      "value": "assets/spark/icons/ClockArrowOutline.svg"
+    "ClockArrow": {
+      "value": "assets/spark/icons/ClockArrow.svg"
     },
     "ClockFill": {
       "value": "assets/spark/icons/ClockFill.svg"
