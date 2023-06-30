@@ -111,6 +111,9 @@
     "AvatarFill": {
       "value": "assets/spark/icons/AvatarFill.svg"
     },
+    "Axles": {
+      "value": "assets/spark/icons/Axles.svg"
+    },
     "Baby": {
       "value": "assets/spark/icons/Baby.svg"
     },
@@ -383,6 +386,9 @@
     },
     "Dress": {
       "value": "assets/spark/icons/Dress.svg"
+    },
+    "DumpTruck": {
+      "value": "assets/spark/icons/DumpTruck.svg"
     },
     "Duplex": {
       "value": "assets/spark/icons/Duplex.svg"
@@ -744,6 +750,9 @@
     "Litter": {
       "value": "assets/spark/icons/Litter.svg"
     },
+    "Loader": {
+      "value": "assets/spark/icons/Loader.svg"
+    },
     "Localisation": {
       "value": "assets/spark/icons/Localisation.svg"
     },
@@ -1101,6 +1110,9 @@
     "ShopingCartOutline": {
       "value": "assets/spark/icons/ShopingCartOutline.svg"
     },
+    "ShovelRake": {
+      "value": "assets/spark/icons/ShovelRake.svg"
+    },
     "Shower": {
       "value": "assets/spark/icons/Shower.svg"
     },
@@ -1200,6 +1212,9 @@
     "ToysProduct": {
       "value": "assets/spark/icons/ToysProduct.svg"
     },
+    "Tractor": {
+      "value": "assets/spark/icons/Tractor.svg"
+    },
     "TrainFill": {
       "value": "assets/spark/icons/TrainFill.svg"
     },
@@ -1217,6 +1232,9 @@
     },
     "TrashOutline": {
       "value": "assets/spark/icons/TrashOutline.svg"
+    },
+    "Truck": {
+      "value": "assets/spark/icons/Truck.svg"
     },
     "Trunk": {
       "value": "assets/spark/icons/Trunk.svg"
@@ -1262,6 +1280,9 @@
     },
     "ValidOutline": {
       "value": "assets/spark/icons/ValidOutline.svg"
+    },
+    "VehicleWeight": {
+      "value": "assets/spark/icons/VehicleWeight.svg"
     },
     "Vehicles": {
       "value": "assets/spark/icons/Vehicles.svg"
@@ -1313,6 +1334,9 @@
     },
     "Wc": {
       "value": "assets/spark/icons/Wc.svg"
+    },
+    "Weight": {
+      "value": "assets/spark/icons/Weight.svg"
     },
     "Welcome": {
       "value": "assets/spark/icons/Welcome.svg"
