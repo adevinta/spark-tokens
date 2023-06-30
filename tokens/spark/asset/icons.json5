@@ -399,8 +399,8 @@
     "EquipmentBaby": {
       "value": "assets/spark/icons/EquipmentBaby.svg"
     },
-    "ErrorPhotoOutline": {
-      "value": "assets/spark/icons/ErrorPhotoOutline.svg"
+    "ErrorPhoto": {
+      "value": "assets/spark/icons/ErrorPhoto.svg"
     },
     "Euro": {
       "value": "assets/spark/icons/Euro.svg"
