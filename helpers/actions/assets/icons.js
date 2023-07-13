@@ -23,15 +23,10 @@ module.exports = {
         // Read source
         const svg = fs.readFileSync(value);
 
-        // Handle flags differently
-        const isCountryFlag = /^Flag[A-Z]{2}$/.test(name);
-        const svgFill = isCountryFlag ? "none" : "currentColor";
-
         // Optimize SVGs for web
         const optimizedSvg = optimize(svg, {
-          attributes: [{ fill: svgFill }, { stroke: "none" }],
+          attributes: [{ fill: "currentColor" }, { stroke: "none" }],
           title: name,
-          isCountryFlag,
         });
 
         // Check that the icon is 24x24

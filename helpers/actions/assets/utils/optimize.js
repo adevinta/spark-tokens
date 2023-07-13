@@ -1,9 +1,6 @@
 const svgo = require("svgo");
 
-const optimize = (
-  svgString,
-  { attributes = [], title, isCountryFlag = false } = {}
-) => {
+const optimize = (svgString, { attributes = [], title } = {}) => {
   return svgo.optimize(svgString, {
     multipass: true, // boolean. false by default
     js2svg: {
@@ -11,17 +8,12 @@ const optimize = (
       pretty: true, // boolean, false by default
     },
     plugins: [
-      // Exclude removeAttrs plugin for country flags
-      ...(isCountryFlag
-        ? []
-        : [
-            {
-              name: "removeAttrs",
-              params: {
-                attrs: "(fill|stroke|stroke-width)",
-              },
-            },
-          ]),
+      {
+        name: "removeAttrs",
+        params: {
+          attrs: "(fill|stroke|stroke-width)",
+        },
+      },
       {
         name: "addAttributesToSVGElement",
         params: {
