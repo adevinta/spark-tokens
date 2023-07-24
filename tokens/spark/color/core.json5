@@ -1,6 +1,218 @@
 {
   "color": {
     "core": {
+      "BlueRibbon": {
+        "50": {
+          "value": "#F2F6FF",
+          "type": "color",
+          "description": "BlueRibbon 50"
+        },
+        "100": {
+          "value": "#C2D6FF",
+          "type": "color",
+          "description": "BlueRibbon 100"
+        },
+        "200": {
+          "value": "#91B5FF",
+          "type": "color",
+          "description": "BlueRibbon 200"
+        },
+        "300": {
+          "value": "#6194FF",
+          "type": "color",
+          "description": "BlueRibbon 300"
+        },
+        "400": {
+          "value": "#3173FF",
+          "type": "color",
+          "description": "BlueRibbon 400"
+        },
+        "500": {
+          "value": "#0052FF",
+          "type": "color",
+          "description": "BlueRibbon 500"
+        },
+        "600": {
+          "value": "#003BCC",
+          "type": "color",
+          "description": "BlueRibbon 600"
+        },
+        "700": {
+          "value": "#002799",
+          "type": "color",
+          "description": "BlueRibbon 700"
+        },
+        "800": {
+          "value": "#001766",
+          "type": "color",
+          "description": "BlueRibbon 800"
+        },
+        "900": {
+          "value": "#000A33",
+          "type": "color",
+          "description": "BlueRibbon 900"
+        },
+      },
+
+      "Violet": {
+        "50": {
+          "value": "#F9F3FF",
+          "type": "color",
+          "description": "Violet 50"
+        },
+        "100": {
+          "value": "#EAD5FF",
+          "type": "color",
+          "description": "Violet 100"
+        },
+        "200": {
+          "value": "#DBB7FF",
+          "type": "color",
+          "description": "Violet 200"
+        },
+        "300": {
+          "value": "#CC99FF",
+          "type": "color",
+          "description": "Violet 300"
+        },
+        "400": {
+          "value": "#AC7DDD",
+          "type": "color",
+          "description": "Violet 400"
+        },
+        "500": {
+          "value": "#8D64BB",
+          "type": "color",
+          "description": "Violet 500"
+        },
+        "600": {
+          "value": "#6E4D99",
+          "type": "color",
+          "description": "Violet 600"
+        },
+        "700": {
+          "value": "#513877",
+          "type": "color",
+          "description": "Violet 700"
+        },
+        "800": {
+          "value": "#362555",
+          "type": "color",
+          "description": "Violet 800"
+        },
+        "900": {
+          "value": "#1E1433",
+          "type": "color",
+          "description": "Violet 900"
+        },
+      },
+
+      "PaleAdevinta": {
+        "50": {
+          "value": "#F4F4F7",
+          "type": "color",
+          "description": "PaleAdevinta 50"
+        },
+        "100": {
+          "value": "#DCDCE5",
+          "type": "color",
+          "description": "PaleAdevinta 100"
+        },
+        "200": {
+          "value": "#C4C5D3",
+          "type": "color",
+          "description": "PaleAdevinta 200"
+        },
+        "300": {
+          "value": "#ACADC2",
+          "type": "color",
+          "description": "PaleAdevinta 300"
+        },
+        "400": {
+          "value": "#9495B0",
+          "type": "color",
+          "description": "PaleAdevinta 400"
+        },
+        "500": {
+          "value": "#7C7E9F",
+          "type": "color",
+          "description": "PaleAdevinta 500"
+        },
+        "600": {
+          "value": "#65668D",
+          "type": "color",
+          "description": "PaleAdevinta 600"
+        },
+        "700": {
+          "value": "#4D4E7B",
+          "type": "color",
+          "description": "PaleAdevinta 700"
+        },
+        "800": {
+          "value": "#35376A",
+          "type": "color",
+          "description": "PaleAdevinta 800"
+        },
+        "900": {
+          "value": "#1D1F58",
+          "type": "color",
+          "description": "PaleAdevinta 900"
+        },
+      },
+
+      "BlackAdevinta": {
+        "50": {
+          "value": "#F4F4F4",
+          "type": "color",
+          "description": "BlackAdevinta 50"
+        },
+        "100": {
+          "value": "#DCDCDE",
+          "type": "color",
+          "description": "BlackAdevinta 100"
+        },
+        "200": {
+          "value": "#C4C5D3",
+          "type": "color",
+          "description": "BlackAdevinta 200"
+        },
+        "300": {
+          "value": "#ACADB1",
+          "type": "color",
+          "description": "BlackAdevinta 300"
+        },
+        "400": {
+          "value": "#94959A",
+          "type": "color",
+          "description": "BlackAdevinta 400"
+        },
+        "500": {
+          "value": "#7C7E84",
+          "type": "color",
+          "description": "BlackAdevinta 500"
+        },
+        "600": {
+          "value": "#65666E",
+          "type": "color",
+          "description": "BlackAdevinta 600"
+        },
+        "700": {
+          "value": "#4D4E57",
+          "type": "color",
+          "description": "BlackAdevinta 700"
+        },
+        "800": {
+          "value": "#353741",
+          "type": "color",
+          "description": "BlackAdevinta 800"
+        },
+        "900": {
+          "value": "#1D1F2A",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+      },
+      
       "apple": {
         "50": {
           "value": "#f5fbf8",
@@ -264,11 +476,13 @@
           "description": "Kiwi 900"
         }
       },
+
       "black": {
         "value": "#000000",
         "type": "color",
         "description": "Black"
       },
+      
       "white": {
         "value": "#ffffff",
         "type": "color",
