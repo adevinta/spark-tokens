@@ -33,33 +33,33 @@
           "description": "White"
         }
       },
-      "secondary": {
-        "secondary": {
+      "support": {
+        "support": {
           "value": "{color.core.PaleAdevinta.800}",
           "type": "color",
           "description": "PaleAdevinta 800"
         },
-        "onSecondary": {
+        "onSupport": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "secondaryContainer": {
+        "supportContainer": {
           "value": "{color.core.PaleAdevinta.100}",
           "type": "color",
           "description": "PaleAdevinta 100"
         },
-        "onSecondaryContainer": {
+        "onSupportContainer": {
           "value": "{color.core.PaleAdevinta.900}",
           "type": "color",
           "description": "PaleAdevinta 900"
         },
-        "secondaryVariant": {
+        "supportVariant": {
           "value": "{color.core.PaleAdevinta.700}",
           "type": "color",
           "description": "PaleAdevinta 700"
         },
-        "onSecondaryVariant": {
+        "onSupportVariant": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
@@ -287,12 +287,12 @@
             "type": "color",
             "description": "BlueRibbon 600"
           },
-          "secondary": {
+          "support": {
             "value": "{color.core.PaleAdevinta.700}",
             "type": "color",
             "description": "PaleAdevinta 700"
           },
-          "secondaryVariant": {
+          "supportVariant": {
             "value": "{color.core.PaleAdevinta.600}",
             "type": "color",
             "description": "PaleAdevinta 600"
@@ -352,7 +352,7 @@
             "type": "color",
             "description": "BlueRibbon 50"
           },
-          "secondaryContainer": {
+          "supportContainer": {
             "value": "{color.core.PaleAdevinta.50}",
             "type": "color",
             "description": "PaleAdevinta 50"

@@ -33,33 +33,33 @@
           "description": "BlackAdevinta 900"
         }
       },
-      "secondary": {
-        "secondary": {
+      "support": {
+        "support": {
           "value": "{color.core.PaleAdevinta.100}",
           "type": "color",
           "description": "PaleAdevinta 100"
         },
-        "onSecondary": {
+        "onSupport": {
           "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         },
-        "secondaryContainer": {
+        "supportContainer": {
           "value": "{color.core.PaleAdevinta.700}",
           "type": "color",
           "description": "PaleAdevinta 700"
         },
-        "onSecondaryContainer": {
+        "onSupportContainer": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "secondaryVariant": {
+        "supportVariant": {
           "value": "{color.core.PaleAdevinta.50}",
           "type": "color",
           "description": "PaleAdevinta 50"
         },
-        "onSecondaryVariant": {
+        "onSupportVariant": {
           "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
@@ -288,12 +288,12 @@
             "type": "color",
             "description": "BlueRibbon 900"
           },
-          "secondary": {
+          "support": {
             "value": "{color.core.PaleAdevinta.200}",
             "type": "color",
             "description": "PaleAdevinta 200"
           },
-          "secondaryVariant": {
+          "supportVariant": {
             "value": "{color.core.PaleAdevinta.100}",
             "type": "color",
             "description": "PaleAdevinta 100"
@@ -353,7 +353,7 @@
             "type": "color",
             "description": "BlueRibbon 900"
           },
-          "secondaryContainer": {
+          "supportContainer": {
             "value": "{color.core.PaleAdevinta.800}",
             "type": "color",
             "description": "PaleAdevinta 800"
