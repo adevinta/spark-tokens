@@ -3,9 +3,9 @@
     "brand": {
       "primary": {
         "primary": {
-          "value": "{color.core.theblue.500}",
+          "value": "{color.core.BlueRibbon.500}",
           "type": "color",
-          "description": "TheBlue 500"
+          "description": "BlueRibbon 500"
         },
         "onPrimary": {
           "value": "{color.core.white}",
@@ -13,19 +13,19 @@
           "description": "White"
         },
         "primaryContainer": {
-          "value": "{color.core.theblue.100}",
+          "value": "{color.core.BlueRibbon.100}",
           "type": "color",
-          "description": "TheBlue 100"
+          "description": "BlueRibbon 100"
         },
         "onPrimaryContainer": {
-          "value": "{color.core.theblue.700}",
+          "value": "{color.core.BlueRibbon.700}",
           "type": "color",
-          "description": "TheBlue 700"
+          "description": "BlueRibbon 700"
         },
         "primaryVariant": {
-          "value": "{color.core.theblue.700}",
+          "value": "{color.core.BlueRibbon.700}",
           "type": "color",
-          "description": "TheBlue 700"
+          "description": "BlueRibbon 700"
         },
         "onPrimaryVariant": {
           "value": "{color.core.white}",
@@ -35,9 +35,9 @@
       },
       "secondary": {
         "secondary": {
-          "value": "{color.core.sugarcotton.500}",
+          "value": "{color.core.PaleAdevinta.800}",
           "type": "color",
-          "description": "Sugarcotton 500"
+          "description": "PaleAdevinta 800"
         },
         "onSecondary": {
           "value": "{color.core.white}",
@@ -45,19 +45,19 @@
           "description": "White"
         },
         "secondaryContainer": {
-          "value": "{color.core.sugarcotton.100}",
+          "value": "{color.core.PaleAdevinta.100}",
           "type": "color",
-          "description": "Sugarcotton 100"
+          "description": "PaleAdevinta 100"
         },
         "onSecondaryContainer": {
-          "value": "{color.core.sugarcotton.700}",
+          "value": "{color.core.PaleAdevinta.900}",
           "type": "color",
-          "description": "Sugarcotton 700"
+          "description": "PaleAdevinta 900"
         },
         "secondaryVariant": {
-          "value": "{color.core.sugarcotton.700}",
+          "value": "{color.core.PaleAdevinta.700}",
           "type": "color",
-          "description": "Sugarcotton 700"
+          "description": "PaleAdevinta 700"
         },
         "onSecondaryVariant": {
           "value": "{color.core.white}",
@@ -128,19 +128,19 @@
           "description": "White"
         },
         "onBackground": {
-          "value": "{color.core.black}",
+          "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
-          "description": "Black"
+          "description": "BlackAdevinta 900"
         },
         "backgroundVariant": {
-          "value": "{color.core.surfer.50}",
+          "value": "{color.core.BlackAdevinta.50}",
           "type": "color",
-          "description": "Surfer 50"
+          "description": "BlackAdevinta 50"
         },
         "onBackgroundVariant": {
-          "value": "{color.core.black}",
+          "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
-          "description": "Black"
+          "description": "BlackAdevinta 900"
         },
         "surface": {
           "value": "{color.core.white}",
@@ -148,14 +148,14 @@
           "description": "White"
         },
         "onSurface": {
-          "value": "{color.core.black}",
+          "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
-          "description": "Black"
+          "description": "BlackAdevinta.900"
         },
         "surfaceInverse": {
-          "value": "{color.core.surfer.900}",
+          "value": "{color.core.BlackAdevinta.800}",
           "type": "color",
-          "description": "Surfer 900"
+          "description": "BlackAdevinta 800"
         },
         "onSurfaceInverse": {
           "value": "{color.core.white}",
@@ -163,14 +163,14 @@
           "description": "White"
         },
         "outline": {
-          "value": "{color.core.surfer.200}",
+          "value": "{color.core.BlackAdevinta.100}",
           "type": "color",
-          "description": "Surfer 200"
+          "description": "BlackAdevinta 100"
         },
         "outlineHigh": {
-          "value": "{color.core.black}",
+          "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
-          "description": "Black"
+          "description": "BlackAdevinta.900"
         }
       },
       "feedback": {
@@ -190,9 +190,9 @@
           "description": "Wiggins 500"
         },
         "onAlert": {
-          "value": "{color.core.black}",
+          "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
-          "description": "Black"
+          "description": "BlackAdevinta 900"
         },
         "error": {
           "value": "{color.core.chili.500}",
@@ -215,9 +215,9 @@
           "description": "White"
         },
         "neutral": {
-          "value": "{color.core.surfer.500}",
+          "value": "{color.core.BlackAdevinta.800}",
           "type": "color",
-          "description": "Surfer 500"
+          "description": "BlackAdevinta 800"
         },
         "onNeutral": {
           "value": "{color.core.white}",
@@ -265,52 +265,62 @@
           "description": "Sky 700"
         },
         "neutralContainer": {
-          "value": "{color.core.surfer.100}",
+          "value": "{color.core.BlackAdevinta.100}",
           "type": "color",
-          "description": "Surfer 100"
+          "description": "BlackAdevinta 100"
         },
         "onNeutralContainer": {
-          "value": "{color.core.surfer.700}",
+          "value": "{color.core.BlackAdevinta.800}",
           "type": "color",
-          "description": "Surfer 700"
+          "description": "BlackAdevinta 800"
         }
       },
       "states": {
         "hovered": {
           "primary": {
-            "value": "{color.core.theblue.400}",
+            "value": "{color.core.BlueRibbon.400}",
             "type": "color",
-            "description": "TheBlue 400"
+            "description": "BlueRibbon 400"
           },
           "primaryVariant": {
-            "value": "{color.core.theblue.600}",
+            "value": "{color.core.BlueRibbon.600}",
             "type": "color",
-            "description": "TheBlue 600"
+            "description": "BlueRibbon 600"
           },
           "secondary": {
-            "value": "{color.core.sugarcotton.400}",
+            "value": "{color.core.PaleAdevinta.700}",
             "type": "color",
-            "description": "sugarcotton 400"
+            "description": "PaleAdevinta 700"
           },
           "secondaryVariant": {
-            "value": "{color.core.sugarcotton.600}",
+            "value": "{color.core.PaleAdevinta.600}",
             "type": "color",
-            "description": "sugarcotton 600"
+            "description": "PaleAdevinta 600"
           },
-          "background": {
-            "value": "{color.core.theblue.50}",
+          "accent": {
+            "value": "{color.core.Violet.200}",
             "type": "color",
-            "description": "TheBlue 50"
+            "description": "Violet 200"
+          },
+          "accentVariant": {
+            "value": "{color.core.Violet.600}",
+            "type": "color",
+            "description": "Violet 600"
+          },
+          "default": {
+            "value": "{color.core.PaleAdevinta.700}",
+            "type": "color",
+            "description": "PaleAdevinta 700"
           },
           "surface": {
-            "value": "{color.core.theblue.50}",
+            "value": "{color.core.BlueRibbon.50}",
             "type": "color",
-            "description": "TheBlue 50"
+            "description": "BlueRibbon 50"
           },
           "surfaceInverse": {
-            "value": "{color.core.surfer.800}",
+            "value": "{color.core.BlackAdevinta.800}",
             "type": "color",
-            "description": "Surfer 800"
+            "description": "BlackAdevinta 800"
           },
           "success": {
             "value": "{color.core.apple.400}",
@@ -333,19 +343,19 @@
             "description": "Sky 400"
           },
           "neutral": {
-            "value": "{color.core.surfer.400}",
+            "value": "{color.core.BlackAdevinta.700}",
             "type": "color",
-            "description": "Surfer 400"
+            "description": "BlackAdevinta 700"
           },
           "primaryContainer": {
-            "value": "{color.core.theblue.50}",
+            "value": "{color.core.BlueRibbon.50}",
             "type": "color",
-            "description": "TheBlue 50"
+            "description": "BlueRibbon 50"
           },
           "secondaryContainer": {
-            "value": "{color.core.sugarcotton.50}",
+            "value": "{color.core.PaleAdevinta.50}",
             "type": "color",
-            "description": "Sugarcotton 50"
+            "description": "PaleAdevinta 50"
           },
           "successContainer": {
             "value": "{color.core.apple.50}",
@@ -368,12 +378,12 @@
             "description": "Sky 50"
           },
           "neutralContainer": {
-            "value": "{color.core.surfer.50}",
+            "value": "{color.core.BlackAdevinta.50}",
             "type": "color",
-            "description": "Surfer 50"
+            "description": "BlackAdevinta 50"
           },
           "outline": {
-            "value": "{color.core.theblue.500}",
+            "value": "{color.core.BlueRibbon.500}",
             "type": "color",
             "description": "TheBlue 500"
           }
