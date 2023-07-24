@@ -1,33 +1,33 @@
 {
   "color": {
     "brand": {
-      "primary": {
-        "primary": {
+      "main": {
+        "main": {
           "value": "{color.core.BlueRibbon.400}",
           "type": "color",
           "description": "BlueRibbon 400"
         },
-        "onPrimary": {
+        "onMain": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "primaryContainer": {
+        "mainContainer": {
           "value": "{color.core.BlueRibbon.800}",
           "type": "color",
           "description": "BlueRibbon 800"
         },
-        "onPrimaryContainer": {
+        "onMainContainer": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "primaryVariant": {
+        "mainVariant": {
           "value": "{color.core.BlueRibbon.200}",
           "type": "color",
           "description": "BlueRibbon 200"
         },
-        "onPrimaryVariant": {
+        "onMainVariant": {
           "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
@@ -278,12 +278,12 @@
       },
       "states": {
         "hovered": {
-          "primary": {
+          "main": {
             "value": "{color.core.BlueRibbon.500}",
             "type": "color",
             "description": "BlueRibbon 500"
           },
-          "primaryVariant": {
+          "mainVariant": {
             "value": "{color.core.BlueRibbon.900}",
             "type": "color",
             "description": "BlueRibbon 900"
@@ -348,7 +348,7 @@
             "type": "color",
             "description": "BlackAdevinta 400"
           },
-          "primaryContainer": {
+          "mainContainer": {
             "value": "{color.core.BlueRibbon.900}",
             "type": "color",
             "description": "BlueRibbon 900"
