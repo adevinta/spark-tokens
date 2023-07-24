@@ -65,6 +65,63 @@
           "description": "Black"
         }
       },
+
+      "accent": {
+        "accent": {
+          "value": "{color.core.Violet.300}",
+          "type": "color",
+          "description": "Violet 300"
+        },
+        "onAccent": {
+          "value": "{color.core.BlackAdevinta.900}",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+        "accentContainer": {
+          "value": "{color.core.Violet.500}",
+          "type": "color",
+          "description": "Violet 500"
+        },
+        "onAccentContainer": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "accentVariant": {
+          "value": "{color.core.Violet.200}",
+          "type": "color",
+          "description": "Violet 200"
+        },
+        "onAccentVariant": {
+          "value": "{color.core.PaleAdevinta.900}",
+          "type": "color",
+          "description": "PaleAdevinta 900"
+        }
+      },
+
+      "default": {
+        "default": {
+          "value": "{color.core.PaleAdevinta.100}",
+          "type": "color",
+          "description": "PaleAdevinta 100"
+        },
+        "onDefault": {
+          "value": "{color.core.BlackAdevinta.900}",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+        "defaultContainer": {
+          "value": "{color.core.PaleAdevinta.700}",
+          "type": "color",
+          "description": "PaleAdevinta 700"
+        },
+        "onDefaultContainer": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        }
+      },
+
       "base": {
         "background": {
           "value": "{color.core.black}",
