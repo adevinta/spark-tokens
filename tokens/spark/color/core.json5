@@ -51,7 +51,7 @@
           "value": "#000A33",
           "type": "color",
           "description": "BlueRibbon 900"
-        },
+        }
       },
 
       "Violet": {
@@ -104,7 +104,7 @@
           "value": "#1E1433",
           "type": "color",
           "description": "Violet 900"
-        },
+        }
       },
 
       "PaleAdevinta": {
@@ -157,7 +157,7 @@
           "value": "#1D1F58",
           "type": "color",
           "description": "PaleAdevinta 900"
-        },
+        }
       },
 
       "BlackAdevinta": {
@@ -210,7 +210,7 @@
           "value": "#1D1F2A",
           "type": "color",
           "description": "BlackAdevinta 900"
-        },
+        }
       },
       
       "apple": {
