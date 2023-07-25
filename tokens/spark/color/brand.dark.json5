@@ -99,23 +99,23 @@
         }
       },
 
-      "default": {
-        "default": {
+      "basic": {
+        "basic": {
           "value": "{color.core.PaleAdevinta.100}",
           "type": "color",
           "description": "PaleAdevinta 100"
         },
-        "onDefault": {
+        "onBasic": {
           "value": "{color.core.BlackAdevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         },
-        "defaultContainer": {
+        "basicContainer": {
           "value": "{color.core.PaleAdevinta.700}",
           "type": "color",
           "description": "PaleAdevinta 700"
         },
-        "onDefaultContainer": {
+        "onBasicContainer": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
@@ -308,7 +308,7 @@
             "type": "color",
             "description": "Violet 300"
           },
-          "default": {
+          "basic": {
             "value": "{color.core.PaleAdevinta.100}",
             "type": "color",
             "description": "PaleAdevinta 100"
