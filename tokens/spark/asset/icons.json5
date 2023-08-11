@@ -219,11 +219,17 @@
     "Capacity": {
       "value": "assets/spark/icons/Capacity.svg"
     },
+    "CarBrand": {
+      "value": "assets/spark/icons/CarBrand.svg"
+    },
     "CarFill": {
       "value": "assets/spark/icons/CarFill.svg"
     },
     "CarOutline": {
       "value": "assets/spark/icons/CarOutline.svg"
+    },
+    "CarType": {
+      "value": "assets/spark/icons/CarType.svg"
     },
     "CarWarrantyFill": {
       "value": "assets/spark/icons/CarWarrantyFill.svg"
@@ -275,6 +281,12 @@
     },
     "Clothes": {
       "value": "assets/spark/icons/Clothes.svg"
+    },
+    "ClothesBrand": {
+      "value": "assets/spark/icons/ClothesBrand.svg"
+    },
+    "ClothesCondition": {
+      "value": "assets/spark/icons/ClothesCondition.svg"
     },
     "Color": {
       "value": "assets/spark/icons/Color.svg"
@@ -639,6 +651,9 @@
     "Job": {
       "value": "assets/spark/icons/Job.svg"
     },
+    "JobType": {
+      "value": "assets/spark/icons/JobType.svg"
+    },
     "KeyFill": {
       "value": "assets/spark/icons/KeyFill.svg"
     },
@@ -741,6 +756,12 @@
     "MegaphoneFill": {
       "value": "assets/spark/icons/MegaphoneFill.svg"
     },
+    "MegaphoneMuteFill": {
+      "value": "assets/spark/icons/MegaphoneMuteFill.svg"
+    },
+    "MegaphoneMuteOutline": {
+      "value": "assets/spark/icons/MegaphoneMuteOutline.svg"
+    },
     "MegaphoneOutline": {
       "value": "assets/spark/icons/MegaphoneOutline.svg"
     },
@@ -830,6 +851,9 @@
     },
     "Parking": {
       "value": "assets/spark/icons/Parking.svg"
+    },
+    "ParkingEstate": {
+      "value": "assets/spark/icons/ParkingEstate.svg"
     },
     "Parquet": {
       "value": "assets/spark/icons/Parquet.svg"
