@@ -47,9 +47,7 @@ fs.readFile(`${folderPath}figmaTokens.json`, "utf8", (err, data) => {
 function createTheme(input, themeType) {
   const theme = {
     color: {
-      brand: {
-        main: {},
-      },
+      brand: {},
     },
   };
 
@@ -58,9 +56,12 @@ function createTheme(input, themeType) {
   const mainCategories = Object.keys(input.color[themeType]);
 
   for (const category of mainCategories) {
-    if (!theme.color.brand[category]) {
-      theme.color.brand[category] = {};
+    if (category.toLowerCase() === "dim") {
+      continue; // Skip the "dim" category
     }
+
+    const categoryCamelCase = camelCase(category);
+    theme.color.brand[categoryCamelCase] = {};
 
     const categoryKeys = Object.keys(input.color[themeType][category]);
 
@@ -69,25 +70,12 @@ function createTheme(input, themeType) {
       const description = item.description || key;
       const originalHexValue = item.value.toLowerCase();
 
-      // Find the corresponding brand palette key based on the original hex value
-      const paletteKey = Object.keys(brandPalette).find((paletteKey) => {
-        return (
-          brandPalette[paletteKey].value.toLowerCase() === originalHexValue
-        );
-      });
+      const value =
+        key === "overlay"
+          ? originalHexValue // we don't handle opacity yet
+          : `{color.core.${getPaletteKey(originalHexValue, brandPalette)}}`;
 
-      if (!paletteKey) {
-        console.error(
-          `Error: Original hex value "${originalHexValue}" does not correspond to any brand palette color value.`
-        );
-        process.exit(1);
-      }
-
-      const value = `{color.core.${paletteKey
-        .toLowerCase()
-        .replace(" ", ".")}}`;
-
-      theme.color.brand[category][camelCase(key)] = {
+      theme.color.brand[categoryCamelCase][camelCase(key)] = {
         value: value,
         type: "color",
         description: description,
@@ -96,6 +84,21 @@ function createTheme(input, themeType) {
   }
 
   return theme;
+}
+
+function getPaletteKey(hexValue, brandPalette) {
+  const paletteKey = Object.keys(brandPalette).find((key) => {
+    return brandPalette[key].value.toLowerCase() === hexValue;
+  });
+
+  if (!paletteKey) {
+    console.error(
+      `Error: Original hex value "${hexValue}" does not correspond to any brand palette color value.`
+    );
+    process.exit(1);
+  }
+
+  return paletteKey.toLowerCase().replace(" ", ".");
 }
 
 function camelCase(str) {

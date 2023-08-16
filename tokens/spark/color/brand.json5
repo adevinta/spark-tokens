@@ -272,6 +272,11 @@
           "type": "color",
           "description": "BlackAdevinta 900"
         },
+        "overlay": {
+          "value": "#353741b8",
+          "type": "color",
+          "description": "BlackAdevinta 800 72%"
+        },
         "onOverlay": {
           "value": "{color.core.white}",
           "type": "color",
