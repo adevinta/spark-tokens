@@ -87,7 +87,7 @@ function createTheme(input, themeType) {
         .toLowerCase()
         .replace(" ", ".")}}`;
 
-      theme.color.brand[category][key] = {
+      theme.color.brand[category][camelCase(key)] = {
         value: value,
         type: "color",
         description: description,
@@ -96,4 +96,12 @@ function createTheme(input, themeType) {
   }
 
   return theme;
+}
+
+function camelCase(str) {
+  return str
+    .replace(/(?:^\w|[A-Z]|\b\w)/g, (letter, index) => {
+      return index === 0 ? letter.toLowerCase() : letter.toUpperCase();
+    })
+    .replace(/\s+/g, "");
 }
