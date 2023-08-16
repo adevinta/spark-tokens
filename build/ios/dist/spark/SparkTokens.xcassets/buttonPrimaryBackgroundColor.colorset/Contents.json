@@ -10,9 +10,9 @@
         "color-space": "srgb",
         "components": {
           "alpha": "1.0000",
-          "blue": "0.7882",
-          "red": "0.1294",
-          "green": "0.0941"
+          "blue": "1.0000",
+          "red": "0.0000",
+          "green": "0.3216"
         }
       }
     },
@@ -22,9 +22,9 @@
         "color-space": "srgb",
         "components": {
           "alpha": "1.0000",
-          "blue": "0.6549",
-          "red": "0.9961",
-          "green": "0.4196"
+          "blue": "0.8980",
+          "red": "0.8627",
+          "green": "0.8627"
         }
       },
       "appearances": [
@@ -40,9 +40,9 @@
         "color-space": "srgb",
         "components": {
           "alpha": "1.0000",
-          "blue": "0.7882",
-          "red": "0.1294",
-          "green": "0.0941"
+          "blue": "1.0000",
+          "red": "0.0000",
+          "green": "0.3216"
         }
       },
       "appearances": [
@@ -62,9 +62,9 @@
         "color-space": "srgb",
         "components": {
           "alpha": "1.0000",
-          "blue": "0.7882",
-          "red": "0.1294",
-          "green": "0.0941"
+          "blue": "1.0000",
+          "red": "0.0000",
+          "green": "0.3216"
         }
       },
       "appearances": [
