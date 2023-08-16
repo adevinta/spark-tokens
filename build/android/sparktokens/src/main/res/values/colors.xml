@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 16 Aug 2023 14:12:00 GMT
+  Generated on Wed, 16 Aug 2023 14:45:17 GMT
 -->
 <resources>
   <color name="color_brand_main_main">@color/color_core_blueribbon_500</color>
@@ -57,6 +57,7 @@
   <color name="color_brand_base_on_background_variant">@color/color_core_blackadevinta_900</color>
   <color name="color_brand_base_outline">@color/color_core_blackadevinta_100</color>
   <color name="color_brand_base_outline_high">@color/color_core_blackadevinta_900</color>
+  <color name="color_brand_base_overlay">#b8353741</color>
   <color name="color_brand_base_on_overlay">@color/color_core_white</color>
   <color name="color_brand_states_main_hover">@color/color_core_blueribbon_400</color>
   <color name="color_brand_states_main_variant_hover">@color/color_core_blueribbon_600</color>

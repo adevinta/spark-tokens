@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 16 Aug 2023 14:12:01 GMT
+  Generated on Wed, 16 Aug 2023 14:45:17 GMT
 -->
 <resources>
   <color name="color_brand_main_main">#ff3173ff</color>
@@ -57,6 +57,7 @@
   <color name="color_brand_base_on_background_variant">#fff4f4f4</color>
   <color name="color_brand_base_outline">#ff4d4e57</color>
   <color name="color_brand_base_outline_high">#ffffffff</color>
+  <color name="color_brand_base_overlay">#b8353741</color>
   <color name="color_brand_base_on_overlay">#ffffffff</color>
   <color name="color_brand_states_main_hover">#ff0052ff</color>
   <color name="color_brand_states_main_variant_hover">#ff6194ff</color>

@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Aug 2023 14:12:01 GMT
+ * Generated on Wed, 16 Aug 2023 14:45:17 GMT
  */
 
 :root {
+  --color-brand-base-overlay: rgba(53, 55, 65, 0.72);
   --color-brand-states-neutral-container-hover: var(--color-core-blackadevinta-900);
   --color-brand-states-info-container-hover: var(--color-core-sky-900);
   --color-brand-states-error-container-hover: var(--color-core-chili-900);

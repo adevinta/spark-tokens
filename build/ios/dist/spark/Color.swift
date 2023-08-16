@@ -158,6 +158,9 @@ extension Color {
   public static var brandBaseOutlineHigh: Color {
     return Color.init("brandBaseOutlineHigh", bundle: bundle)
   }
+  public static var brandBaseOverlay: Color {
+    return Color.init("brandBaseOverlay", bundle: bundle)
+  }
   public static var brandBaseOnOverlay: Color {
     return Color.init("brandBaseOnOverlay", bundle: bundle)
   }
