@@ -15,7 +15,9 @@ fs.readdirSync(assetDir).forEach((file) => {
   }
 });
 
-fs.writeFileSync(
-  `./tokens/${brand}/asset/icons.json5`,
-  JSON.stringify({ asset }, null, 2)
+const outputFilePath = `./tokens/${brand}/asset/icons.json5`;
+fs.writeFileSync(outputFilePath, JSON.stringify({ asset }, null, 2));
+
+console.log(
+  `Icons -  List of icon files generated successfully: ${outputFilePath}`
 );

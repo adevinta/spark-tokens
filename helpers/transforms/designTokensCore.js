@@ -1,5 +1,9 @@
 const fs = require("fs");
-const folderPath = "../../tokens/spark/color/";
+const path = require("path");
+
+// Read brand folder
+const brand = process.argv[2] || "spark";
+const folderPath = `./tokens/${brand}/color/`;
 
 // Read the input JSON file
 fs.readFile(`${folderPath}figmaTokens.json`, "utf8", (err, data) => {
@@ -13,17 +17,15 @@ fs.readFile(`${folderPath}figmaTokens.json`, "utf8", (err, data) => {
     const outputJSON = transformJSON(inputJSON);
 
     // Write the output JSON to a new file
-    fs.writeFile(
-      `${folderPath}core.json5`,
-      JSON.stringify(outputJSON, null, 2),
-      (err) => {
-        if (err) {
-          console.error("Error writing output file:", err);
-        } else {
-          console.log("Transformation successful. Output saved to output.json");
-        }
+    const outputFile = `${folderPath}core.json5`;
+
+    fs.writeFile(outputFile, JSON.stringify(outputJSON, null, 2), (err) => {
+      if (err) {
+        console.error("Error writing output file:", err);
+      } else {
+        console.log(`Core Palette - Transformation successful: ${outputFile}`);
       }
-    );
+    });
   } catch (err) {
     console.error("Error parsing input JSON:", err);
   }
