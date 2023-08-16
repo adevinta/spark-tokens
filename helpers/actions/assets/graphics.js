@@ -24,7 +24,7 @@ module.exports = {
 
         // Read the file from the token's value and turn it into a
         // [lodash template](https://lodash.com/docs/4.17.15#template)
-        // This is why the original SVG files have `<%= color.brand.primary.value %>` in them.
+        // This is why the original SVG files have `<%= color.brand.main.value %>` in them.
         // That is the lodash template's way of using data in the template.
         // `src` is now a function that will accept a data object that will be used
         // to generate a finished output.

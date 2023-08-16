@@ -1,55 +1,55 @@
 {
-  "component": {
-    "button": {
-      "font-size": { "value": "{size.font.action.callout.value}" },
-      "padding": { "value": "{size.padding.md.value}" },
-      "color": { "value": "{color.core.white}" },
-      "border-radius": { "value": "{size.border.radius.lg.value}" },
+  component: {
+    button: {
+      "font-size": { value: "{size.font.action.callout.value}" },
+      padding: { value: "{size.padding.md.value}" },
+      color: { value: "{color.core.white}" },
+      "border-radius": { value: "{size.border.radius.lg.value}" },
 
-      "primary": {
-        "background-color": { "value": "{color.brand.primary.primary.value}" },
-        "color": { "value": "{color.brand.primary.onPrimary.value}" },
+      primary: {
+        "background-color": { value: "{color.brand.main.main.value}" },
+        color: { value: "{color.brand.main.onMain.value}" },
 
         // hover state
-        "hover": {
+        hover: {
           "background-color": {
-            "value": "{color.brand.primary.primary.value}"
+            value: "{color.brand.main.main.value}",
           },
-          "color": { "value": "{color.brand.primary.onPrimary.value}" }
+          color: { value: "{color.brand.main.onMain.value}" },
         },
 
         // active state
-        "active": {
+        active: {
           "background-color": {
-            "value": "{color.brand.primary.primary.value}"
+            value: "{color.brand.main.main.value}",
           },
-          "color": { "value": "{color.brand.primary.onPrimary.value}" }
-        }
+          color: { value: "{color.brand.main.onMain.value}" },
+        },
       },
 
-      "secondary": {
-        "color": { "value": "{color.brand.secondary.secondary.value}" },
+      secondary: {
+        color: { value: "{color.brand.support.support.value}" },
         "background-color": {
-          "value": "{color.brand.base.onSurfaceInverse.value}"
+          value: "{color.brand.base.onSurfaceInverse.value}",
         },
-        "border-width": { "value": "{size.border.width.md.value}" },
-        "border-color": { "value": "{color.brand.secondary.secondary.value}" },
+        "border-width": { value: "{size.border.width.md.value}" },
+        "border-color": { value: "{color.brand.support.support.value}" },
 
-        "hover": {
-          "color": { "value": "{color.brand.secondary.secondary.value}" },
-          "border-color": { "value": "{color.brand.secondary.secondary.value}" }
+        hover: {
+          color: { value: "{color.brand.support.support.value}" },
+          "border-color": { value: "{color.brand.support.support.value}" },
         },
 
-        "active": {
-          "color": { "value": "{color.brand.secondary.secondary.value}" },
+        active: {
+          color: { value: "{color.brand.support.support.value}" },
           "border-color": {
-            "value": "{color.brand.secondary.secondary.value}"
+            value: "{color.brand.support.support.value}",
           },
           "background-color": {
-            "value": "{color.brand.base.onSurfaceInverse.value}"
-          }
-        }
-      }
-    }
-  }
+            value: "{color.brand.base.onSurfaceInverse.value}",
+          },
+        },
+      },
+    },
+  },
 }

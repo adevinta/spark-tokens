@@ -2,53 +2,131 @@ import SwiftUI
 class DarkModeDesignTokens {}
 let bundle = Bundle(for: DarkModeDesignTokens.self)
 extension Color {
-  public static var brandPrimaryPrimary: Color {
-    return Color.init("brandPrimaryPrimary", bundle: bundle)
+  public static var brandMainMain: Color {
+    return Color.init("brandMainMain", bundle: bundle)
   }
-  public static var brandPrimaryOnPrimary: Color {
-    return Color.init("brandPrimaryOnPrimary", bundle: bundle)
+  public static var brandMainOnMain: Color {
+    return Color.init("brandMainOnMain", bundle: bundle)
   }
-  public static var brandPrimaryPrimaryContainer: Color {
-    return Color.init("brandPrimaryPrimaryContainer", bundle: bundle)
+  public static var brandMainMainContainer: Color {
+    return Color.init("brandMainMainContainer", bundle: bundle)
   }
-  public static var brandPrimaryOnPrimaryContainer: Color {
-    return Color.init("brandPrimaryOnPrimaryContainer", bundle: bundle)
+  public static var brandMainOnMainContainer: Color {
+    return Color.init("brandMainOnMainContainer", bundle: bundle)
   }
-  public static var brandPrimaryPrimaryVariant: Color {
-    return Color.init("brandPrimaryPrimaryVariant", bundle: bundle)
+  public static var brandMainMainVariant: Color {
+    return Color.init("brandMainMainVariant", bundle: bundle)
   }
-  public static var brandPrimaryOnPrimaryVariant: Color {
-    return Color.init("brandPrimaryOnPrimaryVariant", bundle: bundle)
+  public static var brandMainOnMainVariant: Color {
+    return Color.init("brandMainOnMainVariant", bundle: bundle)
   }
-  public static var brandSecondarySecondary: Color {
-    return Color.init("brandSecondarySecondary", bundle: bundle)
+  public static var brandSupportSupport: Color {
+    return Color.init("brandSupportSupport", bundle: bundle)
   }
-  public static var brandSecondaryOnSecondary: Color {
-    return Color.init("brandSecondaryOnSecondary", bundle: bundle)
+  public static var brandSupportOnSupport: Color {
+    return Color.init("brandSupportOnSupport", bundle: bundle)
   }
-  public static var brandSecondarySecondaryContainer: Color {
-    return Color.init("brandSecondarySecondaryContainer", bundle: bundle)
+  public static var brandSupportSupportContainer: Color {
+    return Color.init("brandSupportSupportContainer", bundle: bundle)
   }
-  public static var brandSecondaryOnSecondaryContainer: Color {
-    return Color.init("brandSecondaryOnSecondaryContainer", bundle: bundle)
+  public static var brandSupportOnSupportContainer: Color {
+    return Color.init("brandSupportOnSupportContainer", bundle: bundle)
   }
-  public static var brandSecondarySecondaryVariant: Color {
-    return Color.init("brandSecondarySecondaryVariant", bundle: bundle)
+  public static var brandSupportSupportVariant: Color {
+    return Color.init("brandSupportSupportVariant", bundle: bundle)
   }
-  public static var brandSecondaryOnSecondaryVariant: Color {
-    return Color.init("brandSecondaryOnSecondaryVariant", bundle: bundle)
+  public static var brandSupportOnSupportVariant: Color {
+    return Color.init("brandSupportOnSupportVariant", bundle: bundle)
   }
-  public static var brandBaseBackground: Color {
-    return Color.init("brandBaseBackground", bundle: bundle)
+  public static var brandAccentAccent: Color {
+    return Color.init("brandAccentAccent", bundle: bundle)
   }
-  public static var brandBaseOnBackground: Color {
-    return Color.init("brandBaseOnBackground", bundle: bundle)
+  public static var brandAccentOnAccent: Color {
+    return Color.init("brandAccentOnAccent", bundle: bundle)
   }
-  public static var brandBaseBackgroundVariant: Color {
-    return Color.init("brandBaseBackgroundVariant", bundle: bundle)
+  public static var brandAccentAccentContainer: Color {
+    return Color.init("brandAccentAccentContainer", bundle: bundle)
   }
-  public static var brandBaseOnBackgroundVariant: Color {
-    return Color.init("brandBaseOnBackgroundVariant", bundle: bundle)
+  public static var brandAccentOnAccentContainer: Color {
+    return Color.init("brandAccentOnAccentContainer", bundle: bundle)
+  }
+  public static var brandAccentAccentVariant: Color {
+    return Color.init("brandAccentAccentVariant", bundle: bundle)
+  }
+  public static var brandAccentOnAccentVariant: Color {
+    return Color.init("brandAccentOnAccentVariant", bundle: bundle)
+  }
+  public static var brandBasicBasic: Color {
+    return Color.init("brandBasicBasic", bundle: bundle)
+  }
+  public static var brandBasicOnBasic: Color {
+    return Color.init("brandBasicOnBasic", bundle: bundle)
+  }
+  public static var brandBasicBasicContainer: Color {
+    return Color.init("brandBasicBasicContainer", bundle: bundle)
+  }
+  public static var brandBasicOnBasicContainer: Color {
+    return Color.init("brandBasicOnBasicContainer", bundle: bundle)
+  }
+  public static var brandFeedbackSuccess: Color {
+    return Color.init("brandFeedbackSuccess", bundle: bundle)
+  }
+  public static var brandFeedbackOnSuccess: Color {
+    return Color.init("brandFeedbackOnSuccess", bundle: bundle)
+  }
+  public static var brandFeedbackSuccessContainer: Color {
+    return Color.init("brandFeedbackSuccessContainer", bundle: bundle)
+  }
+  public static var brandFeedbackOnSuccessContainer: Color {
+    return Color.init("brandFeedbackOnSuccessContainer", bundle: bundle)
+  }
+  public static var brandFeedbackAlert: Color {
+    return Color.init("brandFeedbackAlert", bundle: bundle)
+  }
+  public static var brandFeedbackOnAlert: Color {
+    return Color.init("brandFeedbackOnAlert", bundle: bundle)
+  }
+  public static var brandFeedbackAlertContainer: Color {
+    return Color.init("brandFeedbackAlertContainer", bundle: bundle)
+  }
+  public static var brandFeedbackOnAlertContainer: Color {
+    return Color.init("brandFeedbackOnAlertContainer", bundle: bundle)
+  }
+  public static var brandFeedbackError: Color {
+    return Color.init("brandFeedbackError", bundle: bundle)
+  }
+  public static var brandFeedbackOnError: Color {
+    return Color.init("brandFeedbackOnError", bundle: bundle)
+  }
+  public static var brandFeedbackErrorContainer: Color {
+    return Color.init("brandFeedbackErrorContainer", bundle: bundle)
+  }
+  public static var brandFeedbackOnErrorContainer: Color {
+    return Color.init("brandFeedbackOnErrorContainer", bundle: bundle)
+  }
+  public static var brandFeedbackInfo: Color {
+    return Color.init("brandFeedbackInfo", bundle: bundle)
+  }
+  public static var brandFeedbackOnInfo: Color {
+    return Color.init("brandFeedbackOnInfo", bundle: bundle)
+  }
+  public static var brandFeedbackInfoContainer: Color {
+    return Color.init("brandFeedbackInfoContainer", bundle: bundle)
+  }
+  public static var brandFeedbackOnInfoContainer: Color {
+    return Color.init("brandFeedbackOnInfoContainer", bundle: bundle)
+  }
+  public static var brandFeedbackNeutral: Color {
+    return Color.init("brandFeedbackNeutral", bundle: bundle)
+  }
+  public static var brandFeedbackOnNeutral: Color {
+    return Color.init("brandFeedbackOnNeutral", bundle: bundle)
+  }
+  public static var brandFeedbackNeutralContainer: Color {
+    return Color.init("brandFeedbackNeutralContainer", bundle: bundle)
+  }
+  public static var brandFeedbackOnNeutralContainer: Color {
+    return Color.init("brandFeedbackOnNeutralContainer", bundle: bundle)
   }
   public static var brandBaseSurface: Color {
     return Color.init("brandBaseSurface", bundle: bundle)
@@ -62,194 +140,236 @@ extension Color {
   public static var brandBaseOnSurfaceInverse: Color {
     return Color.init("brandBaseOnSurfaceInverse", bundle: bundle)
   }
+  public static var brandBaseBackground: Color {
+    return Color.init("brandBaseBackground", bundle: bundle)
+  }
+  public static var brandBaseOnBackground: Color {
+    return Color.init("brandBaseOnBackground", bundle: bundle)
+  }
+  public static var brandBaseBackgroundVariant: Color {
+    return Color.init("brandBaseBackgroundVariant", bundle: bundle)
+  }
+  public static var brandBaseOnBackgroundVariant: Color {
+    return Color.init("brandBaseOnBackgroundVariant", bundle: bundle)
+  }
   public static var brandBaseOutline: Color {
     return Color.init("brandBaseOutline", bundle: bundle)
   }
   public static var brandBaseOutlineHigh: Color {
     return Color.init("brandBaseOutlineHigh", bundle: bundle)
   }
-  public static var brandFeedbackSuccess: Color {
-    return Color.init("brandFeedbackSuccess", bundle: bundle)
+  public static var brandBaseOnOverlay: Color {
+    return Color.init("brandBaseOnOverlay", bundle: bundle)
   }
-  public static var brandFeedbackOnSuccess: Color {
-    return Color.init("brandFeedbackOnSuccess", bundle: bundle)
+  public static var brandStatesMainHover: Color {
+    return Color.init("brandStatesMainHover", bundle: bundle)
   }
-  public static var brandFeedbackAlert: Color {
-    return Color.init("brandFeedbackAlert", bundle: bundle)
+  public static var brandStatesMainVariantHover: Color {
+    return Color.init("brandStatesMainVariantHover", bundle: bundle)
   }
-  public static var brandFeedbackOnAlert: Color {
-    return Color.init("brandFeedbackOnAlert", bundle: bundle)
+  public static var brandStatesMainContainerHover: Color {
+    return Color.init("brandStatesMainContainerHover", bundle: bundle)
   }
-  public static var brandFeedbackError: Color {
-    return Color.init("brandFeedbackError", bundle: bundle)
+  public static var brandStatesSupportHover: Color {
+    return Color.init("brandStatesSupportHover", bundle: bundle)
   }
-  public static var brandFeedbackOnError: Color {
-    return Color.init("brandFeedbackOnError", bundle: bundle)
+  public static var brandStatesSupportVariantHover: Color {
+    return Color.init("brandStatesSupportVariantHover", bundle: bundle)
   }
-  public static var brandFeedbackInfo: Color {
-    return Color.init("brandFeedbackInfo", bundle: bundle)
+  public static var brandStatesSupportContainerHover: Color {
+    return Color.init("brandStatesSupportContainerHover", bundle: bundle)
   }
-  public static var brandFeedbackOnInfo: Color {
-    return Color.init("brandFeedbackOnInfo", bundle: bundle)
+  public static var brandStatesAccentHover: Color {
+    return Color.init("brandStatesAccentHover", bundle: bundle)
   }
-  public static var brandFeedbackNeutral: Color {
-    return Color.init("brandFeedbackNeutral", bundle: bundle)
+  public static var brandStatesAccentContainerHover: Color {
+    return Color.init("brandStatesAccentContainerHover", bundle: bundle)
   }
-  public static var brandFeedbackOnNeutral: Color {
-    return Color.init("brandFeedbackOnNeutral", bundle: bundle)
+  public static var brandStatesAccentVariantHover: Color {
+    return Color.init("brandStatesAccentVariantHover", bundle: bundle)
   }
-  public static var brandFeedbackSuccessContainer: Color {
-    return Color.init("brandFeedbackSuccessContainer", bundle: bundle)
+  public static var brandStatesBasicHover: Color {
+    return Color.init("brandStatesBasicHover", bundle: bundle)
   }
-  public static var brandFeedbackOnSuccessContainer: Color {
-    return Color.init("brandFeedbackOnSuccessContainer", bundle: bundle)
+  public static var brandStatesBasicContainerHover: Color {
+    return Color.init("brandStatesBasicContainerHover", bundle: bundle)
   }
-  public static var brandFeedbackAlertContainer: Color {
-    return Color.init("brandFeedbackAlertContainer", bundle: bundle)
+  public static var brandStatesSurfaceHover: Color {
+    return Color.init("brandStatesSurfaceHover", bundle: bundle)
   }
-  public static var brandFeedbackOnAlertContainer: Color {
-    return Color.init("brandFeedbackOnAlertContainer", bundle: bundle)
+  public static var brandStatesSurfaceInverseHover: Color {
+    return Color.init("brandStatesSurfaceInverseHover", bundle: bundle)
   }
-  public static var brandFeedbackErrorContainer: Color {
-    return Color.init("brandFeedbackErrorContainer", bundle: bundle)
+  public static var brandStatesSuccessHover: Color {
+    return Color.init("brandStatesSuccessHover", bundle: bundle)
   }
-  public static var brandFeedbackOnErrorContainer: Color {
-    return Color.init("brandFeedbackOnErrorContainer", bundle: bundle)
+  public static var brandStatesAlertHover: Color {
+    return Color.init("brandStatesAlertHover", bundle: bundle)
   }
-  public static var brandFeedbackInfoContainer: Color {
-    return Color.init("brandFeedbackInfoContainer", bundle: bundle)
+  public static var brandStatesErrorHover: Color {
+    return Color.init("brandStatesErrorHover", bundle: bundle)
   }
-  public static var brandFeedbackOnInfoContainer: Color {
-    return Color.init("brandFeedbackOnInfoContainer", bundle: bundle)
+  public static var brandStatesInfoHover: Color {
+    return Color.init("brandStatesInfoHover", bundle: bundle)
   }
-  public static var brandFeedbackNeutralContainer: Color {
-    return Color.init("brandFeedbackNeutralContainer", bundle: bundle)
+  public static var brandStatesNeutralHover: Color {
+    return Color.init("brandStatesNeutralHover", bundle: bundle)
   }
-  public static var brandFeedbackOnNeutralContainer: Color {
-    return Color.init("brandFeedbackOnNeutralContainer", bundle: bundle)
+  public static var brandStatesSuccessContainerHover: Color {
+    return Color.init("brandStatesSuccessContainerHover", bundle: bundle)
   }
-  public static var brandStatesHoveredPrimary: Color {
-    return Color.init("brandStatesHoveredPrimary", bundle: bundle)
+  public static var brandStatesAlertContainerHover: Color {
+    return Color.init("brandStatesAlertContainerHover", bundle: bundle)
   }
-  public static var brandStatesHoveredPrimaryVariant: Color {
-    return Color.init("brandStatesHoveredPrimaryVariant", bundle: bundle)
+  public static var brandStatesErrorContainerHover: Color {
+    return Color.init("brandStatesErrorContainerHover", bundle: bundle)
   }
-  public static var brandStatesHoveredSecondary: Color {
-    return Color.init("brandStatesHoveredSecondary", bundle: bundle)
+  public static var brandStatesInfoContainerHover: Color {
+    return Color.init("brandStatesInfoContainerHover", bundle: bundle)
   }
-  public static var brandStatesHoveredSecondaryVariant: Color {
-    return Color.init("brandStatesHoveredSecondaryVariant", bundle: bundle)
+  public static var brandStatesNeutralContainerHover: Color {
+    return Color.init("brandStatesNeutralContainerHover", bundle: bundle)
   }
-  public static var brandStatesHoveredBackground: Color {
-    return Color.init("brandStatesHoveredBackground", bundle: bundle)
+  public static var coreSocialFacebook: Color {
+    return Color.init("coreSocialFacebook", bundle: bundle)
   }
-  public static var brandStatesHoveredSurface: Color {
-    return Color.init("brandStatesHoveredSurface", bundle: bundle)
+  public static var coreSocialTwitter: Color {
+    return Color.init("coreSocialTwitter", bundle: bundle)
   }
-  public static var brandStatesHoveredSurfaceInverse: Color {
-    return Color.init("brandStatesHoveredSurfaceInverse", bundle: bundle)
+  public static var coreSocialWhatsapp: Color {
+    return Color.init("coreSocialWhatsapp", bundle: bundle)
   }
-  public static var brandStatesHoveredSuccess: Color {
-    return Color.init("brandStatesHoveredSuccess", bundle: bundle)
+  public static var coreSocialYoutube: Color {
+    return Color.init("coreSocialYoutube", bundle: bundle)
   }
-  public static var brandStatesHoveredAlert: Color {
-    return Color.init("brandStatesHoveredAlert", bundle: bundle)
+  public static var coreSocialInstagram: Color {
+    return Color.init("coreSocialInstagram", bundle: bundle)
   }
-  public static var brandStatesHoveredError: Color {
-    return Color.init("brandStatesHoveredError", bundle: bundle)
+  public static var coreSocialTiktok: Color {
+    return Color.init("coreSocialTiktok", bundle: bundle)
   }
-  public static var brandStatesHoveredInfo: Color {
-    return Color.init("brandStatesHoveredInfo", bundle: bundle)
+  public static var coreSocialTelegram: Color {
+    return Color.init("coreSocialTelegram", bundle: bundle)
   }
-  public static var brandStatesHoveredNeutral: Color {
-    return Color.init("brandStatesHoveredNeutral", bundle: bundle)
+  public static var coreBlueribbon50: Color {
+    return Color.init("coreBlueribbon50", bundle: bundle)
   }
-  public static var brandStatesHoveredPrimaryContainer: Color {
-    return Color.init("brandStatesHoveredPrimaryContainer", bundle: bundle)
+  public static var coreBlueribbon100: Color {
+    return Color.init("coreBlueribbon100", bundle: bundle)
   }
-  public static var brandStatesHoveredSecondaryContainer: Color {
-    return Color.init("brandStatesHoveredSecondaryContainer", bundle: bundle)
+  public static var coreBlueribbon200: Color {
+    return Color.init("coreBlueribbon200", bundle: bundle)
   }
-  public static var brandStatesHoveredSuccessContainer: Color {
-    return Color.init("brandStatesHoveredSuccessContainer", bundle: bundle)
+  public static var coreBlueribbon300: Color {
+    return Color.init("coreBlueribbon300", bundle: bundle)
   }
-  public static var brandStatesHoveredAlertContainer: Color {
-    return Color.init("brandStatesHoveredAlertContainer", bundle: bundle)
+  public static var coreBlueribbon400: Color {
+    return Color.init("coreBlueribbon400", bundle: bundle)
   }
-  public static var brandStatesHoveredErrorContainer: Color {
-    return Color.init("brandStatesHoveredErrorContainer", bundle: bundle)
+  public static var coreBlueribbon500: Color {
+    return Color.init("coreBlueribbon500", bundle: bundle)
   }
-  public static var brandStatesHoveredInfoContainer: Color {
-    return Color.init("brandStatesHoveredInfoContainer", bundle: bundle)
+  public static var coreBlueribbon600: Color {
+    return Color.init("coreBlueribbon600", bundle: bundle)
   }
-  public static var brandStatesHoveredNeutralContainer: Color {
-    return Color.init("brandStatesHoveredNeutralContainer", bundle: bundle)
+  public static var coreBlueribbon700: Color {
+    return Color.init("coreBlueribbon700", bundle: bundle)
   }
-  public static var brandStatesHoveredOutline: Color {
-    return Color.init("brandStatesHoveredOutline", bundle: bundle)
+  public static var coreBlueribbon800: Color {
+    return Color.init("coreBlueribbon800", bundle: bundle)
   }
-  public static var coreTheblue50: Color {
-    return Color.init("coreTheblue50", bundle: bundle)
+  public static var coreBlueribbon900: Color {
+    return Color.init("coreBlueribbon900", bundle: bundle)
   }
-  public static var coreTheblue100: Color {
-    return Color.init("coreTheblue100", bundle: bundle)
+  public static var coreViolet50: Color {
+    return Color.init("coreViolet50", bundle: bundle)
   }
-  public static var coreTheblue200: Color {
-    return Color.init("coreTheblue200", bundle: bundle)
+  public static var coreViolet100: Color {
+    return Color.init("coreViolet100", bundle: bundle)
   }
-  public static var coreTheblue300: Color {
-    return Color.init("coreTheblue300", bundle: bundle)
+  public static var coreViolet200: Color {
+    return Color.init("coreViolet200", bundle: bundle)
   }
-  public static var coreTheblue400: Color {
-    return Color.init("coreTheblue400", bundle: bundle)
+  public static var coreViolet300: Color {
+    return Color.init("coreViolet300", bundle: bundle)
   }
-  public static var coreTheblue500: Color {
-    return Color.init("coreTheblue500", bundle: bundle)
+  public static var coreViolet400: Color {
+    return Color.init("coreViolet400", bundle: bundle)
   }
-  public static var coreTheblue600: Color {
-    return Color.init("coreTheblue600", bundle: bundle)
+  public static var coreViolet500: Color {
+    return Color.init("coreViolet500", bundle: bundle)
   }
-  public static var coreTheblue700: Color {
-    return Color.init("coreTheblue700", bundle: bundle)
+  public static var coreViolet600: Color {
+    return Color.init("coreViolet600", bundle: bundle)
   }
-  public static var coreTheblue800: Color {
-    return Color.init("coreTheblue800", bundle: bundle)
+  public static var coreViolet700: Color {
+    return Color.init("coreViolet700", bundle: bundle)
   }
-  public static var coreTheblue900: Color {
-    return Color.init("coreTheblue900", bundle: bundle)
+  public static var coreViolet800: Color {
+    return Color.init("coreViolet800", bundle: bundle)
   }
-  public static var coreTheblueV: Color {
-    return Color.init("coreTheblueV", bundle: bundle)
+  public static var coreViolet900: Color {
+    return Color.init("coreViolet900", bundle: bundle)
   }
-  public static var coreSugarcotton50: Color {
-    return Color.init("coreSugarcotton50", bundle: bundle)
+  public static var corePaleadevinta50: Color {
+    return Color.init("corePaleadevinta50", bundle: bundle)
   }
-  public static var coreSugarcotton100: Color {
-    return Color.init("coreSugarcotton100", bundle: bundle)
+  public static var corePaleadevinta100: Color {
+    return Color.init("corePaleadevinta100", bundle: bundle)
   }
-  public static var coreSugarcotton200: Color {
-    return Color.init("coreSugarcotton200", bundle: bundle)
+  public static var corePaleadevinta200: Color {
+    return Color.init("corePaleadevinta200", bundle: bundle)
   }
-  public static var coreSugarcotton300: Color {
-    return Color.init("coreSugarcotton300", bundle: bundle)
+  public static var corePaleadevinta300: Color {
+    return Color.init("corePaleadevinta300", bundle: bundle)
   }
-  public static var coreSugarcotton400: Color {
-    return Color.init("coreSugarcotton400", bundle: bundle)
+  public static var corePaleadevinta400: Color {
+    return Color.init("corePaleadevinta400", bundle: bundle)
   }
-  public static var coreSugarcotton500: Color {
-    return Color.init("coreSugarcotton500", bundle: bundle)
+  public static var corePaleadevinta500: Color {
+    return Color.init("corePaleadevinta500", bundle: bundle)
   }
-  public static var coreSugarcotton600: Color {
-    return Color.init("coreSugarcotton600", bundle: bundle)
+  public static var corePaleadevinta600: Color {
+    return Color.init("corePaleadevinta600", bundle: bundle)
   }
-  public static var coreSugarcotton700: Color {
-    return Color.init("coreSugarcotton700", bundle: bundle)
+  public static var corePaleadevinta700: Color {
+    return Color.init("corePaleadevinta700", bundle: bundle)
   }
-  public static var coreSugarcotton800: Color {
-    return Color.init("coreSugarcotton800", bundle: bundle)
+  public static var corePaleadevinta800: Color {
+    return Color.init("corePaleadevinta800", bundle: bundle)
   }
-  public static var coreSugarcotton900: Color {
-    return Color.init("coreSugarcotton900", bundle: bundle)
+  public static var corePaleadevinta900: Color {
+    return Color.init("corePaleadevinta900", bundle: bundle)
+  }
+  public static var coreBlackadevinta50: Color {
+    return Color.init("coreBlackadevinta50", bundle: bundle)
+  }
+  public static var coreBlackadevinta100: Color {
+    return Color.init("coreBlackadevinta100", bundle: bundle)
+  }
+  public static var coreBlackadevinta200: Color {
+    return Color.init("coreBlackadevinta200", bundle: bundle)
+  }
+  public static var coreBlackadevinta300: Color {
+    return Color.init("coreBlackadevinta300", bundle: bundle)
+  }
+  public static var coreBlackadevinta400: Color {
+    return Color.init("coreBlackadevinta400", bundle: bundle)
+  }
+  public static var coreBlackadevinta500: Color {
+    return Color.init("coreBlackadevinta500", bundle: bundle)
+  }
+  public static var coreBlackadevinta600: Color {
+    return Color.init("coreBlackadevinta600", bundle: bundle)
+  }
+  public static var coreBlackadevinta700: Color {
+    return Color.init("coreBlackadevinta700", bundle: bundle)
+  }
+  public static var coreBlackadevinta800: Color {
+    return Color.init("coreBlackadevinta800", bundle: bundle)
+  }
+  public static var coreBlackadevinta900: Color {
+    return Color.init("coreBlackadevinta900", bundle: bundle)
   }
   public static var coreApple50: Color {
     return Color.init("coreApple50", bundle: bundle)
@@ -371,36 +491,6 @@ extension Color {
   public static var coreSky900: Color {
     return Color.init("coreSky900", bundle: bundle)
   }
-  public static var coreSurfer50: Color {
-    return Color.init("coreSurfer50", bundle: bundle)
-  }
-  public static var coreSurfer100: Color {
-    return Color.init("coreSurfer100", bundle: bundle)
-  }
-  public static var coreSurfer200: Color {
-    return Color.init("coreSurfer200", bundle: bundle)
-  }
-  public static var coreSurfer300: Color {
-    return Color.init("coreSurfer300", bundle: bundle)
-  }
-  public static var coreSurfer400: Color {
-    return Color.init("coreSurfer400", bundle: bundle)
-  }
-  public static var coreSurfer500: Color {
-    return Color.init("coreSurfer500", bundle: bundle)
-  }
-  public static var coreSurfer600: Color {
-    return Color.init("coreSurfer600", bundle: bundle)
-  }
-  public static var coreSurfer700: Color {
-    return Color.init("coreSurfer700", bundle: bundle)
-  }
-  public static var coreSurfer800: Color {
-    return Color.init("coreSurfer800", bundle: bundle)
-  }
-  public static var coreSurfer900: Color {
-    return Color.init("coreSurfer900", bundle: bundle)
-  }
   public static var coreKiwi50: Color {
     return Color.init("coreKiwi50", bundle: bundle)
   }
@@ -436,27 +526,6 @@ extension Color {
   }
   public static var coreWhite: Color {
     return Color.init("coreWhite", bundle: bundle)
-  }
-  public static var coreSocialFacebook: Color {
-    return Color.init("coreSocialFacebook", bundle: bundle)
-  }
-  public static var coreSocialTwitter: Color {
-    return Color.init("coreSocialTwitter", bundle: bundle)
-  }
-  public static var coreSocialWhatsapp: Color {
-    return Color.init("coreSocialWhatsapp", bundle: bundle)
-  }
-  public static var coreSocialYoutube: Color {
-    return Color.init("coreSocialYoutube", bundle: bundle)
-  }
-  public static var coreSocialInstagram: Color {
-    return Color.init("coreSocialInstagram", bundle: bundle)
-  }
-  public static var coreSocialTiktok: Color {
-    return Color.init("coreSocialTiktok", bundle: bundle)
-  }
-  public static var coreSocialTelegram: Color {
-    return Color.init("coreSocialTelegram", bundle: bundle)
   }
   public static var badgeColor: Color {
     return Color.init("badgeColor", bundle: bundle)
