@@ -1,18 +1,6 @@
 {
   "color": {
     "core": {
-      "b_w": {
-        "black": {
-          "value": "#000000FF",
-          "type": "color",
-          "description": "black"
-        },
-        "white": {
-          "value": "#FFFFFFFF",
-          "type": "color",
-          "description": "white"
-        }
-      },
       "social": {
         "facebook": {
           "value": "#4267B2FF",
@@ -517,6 +505,16 @@
           "type": "color",
           "description": "kiwi 900"
         }
+      },
+      "black": {
+        "value": "#000000FF",
+        "type": "color",
+        "description": "black"
+      },
+      "white": {
+        "value": "#FFFFFFFF",
+        "type": "color",
+        "description": "white"
       }
     }
   }

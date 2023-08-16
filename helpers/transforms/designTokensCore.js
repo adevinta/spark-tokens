@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require("path");
 
 // Read brand folder
 const brand = process.argv[2] || "spark";
@@ -35,7 +34,6 @@ function transformJSON(input) {
   const output = {
     color: {
       core: {
-        b_w: {},
         social: {},
       },
     },
@@ -48,7 +46,7 @@ function transformJSON(input) {
 
     if (!shade) {
       if (colorName === "black" || colorName === "white") {
-        output.color.core.b_w[colorName] = {
+        output.color.core[colorName] = {
           value: item.value.toUpperCase(),
           type: item.type,
           description: item.description || key,
