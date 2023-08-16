@@ -3,172 +3,117 @@
     "brand": {
       "main": {
         "main": {
-          "value": "{color.core.BlueRibbon.400}",
+          "value": "{color.core.blueribbon.400}",
           "type": "color",
           "description": "BlueRibbon 400"
         },
-        "onMain": {
+        "on main": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "mainContainer": {
-          "value": "{color.core.BlueRibbon.800}",
+        "main container": {
+          "value": "{color.core.blueribbon.800}",
           "type": "color",
           "description": "BlueRibbon 800"
         },
-        "onMainContainer": {
+        "on main container": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "mainVariant": {
-          "value": "{color.core.BlueRibbon.200}",
+        "main variant": {
+          "value": "{color.core.blueribbon.200}",
           "type": "color",
           "description": "BlueRibbon 200"
         },
-        "onMainVariant": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on main variant": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         }
       },
       "support": {
         "support": {
-          "value": "{color.core.PaleAdevinta.100}",
+          "value": "{color.core.paleadevinta.100}",
           "type": "color",
           "description": "PaleAdevinta 100"
         },
-        "onSupport": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on support": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         },
-        "supportContainer": {
-          "value": "{color.core.PaleAdevinta.700}",
+        "support container": {
+          "value": "{color.core.paleadevinta.700}",
           "type": "color",
           "description": "PaleAdevinta 700"
         },
-        "onSupportContainer": {
+        "on support container": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "supportVariant": {
-          "value": "{color.core.PaleAdevinta.50}",
+        "support variant": {
+          "value": "{color.core.paleadevinta.50}",
           "type": "color",
           "description": "PaleAdevinta 50"
         },
-        "onSupportVariant": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on support variant": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         }
       },
-
       "accent": {
         "accent": {
-          "value": "{color.core.Violet.300}",
+          "value": "{color.core.violet.300}",
           "type": "color",
           "description": "Violet 300"
         },
-        "onAccent": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on accent": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         },
-        "accentContainer": {
-          "value": "{color.core.Violet.500}",
+        "accent container": {
+          "value": "{color.core.violet.500}",
           "type": "color",
           "description": "Violet 500"
         },
-        "onAccentContainer": {
+        "on accent container": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         },
-        "accentVariant": {
-          "value": "{color.core.Violet.200}",
+        "accent variant": {
+          "value": "{color.core.violet.200}",
           "type": "color",
           "description": "Violet 200"
         },
-        "onAccentVariant": {
-          "value": "{color.core.PaleAdevinta.900}",
+        "on accent variant": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
-          "description": "PaleAdevinta 900"
+          "description": "BlackAdevinta 900"
         }
       },
-
       "basic": {
         "basic": {
-          "value": "{color.core.PaleAdevinta.100}",
+          "value": "{color.core.paleadevinta.100}",
           "type": "color",
           "description": "PaleAdevinta 100"
         },
-        "onBasic": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on basic": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         },
-        "basicContainer": {
-          "value": "{color.core.PaleAdevinta.700}",
+        "basic container": {
+          "value": "{color.core.paleadevinta.700}",
           "type": "color",
           "description": "PaleAdevinta 700"
         },
-        "onBasicContainer": {
-          "value": "{color.core.white}",
-          "type": "color",
-          "description": "White"
-        }
-      },
-
-      "base": {
-        "background": {
-          "value": "{color.core.BlackAdevinta.900}",
-          "type": "color",
-          "description": "BlackAdevinta 900"
-        },
-        "onBackground": {
-          "value": "{color.core.white}",
-          "type": "color",
-          "description": "White"
-        },
-        "backgroundVariant": {
-          "value": "{color.core.black}",
-          "type": "color",
-          "description": "Black"
-        },
-        "onBackgroundVariant": {
-          "value": "{color.core.BlackAdevinta.50}",
-          "type": "color",
-          "description": "BlackAdevinta 50"
-        },
-        "surface": {
-          "value": "{color.core.BlackAdevinta.900}",
-          "type": "color",
-          "description": "BlackAdevinta 900"
-        },
-        "onSurface": {
-          "value": "{color.core.white}",
-          "type": "color",
-          "description": "White"
-        },
-        "surfaceInverse": {
-          "value": "{color.core.BlackAdevinta.50}",
-          "type": "color",
-          "description": "BlackAdevinta 50"
-        },
-        "onSurfaceInverse": {
-          "value": "{color.core.BlackAdevinta.800}",
-          "type": "color",
-          "description": "BlackAdevinta 800"
-        },
-        "outline": {
-          "value": "{color.core.BlackAdevinta.700}",
-          "type": "color",
-          "description": "BlackAdevinta 700"
-        },
-        "outlineHigh": {
+        "on basic container": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
@@ -180,214 +125,274 @@
           "type": "color",
           "description": "Apple 400"
         },
-        "onSuccess": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on success": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
+        },
+        "success container": {
+          "value": "{color.core.apple.800}",
+          "type": "color",
+          "description": "Apple 800"
+        },
+        "on success container": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
         },
         "alert": {
           "value": "{color.core.wiggins.400}",
           "type": "color",
           "description": "Wiggins 400"
         },
-        "onAlert": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on alert": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
+        },
+        "alert container": {
+          "value": "{color.core.wiggins.800}",
+          "type": "color",
+          "description": "Wiggins 800"
+        },
+        "on alert container": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
         },
         "error": {
           "value": "{color.core.chili.400}",
           "type": "color",
-          "description": "Chilli 400"
+          "description": "Chili 400"
         },
-        "onError": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on error": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
+        },
+        "error container": {
+          "value": "{color.core.chili.800}",
+          "type": "color",
+          "description": "Chili 800"
+        },
+        "on error container": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
         },
         "info": {
           "value": "{color.core.sky.400}",
           "type": "color",
           "description": "Sky 400"
         },
-        "onInfo": {
-          "value": "{color.core.BlackAdevinta.900}",
+        "on info": {
+          "value": "{color.core.blackadevinta.900}",
           "type": "color",
           "description": "BlackAdevinta 900"
         },
-        "neutral": {
-          "value": "{color.core.BlackAdevinta.300}",
-          "type": "color",
-          "description": "BlackAdevinta 300"
-        },
-        "onNeutral": {
-          "value": "{color.core.BlackAdevinta.900}",
-          "type": "color",
-          "description": "BlackAdevinta 900"
-        },
-        "successContainer": {
-          "value": "{color.core.apple.800}",
-          "type": "color",
-          "description": "Apple 800"
-        },
-        "onSuccessContainer": {
-          "value": "{color.core.apple.200}",
-          "type": "color",
-          "description": "Apple 200"
-        },
-        "alertContainer": {
-          "value": "{color.core.wiggins.800}",
-          "type": "color",
-          "description": "Wiggins 800"
-        },
-        "onAlertContainer": {
-          "value": "{color.core.wiggins.200}",
-          "type": "color",
-          "description": "Wiggins 200"
-        },
-        "errorContainer": {
-          "value": "{color.core.chili.800}",
-          "type": "color",
-          "description": "Chilli 800"
-        },
-        "onErrorContainer": {
-          "value": "{color.core.chili.200}",
-          "type": "color",
-          "description": "Chilli 200"
-        },
-        "infoContainer": {
+        "info container": {
           "value": "{color.core.sky.800}",
           "type": "color",
           "description": "Sky 800"
         },
-        "onInfoContainer": {
-          "value": "{color.core.sky.200}",
+        "on info container": {
+          "value": "{color.core.white}",
           "type": "color",
-          "description": "Sky 200"
+          "description": "White"
         },
-        "neutralContainer": {
-          "value": "{color.core.BlackAdevinta.800}",
+        "neutral": {
+          "value": "{color.core.blackadevinta.300}",
+          "type": "color",
+          "description": "BlackAdevinta 500"
+        },
+        "on neutral": {
+          "value": "{color.core.blackadevinta.900}",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+        "neutral container": {
+          "value": "{color.core.blackadevinta.800}",
           "type": "color",
           "description": "BlackAdevinta 800"
         },
-        "onNeutralContainer": {
+        "on neutral container": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        }
+      },
+      "base": {
+        "surface": {
+          "value": "{color.core.blackadevinta.900}",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+        "on surface": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "surface inverse": {
+          "value": "{color.core.blackadevinta.50}",
+          "type": "color",
+          "description": "BlackAdevinta 50"
+        },
+        "on surface inverse": {
+          "value": "{color.core.blackadevinta.800}",
+          "type": "color",
+          "description": "BlackAdevinta 800"
+        },
+        "background": {
+          "value": "{color.core.blackadevinta.900}",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+        "on background": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "background variant": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "on background variant": {
+          "value": "{color.core.blackadevinta.50}",
+          "type": "color",
+          "description": "BlackAdevinta 50"
+        },
+        "on overlay": {
+          "value": "{color.core.white}",
+          "type": "color",
+          "description": "White"
+        },
+        "outline": {
+          "value": "{color.core.blackadevinta.700}",
+          "type": "color",
+          "description": "BlackAdevinta 700"
+        },
+        "outline high": {
           "value": "{color.core.white}",
           "type": "color",
           "description": "White"
         }
       },
       "states": {
-        "hovered": {
-          "main": {
-            "value": "{color.core.BlueRibbon.500}",
-            "type": "color",
-            "description": "BlueRibbon 500"
-          },
-          "mainVariant": {
-            "value": "{color.core.BlueRibbon.900}",
-            "type": "color",
-            "description": "BlueRibbon 900"
-          },
-          "support": {
-            "value": "{color.core.PaleAdevinta.200}",
-            "type": "color",
-            "description": "PaleAdevinta 200"
-          },
-          "supportVariant": {
-            "value": "{color.core.PaleAdevinta.100}",
-            "type": "color",
-            "description": "PaleAdevinta 100"
-          },
-          "accent": {
-            "value": "{color.core.Violet.400}",
-            "type": "color",
-            "description": "Violet 400"
-          },
-          "accentVariant": {
-            "value": "{color.core.Violet.300}",
-            "type": "color",
-            "description": "Violet 300"
-          },
-          "basic": {
-            "value": "{color.core.PaleAdevinta.100}",
-            "type": "color",
-            "description": "PaleAdevinta 100"
-          },
-          "surface": {
-            "value": "{color.core.black}",
-            "type": "color",
-            "description": "Black"
-          },
-          "surfaceInverse": {
-            "value": "{color.core.BlackAdevinta.50}",
-            "type": "color",
-            "description": "BlackAdevinta 50"
-          },
-          "success": {
-            "value": "{color.core.apple.500}",
-            "type": "color",
-            "description": "Apple 500"
-          },
-          "alert": {
-            "value": "{color.core.wiggins.500}",
-            "type": "color",
-            "description": "Wiggins 500"
-          },
-          "error": {
-            "value": "{color.core.chili.500}",
-            "type": "color",
-            "description": "Chili 500"
-          },
-          "info": {
-            "value": "{color.core.sky.500}",
-            "type": "color",
-            "description": "Sky 500"
-          },
-          "neutral": {
-            "value": "{color.core.BlackAdevinta.400}",
-            "type": "color",
-            "description": "BlackAdevinta 400"
-          },
-          "mainContainer": {
-            "value": "{color.core.BlueRibbon.900}",
-            "type": "color",
-            "description": "BlueRibbon 900"
-          },
-          "supportContainer": {
-            "value": "{color.core.PaleAdevinta.800}",
-            "type": "color",
-            "description": "PaleAdevinta 800"
-          },
-          "successContainer": {
-            "value": "{color.core.apple.900}",
-            "type": "color",
-            "description": "Apple 900"
-          },
-          "alertContainer": {
-            "value": "{color.core.wiggins.900}",
-            "type": "color",
-            "description": "Wiggins 900"
-          },
-          "errorContainer": {
-            "value": "{color.core.chili.900}",
-            "type": "color",
-            "description": "Chili 900"
-          },
-          "infoContainer": {
-            "value": "{color.core.sky.900}",
-            "type": "color",
-            "description": "Sky 900"
-          },
-          "neutralContainer": {
-            "value": "{color.core.BlackAdevinta.900}",
-            "type": "color",
-            "description": "BlackAdevinta 900"
-          },
-          "outline": {
-            "value": "{color.core.BlueRibbon.400}",
-            "type": "color",
-            "description": "BlueRibbon 400"
-          }
+        "main hover": {
+          "value": "{color.core.blueribbon.500}",
+          "type": "color",
+          "description": "BlueRibbon 500"
+        },
+        "main variant hover": {
+          "value": "{color.core.blueribbon.300}",
+          "type": "color",
+          "description": "BlueRIbbon 300"
+        },
+        "support hover": {
+          "value": "{color.core.paleadevinta.200}",
+          "type": "color",
+          "description": "Pale Adevinta 200"
+        },
+        "support variant hover": {
+          "value": "{color.core.paleadevinta.100}",
+          "type": "color",
+          "description": "PaleAdevinta 100"
+        },
+        "accent hover": {
+          "value": "{color.core.violet.400}",
+          "type": "color",
+          "description": "Violet 400"
+        },
+        "accent container hover": {
+          "value": "{color.core.violet.600}",
+          "type": "color",
+          "description": "Violet 600"
+        },
+        "accent variant hover": {
+          "value": "{color.core.violet.300}",
+          "type": "color",
+          "description": "Violet 300"
+        },
+        "basic hover": {
+          "value": "{color.core.paleadevinta.200}",
+          "type": "color",
+          "description": "Pale Adevinta 200"
+        },
+        "surface hover": {
+          "value": "{color.core.black}",
+          "type": "color",
+          "description": "Black"
+        },
+        "surface inverse hover": {
+          "value": "{color.core.blackadevinta.50}",
+          "type": "color",
+          "description": "Black Adevinta 50"
+        },
+        "success hover": {
+          "value": "{color.core.apple.500}",
+          "type": "color",
+          "description": "Apple 500"
+        },
+        "alert hover": {
+          "value": "{color.core.wiggins.500}",
+          "type": "color",
+          "description": "Wiggins 500"
+        },
+        "error hover": {
+          "value": "{color.core.chili.500}",
+          "type": "color",
+          "description": "Chili 500"
+        },
+        "info hover": {
+          "value": "{color.core.sky.500}",
+          "type": "color",
+          "description": "Sky 500"
+        },
+        "neutral hover": {
+          "value": "{color.core.blackadevinta.400}",
+          "type": "color",
+          "description": "BlackAdevinta 400"
+        },
+        "main container hover": {
+          "value": "{color.core.blueribbon.900}",
+          "type": "color",
+          "description": "BlueRibbon 900"
+        },
+        "support container hover": {
+          "value": "{color.core.paleadevinta.800}",
+          "type": "color",
+          "description": "PaleAdevinta 800"
+        },
+        "success container hover": {
+          "value": "{color.core.apple.800}",
+          "type": "color",
+          "description": "Apple 900"
+        },
+        "alert container hover": {
+          "value": "{color.core.wiggins.900}",
+          "type": "color",
+          "description": "Wiggins 900"
+        },
+        "error container hover": {
+          "value": "{color.core.chili.900}",
+          "type": "color",
+          "description": "Chili 900"
+        },
+        "info container hover": {
+          "value": "{color.core.sky.900}",
+          "type": "color",
+          "description": "Sky 900"
+        },
+        "neutral container hover": {
+          "value": "{color.core.blackadevinta.900}",
+          "type": "color",
+          "description": "BlackAdevinta 900"
+        },
+        "basic container hover": {
+          "value": "{color.core.paleadevinta.800}",
+          "type": "color",
+          "description": "Black Adevinta 800"
         }
       }
     }
