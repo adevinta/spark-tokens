@@ -108,9 +108,6 @@
     "Available": {
       "value": "assets/spark/icons/Available.svg"
     },
-    "AvatarFill": {
-      "value": "assets/spark/icons/AvatarFill.svg"
-    },
     "Axles": {
       "value": "assets/spark/icons/Axles.svg"
     },
@@ -870,8 +867,8 @@
     "PenOutline": {
       "value": "assets/spark/icons/PenOutline.svg"
     },
-    "PercentageOutline": {
-      "value": "assets/spark/icons/PercentageOutline.svg"
+    "Percentage": {
+      "value": "assets/spark/icons/Percentage.svg"
     },
     "Pets": {
       "value": "assets/spark/icons/Pets.svg"
