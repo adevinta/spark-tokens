@@ -1,7 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-// read brand folder
+// Load checkers
+const iconNamingValidator = require("./iconNamingValidator");
+
+// Read brand folder
 const brand = process.argv[2] || "spark";
 const assetDir = `./assets/${brand}/icons`;
 
@@ -19,5 +22,16 @@ const outputFilePath = `./tokens/${brand}/asset/icons.json5`;
 fs.writeFileSync(outputFilePath, JSON.stringify({ asset }, null, 2));
 
 console.log(
-  `Icons -  List of icon files generated successfully: ${outputFilePath}`
+  `Icons - List of icon files generated successfully: ${outputFilePath}`
 );
+
+// Find and display lonely variants
+const inputPath = assetDir;
+const files = fs.readdirSync(inputPath);
+const lonelyVariants = iconNamingValidator.findLonelyVariants(files);
+
+if (lonelyVariants.length > 0) {
+  console.error("Icons - Lonely variants found:", lonelyVariants);
+} else {
+  console.log("Icons - All icon variants have matching pairs!");
+}
