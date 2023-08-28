@@ -3,6 +3,7 @@ const path = require("path");
 
 // Load checkers
 const iconNamingValidator = require("./iconNamingValidator");
+const svgDuplicateChecker = require("./SVGDuplicateChecker");
 
 // Read brand folder
 const brand = process.argv[2] || "spark";
@@ -35,3 +36,6 @@ if (lonelyVariants.length > 0) {
 } else {
   console.log("Icons - All icon variants have matching pairs!");
 }
+
+// Check for duplicate SVGs
+svgDuplicateChecker.checkForDuplicateSVGs(assetDir, files);
