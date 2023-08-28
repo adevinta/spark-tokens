@@ -69,8 +69,8 @@
     "Apartment": {
       "value": "assets/spark/icons/Apartment.svg"
     },
-    "AppearanceFill": {
-      "value": "assets/spark/icons/AppearanceFill.svg"
+    "Appearance": {
+      "value": "assets/spark/icons/Appearance.svg"
     },
     "Arrival": {
       "value": "assets/spark/icons/Arrival.svg"
@@ -99,8 +99,8 @@
     "ArrowVerticalRight": {
       "value": "assets/spark/icons/ArrowVerticalRight.svg"
     },
-    "AttachFileOutline": {
-      "value": "assets/spark/icons/AttachFileOutline.svg"
+    "AttachFile": {
+      "value": "assets/spark/icons/AttachFile.svg"
     },
     "Attic": {
       "value": "assets/spark/icons/Attic.svg"
@@ -126,8 +126,8 @@
     "Basement": {
       "value": "assets/spark/icons/Basement.svg"
     },
-    "BatchPurchaseOutline": {
-      "value": "assets/spark/icons/BatchPurchaseOutline.svg"
+    "BatchPurchase": {
+      "value": "assets/spark/icons/BatchPurchase.svg"
     },
     "Bath": {
       "value": "assets/spark/icons/Bath.svg"
@@ -153,8 +153,8 @@
     "BookmarkOutline": {
       "value": "assets/spark/icons/BookmarkOutline.svg"
     },
-    "BoosterFill": {
-      "value": "assets/spark/icons/BoosterFill.svg"
+    "Booster": {
+      "value": "assets/spark/icons/Booster.svg"
     },
     "BoxFill": {
       "value": "assets/spark/icons/BoxFill.svg"
@@ -243,8 +243,8 @@
     "CardOutline": {
       "value": "assets/spark/icons/CardOutline.svg"
     },
-    "CategoriesClothesOutline": {
-      "value": "assets/spark/icons/CategoriesClothesOutline.svg"
+    "CategoriesClothes": {
+      "value": "assets/spark/icons/CategoriesClothes.svg"
     },
     "Cave": {
       "value": "assets/spark/icons/Cave.svg"
@@ -254,9 +254,6 @@
     },
     "Check": {
       "value": "assets/spark/icons/Check.svg"
-    },
-    "CheckFill": {
-      "value": "assets/spark/icons/CheckFill.svg"
     },
     "Class": {
       "value": "assets/spark/icons/Class.svg"
@@ -384,8 +381,8 @@
     "Doors": {
       "value": "assets/spark/icons/Doors.svg"
     },
-    "DoubleCheckFill": {
-      "value": "assets/spark/icons/DoubleCheckFill.svg"
+    "DoubleCheck": {
+      "value": "assets/spark/icons/DoubleCheck.svg"
     },
     "DownloadFill": {
       "value": "assets/spark/icons/DownloadFill.svg"
@@ -573,8 +570,8 @@
     "Holidays": {
       "value": "assets/spark/icons/Holidays.svg"
     },
-    "HolidaysGardenOutline": {
-      "value": "assets/spark/icons/HolidaysGardenOutline.svg"
+    "HolidaysGarden": {
+      "value": "assets/spark/icons/HolidaysGarden.svg"
     },
     "HomeFill": {
       "value": "assets/spark/icons/HomeFill.svg"
