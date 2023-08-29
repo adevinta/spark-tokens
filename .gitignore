@@ -3,3 +3,4 @@ tokens/*
 !tokens/spark
 .idea
 .DS_Store
+temp-icons/
