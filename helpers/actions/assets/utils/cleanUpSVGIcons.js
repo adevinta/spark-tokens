@@ -24,15 +24,21 @@ function cleanSVG(inputPath, outputPath) {
       const viewBox = result.svg.$.viewBox || "0 0 24 24";
       let paths = result.svg.path || [];
 
-      if (
-        result.svg.g &&
-        result.svg.g[0].$ &&
-        result.svg.g[0].$["clip-path"] &&
-        result.svg.g[0].path
-      ) {
-        const pathInsideGroup = result.svg.g[0].path[0];
-        if (pathInsideGroup.$ && pathInsideGroup.$.d) {
-          paths = [{ $: { d: pathInsideGroup.$.d } }];
+      if (result.svg.g) {
+        const groupedPaths = result.svg.g.filter((group) => group.path);
+
+        if (groupedPaths.length === 1) {
+          const pathsInsideGroup = groupedPaths[0].path;
+          pathsInsideGroup.forEach((pathInsideGroup) => {
+            if (pathInsideGroup.$ && pathInsideGroup.$.d) {
+              paths.push({
+                $: {
+                  d: pathInsideGroup.$.d,
+                  "fill-rule": pathInsideGroup.$["fill-rule"],
+                },
+              });
+            }
+          });
         }
       }
 
@@ -87,10 +93,7 @@ function cleanSVGsInInputDirectory(inputFolder, outputFolder) {
       const outputPath = path.join(outputFolder, file);
 
       if (path.extname(inputPath).toLowerCase() === ".svg") {
-        const existingOutputPath = path.join(outputFolder, file);
-        if (fs.existsSync(existingOutputPath)) {
-          cleanSVG(inputPath, existingOutputPath);
-        }
+        cleanSVG(inputPath, outputPath);
       }
     });
   });
