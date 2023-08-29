@@ -1191,11 +1191,8 @@
     "Tv": {
       "value": "assets/spark/icons/Tv.svg"
     },
-    "TwitterFill": {
-      "value": "assets/spark/icons/TwitterFill.svg"
-    },
-    "TwitterOutline": {
-      "value": "assets/spark/icons/TwitterOutline.svg"
+    "Twitter": {
+      "value": "assets/spark/icons/Twitter.svg"
     },
     "Type": {
       "value": "assets/spark/icons/Type.svg"
