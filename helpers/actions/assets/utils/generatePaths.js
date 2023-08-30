@@ -2,11 +2,12 @@ const fs = require("fs");
 const path = require("path");
 
 // Load clean up script
-const cleanUpScript = require("./cleanUpSVGIcons");
+const { cleanSVGsInInputDirectory } = require("./cleanUpSVGIcons");
 
 // Load checkers
-const iconNamingValidator = require("./iconNamingValidator");
-const svgDuplicateChecker = require("./SVGDuplicateChecker");
+const { findLonelyVariants } = require("./iconNamingValidator");
+const { checkForDuplicateSVGs } = require("./SVGDuplicateChecker");
+const { checkSVGCentering } = require("./checkSVGCentering");
 
 // Read brand folder
 const brand = process.argv[2] || "spark";
@@ -15,7 +16,7 @@ const assetDir = `${brandAssetsDir}/icons`;
 const tempAssetDir = `${brandAssetsDir}/temp-icons`;
 
 // Execute the clean up script on new icons
-cleanUpScript.cleanSVGsInInputDirectory(tempAssetDir, assetDir);
+cleanSVGsInInputDirectory(tempAssetDir, assetDir);
 
 const asset = {};
 
@@ -37,7 +38,7 @@ console.log(
 // Find and display lonely variants
 const inputPath = assetDir;
 const files = fs.readdirSync(inputPath);
-const lonelyVariants = iconNamingValidator.findLonelyVariants(files);
+const lonelyVariants = findLonelyVariants(files);
 
 if (lonelyVariants.length > 0) {
   console.error("Icons - Lonely variants found:", lonelyVariants);
@@ -46,4 +47,14 @@ if (lonelyVariants.length > 0) {
 }
 
 // Check for duplicate SVGs
-svgDuplicateChecker.checkForDuplicateSVGs(assetDir, files);
+checkForDuplicateSVGs(assetDir, files);
+
+// Check SVG centering
+files.forEach((file) => {
+  if (path.extname(file) === ".svg") {
+    const centeredMessage = checkSVGCentering(inputPath, file);
+    if (centeredMessage) {
+      console.log(`Icons - ${file} is ${centeredMessage}`);
+    }
+  }
+});
