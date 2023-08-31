@@ -30,8 +30,8 @@ function checkSVGCentering(inputFolderPath, inputFilename) {
   const centerY = viewBox[3] / 2 - svgCenterY;
 
   // Check if the SVG is horizontally centered, vertically centered, or both
-  const isHorizontallyCentered = Math.abs(centerX) < 0.5;
-  const isVerticallyCentered = Math.abs(centerY) < 0.5;
+  const isHorizontallyCentered = Math.abs(centerX) < 0.1;
+  const isVerticallyCentered = Math.abs(centerY) < 0.1;
 
   // Generate the centered message
   let centeredMessage = "";
