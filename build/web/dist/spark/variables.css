@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Aug 2023 14:45:15 GMT
+ * Generated on Thu, 31 Aug 2023 13:50:38 GMT
  */
 
 :root {
@@ -190,8 +190,7 @@
   --asset-typing-outline: "assets/spark/icons/TypingOutline.svg";
   --asset-typing-fill: "assets/spark/icons/TypingFill.svg";
   --asset-type: "assets/spark/icons/Type.svg";
-  --asset-twitter-outline: "assets/spark/icons/TwitterOutline.svg";
-  --asset-twitter-fill: "assets/spark/icons/TwitterFill.svg";
+  --asset-twitter: "assets/spark/icons/Twitter.svg";
   --asset-tv: "assets/spark/icons/Tv.svg";
   --asset-trunk: "assets/spark/icons/Trunk.svg";
   --asset-truck: "assets/spark/icons/Truck.svg";
@@ -301,12 +300,13 @@
   --asset-phone-outline: "assets/spark/icons/PhoneOutline.svg";
   --asset-phone-fill: "assets/spark/icons/PhoneFill.svg";
   --asset-pets: "assets/spark/icons/Pets.svg";
-  --asset-percentage-outline: "assets/spark/icons/PercentageOutline.svg";
+  --asset-percentage: "assets/spark/icons/Percentage.svg";
   --asset-pen-outline: "assets/spark/icons/PenOutline.svg";
   --asset-pen-fill: "assets/spark/icons/PenFill.svg";
   --asset-pause-outline: "assets/spark/icons/PauseOutline.svg";
   --asset-pause-fill: "assets/spark/icons/PauseFill.svg";
   --asset-parquet: "assets/spark/icons/Parquet.svg";
+  --asset-parking-estate: "assets/spark/icons/ParkingEstate.svg";
   --asset-parking: "assets/spark/icons/Parking.svg";
   --asset-paper-map-outline: "assets/spark/icons/PaperMapOutline.svg";
   --asset-paper-map-fill: "assets/spark/icons/PaperMapFill.svg";
@@ -337,6 +337,8 @@
   --asset-message-fill: "assets/spark/icons/MessageFill.svg";
   --asset-memory: "assets/spark/icons/Memory.svg";
   --asset-megaphone-outline: "assets/spark/icons/MegaphoneOutline.svg";
+  --asset-megaphone-mute-outline: "assets/spark/icons/MegaphoneMuteOutline.svg";
+  --asset-megaphone-mute-fill: "assets/spark/icons/MegaphoneMuteFill.svg";
   --asset-megaphone-fill: "assets/spark/icons/MegaphoneFill.svg";
   --asset-material: "assets/spark/icons/Material.svg";
   --asset-map-expand: "assets/spark/icons/MapExpand.svg";
@@ -371,6 +373,7 @@
   --asset-land: "assets/spark/icons/Land.svg";
   --asset-key-outline: "assets/spark/icons/KeyOutline.svg";
   --asset-key-fill: "assets/spark/icons/KeyFill.svg";
+  --asset-job-type: "assets/spark/icons/JobType.svg";
   --asset-job: "assets/spark/icons/Job.svg";
   --asset-jewels: "assets/spark/icons/Jewels.svg";
   --asset-janitor: "assets/spark/icons/Janitor.svg";
@@ -395,7 +398,7 @@
   --asset-homeappliances-product: "assets/spark/icons/HomeappliancesProduct.svg";
   --asset-home-outline: "assets/spark/icons/HomeOutline.svg";
   --asset-home-fill: "assets/spark/icons/HomeFill.svg";
-  --asset-holidays-garden-outline: "assets/spark/icons/HolidaysGardenOutline.svg";
+  --asset-holidays-garden: "assets/spark/icons/HolidaysGarden.svg";
   --asset-holidays: "assets/spark/icons/Holidays.svg";
   --asset-holiday-outline: "assets/spark/icons/HolidayOutline.svg";
   --asset-holiday-fill: "assets/spark/icons/HolidayFill.svg";
@@ -458,7 +461,7 @@
   --asset-dress: "assets/spark/icons/Dress.svg";
   --asset-download-outline: "assets/spark/icons/DownloadOutline.svg";
   --asset-download-fill: "assets/spark/icons/DownloadFill.svg";
-  --asset-double-check-fill: "assets/spark/icons/DoubleCheckFill.svg";
+  --asset-double-check: "assets/spark/icons/DoubleCheck.svg";
   --asset-doors: "assets/spark/icons/Doors.svg";
   --asset-donate: "assets/spark/icons/Donate.svg";
   --asset-diy-type: "assets/spark/icons/DiyType.svg";
@@ -490,8 +493,9 @@
   --asset-condition: "assets/spark/icons/Condition.svg";
   --asset-computer: "assets/spark/icons/Computer.svg";
   --asset-common: "assets/spark/icons/Common.svg";
-  --asset-colors: "assets/spark/icons/Colors.svg";
   --asset-color: "assets/spark/icons/Color.svg";
+  --asset-clothes-condition: "assets/spark/icons/ClothesCondition.svg";
+  --asset-clothes-brand: "assets/spark/icons/ClothesBrand.svg";
   --asset-clothes: "assets/spark/icons/Clothes.svg";
   --asset-close: "assets/spark/icons/Close.svg";
   --asset-clock-outline: "assets/spark/icons/ClockOutline.svg";
@@ -499,18 +503,19 @@
   --asset-clock-arrow: "assets/spark/icons/ClockArrow.svg";
   --asset-clean: "assets/spark/icons/Clean.svg";
   --asset-class: "assets/spark/icons/Class.svg";
-  --asset-check-fill: "assets/spark/icons/CheckFill.svg";
   --asset-check: "assets/spark/icons/Check.svg";
   --asset-charges-included: "assets/spark/icons/ChargesIncluded.svg";
   --asset-cave: "assets/spark/icons/Cave.svg";
-  --asset-categories-clothes-outline: "assets/spark/icons/CategoriesClothesOutline.svg";
+  --asset-categories-clothes: "assets/spark/icons/CategoriesClothes.svg";
   --asset-card-outline: "assets/spark/icons/CardOutline.svg";
   --asset-card-fill: "assets/spark/icons/CardFill.svg";
   --asset-card: "assets/spark/icons/Card.svg";
   --asset-car-warranty-outline: "assets/spark/icons/CarWarrantyOutline.svg";
   --asset-car-warranty-fill: "assets/spark/icons/CarWarrantyFill.svg";
+  --asset-car-type: "assets/spark/icons/CarType.svg";
   --asset-car-outline: "assets/spark/icons/CarOutline.svg";
   --asset-car-fill: "assets/spark/icons/CarFill.svg";
+  --asset-car-brand: "assets/spark/icons/CarBrand.svg";
   --asset-capacity: "assets/spark/icons/Capacity.svg";
   --asset-camera-outline: "assets/spark/icons/CameraOutline.svg";
   --asset-camera-fill: "assets/spark/icons/CameraFill.svg";
@@ -531,7 +536,7 @@
   --asset-brand: "assets/spark/icons/Brand.svg";
   --asset-box-outline: "assets/spark/icons/BoxOutline.svg";
   --asset-box-fill: "assets/spark/icons/BoxFill.svg";
-  --asset-booster-fill: "assets/spark/icons/BoosterFill.svg";
+  --asset-booster: "assets/spark/icons/Booster.svg";
   --asset-bookmark-outline: "assets/spark/icons/BookmarkOutline.svg";
   --asset-bookmark-fill: "assets/spark/icons/BookmarkFill.svg";
   --asset-boat: "assets/spark/icons/Boat.svg";
@@ -540,17 +545,16 @@
   --asset-bicycle-type: "assets/spark/icons/BicycleType.svg";
   --asset-beautiful-building: "assets/spark/icons/BeautifulBuilding.svg";
   --asset-bath: "assets/spark/icons/Bath.svg";
-  --asset-batch-purchase-outline: "assets/spark/icons/BatchPurchaseOutline.svg";
+  --asset-batch-purchase: "assets/spark/icons/BatchPurchase.svg";
   --asset-basement: "assets/spark/icons/Basement.svg";
   --asset-bank-outline: "assets/spark/icons/BankOutline.svg";
   --asset-bank-fill: "assets/spark/icons/BankFill.svg";
   --asset-balcony: "assets/spark/icons/Balcony.svg";
   --asset-baby: "assets/spark/icons/Baby.svg";
   --asset-axles: "assets/spark/icons/Axles.svg";
-  --asset-avatar-fill: "assets/spark/icons/AvatarFill.svg";
   --asset-available: "assets/spark/icons/Available.svg";
   --asset-attic: "assets/spark/icons/Attic.svg";
-  --asset-attach-file-outline: "assets/spark/icons/AttachFileOutline.svg";
+  --asset-attach-file: "assets/spark/icons/AttachFile.svg";
   --asset-arrow-vertical-right: "assets/spark/icons/ArrowVerticalRight.svg";
   --asset-arrow-vertical-left: "assets/spark/icons/ArrowVerticalLeft.svg";
   --asset-arrow-right: "assets/spark/icons/ArrowRight.svg";
@@ -560,7 +564,7 @@
   --asset-arrow-double-right: "assets/spark/icons/ArrowDoubleRight.svg";
   --asset-arrow-double-left: "assets/spark/icons/ArrowDoubleLeft.svg";
   --asset-arrival: "assets/spark/icons/Arrival.svg";
-  --asset-appearance-fill: "assets/spark/icons/AppearanceFill.svg";
+  --asset-appearance: "assets/spark/icons/Appearance.svg";
   --asset-apartment: "assets/spark/icons/Apartment.svg";
   --asset-animals: "assets/spark/icons/Animals.svg";
   --asset-all-direction: "assets/spark/icons/AllDirection.svg";
