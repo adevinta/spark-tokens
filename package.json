@@ -6,8 +6,10 @@
   "scripts": {
     "prebuild": "node helpers/actions/assets/utils/generatePaths.js ${npm_package_brand} && node helpers/transforms/designTokensCore.js ${npm_package_brand} && node helpers/transforms/designTokensThemes.js ${npm_package_brand}",
     "build": "node build.js ${npm_package_brand}",
+    "postbuild": "npm test",
     "start": "npm run build && chokidar \"tokens/**/*\" -c \"npm run build\"",
-    "svg2avd": "rm -rf build/android/dist/spark/icons && mkdir -p build/android/dist/spark/icons && ./spark-android/scripts/svg2avd/svg2avd.main.kts --input=\"assets/spark/icons\" --output=\"build/android/dist/spark/icons\" --prefix=\"spark_icons_\" --copyright=\"spark-android/scripts/svg2avd/COPYRIGHT.xml\""
+    "svg2avd": "rm -rf build/android/dist/spark/icons && mkdir -p build/android/dist/spark/icons && ./spark-android/scripts/svg2avd/svg2avd.main.kts --input=\"assets/spark/icons\" --output=\"build/android/dist/spark/icons\" --prefix=\"spark_icons_\" --copyright=\"spark-android/scripts/svg2avd/COPYRIGHT.xml\"",
+    "test": "node helpers/actions/assets/utils/testSVGIcons.js ${npm_package_brand}"
   },
   "repository": {
     "type": "git",
