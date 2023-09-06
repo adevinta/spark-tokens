@@ -34,8 +34,8 @@ struct FontColorView: View {
             ScrollView {
                 VStack {
                     Group {
-                        FontColorRow(label:"Primary", color:Color.brandPrimaryPrimary)
-                        FontColorRow(label:"Secondary", color:Color.brandSecondarySecondary)
+                        FontColorRow(label:"Main", color:Color.brandMainMain)
+                        FontColorRow(label:"Support", color:Color.brandSupportSupport)
                     }
                     Group {
                         FontColorRow(label:"Success", color:Color.brandFeedbackSuccess)
@@ -49,7 +49,7 @@ struct FontColorView: View {
         }
         .navigationBarTitle("Font Colors")
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandPrimaryOnPrimary)
+        .background(Color.brandMainOnMain)
     }
 }
 

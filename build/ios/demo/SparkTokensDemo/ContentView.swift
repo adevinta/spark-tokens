@@ -12,7 +12,7 @@ extension UINavigationController {
 
     let standard = UINavigationBarAppearance()
         if #available(iOS 14.0, *) {
-            standard.backgroundColor = UIColor(Color.brandPrimaryOnPrimary)
+            standard.backgroundColor = UIColor(Color.brandMainOnMain)
         } else {
             // Fallback on earlier versions
         }
@@ -20,12 +20,12 @@ extension UINavigationController {
 
     let compact = UINavigationBarAppearance()
     if #available(iOS 14.0, *) {
-        compact.backgroundColor = UIColor(Color.brandPrimaryOnPrimary) //compact-height
+        compact.backgroundColor = UIColor(Color.brandMainOnMain) //compact-height
     }
 
     let scrollEdge = UINavigationBarAppearance()
     if #available(iOS 14.0, *) {
-        scrollEdge.backgroundColor = UIColor(Color.brandPrimaryOnPrimary) //When you have large title
+        scrollEdge.backgroundColor = UIColor(Color.brandMainOnMain) //When you have large title
     }
 
     navigationBar.standardAppearance = standard
@@ -37,7 +37,7 @@ extension UINavigationController {
 struct ContentView: View {
     init() {
         if #available(iOS 14.0, *) {
-            UITableView.appearance().backgroundColor = UIColor(Color.brandPrimaryOnPrimary)
+            UITableView.appearance().backgroundColor = UIColor(Color.brandMainOnMain)
         } else {
             // Fallback on earlier versions
         } // Uses UIColor
@@ -60,8 +60,8 @@ struct ContentView: View {
                 Image(systemName: "wand.and.stars")
                 Text("Graphics")
             }
-        }.accentColor(Color.brandSecondarySecondary)
-        .background(Color.brandPrimaryOnPrimary)
+        }.accentColor(Color.brandSupportSupport)
+        .background(Color.brandMainOnMain)
     }
 }
 

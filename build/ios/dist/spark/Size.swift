@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 31 Aug 2023 13:50:40 GMT
+// Generated on Wed, 06 Sep 2023 10:02:12 GMT
 
 
 import UIKit
@@ -25,7 +25,7 @@ public class Size {
     public static let buttonBorderRadius = CGFloat(16.00)
     public static let buttonFontSize = CGFloat(16.00)
     public static let buttonPadding = CGFloat(8.00)
-    public static let buttonSecondaryBorderWidth = CGFloat(2.00)
+    public static let buttonSupportBorderWidth = CGFloat(2.00)
     public static let fontActionBody1Link = CGFloat(16.00)
     public static let fontActionBody1LinkHighlight = CGFloat(16.00)
     public static let fontActionBody2Link = CGFloat(14.00)
