@@ -18,7 +18,7 @@ struct BackgroundRow: View {
                 Rectangle()
                     .fill(color)
                     .frame(width: 50, height: 50)
-            }.border(Color.brandPrimaryPrimary, width: Size.borderWidthSm)
+            }.border(Color.brandMainMain, width: Size.borderWidthSm)
             VStack(alignment: .leading) {
                 Text(label)
             }
@@ -34,8 +34,8 @@ struct BackgroundColorView: View {
             ScrollView {
                 VStack {
                     Group {
-                        BackgroundRow(label:"Primary", color:Color.brandPrimaryPrimary)
-                        BackgroundRow(label:"Secondary", color:Color.brandSecondarySecondary)
+                        BackgroundRow(label:"Main", color:Color.brandMainMain)
+                        BackgroundRow(label:"Support", color:Color.brandSupportSupport)
                     }
                     Group {
                         BackgroundRow(label:"Success", color:Color.brandFeedbackSuccess)
@@ -49,7 +49,7 @@ struct BackgroundColorView: View {
         }
         .navigationBarTitle("Background Colors")
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandPrimaryOnPrimary)
+        .background(Color.brandMainOnMain)
     }
 }
 

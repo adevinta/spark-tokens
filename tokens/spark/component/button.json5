@@ -6,7 +6,7 @@
       color: { value: "{color.core.white}" },
       "border-radius": { value: "{size.border.radius.lg.value}" },
 
-      primary: {
+      main: {
         "background-color": { value: "{color.brand.main.main.value}" },
         color: { value: "{color.brand.main.onMain.value}" },
 
@@ -27,26 +27,26 @@
         },
       },
 
-      secondary: {
-        color: { value: "{color.brand.support.support.value}" },
+      support: {
+        color: { value: "{color.brand.support.onSupport.value}" },
         "background-color": {
-          value: "{color.brand.base.onSurfaceInverse.value}",
+          value: "{color.brand.support.support.value}",
         },
         "border-width": { value: "{size.border.width.md.value}" },
         "border-color": { value: "{color.brand.support.support.value}" },
 
         hover: {
-          color: { value: "{color.brand.support.support.value}" },
+          color: { value: "{color.brand.support.onSupport.value}" },
           "border-color": { value: "{color.brand.support.support.value}" },
         },
 
         active: {
-          color: { value: "{color.brand.support.support.value}" },
+          color: { value: "{color.brand.support.onSupport.value}" },
           "border-color": {
             value: "{color.brand.support.support.value}",
           },
           "background-color": {
-            value: "{color.brand.base.onSurfaceInverse.value}",
+            value: "{color.brand.support.support.value}",
           },
         },
       },

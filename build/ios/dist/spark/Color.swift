@@ -557,46 +557,46 @@ extension Color {
   public static var buttonColor: Color {
     return Color.init("buttonColor", bundle: bundle)
   }
-  public static var buttonPrimaryBackgroundColor: Color {
-    return Color.init("buttonPrimaryBackgroundColor", bundle: bundle)
+  public static var buttonMainBackgroundColor: Color {
+    return Color.init("buttonMainBackgroundColor", bundle: bundle)
   }
-  public static var buttonPrimaryColor: Color {
-    return Color.init("buttonPrimaryColor", bundle: bundle)
+  public static var buttonMainColor: Color {
+    return Color.init("buttonMainColor", bundle: bundle)
   }
-  public static var buttonPrimaryHoverBackgroundColor: Color {
-    return Color.init("buttonPrimaryHoverBackgroundColor", bundle: bundle)
+  public static var buttonMainHoverBackgroundColor: Color {
+    return Color.init("buttonMainHoverBackgroundColor", bundle: bundle)
   }
-  public static var buttonPrimaryHoverColor: Color {
-    return Color.init("buttonPrimaryHoverColor", bundle: bundle)
+  public static var buttonMainHoverColor: Color {
+    return Color.init("buttonMainHoverColor", bundle: bundle)
   }
-  public static var buttonPrimaryActiveBackgroundColor: Color {
-    return Color.init("buttonPrimaryActiveBackgroundColor", bundle: bundle)
+  public static var buttonMainActiveBackgroundColor: Color {
+    return Color.init("buttonMainActiveBackgroundColor", bundle: bundle)
   }
-  public static var buttonPrimaryActiveColor: Color {
-    return Color.init("buttonPrimaryActiveColor", bundle: bundle)
+  public static var buttonMainActiveColor: Color {
+    return Color.init("buttonMainActiveColor", bundle: bundle)
   }
-  public static var buttonSecondaryColor: Color {
-    return Color.init("buttonSecondaryColor", bundle: bundle)
+  public static var buttonSupportColor: Color {
+    return Color.init("buttonSupportColor", bundle: bundle)
   }
-  public static var buttonSecondaryBackgroundColor: Color {
-    return Color.init("buttonSecondaryBackgroundColor", bundle: bundle)
+  public static var buttonSupportBackgroundColor: Color {
+    return Color.init("buttonSupportBackgroundColor", bundle: bundle)
   }
-  public static var buttonSecondaryBorderColor: Color {
-    return Color.init("buttonSecondaryBorderColor", bundle: bundle)
+  public static var buttonSupportBorderColor: Color {
+    return Color.init("buttonSupportBorderColor", bundle: bundle)
   }
-  public static var buttonSecondaryHoverColor: Color {
-    return Color.init("buttonSecondaryHoverColor", bundle: bundle)
+  public static var buttonSupportHoverColor: Color {
+    return Color.init("buttonSupportHoverColor", bundle: bundle)
   }
-  public static var buttonSecondaryHoverBorderColor: Color {
-    return Color.init("buttonSecondaryHoverBorderColor", bundle: bundle)
+  public static var buttonSupportHoverBorderColor: Color {
+    return Color.init("buttonSupportHoverBorderColor", bundle: bundle)
   }
-  public static var buttonSecondaryActiveColor: Color {
-    return Color.init("buttonSecondaryActiveColor", bundle: bundle)
+  public static var buttonSupportActiveColor: Color {
+    return Color.init("buttonSupportActiveColor", bundle: bundle)
   }
-  public static var buttonSecondaryActiveBorderColor: Color {
-    return Color.init("buttonSecondaryActiveBorderColor", bundle: bundle)
+  public static var buttonSupportActiveBorderColor: Color {
+    return Color.init("buttonSupportActiveBorderColor", bundle: bundle)
   }
-  public static var buttonSecondaryActiveBackgroundColor: Color {
-    return Color.init("buttonSecondaryActiveBackgroundColor", bundle: bundle)
+  public static var buttonSupportActiveBackgroundColor: Color {
+    return Color.init("buttonSupportActiveBackgroundColor", bundle: bundle)
   }
 }

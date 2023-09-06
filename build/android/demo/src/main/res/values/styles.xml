@@ -1,13 +1,13 @@
 <resources>
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/color_brand_primary_primary</item>
-        <item name="colorPrimaryDark">@color/color_brand_primary_primary</item>
-        <item name="colorAccent">@color/color_brand_secondary_secondary</item>
-        <item name="colorSecondary">@color/color_brand_secondary_secondary</item>
-        <item name="colorOnPrimary">@color/color_brand_primary_on_primary</item>
+        <item name="colorPrimary">@color/color_brand_main_main</item>
+        <item name="colorPrimaryDark">@color/color_brand_main_main</item>
+        <item name="colorAccent">@color/color_brand_support_support</item>
+        <item name="colorSecondary">@color/color_brand_support_support</item>
+        <item name="colorOnPrimary">@color/color_brand_main_on_main</item>
         <item name="colorOnSurface">@color/color_brand_base_on_surface</item>
         <item name="colorSurface">@color/color_brand_base_surface</item>
-        <item name="colorPrimarySurface">@color/color_brand_primary_primary</item>
+        <item name="colorPrimarySurface">@color/color_brand_main_main</item>
         <item name="android:colorBackground">@color/color_brand_base_background</item>
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyApp.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyApp.MediumComponent</item>
@@ -23,21 +23,21 @@
         <item name="cornerSize">@dimen/size_border_radius_lg</item>
     </style>
 
-    <style name="DTPrimaryButton" parent="Widget.MaterialComponents.Button">
-        <item name="backgroundTint">@color/component_button_primary_background_color</item>
-        <item name="android:textColor">@color/component_button_primary_color</item>
+    <style name="DTMainButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/component_button_main_background_color</item>
+        <item name="android:textColor">@color/component_button_main_color</item>
         <item name="android:padding">@dimen/component_button_padding</item>
         <item name="android:textSize">@dimen/component_button_font_size</item>
         <item name="cornerRadius">@dimen/component_button_border_radius</item>
     </style>
 
-    <style name="DTSecondaryButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="backgroundTint">@color/component_button_secondary_background_color</item>
-        <item name="strokeColor">@color/component_button_secondary_border_color</item>
-        <item name="strokeWidth">@dimen/component_button_secondary_border_width</item>
+    <style name="DTSupportButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/component_button_support_background_color</item>
+        <item name="strokeColor">@color/component_button_support_border_color</item>
+        <item name="strokeWidth">@dimen/component_button_support_border_width</item>
         <item name="android:padding">@dimen/component_button_padding</item>
         <item name="android:textSize">@dimen/component_button_font_size</item>
-        <item name="android:textColor">@color/component_button_secondary_color</item>
+        <item name="android:textColor">@color/component_button_support_color</item>
         <item name="cornerRadius">@dimen/component_button_border_radius</item>
     </style>
 

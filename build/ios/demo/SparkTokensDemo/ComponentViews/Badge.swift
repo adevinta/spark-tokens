@@ -74,7 +74,7 @@ struct BadgesView: View {
         }
         .navigationBarTitle("Badges")
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-        .background(Color.brandPrimaryOnPrimary)
+        .background(Color.brandMainOnMain)
         .edgesIgnoringSafeArea(.all)
     }
 }

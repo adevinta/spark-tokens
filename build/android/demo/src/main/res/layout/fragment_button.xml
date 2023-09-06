@@ -16,14 +16,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/size_padding_md"
-            android:text="Primary"
-            style="@style/DTPrimaryButton" />
+            android:text="Main"
+            style="@style/DTMainButton" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Secondary"
-            style="@style/DTSecondaryButton" />
+            android:text="Support"
+            style="@style/DTSupportButton" />
     </LinearLayout>
 </LinearLayout>
