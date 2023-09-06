@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 31 Aug 2023 13:50:38 GMT
+ * Generated on Wed, 06 Sep 2023 10:02:10 GMT
  */
 
 :root {
@@ -235,8 +235,8 @@
   --asset-size: "assets/spark/icons/Size.svg";
   --asset-shower: "assets/spark/icons/Shower.svg";
   --asset-shovel-rake: "assets/spark/icons/ShovelRake.svg";
-  --asset-shoping-cart-outline: "assets/spark/icons/ShopingCartOutline.svg";
-  --asset-shoping-cart-fill: "assets/spark/icons/ShopingCartFill.svg";
+  --asset-shopping-cart-outline: "assets/spark/icons/ShoppingCartOutline.svg";
+  --asset-shopping-cart-fill: "assets/spark/icons/ShoppingCartFill.svg";
   --asset-shoes: "assets/spark/icons/Shoes.svg";
   --asset-shoe-size: "assets/spark/icons/ShoeSize.svg";
   --asset-sharei-os: "assets/spark/icons/ShareiOS.svg";
@@ -591,7 +591,7 @@
   --image-files: assets/spark/demo/files.svg;
   --image-empty: assets/spark/demo/empty.svg;
   --image-logo: assets/spark/demo/logo.svg;
-  --component-button-secondary-border-width: var(--size-border-width-md);
+  --component-button-support-border-width: var(--size-border-width-md);
   --component-button-border-radius: var(--size-border-radius-lg);
   --component-button-color: var(--color-core-white);
   --component-button-padding: var(--size-padding-md);
@@ -676,20 +676,20 @@
   --color-brand-main-main-container: var(--color-core-blueribbon-100);
   --color-brand-main-on-main: var(--color-core-white);
   --color-brand-main-main: var(--color-core-blueribbon-500);
-  --component-button-secondary-active-background-color: var(--color-brand-base-on-surface-inverse);
-  --component-button-secondary-active-border-color: var(--color-brand-support-support);
-  --component-button-secondary-active-color: var(--color-brand-support-support);
-  --component-button-secondary-hover-border-color: var(--color-brand-support-support);
-  --component-button-secondary-hover-color: var(--color-brand-support-support);
-  --component-button-secondary-border-color: var(--color-brand-support-support);
-  --component-button-secondary-background-color: var(--color-brand-base-on-surface-inverse);
-  --component-button-secondary-color: var(--color-brand-support-support);
-  --component-button-primary-active-color: var(--color-brand-main-on-main);
-  --component-button-primary-active-background-color: var(--color-brand-main-main);
-  --component-button-primary-hover-color: var(--color-brand-main-on-main);
-  --component-button-primary-hover-background-color: var(--color-brand-main-main);
-  --component-button-primary-color: var(--color-brand-main-on-main);
-  --component-button-primary-background-color: var(--color-brand-main-main);
+  --component-button-support-active-background-color: var(--color-brand-support-support);
+  --component-button-support-active-border-color: var(--color-brand-support-support);
+  --component-button-support-active-color: var(--color-brand-support-on-support);
+  --component-button-support-hover-border-color: var(--color-brand-support-support);
+  --component-button-support-hover-color: var(--color-brand-support-on-support);
+  --component-button-support-border-color: var(--color-brand-support-support);
+  --component-button-support-background-color: var(--color-brand-support-support);
+  --component-button-support-color: var(--color-brand-support-on-support);
+  --component-button-main-active-color: var(--color-brand-main-on-main);
+  --component-button-main-active-background-color: var(--color-brand-main-main);
+  --component-button-main-hover-color: var(--color-brand-main-on-main);
+  --component-button-main-hover-background-color: var(--color-brand-main-main);
+  --component-button-main-color: var(--color-brand-main-on-main);
+  --component-button-main-background-color: var(--color-brand-main-main);
   --component-badge-variant-success-background-color: var(--color-brand-feedback-success);
   --component-badge-variant-success-color: var(--color-brand-feedback-on-success);
   --component-badge-variant-alert-background-color: var(--color-brand-feedback-alert);
