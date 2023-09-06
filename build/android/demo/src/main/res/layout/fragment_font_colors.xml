@@ -22,15 +22,15 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_primary_primary" />
+                android:textColor="@color/color_brand_main_main" />
             <TextView
-                android:id="@+id/font_color_primary"
+                android:id="@+id/font_color_main"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_primary_primary"
-                android:text="Primary"/>
+                android:textColor="@color/color_brand_main_main"
+                android:text="Main"/>
         </LinearLayout>
 
         <LinearLayout
@@ -44,15 +44,15 @@
                 android:text="@string/font_color_example"
                 android:layout_gravity="center"
                 android:padding="@dimen/size_padding_md"
-                android:textColor="@color/color_brand_secondary_secondary" />
+                android:textColor="@color/color_brand_support_support" />
             <TextView
-                android:id="@+id/font_color_secondary"
+                android:id="@+id/font_color_support"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_content_body1"
-                android:textColor="@color/color_brand_secondary_secondary"
-                android:text="Secondary"/>
+                android:textColor="@color/color_brand_support_support"
+                android:text="Support"/>
         </LinearLayout>
 
         <LinearLayout

@@ -21,15 +21,15 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_primary_primary_container" />
+                android:background="@color/color_brand_main_main_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_primary_on_primary_container"
+                android:textColor="@color/color_brand_main_on_main_container"
                 android:padding="@dimen/size_padding_md"
-                android:text="Primary"/>
+                android:text="Main"/>
         </LinearLayout>
 
         <LinearLayout
@@ -42,15 +42,15 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/size_padding_md"
                 android:elevation="@dimen/cardview_default_elevation"
-                android:background="@color/color_brand_secondary_secondary_container" />
+                android:background="@color/color_brand_support_support_container" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textSize="@dimen/size_font_action_callout"
-                android:textColor="@color/color_brand_secondary_on_secondary_container"
+                android:textColor="@color/color_brand_support_on_support_container"
                 android:padding="@dimen/size_padding_md"
-                android:text="Secondary"/>
+                android:text="Support"/>
         </LinearLayout>
 
         <LinearLayout

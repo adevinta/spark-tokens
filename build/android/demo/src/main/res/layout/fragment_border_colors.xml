@@ -19,14 +19,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_primary_primary">
+            app:strokeColor="@color/color_brand_main_main">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
                 android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
-                android:text="Primary"/>
+                android:text="Main"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -34,14 +34,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_padding_md"
             app:strokeWidth="@dimen/size_border_width_md"
-            app:strokeColor="@color/color_brand_secondary_secondary">
+            app:strokeColor="@color/color_brand_support_support">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/size_font_content_body1"
                 android:textColor="@color/color_brand_base_on_background"
                 android:padding="@dimen/size_padding_md"
-                android:text="Secondary"/>
+                android:text="Support"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView

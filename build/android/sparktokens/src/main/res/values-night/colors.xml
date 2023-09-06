@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 31 Aug 2023 13:50:40 GMT
+  Generated on Wed, 06 Sep 2023 10:02:12 GMT
 -->
 <resources>
   <color name="color_brand_main_main">#ff3173ff</color>
@@ -82,6 +82,6 @@
   <color name="color_brand_states_error_container_hover">#ff3e1514</color>
   <color name="color_brand_states_info_container_hover">#ff02282e</color>
   <color name="color_brand_states_neutral_container_hover">#ff1d1f2a</color>
-  <color name="component_button_primary_background_color">#ffdcdce5</color>
+  <color name="component_button_main_background_color">#ffdcdce5</color>
   
 </resources>

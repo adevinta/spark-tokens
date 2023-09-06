@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 31 Aug 2023 13:50:40 GMT
+  Generated on Wed, 06 Sep 2023 10:02:12 GMT
 -->
 <resources>
   <color name="color_brand_main_main">@color/color_core_blueribbon_500</color>
@@ -190,19 +190,19 @@
   <color name="component_badge_variant_success_color">@color/color_brand_feedback_on_success</color>
   <color name="component_badge_variant_success_background_color">@color/color_brand_feedback_success</color>
   <color name="component_button_color">@color/color_core_white</color>
-  <color name="component_button_primary_background_color">@color/color_brand_main_main</color>
-  <color name="component_button_primary_color">@color/color_brand_main_on_main</color>
-  <color name="component_button_primary_hover_background_color">@color/color_brand_main_main</color>
-  <color name="component_button_primary_hover_color">@color/color_brand_main_on_main</color>
-  <color name="component_button_primary_active_background_color">@color/color_brand_main_main</color>
-  <color name="component_button_primary_active_color">@color/color_brand_main_on_main</color>
-  <color name="component_button_secondary_color">@color/color_brand_support_support</color>
-  <color name="component_button_secondary_background_color">@color/color_brand_base_on_surface_inverse</color>
-  <color name="component_button_secondary_border_color">@color/color_brand_support_support</color>
-  <color name="component_button_secondary_hover_color">@color/color_brand_support_support</color>
-  <color name="component_button_secondary_hover_border_color">@color/color_brand_support_support</color>
-  <color name="component_button_secondary_active_color">@color/color_brand_support_support</color>
-  <color name="component_button_secondary_active_border_color">@color/color_brand_support_support</color>
-  <color name="component_button_secondary_active_background_color">@color/color_brand_base_on_surface_inverse</color>
+  <color name="component_button_main_background_color">@color/color_brand_main_main</color>
+  <color name="component_button_main_color">@color/color_brand_main_on_main</color>
+  <color name="component_button_main_hover_background_color">@color/color_brand_main_main</color>
+  <color name="component_button_main_hover_color">@color/color_brand_main_on_main</color>
+  <color name="component_button_main_active_background_color">@color/color_brand_main_main</color>
+  <color name="component_button_main_active_color">@color/color_brand_main_on_main</color>
+  <color name="component_button_support_color">@color/color_brand_support_on_support</color>
+  <color name="component_button_support_background_color">@color/color_brand_support_support</color>
+  <color name="component_button_support_border_color">@color/color_brand_support_support</color>
+  <color name="component_button_support_hover_color">@color/color_brand_support_on_support</color>
+  <color name="component_button_support_hover_border_color">@color/color_brand_support_support</color>
+  <color name="component_button_support_active_color">@color/color_brand_support_on_support</color>
+  <color name="component_button_support_active_border_color">@color/color_brand_support_support</color>
+  <color name="component_button_support_active_background_color">@color/color_brand_support_support</color>
   
 </resources>
