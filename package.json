@@ -1,7 +1,7 @@
 {
   "name": "spark-tokens",
   "version": "1.0.0",
-  "description": "A tool to synchronize Adevinta design tokens between Figma and our three platforms (web, android, iOS).",
+  "description": "A tool for synchronizing Spark design tokens between Figma and our three platforms (web, Android, iOS).",
   "brand": "spark",
   "scripts": {
     "prebuild": "node helpers/actions/assets/utils/generatePaths.js ${npm_package_brand} && node helpers/transforms/designTokensCore.js ${npm_package_brand} && node helpers/transforms/designTokensThemes.js ${npm_package_brand}",
