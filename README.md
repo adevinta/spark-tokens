@@ -56,9 +56,9 @@ You can specify the brand folder from which you want to generate tokens. In [pac
 
 Then, edit the following configuration files to adapt the demos to your brand's tokens:
 
-- for the web demo: modify the paths in [build/web/demo/.eleventy.js](build/web/demo/.eleventy.js) and [build/web/demo/\_data/color.js](/build/web/demo/_data/color.js)
-- for the iOS demo: adjust the paths for `spec.source_files`, `spec.public_header_files` and `spec.resources` in [SparkTokens.podspec](SparkTokens.podspec)
-- for the Android demo, refactor the `sparktokens` module in Android Studio unless you are familiar with Gradle
+- For the web demo: Modify the paths in [build/web/demo/.eleventy.js](build/web/demo/.eleventy.js) and [build/web/demo/\_data/color.js](/build/web/demo/_data/color.js)
+- For the iOS demo: Adjust the paths for `spec.source_files`, `spec.public_header_files` and `spec.resources` in [SparkTokens.podspec](SparkTokens.podspec)
+- For the Android demo, refactor the `sparktokens` module in Android Studio unless you are familiar with Gradle
 
 ## UNDERSTANDING THE DESIGN TOKEN STRUCTURE
 
@@ -91,6 +91,16 @@ Icons are optimized using Adobe Illustrator. To optimize icons, follow these ste
 5. Make sure that the SVG file uses a consistent viewBox and width/height values. We expect a size of 24x24 pixels.
 6. Export the optimized SVG file by selecting "use the artwork". Click on Export. For the SVG options: keep presentation attributes as attributes, select SVG for font, keep images, choose minimal for object ID, use 2 decimal places, check minify, and enable responsive. Click OK.
 7. Navigate to the assets folder of the repository, create a folder for your brand. Inside this brand folder, create two subfolders: one named "icons" and another named "temp-icons". The icons in the "temp-icons" folder will be cleaned before further processing.
+
+## CREATING/UPDATING TOKENS AND GENERATING ICONS
+
+To create or update tokens and generate icons, you can use the following npm scripts defined in package.json:
+
+- `npm run prebuild`: Executes scripts to generate paths and design tokens for your brand. Run it separately when you export tokens from Figma or/and add new icons to `temp-icons`.
+- `npm run build`: Runs Style Dictionary to generate tokens for your brand. The prebuild and postbuild steps are also running before and after this command.
+- `npm run postbuild`: Executes tests for SVG icons.
+- `npm run svg2avd`: Converts SVG icons to Android Vector Drawables. This is very specific to Spark. Don't use it with your brand.
+- `npm test`: Runs tests for SVG icons.
 
 ## LICENSE
 
