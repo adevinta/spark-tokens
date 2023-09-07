@@ -70,6 +70,16 @@ We follow a three-tier approach as described by Brad Frost in his [article](http
 
 This structure helps organize and manage design tokens effectively within the design system.
 
+## EXPORTING DESIGN TOKENS
+
+Design tokens are exported from Figma using the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/Design-Tokens) extension. To export design tokens, follow these steps:
+
+1. Open Figma and navigate to your library file where your styles are defined. You will need a core palette and two themes using this palette, one light and one dark.
+2. Click on the Resources menu icon, then on the Plugin tab, search for the [Design Tokens](https://www.figma.com/community/plugin/888356646278934516/Design-Tokens) Figma plugin.
+3. Click on the down arrow next to the plugin name, select "Export Design Token file". Don't touch the File Export settings, select the design tokens you want to export. Here we are mostly interested in colors.
+4. Click on Save & Export, name your JSON file figmaTokens.json.
+5. Place the exported JSON file in your `color` folder within the tokens directory, under your brand's folder.
+
 ## LICENSE
 
 [MIT](LICENSE)
