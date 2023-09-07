@@ -60,6 +60,16 @@ Then, edit the following configuration files to adapt the demos to your brand's 
 - for the iOS demo: adjust the paths for `spec.source_files`, `spec.public_header_files` and `spec.resources` in [SparkTokens.podspec](SparkTokens.podspec)
 - for the Android demo, refactor the `sparktokens` module in Android Studio unless you are familiar with Gradle
 
+## UNDERSTANDING THE DESIGN TOKEN STRUCTURE
+
+We follow a three-tier approach as described by Brad Frost in his [article](https://bradfrost.com/blog/post/the-many-faces-of-themeable-design-systems/). In this approach, there are three tiers:
+
+- **Tier 1 tokens**: These define the theme's design properties in the abstract, serving as the raw materials for the UI's visual language. For colors, it's our core palette. Ex: `color-core-paleadevinta-50`
+- **Tier 2 tokens**: They represent a semantic theme layer that maps Tier-1 tokens to high-level usage within a UI. For colors, it's our brand themes. Ex: `color-brand-main-main`
+- **Tier 3 tokens**: These are specific to components and are mapped to Tier-2 tokens. For colors, it's all the brand colors used by a component. Ex: `component-badge-background-color`
+
+This structure helps organize and manage design tokens effectively within the design system.
+
 ## LICENSE
 
 [MIT](LICENSE)
