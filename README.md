@@ -80,6 +80,18 @@ Design tokens are exported from Figma using the [Design Tokens](https://www.figm
 4. Click on Save & Export, name your JSON file figmaTokens.json.
 5. Place the exported JSON file in your `color` folder within the tokens directory, under your brand's folder.
 
+## OPTIMIZING ICONS
+
+Icons are optimized using Adobe Illustrator. To optimize icons, follow these steps:
+
+1. Open the icon SVG file in Adobe Illustrator.
+2. Review and clean up the SVG paths and shapes as needed.
+3. Group your paths, align your group horizontally and vertically. Ensure that the group is centered.
+4. Optimize the SVG by removing unnecessary elements and attributes. We do not allow masks and clip-paths.
+5. Make sure that the SVG file uses a consistent viewBox and width/height values. We expect a size of 24x24 pixels.
+6. Export the optimized SVG file by selecting "use the artwork". Click on Export. For the SVG options: keep presentation attributes as attributes, select SVG for font, keep images, choose minimal for object ID, use 2 decimal places, check minify, and enable responsive. Click OK.
+7. Navigate to the assets folder of the repository, create a folder for your brand. Inside this brand folder, create two subfolders: one named "icons" and another named "temp-icons". The icons in the "temp-icons" folder will be cleaned before further processing.
+
 ## LICENSE
 
 [MIT](LICENSE)
