@@ -102,6 +102,13 @@ To create or update tokens and generate icons, you can use the following npm scr
 - `npm run svg2avd`: Converts SVG icons to Android Vector Drawables. This is very specific to Spark. Don't use it with your brand.
 - `npm test`: Runs tests for SVG icons.
 
+## UNDERSTANDING THE ICON SYNC PROCESS
+
+- **Spark Tokens**: This repo acts as the central repository and definitive source for all icons. Any updates to the icon collection originate here. When an update occurs on the `main` branch, the entire icon set is seamlessly distributed to both the Spark (web) and Spark Android repositories using [GitHub Actions](.github/workflows/).
+- [**Spark (web)**](https://github.com/adevinta/spark): Receives the icon set from Spark Tokens and converts them into React components, making them readily usable within web-based applications. A pull request is opened for developers to review, thanks to a [GitHub Action](https://github.com/adevinta/spark/blob/main/.github/workflows/pr-icon-update.yml).
+- [**Spark Android**](https://github.com/adevinta/spark-android): Receives Android Vector Drawables (AVDs) from Spark Tokens, ensuring compatibility and efficient integration into Android applications. A pull request is opened, thanks to a [GitHub Action](https://github.com/adevinta/spark-android/blob/main/.github/workflows/pr-icon-updates.yml).
+- [**Spark iOS**](https://github.com/adevinta/spark-ios): While not directly synced, Spark (iOS) relies on Spark Tokens as the primary source for icons. Manual integration is performed as needed to incorporate the latest icons in the iOS app.
+
 ## LICENSE
 
 [MIT](LICENSE)
