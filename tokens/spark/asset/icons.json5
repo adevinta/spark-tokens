@@ -1146,9 +1146,6 @@
     "Terrace": {
       "value": "assets/spark/icons/Terrace.svg"
     },
-    "ThreeSixty": {
-      "value": "assets/spark/icons/ThreeSixty.svg"
-    },
     "Time": {
       "value": "assets/spark/icons/Time.svg"
     },
@@ -1241,6 +1238,9 @@
     },
     "View": {
       "value": "assets/spark/icons/View.svg"
+    },
+    "VirtualTour": {
+      "value": "assets/spark/icons/VirtualTour.svg"
     },
     "VoiceFill": {
       "value": "assets/spark/icons/VoiceFill.svg"
