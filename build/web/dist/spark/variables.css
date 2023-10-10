@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 09 Oct 2023 12:49:57 GMT
+ * Generated on Tue, 10 Oct 2023 18:07:45 GMT
  */
 
 :root {
@@ -174,7 +174,6 @@
   --asset-voice-off-outline: "assets/spark/icons/VoiceOffOutline.svg";
   --asset-voice-off-fill: "assets/spark/icons/VoiceOffFill.svg";
   --asset-voice-fill: "assets/spark/icons/VoiceFill.svg";
-  --asset-virtual-tour: "assets/spark/icons/VirtualTour.svg";
   --asset-view: "assets/spark/icons/View.svg";
   --asset-verified-outline: "assets/spark/icons/VerifiedOutline.svg";
   --asset-verified-fill: "assets/spark/icons/VerifiedFill.svg";
@@ -206,6 +205,7 @@
   --asset-toy: "assets/spark/icons/Toy.svg";
   --asset-tools: "assets/spark/icons/Tools.svg";
   --asset-time: "assets/spark/icons/Time.svg";
+  --asset-three-sixty: "assets/spark/icons/ThreeSixty.svg";
   --asset-terrace: "assets/spark/icons/Terrace.svg";
   --asset-tattoo: "assets/spark/icons/Tattoo.svg";
   --asset-target-outline: "assets/spark/icons/TargetOutline.svg";
