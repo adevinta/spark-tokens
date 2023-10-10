@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 06 Sep 2023 10:02:10 GMT
+ * Generated on Tue, 10 Oct 2023 13:21:50 GMT
  */
 
 :root {
@@ -468,6 +468,7 @@
   --asset-diy-product: "assets/spark/icons/DiyProduct.svg";
   --asset-dissatisfied-outline: "assets/spark/icons/DissatisfiedOutline.svg";
   --asset-dissatisfied-fill: "assets/spark/icons/DissatisfiedFill.svg";
+  --asset-directory: "assets/spark/icons/Directory.svg";
   --asset-digicode: "assets/spark/icons/Digicode.svg";
   --asset-delivery-truck-outline: "assets/spark/icons/DeliveryTruckOutline.svg";
   --asset-delivery-truck-fill: "assets/spark/icons/DeliveryTruckFill.svg";
