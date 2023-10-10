@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 10 Oct 2023 18:07:45 GMT
+ * Generated on Tue, 10 Oct 2023 18:34:14 GMT
  */
 
 :root {
@@ -601,9 +601,7 @@
   --component-badge-padding-vertical: var(--size-padding-sm);
   --component-badge-border-radius: var(--size-border-radius-md);
   --component-badge-font-size: var(--size-font-action-callout);
-  --color-brand-states-neutral-container-hover: var(
-    --color-core-blackadevinta-50
-  );
+  --color-brand-states-neutral-container-hover: var(--color-core-blackadevinta-50);
   --color-brand-states-info-container-hover: var(--color-core-sky-50);
   --color-brand-states-error-container-hover: var(--color-core-chili-50);
   --color-brand-states-alert-container-hover: var(--color-core-wiggins-50);
@@ -613,21 +611,15 @@
   --color-brand-states-error-hover: var(--color-core-chili-400);
   --color-brand-states-alert-hover: var(--color-core-wiggins-400);
   --color-brand-states-success-hover: var(--color-core-apple-400);
-  --color-brand-states-surface-inverse-hover: var(
-    --color-core-blackadevinta-800
-  );
+  --color-brand-states-surface-inverse-hover: var(--color-core-blackadevinta-800);
   --color-brand-states-surface-hover: var(--color-core-blueribbon-50);
   --color-brand-states-basic-container-hover: var(--color-core-paleadevinta-50);
   --color-brand-states-basic-hover: var(--color-core-paleadevinta-700);
   --color-brand-states-accent-variant-hover: var(--color-core-violet-600);
   --color-brand-states-accent-container-hover: var(--color-core-violet-50);
   --color-brand-states-accent-hover: var(--color-core-violet-200);
-  --color-brand-states-support-container-hover: var(
-    --color-core-paleadevinta-50
-  );
-  --color-brand-states-support-variant-hover: var(
-    --color-core-paleadevinta-600
-  );
+  --color-brand-states-support-container-hover: var(--color-core-paleadevinta-50);
+  --color-brand-states-support-variant-hover: var(--color-core-paleadevinta-600);
   --color-brand-states-support-hover: var(--color-core-paleadevinta-700);
   --color-brand-states-main-container-hover: var(--color-core-blueribbon-50);
   --color-brand-states-main-variant-hover: var(--color-core-blueribbon-600);
@@ -643,9 +635,7 @@
   --color-brand-base-surface-inverse: var(--color-core-blackadevinta-800);
   --color-brand-base-on-surface: var(--color-core-blackadevinta-900);
   --color-brand-base-surface: var(--color-core-white);
-  --color-brand-feedback-on-neutral-container: var(
-    --color-core-blackadevinta-800
-  );
+  --color-brand-feedback-on-neutral-container: var(--color-core-blackadevinta-800);
   --color-brand-feedback-neutral-container: var(--color-core-blackadevinta-100);
   --color-brand-feedback-on-neutral: var(--color-core-white);
   --color-brand-feedback-neutral: var(--color-core-blackadevinta-800);
@@ -677,9 +667,7 @@
   --color-brand-accent-accent: var(--color-core-violet-300);
   --color-brand-support-on-support-variant: var(--color-core-white);
   --color-brand-support-support-variant: var(--color-core-paleadevinta-700);
-  --color-brand-support-on-support-container: var(
-    --color-core-paleadevinta-900
-  );
+  --color-brand-support-on-support-container: var(--color-core-paleadevinta-900);
   --color-brand-support-support-container: var(--color-core-paleadevinta-100);
   --color-brand-support-on-support: var(--color-core-white);
   --color-brand-support-support: var(--color-core-paleadevinta-800);
@@ -689,23 +677,13 @@
   --color-brand-main-main-container: var(--color-core-blueribbon-100);
   --color-brand-main-on-main: var(--color-core-white);
   --color-brand-main-main: var(--color-core-blueribbon-500);
-  --component-button-support-active-background-color: var(
-    --color-brand-support-support
-  );
-  --component-button-support-active-border-color: var(
-    --color-brand-support-support
-  );
-  --component-button-support-active-color: var(
-    --color-brand-support-on-support
-  );
-  --component-button-support-hover-border-color: var(
-    --color-brand-support-support
-  );
+  --component-button-support-active-background-color: var(--color-brand-support-support);
+  --component-button-support-active-border-color: var(--color-brand-support-support);
+  --component-button-support-active-color: var(--color-brand-support-on-support);
+  --component-button-support-hover-border-color: var(--color-brand-support-support);
   --component-button-support-hover-color: var(--color-brand-support-on-support);
   --component-button-support-border-color: var(--color-brand-support-support);
-  --component-button-support-background-color: var(
-    --color-brand-support-support
-  );
+  --component-button-support-background-color: var(--color-brand-support-support);
   --component-button-support-color: var(--color-brand-support-on-support);
   --component-button-main-active-color: var(--color-brand-main-on-main);
   --component-button-main-active-background-color: var(--color-brand-main-main);
@@ -713,19 +691,11 @@
   --component-button-main-hover-background-color: var(--color-brand-main-main);
   --component-button-main-color: var(--color-brand-main-on-main);
   --component-button-main-background-color: var(--color-brand-main-main);
-  --component-badge-variant-success-background-color: var(
-    --color-brand-feedback-success
-  );
-  --component-badge-variant-success-color: var(
-    --color-brand-feedback-on-success
-  );
-  --component-badge-variant-alert-background-color: var(
-    --color-brand-feedback-alert
-  );
+  --component-badge-variant-success-background-color: var(--color-brand-feedback-success);
+  --component-badge-variant-success-color: var(--color-brand-feedback-on-success);
+  --component-badge-variant-alert-background-color: var(--color-brand-feedback-alert);
   --component-badge-variant-alert-color: var(--color-brand-feedback-on-alert);
-  --component-badge-variant-error-background-color: var(
-    --color-brand-feedback-error
-  );
+  --component-badge-variant-error-background-color: var(--color-brand-feedback-error);
   --component-badge-variant-error-color: var(--color-brand-feedback-on-error);
   --component-badge-background-color: var(--color-brand-feedback-info);
   --component-badge-color: var(--color-brand-feedback-on-info);
