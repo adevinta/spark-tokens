@@ -150,6 +150,9 @@
     "Block": {
       "value": "assets/spark/icons/Block.svg"
     },
+    "Bluetooth": {
+      "value": "assets/spark/icons/Bluetooth.svg"
+    },
     "Boat": {
       "value": "assets/spark/icons/Boat.svg"
     },
@@ -423,6 +426,9 @@
     "Energy": {
       "value": "assets/spark/icons/Energy.svg"
     },
+    "EngineStart": {
+      "value": "assets/spark/icons/EngineStart.svg"
+    },
     "Equipment": {
       "value": "assets/spark/icons/Equipment.svg"
     },
@@ -552,6 +558,9 @@
     "GlassWindows": {
       "value": "assets/spark/icons/GlassWindows.svg"
     },
+    "Gps": {
+      "value": "assets/spark/icons/Gps.svg"
+    },
     "GraphArrowDown": {
       "value": "assets/spark/icons/GraphArrowDown.svg"
     },
@@ -575,6 +584,9 @@
     },
     "HandDelivered": {
       "value": "assets/spark/icons/HandDelivered.svg"
+    },
+    "Headlight": {
+      "value": "assets/spark/icons/Headlight.svg"
     },
     "Hobby": {
       "value": "assets/spark/icons/Hobby.svg"
@@ -671,6 +683,9 @@
     },
     "KeyOutline": {
       "value": "assets/spark/icons/KeyOutline.svg"
+    },
+    "KeylessAccess": {
+      "value": "assets/spark/icons/KeylessAccess.svg"
     },
     "Land": {
       "value": "assets/spark/icons/Land.svg"
@@ -828,6 +843,9 @@
     "Multimedia": {
       "value": "assets/spark/icons/Multimedia.svg"
     },
+    "MultimediaSystem": {
+      "value": "assets/spark/icons/MultimediaSystem.svg"
+    },
     "NeutralFill": {
       "value": "assets/spark/icons/NeutralFill.svg"
     },
@@ -861,11 +879,17 @@
     "PaperMapOutline": {
       "value": "assets/spark/icons/PaperMapOutline.svg"
     },
+    "ParkAssist": {
+      "value": "assets/spark/icons/ParkAssist.svg"
+    },
     "Parking": {
       "value": "assets/spark/icons/Parking.svg"
     },
     "ParkingEstate": {
       "value": "assets/spark/icons/ParkingEstate.svg"
+    },
+    "ParkingSensor": {
+      "value": "assets/spark/icons/ParkingSensor.svg"
     },
     "Parquet": {
       "value": "assets/spark/icons/Parquet.svg"
@@ -960,8 +984,17 @@
     "QuestionOutline": {
       "value": "assets/spark/icons/QuestionOutline.svg"
     },
+    "RainSensor": {
+      "value": "assets/spark/icons/RainSensor.svg"
+    },
     "Rating": {
       "value": "assets/spark/icons/Rating.svg"
+    },
+    "RearviewCamera": {
+      "value": "assets/spark/icons/RearviewCamera.svg"
+    },
+    "RearviewMirror": {
+      "value": "assets/spark/icons/RearviewMirror.svg"
     },
     "Reference": {
       "value": "assets/spark/icons/Reference.svg"
@@ -1019,6 +1052,9 @@
     },
     "Search": {
       "value": "assets/spark/icons/Search.svg"
+    },
+    "Seat": {
+      "value": "assets/spark/icons/Seat.svg"
     },
     "Seats": {
       "value": "assets/spark/icons/Seats.svg"
@@ -1107,6 +1143,9 @@
     "Speed": {
       "value": "assets/spark/icons/Speed.svg"
     },
+    "SpeedIndicator": {
+      "value": "assets/spark/icons/SpeedIndicator.svg"
+    },
     "SpeedmeterFill": {
       "value": "assets/spark/icons/SpeedmeterFill.svg"
     },
@@ -1139,6 +1178,9 @@
     },
     "SunOrientation": {
       "value": "assets/spark/icons/SunOrientation.svg"
+    },
+    "Sunroof": {
+      "value": "assets/spark/icons/Sunroof.svg"
     },
     "SupportFill": {
       "value": "assets/spark/icons/SupportFill.svg"
@@ -1322,6 +1364,9 @@
     },
     "WheelOutline": {
       "value": "assets/spark/icons/WheelOutline.svg"
+    },
+    "WheelRim": {
+      "value": "assets/spark/icons/WheelRim.svg"
     },
     "Wifi": {
       "value": "assets/spark/icons/Wifi.svg"
