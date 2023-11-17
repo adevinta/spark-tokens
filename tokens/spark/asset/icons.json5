@@ -114,6 +114,9 @@
     "Baby": {
       "value": "assets/spark/icons/Baby.svg"
     },
+    "BabyFurniture": {
+      "value": "assets/spark/icons/BabyFurniture.svg"
+    },
     "Balcony": {
       "value": "assets/spark/icons/Balcony.svg"
     },
@@ -141,11 +144,17 @@
     "Bike": {
       "value": "assets/spark/icons/Bike.svg"
     },
+    "BikeSize": {
+      "value": "assets/spark/icons/BikeSize.svg"
+    },
     "Block": {
       "value": "assets/spark/icons/Block.svg"
     },
     "Boat": {
       "value": "assets/spark/icons/Boat.svg"
+    },
+    "Book": {
+      "value": "assets/spark/icons/Book.svg"
     },
     "BookmarkFill": {
       "value": "assets/spark/icons/BookmarkFill.svg"
@@ -282,6 +291,9 @@
     "ClothesCondition": {
       "value": "assets/spark/icons/ClothesCondition.svg"
     },
+    "Collectible": {
+      "value": "assets/spark/icons/Collectible.svg"
+    },
     "Color": {
       "value": "assets/spark/icons/Color.svg"
     },
@@ -290,6 +302,9 @@
     },
     "Computer": {
       "value": "assets/spark/icons/Computer.svg"
+    },
+    "ComputerAccessory": {
+      "value": "assets/spark/icons/ComputerAccessory.svg"
     },
     "Condition": {
       "value": "assets/spark/icons/Condition.svg"
@@ -867,6 +882,9 @@
     "Percentage": {
       "value": "assets/spark/icons/Percentage.svg"
     },
+    "PetAccessory": {
+      "value": "assets/spark/icons/PetAccessory.svg"
+    },
     "Pets": {
       "value": "assets/spark/icons/Pets.svg"
     },
@@ -1079,6 +1097,9 @@
     },
     "Spa": {
       "value": "assets/spark/icons/Spa.svg"
+    },
+    "Speaker": {
+      "value": "assets/spark/icons/Speaker.svg"
     },
     "Speed": {
       "value": "assets/spark/icons/Speed.svg"
