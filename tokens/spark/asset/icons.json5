@@ -1014,6 +1014,9 @@
     "Renovation": {
       "value": "assets/spark/icons/Renovation.svg"
     },
+    "Rental": {
+      "value": "assets/spark/icons/Rental.svg"
+    },
     "RocketFill": {
       "value": "assets/spark/icons/RocketFill.svg"
     },

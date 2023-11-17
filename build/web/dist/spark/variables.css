@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Nov 2023 13:02:01 GMT
+ * Generated on Fri, 17 Nov 2023 13:47:37 GMT
  */
 
 :root {
@@ -274,6 +274,7 @@
   --asset-rooms: "assets/spark/icons/Rooms.svg";
   --asset-rocket-outline: "assets/spark/icons/RocketOutline.svg";
   --asset-rocket-fill: "assets/spark/icons/RocketFill.svg";
+  --asset-rental: "assets/spark/icons/Rental.svg";
   --asset-renovation: "assets/spark/icons/Renovation.svg";
   --asset-remove-outline: "assets/spark/icons/RemoveOutline.svg";
   --asset-remove-fill: "assets/spark/icons/RemoveFill.svg";
