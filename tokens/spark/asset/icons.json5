@@ -333,6 +333,9 @@
     "CountryOutline": {
       "value": "assets/spark/icons/CountryOutline.svg"
     },
+    "Crop": {
+      "value": "assets/spark/icons/Crop.svg"
+    },
     "CvFill": {
       "value": "assets/spark/icons/CvFill.svg"
     },
@@ -473,6 +476,12 @@
     },
     "FavoriteOutline": {
       "value": "assets/spark/icons/FavoriteOutline.svg"
+    },
+    "FeedbackFill": {
+      "value": "assets/spark/icons/FeedbackFill.svg"
+    },
+    "FeedbackOutline": {
+      "value": "assets/spark/icons/FeedbackOutline.svg"
     },
     "FileOffFill": {
       "value": "assets/spark/icons/FileOffFill.svg"
@@ -996,6 +1005,9 @@
     "RearviewMirror": {
       "value": "assets/spark/icons/RearviewMirror.svg"
     },
+    "Redo": {
+      "value": "assets/spark/icons/Redo.svg"
+    },
     "Reference": {
       "value": "assets/spark/icons/Reference.svg"
     },
@@ -1274,6 +1286,9 @@
     },
     "TypingOutline": {
       "value": "assets/spark/icons/TypingOutline.svg"
+    },
+    "Undo": {
+      "value": "assets/spark/icons/Undo.svg"
     },
     "Univers": {
       "value": "assets/spark/icons/Univers.svg"
