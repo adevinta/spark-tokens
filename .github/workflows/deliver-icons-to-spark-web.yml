@@ -31,7 +31,7 @@ jobs:
           source-directory: build/web/dist/spark/icons
           destination-github-username: "adevinta"
           destination-repository-name: "polaris-web-icons"
-          user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
+          user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL_WEB }}
           commit-message: |
             chore(icons): update icons
 
