@@ -24,7 +24,7 @@ jobs:
           node-version: lts/Hydrogen
           cache: "npm"
       - name: Install svgo
-        run: npm -g install svgo
+        run: npm -g install svgo@3.0.5
       - name: Cleanup dist
         run: |
           rm -rf "$DIST"
