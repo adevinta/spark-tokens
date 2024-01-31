@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 14:06:46 GMT
+ * Generated on Wed, 31 Jan 2024 15:30:32 GMT
  */
 
 :root {
@@ -188,6 +188,7 @@
   --asset-unlock-outline: "assets/spark/icons/UnlockOutline.svg";
   --asset-unlock-fill: "assets/spark/icons/UnlockFill.svg";
   --asset-univers: "assets/spark/icons/Univers.svg";
+  --asset-undo: "assets/spark/icons/Undo.svg";
   --asset-typing-outline: "assets/spark/icons/TypingOutline.svg";
   --asset-typing-fill: "assets/spark/icons/TypingFill.svg";
   --asset-type: "assets/spark/icons/Type.svg";
@@ -281,6 +282,7 @@
   --asset-refund: "assets/spark/icons/Refund.svg";
   --asset-refresh: "assets/spark/icons/Refresh.svg";
   --asset-reference: "assets/spark/icons/Reference.svg";
+  --asset-redo: "assets/spark/icons/Redo.svg";
   --asset-rearview-mirror: "assets/spark/icons/RearviewMirror.svg";
   --asset-rearview-camera: "assets/spark/icons/RearviewCamera.svg";
   --asset-rating: "assets/spark/icons/Rating.svg";
@@ -455,6 +457,8 @@
   --asset-file-pdf-fill: "assets/spark/icons/FilePdfFill.svg";
   --asset-file-off-outline: "assets/spark/icons/FileOffOutline.svg";
   --asset-file-off-fill: "assets/spark/icons/FileOffFill.svg";
+  --asset-feedback-outline: "assets/spark/icons/FeedbackOutline.svg";
+  --asset-feedback-fill: "assets/spark/icons/FeedbackFill.svg";
   --asset-favorite-outline: "assets/spark/icons/FavoriteOutline.svg";
   --asset-favorite-fill: "assets/spark/icons/FavoriteFill.svg";
   --asset-family: "assets/spark/icons/Family.svg";
@@ -502,6 +506,7 @@
   --asset-cylindrical: "assets/spark/icons/Cylindrical.svg";
   --asset-cv-outline: "assets/spark/icons/CvOutline.svg";
   --asset-cv-fill: "assets/spark/icons/CvFill.svg";
+  --asset-crop: "assets/spark/icons/Crop.svg";
   --asset-country-outline: "assets/spark/icons/CountryOutline.svg";
   --asset-country-fill: "assets/spark/icons/CountryFill.svg";
   --asset-couch: "assets/spark/icons/Couch.svg";
