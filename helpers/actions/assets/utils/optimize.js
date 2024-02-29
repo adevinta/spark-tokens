@@ -11,7 +11,7 @@ const optimize = (svgString, { attributes = [], title } = {}) => {
       {
         name: "removeAttrs",
         params: {
-          attrs: "(fill|stroke|stroke-width)",
+          attrs: "(fill|stroke|stroke-width|xmlns)",
         },
       },
       {
