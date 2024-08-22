@@ -80,29 +80,55 @@ Design tokens are exported from Figma using the [Design Tokens](https://www.figm
 4. Click on Save & Export, name your JSON file figmaTokens.json.
 5. Place the exported JSON file in your `color` folder within the tokens directory, under your brand's folder.
 
-## OPTIMIZING ICONS
+## Adding or updaring Icons
 
-Icons are optimized using Adobe Illustrator. To optimize icons, follow these steps:
+The global Process (from considering adding or updating an icon, to send it to production), is described [here in the DesignOPS playbook](https://playbook.mpi-internal.com/2c2e9ba82/p/258b11-icons).
 
-1. Open the icon SVG file in Adobe Illustrator.
-2. Review and clean up the SVG paths and shapes as needed.
-3. Group your paths, align your group horizontally and vertically. Ensure that the group is centered.
-4. Optimize the SVG by removing unnecessary elements and attributes. We do not allow masks and clip-paths.
-5. Make sure that the SVG file uses a consistent viewBox and width/height values. We expect a size of 24x24 pixels.
-6. Export the optimized SVG file by selecting "use the artwork". Click on Export. For the SVG options: keep presentation attributes as attributes, select SVG for font, keep images, choose minimal for object ID, use 2 decimal places, check minify, and enable responsive. Click OK.
-7. Navigate to the assets folder of the repository, create a folder for your brand. Inside this brand folder, create two subfolders: one named "icons" and another named "temp-icons". The icons in the "temp-icons" folder will be cleaned before further processing.
+### 1. Optimize the assets
 
-## CREATING/UPDATING TOKENS AND GENERATING ICONS
+First, make sure the added `svg` files are optimized and respect the standards:
+- `24px by 24px` Viewbox
+- Single `path` used in the svg (optimized file size using [svgo](https://github.com/svg/svgo))
 
-To create or update tokens and generate icons, you can use the following npm scripts defined in package.json:
+### 2. Open a pull request
 
-- `npm run prebuild`: Executes scripts to generate paths and design tokens for your brand. Run it separately when you export tokens from Figma or/and add new icons to `temp-icons`.
-- `npm run build`: Runs Style Dictionary to generate tokens for your brand. The prebuild and postbuild steps are also running before and after this command.
-- `npm run postbuild`: Executes tests for SVG icons.
-- `npm run svg2avd`: Converts SVG icons to Android Vector Drawables. This is very specific to Spark. Don't use it with your brand.
-- `npm test`: Runs tests for SVG icons.
+Then, add your svg files to `assets/spark/icons/` and open a pull request.
 
-## UNDERSTANDING THE ICON SYNC PROCESS
+Pay attention to the Github actions triggered and make sure there are no errors in the `build` step.
+
+### 2. Merge and deploy.
+
+After reviewing and merging, two Github actions are triggered.
+
+#### 2.1 Web action
+
+The build process parses each icon and applies the following rules:
+
+- **Multiplass** applies all the rules on any nested tag
+
+- **Prettifies** the string output by adding 2 spaces on every nesting level
+
+- **Removes** all attributes called “fill, stroke, stroke-with, xmlns”
+
+- Adds data title to each icon
+
+- **Adds fill**: “currentColor” and stroke: “none” to each `<svg>` opening parent tag
+
+- **Removes Dimensions**: Removes the width and height attribute from the top-most `<svg>` element if specified, and replaces it with the viewBox attribute if missing.
+
+- **Merge paths**: merge adjacent paths with the same attributes into one after checking for their possible intersection.
+
+The resulting icons are placed into the “`build/web/dist/spark/icons`” directory.
+
+Finally, all those files are pushed to a branch into another repository called [Polaris-web-icons](https://github.com/adevinta/polaris-web-icons). ([Read Spread its changes to all other platforms](https://zeroheight.com/2c2e9ba82/p/898a87-icons/t/335afd)).
+
+#### 2.2 Android action
+
+Apply SVGO and then convert them to Android Vector Drawables.
+
+Push changes to the repo [Adevinta/spark-android](https://github.com/adevinta/spark-android/) in the branch "chore-updated-icons" with the same commit message.
+
+### UNDERSTANDING THE ICON SYNC PROCESS
 
 - **Spark Tokens**: This repo acts as the central repository and definitive source for all icons. Any updates to the icon collection originate here. When an update occurs on the `main` branch, the entire icon set is seamlessly distributed to both the Spark (web) and Spark Android repositories using [GitHub Actions](.github/workflows/).
 - [**Polaris web icons (web)**](https://github.com/adevinta/polaris-web-icons): Receives the icon set from Spark Tokens and converts them into React components, making them readily usable within web-based applications. A pull request is opened for developers to review, thanks to a [GitHub Action](https://github.com/adevinta/polaris-web-icons/blob/main/.github/workflows/pr-icon-update.yml).
