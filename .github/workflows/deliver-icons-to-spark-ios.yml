@@ -1,0 +1,38 @@
+name: 📦 Deliver icons to leboncoin/spark-ios
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/icons/*"
+
+jobs:
+  deliver_icons_to_spark_ios:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v6.2.0
+        with:
+          node-version: lts/Hydrogen
+      - name: Deliver Icons To Spark iOS
+        uses: cpina/github-action-push-to-another-repository@v1.7.3
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_IOS }}
+        with:
+          source-directory: "assets/icons"
+          destination-github-username: "leboncoin"
+          destination-repository-name: "spark-ios"
+          user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
+          commit-message: |
+            feat(icons): update icons
+
+            See ORIGIN_COMMIT from $GITHUB_REF
+          target-branch: chore-updated-icons
+          create-target-branch-if-needed: true
+          target-directory: "spark-token/iconography"
