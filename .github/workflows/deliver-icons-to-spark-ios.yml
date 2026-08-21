@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - "assets/icons/*"
+      - "assets/spark/icons/*"
 
 jobs:
   deliver_icons_to_spark_ios:
@@ -25,7 +25,7 @@ jobs:
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY_SPARK_IOS }}
         with:
-          source-directory: "assets/icons"
+          source-directory: "assets/spark/icons"
           destination-github-username: "leboncoin"
           destination-repository-name: "spark-ios"
           user-email: ${{ secrets.API_GITHUB_COMMIT_EMAIL }}
